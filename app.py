@@ -306,7 +306,7 @@ def caption_images(file_id: str):
 
 @app.get("/api/files")
 def list_persisted_files(group_by: Optional[str] = Query(default=None, description="Use 'pdf' para agrupar por pdf_hash")):
-    from . import db as pdb
+    import db as pdb
     if group_by == 'pdf':
         items = pdb.list_files_grouped_by_pdf()
     else:
@@ -315,7 +315,7 @@ def list_persisted_files(group_by: Optional[str] = Query(default=None, descripti
 
 @app.get("/api/file/{file_id}")
 def load_file_payload(file_id: str):
-    from . import db as pdb
+    import db as pdb
     data = pdb.load_extraction_from_db(file_id)
     if not data:
         raise HTTPException(status_code=404, detail="Arquivo não encontrado no banco")
