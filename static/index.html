@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pré-processamento PDF → GraphRAG</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <!-- Carregar PDF.js local (ESM) via bridge para expor window.pdfjsLib) -->
+  <script type="module" src="/static/pdfjs/bridge.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Pré-processamento de PDF para GraphRAG</h1>
+      <div class="upload">
+        <input type="file" id="pdfFile" accept="application/pdf">
+        <button id="btnUpload">Carregar PDF</button>
+        <button id="btnExtrair" disabled>Extrair</button>
+        <button id="btnLoadDB">Carregar do Banco</button>
+        <div id="dbLoader" class="hidden" style="margin-top:8px;">
+          <select id="dbFiles"></select>
+          <button id="btnLoadSelected">Carregar selecionado</button>
+        </div>
+
+        <button id="btnDescrever" disabled>Descrever imagens</button>
+        <a id="btnBaixar" class="download-btn hidden" href="#" download>Baixar artefatos (.zip)</a>
+      </div>
+    </header>
+
+    <main>
+      <div class="viewer">
+        <div id="pdfViewer"></div>
+        <div class="pager">
+          <button id="prevPage" disabled>◀</button>
+          <span id="pageInfo">Página 0/0</span>
+          <button id="nextPage" disabled>▶</button>
+        </div>
+      </div>
+
+      <aside class="panels">
+        <div class="tabs">
+          <button class="tab active" data-tab="texto">Texto puro</button>
+          <button class="tab" data-tab="imagens">Imagens</button>
+          <button class="tab" data-tab="tabelas">Tabelas</button>
+          <button class="tab" data-tab="metadados">Metadados</button>
+          <button class="tab" data-tab="descricoes">Descrições</button>
+        </div>
+        <div class="tab-content" id="tab-texto"></div>
+        <div class="tab-content hidden" id="tab-imagens"></div>
+        <div class="tab-content hidden" id="tab-tabelas"></div>
+        <div class="tab-content hidden" id="tab-metadados"></div>
+        <div class="tab-content hidden" id="tab-descricoes"></div>
+        <div class="filters hidden" id="desc-filters">
+          <input type="text" id="desc-q" placeholder="Buscar termo (inclui OCR, descrição, metadados)">
+          <select id="desc-ocr">
+            <option value="">OCR: todos</option>
+            <option value="sim">Com OCR</option>
+            <option value="nao">Sem OCR</option>
+          </select>
+          <button id="desc-aplicar">Aplicar</button>
+        </div>
+
+      </aside>
+    </main>
+
+    <section class="logs">
+      <h3>Logs</h3>
+      <div id="logPanel" class="log-panel"></div>
+    </section>
+  </div>
+
+  <script src="/static/caption.js"></script>
+
+  <script src="/static/main.js"></script>
+</body>
+</html>
+
