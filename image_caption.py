@@ -6,7 +6,8 @@ from typing import List, Dict, Tuple
 
 from openai import AzureOpenAI
 
-from .db import upsert_image_description, ensure_schema
+import db
+from db import upsert_image_description, ensure_schema
 
 AZ_ENDPOINT = os.getenv('AZURE_OPENAI_ENDPOINT')
 AZ_KEY = os.getenv('AZURE_OPENAI_API_KEY')

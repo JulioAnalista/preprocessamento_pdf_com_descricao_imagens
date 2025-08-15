@@ -225,28 +225,66 @@ def extract_all(file_id: str):
 
 @app.get("/api/image/{file_id}/{image_name}")
 def serve_image(file_id: str, image_name: str):
-    # compat: servir imagem gerada por extração local (não canônica)
+    """
+    Serve imagem extraída. Suporta tanto hash quanto nome do arquivo.
+    Prioriza o diretório público canônico (/public/images/{hash}.png)
+    """
+    # Primeiro, tentar servir do diretório público usando hash
+    if len(image_name) == 64 and image_name.replace('.png', '').isalnum():
+        # Parece ser um hash, tentar servir diretamente do público
+        hash_name = image_name.replace('.png', '')
+        public_img_path = PUBLIC_DIR / "images" / f"{hash_name}.png"
+        if public_img_path.exists():
+            return FileResponse(str(public_img_path), media_type="image/png")
+
+    # Fallback: buscar no diretório local de extração
     meta_path = UPLOADS_DIR / f"{file_id}.json"
     if not meta_path.exists():
         raise HTTPException(status_code=404, detail="Arquivo não encontrado")
+
     meta = json.loads(meta_path.read_text(encoding="utf-8"))
     pdf_path = Path(meta["stored_path"]).resolve()
     sanitized = slugify(Path(meta.get("original_filename", pdf_path.name)).stem)
-    img_path = pdf_path.parent / sanitized / "images" / image_name
 
-    if not img_path.exists():
-        raise HTTPException(status_code=404, detail="Imagem não encontrada")
-    ext = img_path.suffix.lower()
-    mime = {
-        ".png": "image/png",
-        ".jpg": "image/jpeg",
-        ".jpeg": "image/jpeg",
-        ".bmp": "image/bmp",
-        ".gif": "image/gif",
-        ".tiff": "image/tiff",
-        ".webp": "image/webp",
-    }.get(ext, "application/octet-stream")
-    return FileResponse(str(img_path), media_type=mime)
+    # Tentar no diretório local primeiro
+    img_path = pdf_path.parent / sanitized / "images" / image_name
+    if img_path.exists():
+        ext = img_path.suffix.lower()
+        mime = {
+            ".png": "image/png",
+            ".jpg": "image/jpeg",
+            ".jpeg": "image/jpeg",
+            ".bmp": "image/bmp",
+            ".gif": "image/gif",
+            ".tiff": "image/tiff",
+            ".webp": "image/webp",
+        }.get(ext, "application/octet-stream")
+        return FileResponse(str(img_path), media_type=mime)
+
+    # Se não encontrou, tentar buscar no banco de dados pelo file_id
+    try:
+        import db as pdb
+        # Buscar imagens associadas a este file_id
+        with pdb.get_conn() as conn:
+            with conn.cursor() as cur:
+                cur.execute("""
+                    SELECT i.hash, i.storage_path
+                    FROM images i
+                    JOIN pdf_image_refs r ON r.image_hash = i.hash
+                    WHERE r.file_id = %s
+                """, (file_id,))
+
+                for row in cur.fetchall():
+                    img_hash, storage_path = row
+                    # Verificar se o nome da imagem corresponde ao hash
+                    if image_name in [f"{img_hash}.png", f"p{img_hash[:8]}.png"]:
+                        public_img_path = PUBLIC_DIR / "images" / f"{img_hash}.png"
+                        if public_img_path.exists():
+                            return FileResponse(str(public_img_path), media_type="image/png")
+    except Exception:
+        pass  # Falha no DB não deve impedir tentativa de servir arquivo
+
+    raise HTTPException(status_code=404, detail="Imagem não encontrada")
 
 
 

@@ -228,40 +228,46 @@ class IntegrationTester:
                 error=str(e)
             )
     
-    def test_image_serving(self, file_id: str, image_name: str) -> TestResult:
+    def test_image_serving(self, file_id: str, image_data: dict) -> TestResult:
         """Testa servir imagens extraídas."""
-        self.log(f"Testando imagem: {image_name}")
+        self.log(f"Testando imagem: {image_data}")
         start_time = time.time()
-        
+
+        # Extrair hash da imagem para usar na URL
+        image_hash = image_data.get("hash", "")
+        image_name = f"{image_hash}.png" if image_hash else image_data.get("file_name", "unknown.png")
+
         try:
             response = self.session.get(f"{self.base_url}/api/image/{file_id}/{image_name}")
             duration = time.time() - start_time
             success = response.status_code == 200
-            
+
             details = {
                 "file_id": file_id,
+                "image_hash": image_hash,
                 "image_name": image_name,
+                "original_data": image_data,
                 "status_code": response.status_code,
                 "response_time_ms": round(duration * 1000, 2),
                 "content_type": response.headers.get("content-type", ""),
                 "image_size_bytes": len(response.content)
             }
-            
+
             return TestResult(
-                name=f"image_{image_name}",
+                name=f"image_{image_hash[:8] if image_hash else 'unknown'}",
                 success=success,
                 duration=duration,
                 details=details,
                 error=None if success else response.text
             )
-            
+
         except Exception as e:
             duration = time.time() - start_time
             return TestResult(
-                name=f"image_{image_name}",
+                name=f"image_{image_hash[:8] if image_hash else 'unknown'}",
                 success=False,
                 duration=duration,
-                details={"file_id": file_id, "image_name": image_name},
+                details={"file_id": file_id, "image_data": image_data},
                 error=str(e)
             )
     
