@@ -135,6 +135,7 @@ extracted/
 public/*.zip
 logs/*.log
 *.pid
+pdf.js/
 
 # IDE
 .vscode/
