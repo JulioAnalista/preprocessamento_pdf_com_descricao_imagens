@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-08-15 17:13:54",
+  "system_info": {
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+    "python_version": "3.13.2 | packaged by Anaconda, Inc. | (main, Feb  6 2025, 18:56:02) [GCC 11.2.0]",
+    "architecture": [
+      "64bit",
+      "ELF"
+    ],
+    "processor": "",
+    "memory_gb": 19.42,
+    "disk_space_gb": 113.24
+  },
+  "installation_steps": [],
+  "package_verification": {
+    "fastapi": true,
+    "uvicorn": true,
+    "pdfplumber": true,
+    "openai": true,
+    "fitz": true,
+    "requests": true,
+    "pytest": true,
+    "psutil": true
+  },
+  "environment_variables": {
+    "AZURE_OPENAI_ENDPOINT": false,
+    "AZURE_OPENAI_API_KEY": false,
+    "AZURE_OPENAI_API_VERSION": false,
+    "AZURE_OPENAI_CHAT_MODEL": false
+  },
+  "success": true,
+  "warnings": 4
+}

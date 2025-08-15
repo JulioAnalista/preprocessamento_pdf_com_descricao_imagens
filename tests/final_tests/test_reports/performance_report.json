@@ -1,0 +1,130 @@
+{
+  "timestamp": "2025-08-15 18:10:24",
+  "summary": {
+    "total_tests": 8,
+    "successful": 8,
+    "failed": 0,
+    "success_rate": 100.0
+  },
+  "performance_stats": {
+    "upload_time": {
+      "avg": 0.1,
+      "min": 0.05,
+      "max": 0.15
+    },
+    "extraction_time": {
+      "avg": 69.67,
+      "min": 0.8,
+      "max": 206.68
+    },
+    "total_time": {
+      "avg": 323.16,
+      "min": 0.85,
+      "max": 570.61
+    },
+    "memory_usage_mb": {
+      "avg": 225.42,
+      "min": 225.42,
+      "max": 225.42
+    }
+  },
+  "results": [
+    {
+      "test_name": "single_file_benchmark",
+      "file_name": "defesa-Jair-Bolsonaro-tentativa-golpe-13ago2025.pdf",
+      "file_size_mb": 2.2,
+      "upload_time": 0.05,
+      "extraction_time": 0.8,
+      "total_time": 0.85,
+      "peak_memory_mb": 225.42,
+      "avg_cpu_percent": 0.0,
+      "success": true,
+      "error": null
+    },
+    {
+      "test_name": "single_file_benchmark",
+      "file_name": "AP-AF-REVISADO221-1.pdf",
+      "file_size_mb": 5.18,
+      "upload_time": 0.1,
+      "extraction_time": 1.52,
+      "total_time": 1.62,
+      "peak_memory_mb": 225.42,
+      "avg_cpu_percent": 1.0,
+      "success": true,
+      "error": null
+    },
+    {
+      "test_name": "single_file_benchmark",
+      "file_name": "denuncia-versaofinal_nucleo1.pdf",
+      "file_size_mb": 10.15,
+      "upload_time": 0.15,
+      "extraction_time": 206.68,
+      "total_time": 206.83,
+      "peak_memory_mb": 225.42,
+      "avg_cpu_percent": 0.19,
+      "success": true,
+      "error": null
+    },
+    {
+      "test_name": "stress_test_req_0",
+      "file_name": "AP-AF-REVISADO221-1.pdf",
+      "file_size_mb": 5.18,
+      "upload_time": 0,
+      "extraction_time": 0,
+      "total_time": 568.38,
+      "peak_memory_mb": 0,
+      "avg_cpu_percent": 0,
+      "success": true,
+      "error": null
+    },
+    {
+      "test_name": "stress_test_req_1",
+      "file_name": "AP-AF-REVISADO221-1.pdf",
+      "file_size_mb": 5.18,
+      "upload_time": 0,
+      "extraction_time": 0,
+      "total_time": 570.12,
+      "peak_memory_mb": 0,
+      "avg_cpu_percent": 0,
+      "success": true,
+      "error": null
+    },
+    {
+      "test_name": "stress_test_req_2",
+      "file_name": "AP-AF-REVISADO221-1.pdf",
+      "file_size_mb": 5.18,
+      "upload_time": 0,
+      "extraction_time": 0,
+      "total_time": 570.61,
+      "peak_memory_mb": 0,
+      "avg_cpu_percent": 0,
+      "success": true,
+      "error": null
+    },
+    {
+      "test_name": "stress_test_req_3",
+      "file_name": "AP-AF-REVISADO221-1.pdf",
+      "file_size_mb": 5.18,
+      "upload_time": 0,
+      "extraction_time": 0,
+      "total_time": 333.84,
+      "peak_memory_mb": 0,
+      "avg_cpu_percent": 0,
+      "success": true,
+      "error": null
+    },
+    {
+      "test_name": "stress_test_req_4",
+      "file_name": "AP-AF-REVISADO221-1.pdf",
+      "file_size_mb": 5.18,
+      "upload_time": 0,
+      "extraction_time": 0,
+      "total_time": 333.04,
+      "peak_memory_mb": 0,
+      "avg_cpu_percent": 0,
+      "success": true,
+      "error": null
+    }
+  ],
+  "execution_duration": 1119.1
+}

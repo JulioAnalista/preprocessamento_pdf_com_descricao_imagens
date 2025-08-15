@@ -14,8 +14,12 @@ from fastapi.staticfiles import StaticFiles
 from slugify import slugify
 import fitz
 
-from .utils.pdf_extractor import PDFExtractor, TableExtractionUnavailable
-from . import db as pdb
+# Carregar variáveis de ambiente do .env
+from dotenv import load_dotenv
+load_dotenv()
+
+from utils.pdf_extractor import PDFExtractor, TableExtractionUnavailable
+import db as pdb
 
 BASE_DIR = Path(__file__).resolve().parent
 UPLOADS_DIR = BASE_DIR / "uploads"

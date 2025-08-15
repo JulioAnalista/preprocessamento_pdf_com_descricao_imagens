@@ -6,8 +6,8 @@ from contextlib import contextmanager
 from typing import Optional
 
 PGHOST = os.getenv("PGHOST", os.getenv("POSTGRES_HOST", "127.0.0.1"))
-PGPORT = int(os.getenv("PGPORT", os.getenv("POSTGRES_PORT", "5444")))
-PGDATABASE = os.getenv("PGDATABASE", os.getenv("POSTGRES_DB", "perguntas"))
+PGPORT = int(os.getenv("PGPORT", os.getenv("POSTGRES_PORT", "5432")))
+PGDATABASE = os.getenv("PGDATABASE", os.getenv("POSTGRES_DB", "pdf_preproc"))
 PGUSER = os.getenv("PGUSER", os.getenv("POSTGRES_USER", "postgres"))
 PGPASSWORD = os.getenv("PGPASSWORD", os.getenv("POSTGRES_PASSWORD", "postgres"))
 

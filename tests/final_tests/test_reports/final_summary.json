@@ -1,0 +1,410 @@
+{
+  "installation": {
+    "timestamp": "2025-08-15 17:13:54",
+    "system_info": {
+      "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+      "python_version": "3.13.2 | packaged by Anaconda, Inc. | (main, Feb  6 2025, 18:56:02) [GCC 11.2.0]",
+      "architecture": [
+        "64bit",
+        "ELF"
+      ],
+      "processor": "",
+      "memory_gb": 19.42,
+      "disk_space_gb": 113.24
+    },
+    "installation_steps": [],
+    "package_verification": {
+      "fastapi": true,
+      "uvicorn": true,
+      "pdfplumber": true,
+      "openai": true,
+      "fitz": true,
+      "requests": true,
+      "pytest": true,
+      "psutil": true
+    },
+    "environment_variables": {
+      "AZURE_OPENAI_ENDPOINT": false,
+      "AZURE_OPENAI_API_KEY": false,
+      "AZURE_OPENAI_API_VERSION": false,
+      "AZURE_OPENAI_CHAT_MODEL": false
+    },
+    "success": true,
+    "warnings": 4
+  },
+  "server_startup": {
+    "success": true,
+    "status": {
+      "running": true,
+      "url": "http://127.0.0.1:8099",
+      "process_id": 696001,
+      "health_check": true,
+      "response_time": 7.8
+    },
+    "timestamp": "2025-08-15 17:36:31"
+  },
+  "integration_tests": {
+    "timestamp": "2025-08-15 17:51:45",
+    "summary": {
+      "total_tests": 13,
+      "successful": 10,
+      "failed": 3,
+      "success_rate": 76.92,
+      "total_duration": 709.89,
+      "average_duration": 54.61
+    },
+    "test_files": [
+      "/mnt/e/maquinaMP/pdf_preproc/data/AP-AF-REVISADO221-1.pdf",
+      "/mnt/e/maquinaMP/pdf_preproc/data/defesa-Jair-Bolsonaro-tentativa-golpe-13ago2025.pdf",
+      "/mnt/e/maquinaMP/pdf_preproc/data/denuncia-versaofinal_nucleo1.pdf"
+    ],
+    "results": [
+      {
+        "name": "server_health",
+        "success": true,
+        "duration": 0.01,
+        "details": {
+          "status_code": 200,
+          "response_time_ms": 8.88,
+          "content_length": 2857
+        },
+        "error": null
+      },
+      {
+        "name": "upload_AP-AF-REVISADO221-1",
+        "success": true,
+        "duration": 0.09,
+        "details": {
+          "file_name": "AP-AF-REVISADO221-1.pdf",
+          "file_size_mb": 5.18,
+          "status_code": 200,
+          "upload_time_ms": 91.38,
+          "file_id": "c1b1a126-e2be-411c-9aec-c85e6e5d3719",
+          "filename": "AP-AF-REVISADO221-1.pdf"
+        },
+        "error": null
+      },
+      {
+        "name": "viewing_c1b1a126-e2be-411c-9aec-c85e6e5d3719",
+        "success": true,
+        "duration": 0.08,
+        "details": {
+          "file_id": "c1b1a126-e2be-411c-9aec-c85e6e5d3719",
+          "status_code": 200,
+          "response_time_ms": 78.37,
+          "content_type": "application/pdf",
+          "content_length": 5428801
+        },
+        "error": null
+      },
+      {
+        "name": "extraction_AP-AF-REVISADO221-1.pdf",
+        "success": true,
+        "duration": 1.56,
+        "details": {
+          "file_id": "c1b1a126-e2be-411c-9aec-c85e6e5d3719",
+          "filename": "AP-AF-REVISADO221-1.pdf",
+          "status_code": 200,
+          "extraction_time_ms": 1555.61,
+          "pages_count": 517,
+          "tables_count": 58,
+          "has_metadata": true,
+          "has_download_url": true,
+          "images_count": 15
+        },
+        "error": null
+      },
+      {
+        "name": "image_{'file_name': 'p1_img1.png', 'width': 220, 'height': 240, 'hash': '7d93aa0873e7289f3edff9fdfb4ad69a2b6e9068f5d54fd7cd4958f758e63a0a', 'url': '/public/images/7d93aa0873e7289f3edff9fdfb4ad69a2b6e9068f5d54fd7cd4958f758e63a0a.png'}",
+        "success": false,
+        "duration": 0.0,
+        "details": {
+          "file_id": "c1b1a126-e2be-411c-9aec-c85e6e5d3719",
+          "image_name": {
+            "file_name": "p1_img1.png",
+            "width": 220,
+            "height": 240,
+            "hash": "7d93aa0873e7289f3edff9fdfb4ad69a2b6e9068f5d54fd7cd4958f758e63a0a",
+            "url": "/public/images/7d93aa0873e7289f3edff9fdfb4ad69a2b6e9068f5d54fd7cd4958f758e63a0a.png"
+          },
+          "status_code": 404,
+          "response_time_ms": 2.81,
+          "content_type": "application/json",
+          "image_size_bytes": 22
+        },
+        "error": "{\"detail\":\"Not Found\"}"
+      },
+      {
+        "name": "upload_defesa-Jair-Bolsonaro-tentativa-golpe-13ago2025",
+        "success": true,
+        "duration": 0.04,
+        "details": {
+          "file_name": "defesa-Jair-Bolsonaro-tentativa-golpe-13ago2025.pdf",
+          "file_size_mb": 2.2,
+          "status_code": 200,
+          "upload_time_ms": 42.3,
+          "file_id": "a54ef6fa-25d4-4e06-904f-fcc95528c275",
+          "filename": "defesa-Jair-Bolsonaro-tentativa-golpe-13ago2025.pdf"
+        },
+        "error": null
+      },
+      {
+        "name": "viewing_a54ef6fa-25d4-4e06-904f-fcc95528c275",
+        "success": true,
+        "duration": 0.04,
+        "details": {
+          "file_id": "a54ef6fa-25d4-4e06-904f-fcc95528c275",
+          "status_code": 200,
+          "response_time_ms": 39.02,
+          "content_type": "application/pdf",
+          "content_length": 2301631
+        },
+        "error": null
+      },
+      {
+        "name": "extraction_defesa-Jair-Bolsonaro-tentativa-golpe-13ago2025.pdf",
+        "success": true,
+        "duration": 73.82,
+        "details": {
+          "file_id": "a54ef6fa-25d4-4e06-904f-fcc95528c275",
+          "filename": "defesa-Jair-Bolsonaro-tentativa-golpe-13ago2025.pdf",
+          "status_code": 200,
+          "extraction_time_ms": 73824.92,
+          "pages_count": 197,
+          "tables_count": 0,
+          "has_metadata": true,
+          "has_download_url": true,
+          "images_count": 27
+        },
+        "error": null
+      },
+      {
+        "name": "image_{'file_name': 'p1_img1.png', 'width': 746, 'height': 54, 'hash': '0fdbe8e45d33a22492955829f18811ee4d8177d85d46656c70ce3a1aaf7b62a6', 'url': '/public/images/0fdbe8e45d33a22492955829f18811ee4d8177d85d46656c70ce3a1aaf7b62a6.png'}",
+        "success": false,
+        "duration": 0.0,
+        "details": {
+          "file_id": "a54ef6fa-25d4-4e06-904f-fcc95528c275",
+          "image_name": {
+            "file_name": "p1_img1.png",
+            "width": 746,
+            "height": 54,
+            "hash": "0fdbe8e45d33a22492955829f18811ee4d8177d85d46656c70ce3a1aaf7b62a6",
+            "url": "/public/images/0fdbe8e45d33a22492955829f18811ee4d8177d85d46656c70ce3a1aaf7b62a6.png"
+          },
+          "status_code": 404,
+          "response_time_ms": 1.82,
+          "content_type": "application/json",
+          "image_size_bytes": 22
+        },
+        "error": "{\"detail\":\"Not Found\"}"
+      },
+      {
+        "name": "upload_denuncia-versaofinal_nucleo1",
+        "success": true,
+        "duration": 0.21,
+        "details": {
+          "file_name": "denuncia-versaofinal_nucleo1.pdf",
+          "file_size_mb": 10.15,
+          "status_code": 200,
+          "upload_time_ms": 213.74,
+          "file_id": "1d22a8c0-c070-42f5-a7eb-5e1962facce8",
+          "filename": "denuncia-versaofinal_nucleo1.pdf"
+        },
+        "error": null
+      },
+      {
+        "name": "viewing_1d22a8c0-c070-42f5-a7eb-5e1962facce8",
+        "success": true,
+        "duration": 0.13,
+        "details": {
+          "file_id": "1d22a8c0-c070-42f5-a7eb-5e1962facce8",
+          "status_code": 200,
+          "response_time_ms": 128.89,
+          "content_type": "application/pdf",
+          "content_length": 10640881
+        },
+        "error": null
+      },
+      {
+        "name": "extraction_denuncia-versaofinal_nucleo1.pdf",
+        "success": true,
+        "duration": 633.9,
+        "details": {
+          "file_id": "1d22a8c0-c070-42f5-a7eb-5e1962facce8",
+          "filename": "denuncia-versaofinal_nucleo1.pdf",
+          "status_code": 200,
+          "extraction_time_ms": 633904.35,
+          "pages_count": 272,
+          "tables_count": 207,
+          "has_metadata": true,
+          "has_download_url": true,
+          "images_count": 11152
+        },
+        "error": null
+      },
+      {
+        "name": "image_{'file_name': 'p1_img1.png', 'width': 561, 'height': 565, 'hash': '622eb41110899fe4cc69b6c349a25b0cc49a672a53b4c0b62d25cf81076ff113', 'url': '/public/images/622eb41110899fe4cc69b6c349a25b0cc49a672a53b4c0b62d25cf81076ff113.png'}",
+        "success": false,
+        "duration": 0.0,
+        "details": {
+          "file_id": "1d22a8c0-c070-42f5-a7eb-5e1962facce8",
+          "image_name": {
+            "file_name": "p1_img1.png",
+            "width": 561,
+            "height": 565,
+            "hash": "622eb41110899fe4cc69b6c349a25b0cc49a672a53b4c0b62d25cf81076ff113",
+            "url": "/public/images/622eb41110899fe4cc69b6c349a25b0cc49a672a53b4c0b62d25cf81076ff113.png"
+          },
+          "status_code": 404,
+          "response_time_ms": 2.01,
+          "content_type": "application/json",
+          "image_size_bytes": 22
+        },
+        "error": "{\"detail\":\"Not Found\"}"
+      }
+    ],
+    "execution_duration": 914.45
+  },
+  "performance_tests": {
+    "timestamp": "2025-08-15 18:10:24",
+    "summary": {
+      "total_tests": 8,
+      "successful": 8,
+      "failed": 0,
+      "success_rate": 100.0
+    },
+    "performance_stats": {
+      "upload_time": {
+        "avg": 0.1,
+        "min": 0.05,
+        "max": 0.15
+      },
+      "extraction_time": {
+        "avg": 69.67,
+        "min": 0.8,
+        "max": 206.68
+      },
+      "total_time": {
+        "avg": 323.16,
+        "min": 0.85,
+        "max": 570.61
+      },
+      "memory_usage_mb": {
+        "avg": 225.42,
+        "min": 225.42,
+        "max": 225.42
+      }
+    },
+    "results": [
+      {
+        "test_name": "single_file_benchmark",
+        "file_name": "defesa-Jair-Bolsonaro-tentativa-golpe-13ago2025.pdf",
+        "file_size_mb": 2.2,
+        "upload_time": 0.05,
+        "extraction_time": 0.8,
+        "total_time": 0.85,
+        "peak_memory_mb": 225.42,
+        "avg_cpu_percent": 0.0,
+        "success": true,
+        "error": null
+      },
+      {
+        "test_name": "single_file_benchmark",
+        "file_name": "AP-AF-REVISADO221-1.pdf",
+        "file_size_mb": 5.18,
+        "upload_time": 0.1,
+        "extraction_time": 1.52,
+        "total_time": 1.62,
+        "peak_memory_mb": 225.42,
+        "avg_cpu_percent": 1.0,
+        "success": true,
+        "error": null
+      },
+      {
+        "test_name": "single_file_benchmark",
+        "file_name": "denuncia-versaofinal_nucleo1.pdf",
+        "file_size_mb": 10.15,
+        "upload_time": 0.15,
+        "extraction_time": 206.68,
+        "total_time": 206.83,
+        "peak_memory_mb": 225.42,
+        "avg_cpu_percent": 0.19,
+        "success": true,
+        "error": null
+      },
+      {
+        "test_name": "stress_test_req_0",
+        "file_name": "AP-AF-REVISADO221-1.pdf",
+        "file_size_mb": 5.18,
+        "upload_time": 0,
+        "extraction_time": 0,
+        "total_time": 568.38,
+        "peak_memory_mb": 0,
+        "avg_cpu_percent": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "test_name": "stress_test_req_1",
+        "file_name": "AP-AF-REVISADO221-1.pdf",
+        "file_size_mb": 5.18,
+        "upload_time": 0,
+        "extraction_time": 0,
+        "total_time": 570.12,
+        "peak_memory_mb": 0,
+        "avg_cpu_percent": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "test_name": "stress_test_req_2",
+        "file_name": "AP-AF-REVISADO221-1.pdf",
+        "file_size_mb": 5.18,
+        "upload_time": 0,
+        "extraction_time": 0,
+        "total_time": 570.61,
+        "peak_memory_mb": 0,
+        "avg_cpu_percent": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "test_name": "stress_test_req_3",
+        "file_name": "AP-AF-REVISADO221-1.pdf",
+        "file_size_mb": 5.18,
+        "upload_time": 0,
+        "extraction_time": 0,
+        "total_time": 333.84,
+        "peak_memory_mb": 0,
+        "avg_cpu_percent": 0,
+        "success": true,
+        "error": null
+      },
+      {
+        "test_name": "stress_test_req_4",
+        "file_name": "AP-AF-REVISADO221-1.pdf",
+        "file_size_mb": 5.18,
+        "upload_time": 0,
+        "extraction_time": 0,
+        "total_time": 333.04,
+        "peak_memory_mb": 0,
+        "avg_cpu_percent": 0,
+        "success": true,
+        "error": null
+      }
+    ],
+    "execution_duration": 1119.1
+  },
+  "summary": {
+    "timestamp": "2025-08-15 18:10:24",
+    "overall_success": false,
+    "total_tests": 21,
+    "successful_tests": 18,
+    "failed_tests": 3,
+    "success_rate": 85.71,
+    "installation_ok": true,
+    "server_startup_ok": true,
+    "integration_tests_ok": false,
+    "performance_tests_ok": true
+  }
+}
