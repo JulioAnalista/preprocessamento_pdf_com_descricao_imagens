@@ -6,6 +6,10 @@ from typing import List, Dict, Tuple
 
 from openai import AzureOpenAI
 
+# Carregar variáveis de ambiente do .env
+from dotenv import load_dotenv
+load_dotenv()
+
 import db
 from db import upsert_image_description, ensure_schema
 
