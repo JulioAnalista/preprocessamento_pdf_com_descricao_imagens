@@ -81,7 +81,7 @@ def caption_images_from_extraction(extraction_json_path: Path) -> List[Dict]:
     j = json.loads(extraction_json_path.read_text(encoding='utf-8'))
     results = []
     # Percorrer páginas e imagens únicas por hash e pular as já descritas salvas no DB
-    from . import db as pdb
+    import db as pdb
     seen = set()
     for page in j.get('pages', []):
         for img in page.get('images', []):

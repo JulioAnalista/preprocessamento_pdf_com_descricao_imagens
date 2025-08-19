@@ -299,7 +299,7 @@ def caption_images(file_id: str):
     extraction_json = pdf_path.parent / sanitized / "extraction.json"
     if not extraction_json.exists():
         raise HTTPException(status_code=400, detail="Extração não encontrada para este arquivo")
-    from .image_caption import caption_images_from_extraction
+    from image_caption import caption_images_from_extraction
     items = caption_images_from_extraction(extraction_json)
     return JSONResponse({"count": len(items), "items": items})
 
