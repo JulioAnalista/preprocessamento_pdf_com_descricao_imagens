@@ -288,6 +288,13 @@ def serve_image(file_id: str, image_name: str):
 
 
 
+@app.get("/api/caption/{file_id}")
+def get_image_descriptions(file_id: str):
+    """Carrega descrições de imagens existentes para um arquivo"""
+    import db as pdb
+    items = pdb.get_image_descriptions_for_file(file_id)
+    return JSONResponse({"count": len(items), "items": items})
+
 @app.post("/api/caption/{file_id}")
 def caption_images(file_id: str):
     meta_path = UPLOADS_DIR / f"{file_id}.json"

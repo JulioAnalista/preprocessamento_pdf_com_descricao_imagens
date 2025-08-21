@@ -83,12 +83,21 @@ def caption_images_from_extraction(extraction_json_path: Path) -> List[Dict]:
     # Percorrer páginas e imagens únicas por hash e pular as já descritas salvas no DB
     import db as pdb
     seen = set()
+    total_images = sum(len(page.get('images', [])) for page in j.get('pages', []))
+    unique_images = 0
+    cached_count = 0
+    processed_count = 0
+
+    print(f"[CAPTION] Iniciando processamento de {total_images} imagens...")
+
     for page in j.get('pages', []):
         for img in page.get('images', []):
             h = img.get('hash')
             if not h or h in seen:
                 continue
             seen.add(h)
+            unique_images += 1
+
             # Se já houver no DB, reaproveita
             cached = pdb.get_image_description(h)
             if cached and (cached.get('description') or cached.get('ocr_text')):
@@ -97,6 +106,9 @@ def caption_images_from_extraction(extraction_json_path: Path) -> List[Dict]:
                 img['metadata'] = cached.get('metadata') or {}
                 if cached.get('ocr_text'):
                     img['ocr_text'] = cached.get('ocr_text')
+                cached_count += 1
+                if cached_count % 50 == 0:
+                    print(f"[CAPTION] Reutilizadas {cached_count} descrições do cache...")
                 continue
             # Ler a imagem canônica em /public/images/<hash>.png
             can_path = Path(__file__).resolve().parent / 'public' / 'images' / f'{h}.png'
@@ -105,12 +117,20 @@ def caption_images_from_extraction(extraction_json_path: Path) -> List[Dict]:
                 if local.exists():
                     can_path = local
                 else:
+                    print(f"[CAPTION] AVISO: Imagem não encontrada para hash {h[:12]}...")
                     continue
+
+            processed_count += 1
+            print(f"[CAPTION] Processando imagem {processed_count}/{unique_images - cached_count}: {h[:12]}...")
+
             b64 = base64.b64encode(can_path.read_bytes()).decode('ascii')
             desc, meta = describe_image_b64(b64)
             ocr_text = run_easyocr(can_path)
             upsert_image_description(h, AZ_CHAT_MODEL, desc, meta, ocr_text)
             results.append({"hash": h, "description": desc, "metadata": meta, "ocr_text": ocr_text})
+
+            print(f"[CAPTION] ✅ Descrição gerada: {desc[:60]}...")
+
             # Atualizar no próprio JSON (para consulta rápida)
             img['description'] = desc
             img['metadata'] = meta
@@ -118,5 +138,13 @@ def caption_images_from_extraction(extraction_json_path: Path) -> List[Dict]:
                 img['ocr_text'] = ocr_text
     # Persistir extraction.json atualizado
     extraction_json_path.write_text(json.dumps(j, ensure_ascii=False, indent=2), encoding='utf-8')
+
+    print(f"[CAPTION] ✅ Processamento concluído!")
+    print(f"[CAPTION] 📊 Total de imagens: {total_images}")
+    print(f"[CAPTION] 🔍 Imagens únicas: {unique_images}")
+    print(f"[CAPTION] ♻️ Reutilizadas do cache: {cached_count}")
+    print(f"[CAPTION] 🆕 Novas descrições geradas: {processed_count}")
+    print(f"[CAPTION] 💾 Arquivo atualizado: {extraction_json_path}")
+
     return results
 

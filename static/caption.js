@@ -1,19 +1,53 @@
 async function describeImages() {
   if (!state.extract) { log('Não há extração carregada.'); return; }
   log('Descrições: iniciando...');
-  const resp = await fetch(`/api/caption/${state.extract.upload.file_id}`, { method: 'POST' });
-  if (!resp.ok) { const t = await resp.text(); log('Falha ao descrever imagens: ' + t); return; }
-  const data = await resp.json();
-  log(`Descrições geradas: ${data.count}`);
-  await loadCaptions();
+
+  try {
+    const resp = await fetch(`/api/caption/${state.extract.upload.file_id}`, { method: 'POST' });
+    if (!resp.ok) {
+      const t = await resp.text();
+      log('Falha ao descrever imagens: ' + t);
+      return;
+    }
+
+    const data = await resp.json();
+    log(`Descrições processadas: ${data.count} novas descrições geradas`);
+
+    if (data.count === 0) {
+      log('💡 Todas as imagens já foram descritas anteriormente (reutilizando cache)');
+    } else {
+      log(`✅ ${data.count} novas descrições foram geradas e salvas`);
+    }
+
+    await loadCaptions();
+  } catch (error) {
+    log('Erro ao processar descrições: ' + error.message);
+  }
 }
 
 async function loadCaptions() {
   if (!state.extract) return;
-  const resp = await fetch(`/api/caption/${state.extract.upload.file_id}`);
-  if (!resp.ok) return;
-  const data = await resp.json();
-  renderDescriptions(data.items || []);
+
+  try {
+    log('📖 Carregando descrições existentes...');
+    const resp = await fetch(`/api/caption/${state.extract.upload.file_id}`);
+    if (!resp.ok) {
+      log('⚠️ Não foi possível carregar descrições: ' + resp.status);
+      return;
+    }
+
+    const data = await resp.json();
+    const items = data.items || [];
+    log(`📊 Carregadas ${items.length} descrições de imagens`);
+
+    if (items.length === 0) {
+      log('💡 Nenhuma descrição encontrada. Clique em "Descrever imagens" para gerar.');
+    }
+
+    renderDescriptions(items);
+  } catch (error) {
+    log('Erro ao carregar descrições: ' + error.message);
+  }
 }
 
 function renderDescriptions(items) {
