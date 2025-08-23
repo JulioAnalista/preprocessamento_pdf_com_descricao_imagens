@@ -76,7 +76,7 @@ def run_easyocr(img_path: Path) -> str:
         return ""
 
 
-def caption_images_from_extraction(extraction_json_path: Path) -> List[Dict]:
+def caption_images_from_extraction(extraction_json_path: Path, force: bool = False) -> List[Dict]:
     ensure_schema()
     j = json.loads(extraction_json_path.read_text(encoding='utf-8'))
     results = []
@@ -99,13 +99,19 @@ def caption_images_from_extraction(extraction_json_path: Path) -> List[Dict]:
             unique_images += 1
 
             # Se já houver no DB, reaproveita
-            cached = pdb.get_image_description(h)
-            if cached and (cached.get('description') or cached.get('ocr_text')):
-                # Atualiza JSON e segue
+            cached = None if force else pdb.get_image_description(h)
+            if (not force) and cached and (cached.get('description') or cached.get('ocr_text')):
+                # Atualiza JSON e adiciona ao resultado para retorno ao cliente
                 img['description'] = cached.get('description')
                 img['metadata'] = cached.get('metadata') or {}
                 if cached.get('ocr_text'):
                     img['ocr_text'] = cached.get('ocr_text')
+                results.append({
+                    "hash": h,
+                    "description": img.get('description') or '',
+                    "metadata": img.get('metadata') or {},
+                    "ocr_text": img.get('ocr_text') or ''
+                })
                 cached_count += 1
                 if cached_count % 50 == 0:
                     print(f"[CAPTION] Reutilizadas {cached_count} descrições do cache...")

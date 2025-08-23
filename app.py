@@ -90,7 +90,12 @@ def get_pdf(file_id: str):
 
 
 @app.post("/api/extract/{file_id}")
-def extract_all(file_id: str):
+def extract_all(
+    file_id: str,
+    clear_cache: bool = Query(default=False, description="Apaga cache de descrições de imagens deste arquivo antes de processar"),
+    do_caption: bool = Query(default=False, description="Após extrair, executar a descrição de imagens"),
+    force_caption: bool = Query(default=False, description="Ao descrever, ignorar cache e forçar nova geração")
+):
     meta_path = UPLOADS_DIR / f"{file_id}.json"
     if not meta_path.exists():
         raise HTTPException(status_code=404, detail="Arquivo não encontrado")
@@ -116,9 +121,15 @@ def extract_all(file_id: str):
     else:
         result = None
 
+    pipeline_log = []
+
     if result is None:
+        pipeline_log.append("[EXTRACT] Iniciando extração do PDF...")
         extractor = PDFExtractor()
         result = extractor.extract(pdf_path=pdf_path, output_dir=out_dir)
+        pipeline_log.append("[EXTRACT] Extração concluída com sucesso.")
+    else:
+        pipeline_log.append("[EXTRACT] Extração existente encontrada (cache reutilizado).")
 
     # Persist and deduplicate using Postgres for images and tables
     # 1) pdf hash
@@ -219,6 +230,31 @@ def extract_all(file_id: str):
         "zip_url": f"/public/{public_zip_name}",
         "zip_path": str(public_zip_path),
     }
+
+    # Opcional: limpar cache de descrições e descrever imagens
+    caption_items = []
+    if clear_cache:
+        try:
+            pipeline_log.append("[CAPTION] Limpando cache de descrições no banco...")
+            deleted = pdb.delete_image_descriptions_for_file(file_id)
+            pipeline_log.append(f"[CAPTION] Cache removido: {deleted} descrições apagadas.")
+        except Exception as e:
+            pipeline_log.append(f"[CAPTION][ERRO] Falha ao limpar cache: {e}")
+
+    if do_caption:
+        try:
+            pipeline_log.append("[CAPTION] Iniciando descrição de imagens...")
+            from image_caption import caption_images_from_extraction
+            caption_items = caption_images_from_extraction(extraction_json, force=(force_caption or clear_cache))
+            pipeline_log.append(f"[CAPTION] Descrição concluída. Itens retornados: {len(caption_items)}")
+        except Exception as e:
+            pipeline_log.append(f"[CAPTION][ERRO] Falha ao descrever imagens: {e}")
+
+    # Anexar log de pipeline e, se houver, resumo das captions
+    result["pipeline_log"] = pipeline_log
+    if caption_items:
+        result.setdefault("caption", {})["count"] = len(caption_items)
+        result["caption"]["items"] = caption_items
 
     return JSONResponse(result)
 

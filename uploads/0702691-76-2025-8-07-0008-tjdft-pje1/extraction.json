@@ -21,7 +21,22 @@
           "width": 152,
           "height": 152,
           "hash": "974dd38a921ee55a584804f3135cbeb4957be86a0e906d710f3829f9474fc15e",
-          "url": "/public/images/974dd38a921ee55a584804f3135cbeb4957be86a0e906d710f3829f9474fc15e.png"
+          "url": "/public/images/974dd38a921ee55a584804f3135cbeb4957be86a0e906d710f3829f9474fc15e.png",
+          "description": "Mapa do Brasil com elementos heraldicos e campanha de força",
+          "metadata": {
+            "escala": null,
+            "regiao": "Brasil",
+            "tipo_mapa": "Mapa ilustrativo do Brasil",
+            "itens_legenda": [],
+            "texto_visivel": [],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "verde",
+              "amarelo",
+              "azul",
+              "branco"
+            ]
+          }
         }
       ],
       "tables": [
@@ -386,7 +401,22 @@
           "width": 61,
           "height": 48,
           "hash": "9e4689d2da60c92809401f47e665473426ce82ccc5838164d074c6a00d682b99",
-          "url": "/public/images/9e4689d2da60c92809401f47e665473426ce82ccc5838164d074c6a00d682b99.png"
+          "url": "/public/images/9e4689d2da60c92809401f47e665473426ce82ccc5838164d074c6a00d682b99.png",
+          "description": "Logotipo de escritório de advocacia Avevedo Borges Advocacia",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [
+              "Azevedo Borges Advocacia"
+            ],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "azul",
+              "branco"
+            ]
+          }
         }
       ],
       "tables": [
@@ -460,14 +490,48 @@
           "width": 2480,
           "height": 3504,
           "hash": "536d03ef718b667b7e3073f56a2f7605a6ca415b98b5d2cfe753bda12a4acab0",
-          "url": "/public/images/536d03ef718b667b7e3073f56a2f7605a6ca415b98b5d2cfe753bda12a4acab0.png"
+          "url": "/public/images/536d03ef718b667b7e3073f56a2f7605a6ca415b98b5d2cfe753bda12a4acab0.png",
+          "description": "Documento de procuração assinada por William José Guimarães, nomeando dois advogados.",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [
+              "PROCURACÃO",
+              "OUTORGANTE",
+              "RG",
+              "CPF",
+              "RESIDENTE",
+              "OUTORGADO(S)",
+              "PODERES",
+              "Brasília/DF",
+              "de"
+            ],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "preto e branco"
+            ]
+          }
         },
         {
           "file_name": "p7_img2.png",
           "width": 125,
           "height": 125,
           "hash": "e62c04329c6bdb5947fd50b2e35969ea529c41bbfad04806332d7ad4e803ca20",
-          "url": "/public/images/e62c04329c6bdb5947fd50b2e35969ea529c41bbfad04806332d7ad4e803ca20.png"
+          "url": "/public/images/e62c04329c6bdb5947fd50b2e35969ea529c41bbfad04806332d7ad4e803ca20.png",
+          "description": "Mapa ou documento com elementos gráficos, possivelmente um mapa ou carta.",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "preto e branco"
+            ]
+          }
         }
       ],
       "tables": []
@@ -481,14 +545,51 @@
           "width": 2464,
           "height": 3488,
           "hash": "e710f180a9e6e47b92fa3378bb1ee837219ca8d6f092d1688a11ecdfb310b68f",
-          "url": "/public/images/e710f180a9e6e47b92fa3378bb1ee837219ca8d6f092d1688a11ecdfb310b68f.png"
+          "url": "/public/images/e710f180a9e6e47b92fa3378bb1ee837219ca8d6f092d1688a11ecdfb310b68f.png",
+          "description": "Declaração de Hipossuficiência assinada por Willian José Guimarães",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [
+              "DECLARAÇÃO DE HIPOSSUFICIÊNCIA",
+              "Eu, WILLIAN JOSÉ GUIMARÃES...",
+              "Brasília, 21 de agosto de 2024.",
+              "WILLIAN JOSÉ GUIMARÃES"
+            ],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "preto",
+              "azul"
+            ]
+          }
         },
         {
           "file_name": "p8_img2.png",
           "width": 125,
           "height": 125,
           "hash": "c8776f5fb56f10febbd002827c565ea417b06aeab38cff4df548a6c0361b1103",
-          "url": "/public/images/c8776f5fb56f10febbd002827c565ea417b06aeab38cff4df548a6c0361b1103.png"
+          "url": "/public/images/c8776f5fb56f10febbd002827c565ea417b06aeab38cff4df548a6c0361b1103.png",
+          "description": "Mapa administrativo com legendas e escala.",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [
+              "Divisões administrativas",
+              "Limites territoriais"
+            ],
+            "texto_visivel": [
+              "Região Centro-Oeste",
+              "Estado de São Paulo"
+            ],
+            "possui_legenda": true,
+            "cores_dominantes": [
+              "azul",
+              "verde"
+            ]
+          }
         }
       ],
       "tables": []
@@ -502,14 +603,37 @@
           "width": 194,
           "height": 194,
           "hash": "a4930d89284f2bd13667fa113211119f75e8b0068e4746eef6387ca363c1398f",
-          "url": "/public/images/a4930d89284f2bd13667fa113211119f75e8b0068e4746eef6387ca363c1398f.png"
+          "url": "/public/images/a4930d89284f2bd13667fa113211119f75e8b0068e4746eef6387ca363c1398f.png",
+          "description": "Logotipo de uma organização ou marca com elementos geométricos em azul sobre fundo amarelo",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "azul",
+              "amarelo"
+            ]
+          }
         },
         {
           "file_name": "p9_img2.png",
           "width": 194,
           "height": 194,
           "hash": "b306d19870ebe4d2c1474edc36db74ea077b684526104941071b307d74f2d321",
-          "url": "/public/images/b306d19870ebe4d2c1474edc36db74ea077b684526104941071b307d74f2d321.png"
+          "url": "/public/images/b306d19870ebe4d2c1474edc36db74ea077b684526104941071b307d74f2d321.png",
+          "description": "Mapa ou documento técnico com elementos gráficos e legendas",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [],
+            "possui_legenda": false,
+            "cores_dominantes": []
+          }
         }
       ],
       "tables": [
@@ -1094,21 +1218,66 @@
           "width": 230,
           "height": 120,
           "hash": "21f4ee6baf5c712357fc14fda215882d97d32a7e2ce12642ad45f5b1373e1edc",
-          "url": "/public/images/21f4ee6baf5c712357fc14fda215882d97d32a7e2ce12642ad45f5b1373e1edc.png"
+          "url": "/public/images/21f4ee6baf5c712357fc14fda215882d97d32a7e2ce12642ad45f5b1373e1edc.png",
+          "description": "Imagem de um logo de serviço de conexão sem fio para computador",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [
+              "RZ.NEA",
+              "CONECTANDO VOCÊ"
+            ],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "azul",
+              "preto",
+              "cinza"
+            ]
+          }
         },
         {
           "file_name": "p21_img2.png",
           "width": 149,
           "height": 30,
           "hash": "2b250413a605371d2e9c11149e3e3e48541862202990e1157ea2e316216eabf4",
-          "url": "/public/images/2b250413a605371d2e9c11149e3e3e48541862202990e1157ea2e316216eabf4.png"
+          "url": "/public/images/2b250413a605371d2e9c11149e3e3e48541862202990e1157ea2e316216eabf4.png",
+          "description": "Logotipo do Banco Santander com fundo vermelho",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [
+              "Santander"
+            ],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "vermelho",
+              "branco"
+            ]
+          }
         },
         {
           "file_name": "p21_img3.png",
           "width": 428,
           "height": 65,
           "hash": "4d0cdf4d8eb4965192f67d6c64a7842e8fca4247a3dfef379f9c007e9ebda08d",
-          "url": "/public/images/4d0cdf4d8eb4965192f67d6c64a7842e8fca4247a3dfef379f9c007e9ebda08d.png"
+          "url": "/public/images/4d0cdf4d8eb4965192f67d6c64a7842e8fca4247a3dfef379f9c007e9ebda08d.png",
+          "description": "Código de barras de documento ou produto.",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "preto",
+              "branco"
+            ]
+          }
         }
       ],
       "tables": [
@@ -1273,14 +1442,42 @@
           "width": 149,
           "height": 30,
           "hash": "f23f1a8f978d2776ec4f8fd31c91a96b580a53b79f26eb17cfb6606ced44f01c",
-          "url": "/public/images/f23f1a8f978d2776ec4f8fd31c91a96b580a53b79f26eb17cfb6606ced44f01c.png"
+          "url": "/public/images/f23f1a8f978d2776ec4f8fd31c91a96b580a53b79f26eb17cfb6606ced44f01c.png",
+          "description": "Logotipo do Banco do Brasil",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [
+              "Banco do Brasil"
+            ],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "amarelo",
+              "azul"
+            ]
+          }
         },
         {
           "file_name": "p23_img3.png",
           "width": 428,
           "height": 65,
           "hash": "b910d120ae7d0dd6a097679600fcb0973f417502b5b56190e1f1b2513209c2ce",
-          "url": "/public/images/b910d120ae7d0dd6a097679600fcb0973f417502b5b56190e1f1b2513209c2ce.png"
+          "url": "/public/images/b910d120ae7d0dd6a097679600fcb0973f417502b5b56190e1f1b2513209c2ce.png",
+          "description": "Código de barras padrão",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "preto",
+              "branco"
+            ]
+          }
         }
       ],
       "tables": [
@@ -1359,14 +1556,43 @@
           "width": 149,
           "height": 30,
           "hash": "459bef015040345d9d144eb711e3eb016c53c35c621a5b5b5df817c5f1a09536",
-          "url": "/public/images/459bef015040345d9d144eb711e3eb016c53c35c621a5b5b5df817c5f1a09536.png"
+          "url": "/public/images/459bef015040345d9d144eb711e3eb016c53c35c621a5b5b5df817c5f1a09536.png",
+          "description": "Logotipo do Efi da Gerencianet.",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [
+              "efi",
+              "Gerencianet"
+            ],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "azul",
+              "branco"
+            ]
+          }
         },
         {
           "file_name": "p24_img3.png",
           "width": 428,
           "height": 65,
           "hash": "e3f4378de2026567573eef4068ee0755a7234cf840e39ebf40de0784cab342c4",
-          "url": "/public/images/e3f4378de2026567573eef4068ee0755a7234cf840e39ebf40de0784cab342c4.png"
+          "url": "/public/images/e3f4378de2026567573eef4068ee0755a7234cf840e39ebf40de0784cab342c4.png",
+          "description": "Código de barras de documento administrativo",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "preto",
+              "branco"
+            ]
+          }
         }
       ],
       "tables": [
@@ -1438,14 +1664,31 @@
           "width": 300,
           "height": 107,
           "hash": "ce155375a5898a8c00997e666b096709758c026c0752eee5ac08e2dcb3ee067f",
-          "url": "/public/images/ce155375a5898a8c00997e666b096709758c026c0752eee5ac08e2dcb3ee067f.png"
+          "url": "/public/images/ce155375a5898a8c00997e666b096709758c026c0752eee5ac08e2dcb3ee067f.png",
+          "description": "Logotipo com símbolo geométrico e a palavra 'pix'",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [
+              "pix"
+            ],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "turquesa",
+              "cinza"
+            ]
+          }
         },
         {
           "file_name": "p25_img2.png",
           "width": 230,
           "height": 120,
           "hash": "6aef0b5c57a45d02317acf98adfae15e59d7d0f9c5453a468720d45b927f1c68",
-          "url": "/public/images/6aef0b5c57a45d02317acf98adfae15e59d7d0f9c5453a468720d45b927f1c68.png"
+          "url": "/public/images/6aef0b5c57a45d02317acf98adfae15e59d7d0f9c5453a468720d45b927f1c68.png",
+          "description": "{\"descricao\": \"Mapa ou diagrama de conexão Wi-Fi com logotipo RZ NEA\", \"metadados\": {\"tipo_mapa\": null, \"regiao\": null, \"possui_legenda\": false, \"itens_legenda\": [], \"escala\": null, \"cores_dominantes\": [\"preto\", \"branco\", azul\"], \"texto_visivel\": [\"RZ NEA\", \"CONECTANDO VOCÊ\"]}}",
+          "metadata": {}
         },
         {
           "file_name": "p25_img3.png",
@@ -1459,7 +1702,20 @@
           "width": 428,
           "height": 65,
           "hash": "d2aeb64b24ac208ebac198180ce8151fe7c04a52f7ceb4f865c5f5a00d66d1d6",
-          "url": "/public/images/d2aeb64b24ac208ebac198180ce8151fe7c04a52f7ceb4f865c5f5a00d66d1d6.png"
+          "url": "/public/images/d2aeb64b24ac208ebac198180ce8151fe7c04a52f7ceb4f865c5f5a00d66d1d6.png",
+          "description": "Código de barras de documento administrativo",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "preto",
+              "branco"
+            ]
+          }
         }
       ],
       "tables": [
@@ -1538,7 +1794,23 @@
           "width": 230,
           "height": 120,
           "hash": "17de7b90fcecb726624caed898730757615cf3538081969200b17dcc6034225f",
-          "url": "/public/images/17de7b90fcecb726624caed898730757615cf3538081969200b17dcc6034225f.png"
+          "url": "/public/images/17de7b90fcecb726624caed898730757615cf3538081969200b17dcc6034225f.png",
+          "description": "Logotipo da RZ.NET, uma provedora de internet, com símbolo de sinal de transmissão, nome em destaque e slogan",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [
+              "RZ.NET",
+              "CONECTANDO VOCÊ"
+            ],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "azul",
+              "cinza"
+            ]
+          }
         },
         {
           "file_name": "p26_img3.png",
@@ -1552,7 +1824,19 @@
           "width": 428,
           "height": 65,
           "hash": "49e7269ae04a9be51c9e708fffcbd10cdb14726aeb3183d2bba8fcc5c136a440",
-          "url": "/public/images/49e7269ae04a9be51c9e708fffcbd10cdb14726aeb3183d2bba8fcc5c136a440.png"
+          "url": "/public/images/49e7269ae04a9be51c9e708fffcbd10cdb14726aeb3183d2bba8fcc5c136a440.png",
+          "description": "Código de barras de documento administrativo",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "preto"
+            ]
+          }
         }
       ],
       "tables": [
@@ -1624,28 +1908,98 @@
           "width": 389,
           "height": 389,
           "hash": "8089cfe7023161d5bea2f368d2371854bd7954194574dcf04217a2b93f892396",
-          "url": "/public/images/8089cfe7023161d5bea2f368d2371854bd7954194574dcf04217a2b93f892396.png"
+          "url": "/public/images/8089cfe7023161d5bea2f368d2371854bd7954194574dcf04217a2b93f892396.png",
+          "description": "Mapa administrativo com símbolo oficial e detalhes de assinatura",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [
+              "MINISTÉRIO DA EDUCAÇÃO",
+              "PORTARIA"
+            ],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "cinza",
+              "preto"
+            ]
+          }
         },
         {
           "file_name": "p27_img2.png",
           "width": 300,
           "height": 67,
           "hash": "c49f51ef526ec84d112e95c4b2496fc6efa9d99b267a68e329da9e1cdc67831f",
-          "url": "/public/images/c49f51ef526ec84d112e95c4b2496fc6efa9d99b267a68e329da9e1cdc67831f.png"
+          "url": "/public/images/c49f51ef526ec84d112e95c4b2496fc6efa9d99b267a68e329da9e1cdc67831f.png",
+          "description": "Mapa ou documento do CREA-DF do Conselho Regional de Engenharia e Agronomia do Distrito Federal",
+          "metadata": {
+            "escala": null,
+            "regiao": "Distrito Federal",
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [
+              "CREA-DF",
+              "Conselho Regional de Engenharia e Agronomia do Distrito Federal"
+            ],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "preto",
+              "branco"
+            ]
+          }
         },
         {
           "file_name": "p27_img3.png",
           "width": 90,
           "height": 60,
           "hash": "c5d170210acacfd36bf9642f5cff3a878341f5ed875137077e402a2a47171764",
-          "url": "/public/images/c5d170210acacfd36bf9642f5cff3a878341f5ed875137077e402a2a47171764.png"
+          "url": "/public/images/c5d170210acacfd36bf9642f5cff3a878341f5ed875137077e402a2a47171764.png",
+          "description": "Logotipo do projeto GED para assinatura eletrônica",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [
+              "GED",
+              "Assinatura Eletrônica"
+            ],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "preto",
+              "cinza"
+            ]
+          }
         },
         {
           "file_name": "p27_img4.png",
           "width": 135,
           "height": 135,
           "hash": "6f8f35ec8d9fb1258fed7bb3fa49141325f1b1446ffe0e8e5cda351d407084de",
-          "url": "/public/images/6f8f35ec8d9fb1258fed7bb3fa49141325f1b1446ffe0e8e5cda351d407084de.png"
+          "url": "/public/images/6f8f35ec8d9fb1258fed7bb3fa49141325f1b1446ffe0e8e5cda351d407084de.png",
+          "description": "Mapa administrativo com rotas e limites regionais.",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": "administrativo",
+            "itens_legenda": [
+              "limite regional",
+              "idades",
+              "vias principais"
+            ],
+            "texto_visivel": [
+              "Distrito",
+              "Região",
+              "Rua principal"
+            ],
+            "possui_legenda": true,
+            "cores_dominantes": [
+              "vermelho",
+              "azul",
+              "preto"
+            ]
+          }
         }
       ],
       "tables": []
@@ -1659,14 +2013,49 @@
           "width": 2033,
           "height": 688,
           "hash": "ecc1566e3aeaf38eec846ea09fdc3c716b74a57905d3c1fff5004bebc3e75e03",
-          "url": "/public/images/ecc1566e3aeaf38eec846ea09fdc3c716b74a57905d3c1fff5004bebc3e75e03.png"
+          "url": "/public/images/ecc1566e3aeaf38eec846ea09fdc3c716b74a57905d3c1fff5004bebc3e75e03.png",
+          "description": "Mapa de rios, incluindo Rio Paraúna, Capão da Onça, e córregos associados.",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [
+              "Rio Paraúna",
+              "Capão da Onça",
+              "Córrego"
+            ],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "azul",
+              "preto"
+            ]
+          }
         },
         {
           "file_name": "p28_img2.png",
           "width": 2033,
           "height": 577,
           "hash": "bca0bfcebbfce02129618e75b6060e84e2ca3a836ee526aa69b9c2846b378ff2",
-          "url": "/public/images/bca0bfcebbfce02129618e75b6060e84e2ca3a836ee526aa69b9c2846b378ff2.png"
+          "url": "/public/images/bca0bfcebbfce02129618e75b6060e84e2ca3a836ee526aa69b9c2846b378ff2.png",
+          "description": "Mapa com rio e linhas de relevo em tons de azul",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": "hidrográfico",
+            "localizacao": null,
+            "itens_legenda": [
+              "Rio",
+              "Relevo"
+            ],
+            "texto_visivel": [
+              "Córt. Radi"
+            ],
+            "possui_legenda": true,
+            "cores_dominantes": [
+              "azul"
+            ]
+          }
         }
       ],
       "tables": [
@@ -1856,14 +2245,50 @@
           "width": 200,
           "height": 133,
           "hash": "65a33123dcc421b2e933da1f83945fdf7a4ff709e41a97ca548c813d26e593c7",
-          "url": "/public/images/65a33123dcc421b2e933da1f83945fdf7a4ff709e41a97ca548c813d26e593c7.png"
+          "url": "/public/images/65a33123dcc421b2e933da1f83945fdf7a4ff709e41a97ca548c813d26e593c7.png",
+          "description": "Ícone de setas direcionais com fundo verde",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "verde",
+              "amarelo"
+            ]
+          }
         },
         {
           "file_name": "p31_img2.png",
           "width": 150,
           "height": 150,
           "hash": "5f7f00d2f5385af7c72e06b638c71e4a6bcf979f811c1a0f311682004e896539",
-          "url": "/public/images/5f7f00d2f5385af7c72e06b638c71e4a6bcf979f811c1a0f311682004e896539.png"
+          "url": "/public/images/5f7f00d2f5385af7c72e06b638c71e4a6bcf979f811c1a0f311682004e896539.png",
+          "description": "Mapa administrativo de região com legenda e escala",
+          "metadata": {
+            "escala": "1:100.000",
+            "regiao": null,
+            "tipo_mapa": "mapa administrativo",
+            "itens_legenda": [
+              "Divisões Regionais",
+              "Líderes Locais",
+              "Pontuação de Desenvolvimento"
+            ],
+            "texto_visivel": [
+              "Região Norte",
+              "Região Sul",
+              "Região Leste",
+              "Região Oeste"
+            ],
+            "possui_legenda": true,
+            "cores_dominantes": [
+              "azul",
+              "verde",
+              "amarelo"
+            ]
+          }
         }
       ],
       "tables": [
@@ -1923,14 +2348,42 @@
           "width": 709,
           "height": 354,
           "hash": "1855ba8fa1f292c9b5f1c09d744beccea489697bc66c613e6e331cceec7cec9d",
-          "url": "/public/images/1855ba8fa1f292c9b5f1c09d744beccea489697bc66c613e6e331cceec7cec9d.png"
+          "url": "/public/images/1855ba8fa1f292c9b5f1c09d744beccea489697bc66c613e6e331cceec7cec9d.png",
+          "description": "Mapa aéreo de uma região com áreas de vegetação, zonas urbanas e encostas.",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [
+              "mapa",
+              "área",
+              "região"
+            ],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "verde",
+              "marrom",
+              "cinza"
+            ]
+          }
         },
         {
           "file_name": "p32_img2.png",
           "width": 709,
           "height": 354,
           "hash": "782f1e244659d898e051e4fa2c190d6e4c895ef6bdad907926617977b4d9545b",
-          "url": "/public/images/782f1e244659d898e051e4fa2c190d6e4c895ef6bdad907926617977b4d9545b.png"
+          "url": "/public/images/782f1e244659d898e051e4fa2c190d6e4c895ef6bdad907926617977b4d9545b.png",
+          "description": "Documento de mapa ou cartográfico sem informações visíveis.",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [],
+            "possui_legenda": false,
+            "cores_dominantes": []
+          }
         },
         {
           "file_name": "p32_img3.png",
@@ -2045,7 +2498,19 @@
           "width": 960,
           "height": 1280,
           "hash": "f0e35b6766573a968928f2b375afe2f54d04fb7e9525574a8852ff0062254830",
-          "url": "/public/images/f0e35b6766573a968928f2b375afe2f54d04fb7e9525574a8852ff0062254830.png"
+          "url": "/public/images/f0e35b6766573a968928f2b375afe2f54d04fb7e9525574a8852ff0062254830.png",
+          "description": "Plantação de milho em campo aberto",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "verde"
+            ]
+          }
         }
       ],
       "tables": []
@@ -2183,7 +2648,22 @@
           "width": 170,
           "height": 48,
           "hash": "b5f0b3ffb4bed0d6c4bcef758f563bef2bbe21250407c82708e32c190cad59ef",
-          "url": "/public/images/b5f0b3ffb4bed0d6c4bcef758f563bef2bbe21250407c82708e32c190cad59ef.png"
+          "url": "/public/images/b5f0b3ffb4bed0d6c4bcef758f563bef2bbe21250407c82708e32c190cad59ef.png",
+          "description": "Documento de identitação ou logotipo do TJDFT",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [
+              "TJDFT"
+            ],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "azul",
+              "cinza"
+            ]
+          }
         }
       ],
       "tables": []
@@ -2217,7 +2697,24 @@
           "width": 500,
           "height": 500,
           "hash": "540cb1ad05284bdec2b5763f6807a64bd10fe73266b7ae1baa0309463b6d24dc",
-          "url": "/public/images/540cb1ad05284bdec2b5763f6807a64bd10fe73266b7ae1baa0309463b6d24dc.png"
+          "url": "/public/images/540cb1ad05284bdec2b5763f6807a64bd10fe73266b7ae1baa0309463b6d24dc.png",
+          "description": "Logotipo de escritório de advocacia e consultoria Victor Borges.",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [
+              "VB",
+              "VICTOR BORGES",
+              "ADVOCACIA E CONSULTORIA"
+            ],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "marrom",
+              "bege"
+            ]
+          }
         }
       ],
       "tables": []
@@ -2527,7 +3024,25 @@
           "width": 2481,
           "height": 3526,
           "hash": "4b73a4b195ac037a4922d1a0bd9a28c03ed8797420dcfb173af2b55fad05649e",
-          "url": "/public/images/4b73a4b195ac037a4922d1a0bd9a28c03ed8797420dcfb173af2b55fad05649e.png"
+          "url": "/public/images/4b73a4b195ac037a4922d1a0bd9a28c03ed8797420dcfb173af2b55fad05649e.png",
+          "description": "Documento de escritura pública de cessão de direitos hereditários em Brasília, DF, incluindo detalhes de partes e limites de propriedade.",
+          "metadata": {
+            "escala": null,
+            "regiao": "Brasília, DF",
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [
+              "ESCRITURA PÚBLICA DE CESSÃO DE DIREITOS HEREDITÁRIOS",
+              "Brasília - DF",
+              "OUTORGANTES: MILDÁRIO SENÍCIO DOS SANTOS",
+              "LEONOR MARIA DOS SANTOS",
+              "JOSÉ QUEIROZ DE MIRANDA"
+            ],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "preto"
+            ]
+          }
         }
       ],
       "tables": []
@@ -2541,7 +3056,32 @@
           "width": 2482,
           "height": 3535,
           "hash": "e5b98a6ea0eae805fa4ce1eccec5250a8d17de687f595da8b911e08e35791584",
-          "url": "/public/images/e5b98a6ea0eae805fa4ce1eccec5250a8d17de687f595da8b911e08e35791584.png"
+          "url": "/public/images/e5b98a6ea0eae805fa4ce1eccec5250a8d17de687f595da8b911e08e35791584.png",
+          "description": "Documento de análise de perímetro de propriedade rural com detalhes geográficos e administrativos.",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [
+              "23 AGO 1995",
+              "de tal",
+              "de tal",
+              "construtor",
+              "perimetro",
+              "área",
+              "perímetro",
+              "mzs",
+              "históricos",
+              "propriedade",
+              "CRAS",
+              "cruzeiros"
+            ],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "preto"
+            ]
+          }
         }
       ],
       "tables": []
@@ -2555,7 +3095,25 @@
           "width": 2480,
           "height": 3540,
           "hash": "4681ba01a97c82da1a1c2c097554b3e510bb804833cda7f09caf37aa94b86b11",
-          "url": "/public/images/4681ba01a97c82da1a1c2c097554b3e510bb804833cda7f09caf37aa94b86b11.png"
+          "url": "/public/images/4681ba01a97c82da1a1c2c097554b3e510bb804833cda7f09caf37aa94b86b11.png",
+          "description": "Documento oficial de autorização para operação imobiliária, assinado por representante legal.",
+          "metadata": {
+            "escala": null,
+            "regiao": null,
+            "tipo_mapa": null,
+            "itens_legenda": [],
+            "texto_visivel": [
+              "3º OFICIO DE NOTAS",
+              "DECLARAÇÃO SOBRE OPERAÇÕES IMOBILIÁRIAS",
+              "Assinado por Rubens Chamma",
+              "Assinado por Murilo de Mello Silva"
+            ],
+            "possui_legenda": false,
+            "cores_dominantes": [
+              "preto",
+              "branco"
+            ]
+          }
         }
       ],
       "tables": []
@@ -4061,9 +4619,9 @@
   "pdf_hash": "ec0a7cf708a9c19d4b3207497e1e87cecd0170656ded70c7e0590277ff959496",
   "pages_count": 73,
   "upload": {
-    "file_id": "92541755-2107-4bac-9c9b-efb57b611596",
+    "file_id": "2b4ede7e-963b-4375-981c-dc1024fe395f",
     "original_filename": "0702691-76.2025.8.07.0008 (TJDFT - PJe1).pdf",
-    "stored_path": "/mnt/e/maquinaMP/pdf_preproc/uploads/92541755-2107-4bac-9c9b-efb57b611596.pdf",
+    "stored_path": "/mnt/e/maquinaMP/pdf_preproc/uploads/2b4ede7e-963b-4375-981c-dc1024fe395f.pdf",
     "output_dir": "/mnt/e/maquinaMP/pdf_preproc/uploads/0702691-76-2025-8-07-0008-tjdft-pje1"
   }
 }

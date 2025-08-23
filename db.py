@@ -271,6 +271,24 @@ def get_image_descriptions_for_file(file_id: str):
             return [dict(zip(cols, row)) for row in cur.fetchall()]
 
 
+# Maintenance / cache management
+def delete_image_descriptions_for_file(file_id: str):
+    """Delete image_descriptions rows for all images linked to a given file_id.
+    Useful to force regeneration of captions for a specific file's images.
+    """
+    with get_conn() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                delete from image_descriptions d
+                using pdf_image_refs r
+                where r.image_hash = d.image_hash
+                  and r.file_id = %s
+                """,
+                (file_id,),
+            )
+            return cur.rowcount or 0
+
 # Listing and loading
 
 def list_files():
