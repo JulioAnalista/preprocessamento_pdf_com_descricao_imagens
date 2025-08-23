@@ -1,0 +1,1872 @@
+RELATÓRIO DE EXTRAÇÃO - PROCESSO JURÍDICO
+==================================================
+
+Data/Hora: 22/08/2025 17:56:31
+Processo: 07059645120258070012
+Total de extrações: 259
+
+
+AUTORIDADE
+------------------------------
+
+1. Thiago Peralva Barbirato França
+   • nome: Thiago Peralva Barbirato França
+   • cargo: Delegado de Polícia
+   • Posição no texto: 11689-11720
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+2. Julio Cesar Gonçalves Dias
+   • nome: Julio Cesar Gonçalves Dias
+   • cargo: Escrivão de Polícia
+   • matricula: 1716060X
+   • Posição no texto: 11814-11819
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+3. THIAGO PERALVA BARBIRATO FRANÇA
+   • nome: THIAGO PERALVA BARBIRATO FRANÇA
+   • funcao: Delegado de Polícia
+   • matricula: None
+   • Posição no texto: 34041-34072
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+4. JULIO CEZAR GONCALVES DIAS
+   • nome: JULIO CEZAR GONCALVES DIAS
+   • funcao: Escrivã(o) de Polícia
+   • matricula: None
+   • Posição no texto: 33042-33068
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+5. PEDRO PAULO LIMA DA SILVA
+   • nome: PEDRO PAULO LIMA DA SILVA
+   • funcao: Núcleo Permanente de Plantão Judicial
+   • matricula: None
+   • Posição no texto: 37284-37309
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+6. Ministério Público
+   • papel: Ministério Público
+   • manifestacao: pronunciamento sobre proteção de direitos de menores
+   • observacao: MP enfatizou deveres de proteção a criança, adolescente e jovem segundo a CF/1988
+   • Posição no texto: 47381-47399
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+7. Delegado Chefe
+   • nome: None
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: Delegado chefe
+   • matricula: 057
+   • observacoes: Dados de nome não fornecidos
+   • Posição no texto: 7596-7610
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+8. Ministério Público
+   • instituicao: Ministério Público do Distrito Federal e Territórios
+   • cargo: Promotoria em regime de plantão
+   • Posição no texto: 39327-39345
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+9. Romulo Lima Ramos
+   • nome: Romulo Lima Ramos
+   • funcao: Núcleo Permanente de Plantão Judicial - NUPLA
+   • matricula: None
+   • Posição no texto: 51553-51570
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+10. MARIO JORGE PANNO DE MATTOS
+   • cargo: Juiz de Direito
+   • Posição no texto: 52328-52355
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+AUTORIDADES
+------------------------------
+
+1. [{'cargo': 'Delegado Chefe', 'nome': None, 'matricula': '057'}, {'cargo': 'Escrivão', 'nome': 'Júlio Cezar Gonçalves Dias', 'matricula': '1.716.060-X'}, {'cargo': 'Agente', 'nome': 'Samuel Gonçalves dos Santos', 'matricula': '1.722.048-3'}]
+   • Status alinhamento: None
+
+2. [{'nome': 'THIAGO PERALVA BARBIRATO FRANÇA', 'funcao': 'Delegado de Polícia'}, {'nome': 'JULIO CEZAR GONCALVES DIAS', 'funcao': 'Escrivão de Polícia'}]
+   • Status alinhamento: None
+
+3. [{'nome': 'Mario Jorge Panno de Mattos', 'funcao': 'Juiz de Direito'}]
+   • Status alinhamento: None
+
+4. [{'papel': 'Conselho Tutelar', 'nome': 'Lívia', 'matricula': 'mat-255.716-9'}, {'papel': 'Equipe de plantão da Polícia Civil', 'nome': None, 'funcao': 'Equipe de plantão'}]
+   • Status alinhamento: None
+
+5. [{'papel': 'Delegado de Polícia', 'nome': 'Thiago Peralva Barbirato França'}, {'papel': 'Declarante', 'nome': 'Valéria R. do Nascimento'}, {'papel': 'Escrivão de Polícia', 'nome': 'Valéria Rodrigues do Nascimento'}, {'papel': 'Escrivão de Polícia', 'nome': 'Júlio Cezar Gonçalves Dias', 'matricula': '1716060X'}]
+   • Status alinhamento: None
+
+6. [{'nome': None, 'matricula': None, 'funcao': None}]
+   • Status alinhamento: None
+
+7. [{'papel': 'Escrivã', 'nome': 'JULIO CEZAR GONCALVES DIAS', 'matricula': '1716060X'}]
+   • Status alinhamento: None
+
+AUTORITARIOS
+------------------------------
+
+1. {'delegados': [], 'escrivães': [], 'promotores': [], 'juizes': [], 'observacao': 'Não há nomes de autoridades mencionados no trecho fornecido'}
+   • Status alinhamento: None
+
+AVALIACAO
+------------------------------
+
+1. {'pergunta': 'Durante o atendimento a vítima demonstra percepção de risco sobre sua situação? A percepção é de existência ou inexistência do risco? (por exemplo, ela diz que o agressor pode matá-la, ou ela justifica o comportamento do agressor ou naturaliza o comportamento violento?). Anote a percepção e explique:', 'resposta_profissional': '', 'observacoes': '', 'interpretacao': ''}
+   • Posição no texto: 25538-26264
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+AVALIACAO_ESTRUTURADA
+------------------------------
+
+1. {'percepcao_risco': {'percepcao': '', 'descricao': '', 'elementos_interferentes': []}, 'informacoes_relevantes_risco_novas_agressoes': {'investigacao_intencao_separacao': '', 'planejamento_separacao': '', 'dinamica_apos_separacao': '', 'observacoes_adicionais': ''}}
+   • Status alinhamento: None
+
+CERTIDAO
+------------------------------
+
+1. Peça 9 - Certidão
+   • codigo: 246508044
+   • tipo: Certidão
+   • data_inclusao: 2025-08-16T12:38:55+00:00
+   • numero_processo: 0705964-51.2025.8.07.0012
+   • classe_judicial: MEDIDAS PROTETIVAS DE URGÊNCIA (LEI MARIA DA PENHA) - CRIMINAL (1268)
+   • ofendida: VALERIA RODRIGUES DO NASCIMENTO
+   • ofensor: IRIS RODRIGUES DO NASCIMENTO
+   • observacoes: Intimação por plantão; tentativas de contato telefônico sem sucesso; recibos CEMAN: 2025484889, 2025484890
+   • Posição no texto: 50713-50729
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+CIRCUNSTANCIAS
+------------------------------
+
+1. {'uso_abusivo_de_alcool': True, 'uso_abusivo_de_drogas': True}
+   • Status alinhamento: None
+
+CRIME
+------------------------------
+
+1. DIFAMACAO
+   • lei_aplicavel: Lei Maria da Penha (Lei 11.340/06)
+   • Posição no texto: 711-720
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+2. INJURIA
+   • lei_aplicavel: Lei Maria da Penha (Lei 11.340/06)
+   • Posição no texto: 722-729
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+3. AMEACA
+   • lei_aplicavel: Lei Maria da Penha (Lei 11.340/06)
+   • observacao: Motivação: POR CONDIÇÃO DO SEXO FEMININO
+   • Posição no texto: 731-737
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+4. ameaça
+   • tipo: ameaça
+   • lei_aplicavel: Lei Maria da Penha
+   • circunstancias: no âmbito da Lei Maria da Penha
+   • local: 30ª Delegacia de Polícia/DF
+   • Status alinhamento: None
+
+5. difamação
+   • tipo: difamação
+   • lei_aplicavel: Lei Maria da Penha
+   • circunstancias: no âmbito da Lei Maria da Penha
+   • local: 30ª Delegacia de Polícia/DF
+   • Status alinhamento: None
+
+6. injúria
+   • tipo: injúria
+   • lei_aplicavel: Lei Maria da Penha
+   • circunstancias: no âmbito da Lei Maria da Penha
+   • local: 30ª Delegacia de Polícia/DF
+   • Status alinhamento: None
+
+7. ameaça
+   • tipo: ameaça
+   • data: 11/08/2025
+   • observacao: ameaça de agressão física com envio de áudios
+   • Posição no texto: 5979-5985
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+8. injúria
+   • tipo: injúria
+   • data: 11/08/2025
+   • observacao: "PUTA, PIRANHA, DESGRAÇADA, VAGABUNDA" entre outros
+   • Status alinhamento: None
+
+9. difamação
+   • tipo: difamação
+   • data: 11/08/2025
+   • observacao: divulgação de que a declarante possui doenças sexualmente transmissíveis
+   • Status alinhamento: None
+
+10. cárcere privado
+   • tipo: cárcere privado
+   • data: 11/08/2025
+   • observacao: mantendo ANA PAULA em cárcere privado
+   • Posição no texto: 6370-6385
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+11. exploração sexual de menor
+   • tipo: exploração sexual
+   • data: 11/08/2025
+   • observacao: arruma homens para ter relação com ANA PAULA; recebe dinheiro
+   • Status alinhamento: None
+
+12. ameaça
+   • tipo: ameaça
+   • data: 11/08/2025
+   • local: TRIGÉSIMA DELEGACIA DE POLÍCIA
+   • envolvidos: ['ÍRIS RODRIGUES DO NASCIMENTO', 'VALÉRIA RODRIGUES DO NASCIMENTO']
+   • Posição no texto: 10407-10413
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+13. constrangimento ilegal
+   • tipo: constrangimento ilegal
+   • circunstancias: manter ANA PAULA RODRIGUES LIMA em cárcere privado
+   • Status alinhamento: None
+
+14. exploração sexual de menor
+   • tipo: exploração sexual de menor
+   • lei_aplicavel: Lei 8.069/1990 (ECA)
+   • Status alinhamento: None
+
+15. difamação
+   • tipo: difamação
+   • lei_aplicavel: Código Penal art. 139
+   • circunstancias: divulgando que VALÉRIA possui doenças sexualmente transmissíveis
+   • Status alinhamento: None
+
+16. injúria
+   • tipo: injúria
+   • descricao: injúrias proferidas pelo agressor conforme o relato
+   • Status alinhamento: None
+
+17. ameaça
+   • tipo: ameaça
+   • observacao: Frase associada à ameaça mencionada na pergunta 4
+   • Posição no texto: 14975-14987
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+18. perseguição
+   • tipo: perseguição
+   • observacao: Perturbou, perseguiu
+   • Status alinhamento: None
+
+19. violência física
+   • tipo: violência física
+   • observacao: Tapa e empurrão
+   • Status alinhamento: None
+
+20. ameaça
+   • tipo: ameaça
+   • data: 15/03/2023
+   • Posição no texto: 15689-15748
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+21. None
+   • tipo: None
+   • lei_aplicavel: None
+   • local_fatos: None
+   • data_fatos: None
+   • Status alinhamento: None
+
+22. exploração sexual de adolescentes
+   • tipo: exploração sexual de adolescentes
+   • lei_aplicavel: ['Lei Maria da Penha (Lei 11.340/2006)', 'Lei Henry Borel (Lei 14.344/2022)', 'ECA (Lei 8.069/1990)']
+   • circunstancias_e_local_dos_fatos: envolvendo IRIS RODRIGUES DO NASCIMENTO e as menores ANA LAURA RODRIGUES (12) e ANA PAULA RODRIGUES LIMA (14)
+   • Posição no texto: 36528-36561
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+23. ameaça
+   • tipo: ameaça
+   • data: None
+   • Posição no texto: 38234-38240
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+24. injúria
+   • tipo: injúria
+   • data: None
+   • Status alinhamento: None
+
+25. ameaça
+   • tipo: ameaça
+   • data: 11/08/2025
+   • descricao: ameaça de violência física dirigida à Íris
+   • Posição no texto: 38268-38360
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+26. injúria
+   • tipo: injúria
+   • data: None
+   • descricao: insultos dirigidos à declarante
+   • Status alinhamento: None
+
+27. difamação
+   • tipo: difamação
+   • data: None
+   • descricao: difamação envolvendo alegação de doenças sexualmente transmissíveis
+   • Status alinhamento: None
+
+28. violência doméstica
+   • tipo: violência doméstica
+   • lei_aplicavel: Lei 11.340/2006
+   • artigo: art. 5°
+   • circunstancias: indícios contundentes de violência doméstica
+   • Posição no texto: 39643-39662
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+29. ameaça
+   • tipo: ameaça
+   • descricao: ameaça de violência contra a vítima
+   • data: 11/08/2025
+   • local: registro de ocorrência na delegacia; Candagolândia-DF
+   • lei_aplicavel: Código Penal
+   • Posição no texto: 46290-46296
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+30. injúria
+   • tipo: injúria
+   • descricao: ofensas verbais
+   • exemplos: ['PUTA', 'PIRANHA', 'DESGRAÇADA', 'VAGABUNDA']
+   • data: None
+   • local: None
+   • lei_aplicavel: Código Penal
+   • Status alinhamento: None
+
+31. difamação
+   • tipo: difamação
+   • descricao: difamação ao alegar que a declarante possui doenças sexualmente transmissíveis
+   • data: None
+   • local: None
+   • lei_aplicavel: Código Penal
+   • Status alinhamento: None
+
+32. cárcere privado
+   • tipo: cárcere privado
+   • descricao: retenção de menor em cárcere privado
+   • data: None
+   • local: None
+   • lei_aplicavel: Código Penal
+   • Posição no texto: 46681-46696
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+33. exploração sexual de menor (indícios)
+   • tipo: exploração sexual de menor
+   • descricao: indícios de exploração sexual de menor (ANA LAURA, 12; ANA PAULA, 14) e possível favorecimento à prostituição
+   • local: Candagolândia-DF
+   • lei_aplicavel: Código Penal; Estatuto da Criança e do Adolescente
+   • Status alinhamento: None
+
+34. violência doméstica
+   • tipos: []
+   • lei_aplicavel: Lei Maria da Penha
+   • circunstancias_e_local: Não especificadas no trecho fornecido
+   • Posição no texto: 51835-51854
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+35. difamação
+   • tipo: difamação
+   • lei_aplicavel: Lei Maria da Penha
+   • Status alinhamento: None
+
+36. injúria
+   • tipo: injúria
+   • lei_aplicavel: Lei Maria da Penha
+   • Status alinhamento: None
+
+37. ameaça
+   • tipo: ameaça
+   • lei_aplicavel: Lei Maria da Penha
+   • Posição no texto: 1494-1500
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+38. informação não fornecida
+   • tipo: não informado
+   • gravidade: Ignorada
+   • local: Não informado
+   • observacoes: Não especificado no documento
+   • Status alinhamento: None
+
+39. ameaça
+   • tipo_crime: ameaça
+   • lei_aplicavel: Lei Maria da Penha
+   • autor: Íris Rodrigues do Nascimento
+   • alvo: Valéria Rodrigues do Nascimento
+   • local: None
+   • Status alinhamento: None
+
+40. difamação
+   • tipo_crime: difamação
+   • lei_aplicavel: Código Penal
+   • autor: Íris Rodrigues do Nascimento
+   • alvo: Valéria Rodrigues do Nascimento
+   • Status alinhamento: None
+
+41. injúria
+   • tipo_crime: injúria
+   • lei_aplicavel: Código Penal
+   • autor: Íris Rodrigues do Nascimento
+   • alvo: Valéria Rodrigues do Nascimento
+   • Status alinhamento: None
+
+42. cárcere privado
+   • tipo_crime: cárcere privado
+   • autor: Íris Rodrigues do Nascimento
+   • alvo: Ana Paula Rodrigues Lima
+   • local: não informado
+   • Posição no texto: 4117-4132
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+43. injúria
+   • tipo: injúria
+   • lei_aplicavel: ['Código Penal', 'Lei Maria da Penha']
+   • circunstancias: violência doméstica e familiar contra a mulher
+   • Status alinhamento: None
+
+44. violência física
+   • acoes: ['tapa', 'empurrão']
+   • observacoes: agressões físicas relatadas (tapa e empurrão)
+   • Status alinhamento: None
+
+45. perseguição
+   • descricao: perturbou, perseguiu
+   • observacoes: comportamentos de ciúme e controle descritos
+   • Status alinhamento: None
+
+46. ilícito penal descrito na ocorrência policial 7143/2025-30ª DP
+   • tipo: ilícito penal
+   • lei_aplicavel: Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha)
+   • ocorrencia_policial: 7143/2025-30ª DP
+   • local: None
+   • data: None
+   • Status alinhamento: None
+
+47. cárcere privado
+   • tipo: cárcere privado
+   • descricao: retenção de ANA PAULA
+   • Status alinhamento: None
+
+48. difamação
+   • tipo: difamação
+   • descricao: difamar a declarante alegando que possui doenças sexualmente transmissíveis
+   • Status alinhamento: None
+
+49. injúria
+   • tipo: injúria
+   • descricao: chamamentos de termos depreciativos: PUTA, PIRANHA, DESGRAÇADA, VAGABUNDA
+   • Status alinhamento: None
+
+CRIMES_E_INFRACOES
+------------------------------
+
+1. {'tipos_crime': [], 'lei_aplicavel': [], 'circunstancias_e_local_dos_fatos': None}
+   • Status alinhamento: None
+
+DADOS_FAMILIARES
+------------------------------
+
+1. {'pai': None, 'mae': None, 'filhos': []}
+   • Status alinhamento: None
+
+2. {'pai': None, 'mae': None, 'filhos': []}
+   • Status alinhamento: None
+
+DADOS_PROCESSUAIS
+------------------------------
+
+1. {'ocorrencia_numero': '7.143/2025-0', 'protocolo': '2214303/2025', 'delegacia': 'Trigésima Delegacia de Polícia', 'detalhes': 'Comunicação de ocorrência policial'}
+   • Status alinhamento: None
+
+2. {'numero_processo': None, 'ocorrencia': None, 'protocolo': None, 'delegacia': None, 'vara_juizado_responsavel': None, 'datas_importantes': {'fatos': None, 'comunicacao': None, 'decisoes': None}, 'tipo_procedimento': None}
+   • Status alinhamento: None
+
+DESPACHO
+------------------------------
+
+1. Peça 10 - Despacho
+   • codigo: 246572470
+   • tipo: Despacho
+   • data_inclusao: 2025-08-18T16:29:26+00:00
+   • jurisdicao: TJDFT
+   • Posição no texto: 51621-51628
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+2. {'codigo': '246485533', 'tipo': 'Despacho', 'data_inclusao': '2025-08-16T02:47:21+00:00'}
+   • Status alinhamento: None
+
+3. Encaminhar os autos ao Ministério Público
+   • texto: Considerando o relato de possível exploração sexual de adolescentes, encaminhem-se os autos ao Ministério Público.
+   • local: Brasília/DF
+   • data: 2025-08-15
+   • Posição no texto: 36574-36607
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+4. {'codigo': '246572470', 'tipo': 'Despacho', 'data_inclusao': '2025-08-18T16:29:26+00:00'}
+   • Status alinhamento: None
+
+5. Remetam-se os autos ao MP para manifestação prévia sobre a competência, considerando os fatos narrados pela vítima em delegacia.
+   • tipo: Despacho
+   • texto: None
+   • Posição no texto: 52121-52249
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+6. Redistribuição do mandado para a realização de novas diligências
+   • data: 18/08/2025
+   • autoridade: ELIZABETE APARECIDA SILVA GONÇALVES
+   • matricula: 307901
+   • local: BAIRRO RESIDENCIAL OESTE QUADRA 302 CONJUNTO 02 LOTE 15 - SÃO SEBASTIÃO-DF
+   • Posição no texto: 55138-55202
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+DILIGENCIA
+------------------------------
+
+1. {'codigo': '246632738', 'tipo': 'Diligência', 'data_inclusao': '2025-08-18T19:38:50+00:00', 'dados': {'mandado_numero': '2025.484889', 'processo_numero': '0705964-51.2025.8.07.0012', 'id_doc_pje': '246508043', 'data_distribuicao': '18/08/2025', 'destinatario': 'VALERIA RODRIGUES DO NASCIMENTO', 'observacao': 'Intimação com ciência de conteúdo; afastamento do endereço conforme decisão de processo 07058916-40.2025.8.07.0012'}}
+   • Status alinhamento: None
+
+2. Diligência
+   • codigo: 246632738
+   • tipo: Diligência
+   • data_inclusao: 2025-08-18T19:38:50+00:00
+   • mandado_numero: 2025.484889
+   • processo: 0705964-51.2025.8.07.0012
+   • destinatario: VALERIA RODRIGUES DO NASCIMENTO
+   • data_distribuicao: 18/08/2025
+   • endereco: QUADRA 302 CONJUNTO 02 LOTE 15 RESIDENCIAL OESTE SÃO SEBASTIÃO-DF
+   • observacoes: Intimação de VALERIA RODRIGUES DO NASCIMENTO; contrafé recebida por meio eletrônico; destinatária informou que, por força de decisão proferida no processo 07058916-40.2025.8.07.0012, foi afastada do endereço.
+   • Posição no texto: 52385-52395
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+DOCUMENTO
+------------------------------
+
+1. Termo de Requerimento de Medidas Protetivas
+   • descricao: Termo de Requerimento de Medidas Protetivas
+   • data: 15 de agosto de 2025
+   • local: Distrito Federal
+   • protocolo: PROTOCOLO Nº 2214303/2025 - 30ª DP
+   • ocorrencia: Ocorrência 7143/2025 - 30ª DP
+   • Posição no texto: 33676-33719
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+2. CERTIDÃO
+   • codigo: 246497792
+   • tipo: Certidão
+   • data_inclusao: 2025-08-16T02:58:44+00:00
+   • observacoes: parecer. Conforme determinado, encaminhei os autos ao Ministério Público
+   • local: BRASÍLIA, DF
+   • Posição no texto: 36669-36677
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+3. Manifestação MPDFT
+   • codigo: 246512209
+   • tipo: Manifestação do MPDFT
+   • data_inclusao: 2025-08-16T10:04:48+00:00
+   • resumo: Trata-se de requerimento de MEDIDAS PROTETIVAS DE URGÊNCIA com base na Lei 11.340/2006 e, também, na Lei 14.344/2022 (Lei Henry Borel) em desfavor de IRIS RODRIGUES DO NASCIMENTO. Segundo o MP, IRIS estaria explorando sexualmente suas sobrinhas ANA LAURA RODRIGUES (12 anos) e ANA PAULA RODRIGUES LIMA (14 anos). Também há injúria e ameaça contra VALÉRIA RODRIGUES DO NASCIMENTO; menciona ocorrência de 11 de agosto de 2025.
+   • Posição no texto: 37360-37372
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+DOCUMENTO_AVALIACAO_RISCO
+------------------------------
+
+1. {'nome': 'Formulário Nacional de Avaliação de Risco', 'partes': ['Parte I (objetivas)', 'Parte II (subjetivas)'], 'aplicacao': 'Aplicado preferencialmente pela Polícia Civil no momento do registro da ocorrência policial; na impossibilidade, pela equipe do Ministério Público ou do Poder Judiciário, por ocasião do primeiro atendimento à mulher vítima de violência doméstica e familiar', 'observacoes': 'É facultada a utilização do Formulário Nacional de Avaliação de Risco por outras instituições públicas ou privadas atuantes na prevenção e no enfrentamento da violência doméstica e familiar contra a mulher. O formulário será anexado aos inquéritos e procedimentos para subsidiar a apreciação de pedidos de medida protetiva de urgência e/ou cautelar, bem como a atuação do Ministério Público e dos demais integrantes da rede de proteção.'}
+   • Posição no texto: 19504-20692
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+ENCAMINHAMENTO
+------------------------------
+
+1. Encaminhamentos previstos
+   • destinos: ['Conselho Tutelar', 'Ministério Público']
+   • observacoes: Encaminhamentos para proteção e adoção de medidas cabíveis
+   • Status alinhamento: None
+
+ENCAMINHAMENTOS
+------------------------------
+
+1. {'Conselho Tutelar': None, 'Ministério Público': None}
+   • Status alinhamento: None
+
+ENCAMINHAMENTOS_NECESSARIOS
+------------------------------
+
+1. [{'destinatario': 'Grupo Reflexivo para Homens e/ou PROVID/PMDF', 'condicao': 'bloco I e n. 14 ou 21'}, {'destinatario': 'Questão 7-B', 'acao': 'avaliar requerimento de medidas cautelares'}, {'destinatario': 'Questões 9', 'acao': 'avaliar CAPS-AD'}, {'destinatario': 'Questão 13', 'acao': 'avaliar medida protetiva ref.'}]
+   • Status alinhamento: None
+
+ENCAMINHAMENTOS_SUGERIDOS_VITIMA
+------------------------------
+
+1. {'pergunta': '7. Quais são os encaminhamentos sugeridos para a vítima?', 'resposta': None}
+   • Status alinhamento: None
+
+LEI_APLICAVEL
+------------------------------
+
+1. Lei Maria da Penha
+   • Status alinhamento: None
+
+2. Lei Maria da Penha
+   • Status alinhamento: None
+
+3. Lei Maria da Penha
+   • Status alinhamento: None
+
+MANDADO
+------------------------------
+
+1. {'numero_mandado': '2025.484889', 'numero_processo': '0705964-51.2025.8.07.0012', 'data_distribuicao': '18/08/2025', 'destinatario': 'VALERIA RODRIGUES DO NASCIMENTO'}
+   • Status alinhamento: None
+
+2. 2025.484890
+   • numero_mandado: 2025.484890
+   • processo: 0705964-51.2025.8.07.0012
+   • data_distribuicao: 18/08/2025
+   • destinatario: IRIS RODRIGUES DO NASCIMENTO
+   • Posição no texto: 54414-54425
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+MEDIDA
+------------------------------
+
+1. acolhimento_na_casa_de_abrigo
+   • solicitada: False
+   • deferida: False
+   • Status alinhamento: None
+
+2. representacao_criminal_dos_fatos
+   • solicitada: True
+   • Status alinhamento: None
+
+3. intimacao_da_vitima_por_meio_tecnologico
+   • solicitada: True
+   • meios_utilizados: ['e-mail', 'WhatsApp', 'telefone']
+   • Status alinhamento: None
+
+MEDIDA_PROTETIVA
+------------------------------
+
+1. 644/2025
+   • numero: 644/2025
+   • unidade: 30ª DP
+   • tipo: Procedimento Investigatório
+   • data_inclusao: 2025-08-16T01:10:31+00:00
+   • codigo: 246496937
+   • Posição no texto: 33341-33349
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+MEDIDAS
+------------------------------
+
+1. Proibição de aproximação e de contato
+   • descrição: Medidas protetivas para proteção das infantes
+   • artigo: art. 20, incisos III e IV, da Lei 14.344/2022
+   • destinatários: ['ANA LAURA', 'ANA PAULA']
+   • observação: Medida solicitada/deferida para proteção das menores
+   • Posição no texto: 42058-42095
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+MEDIDAS_DE_INTERVENCAO
+------------------------------
+
+1. [{'descricao': 'busca ativa da vítima para encaminhamento personalizado aos serviços da rede e informação sobre procedimentos em caso de eventual descumprimento da medida protetiva de urgência'}, {'descricao': 'avaliação com a vítima da necessidade de seu encaminhamento à Casa Abrigo'}, {'descricao': 'encaminhamento do caso ao PROVID/PMDF, para construção do plano de segurança e acompanhamento periódico'}, {'descricao': 'encaminhamento do caso ao Programa de Celular de Socorro da SSP/DF (Viva-Flor)'}, {'descricao': 'encaminhamento do caso ao serviço psicossocial de atenção às mulheres (CMB, CEAM, NAVAFD, CREAS, PAV, outros), com cópia deste formulário e ocorrência policial, para busca ativa telefônica e/ou residencial e/ou para estudo psicossocial'}, {'descricao': 'atribuição de prioridade nos diversos serviços, inclusive intimações judiciais'}, {'descricao': 'avaliação da necessidade de encaminhamento do suposto agressor a programa de reflexão psicossocial (NAFAVD, NJM/TJDFT, Programa RenovaAÇÃO/DPDF, Faculdades)'}, {'descricao': 'encaminhamento do caso à comissão circunscricional de enfrentamento à violência doméstica e familiar contra a mulher, para estudo do caso'}, {'descricao': 'avaliar decretação da prisão preventiva e/ou produção antecipada de provas'}, {'descricao': 'avaliar eventual aplicação de monitoramento eletrônico ao agressor (tornozeleira)'}, {'descricao': 'avaliar eventual desconsideração de retratação da vítima em caso de ameaças'}, {'descricao': 'monitoramento telefônico periódico quanto ao cumprimento das medidas protetivas de urgência'}, {'descricao': 'Desenvolver estratégias individualizadas para gerenciar cada um dos fatores de risco identificados'}]
+   • Posição no texto: 30600-32287
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+MEDIDAS_DECISOES
+------------------------------
+
+1. [{'tipo': 'Intimação', 'destinatario': 'ÍRIS RODRIGUES DO NASCIMENTO', 'detalhes': 'Conselheira Lívia deixou intimação para Iris; acompanhará o caso, informando novos fatos à Unidade'}, {'tipo': 'Encaminhamento', 'destinatario': 'Conselho Tutelar / Ministério Público', 'detalhes': 'Proteção das menores envolvidas (ANA LAURA e ANA PAULA)'}]
+   • Status alinhamento: None
+
+MEDIDAS_E_DECISOES
+------------------------------
+
+1. {'descricao': 'Encaminhamento para SAM para apuração', 'destino': 'SAM', 'tipo': 'Encaminhamento'}
+   • Status alinhamento: None
+
+2. {'descricao': 'Cópia ao Conselho Tutelar', 'destino': 'Conselho Tutelar', 'tipo': 'Encaminhamento'}
+   • Status alinhamento: None
+
+3. {'descricao': 'Vítima será intimada a comparecer à Delegacia para dar entrada com o TERMO DE REQUERIMENTO contra o autor e apresentar os meios de prova', 'lei': 'Art. 5º Inciso II § 5º do CPP'}
+   • Posição no texto: 7863-8090
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+4. {'descricao': 'Vítima será intimada a comparecer à Delegacia para dar entrada com o TERMO DE REPRESENTAÇÃO contra o autor e apresentar os meios de prova', 'lei': 'Art. 5º Inciso II § 5º do CPP'}
+   • Status alinhamento: None
+
+5. {'descricao': 'Vítima deve constituir advogado ou procurar a Defensoria Pública, no prazo de até 06 meses corridos a partir da data em que tomar conhecimento da autoria, para ingressar em juízo com queixa-crime contra o autor do fato', 'lei': 'CPP Art. 5º, II § 5º', 'prazo': '6 meses'}
+   • Status alinhamento: None
+
+6. {'ocorrencia_registrada_policia': False, 'medidas_protetivas_solicitadas': None, 'medidas_protetivas_deferidas': None}
+   • Status alinhamento: None
+
+7. [{'tipo': 'Despacho', 'descricao': 'Remetam-se os autos ao MP para manifestação prévia sobre a competência, considerando os fatos narrados pela vítima em delegacia.'}, {'tipo': 'Intimação', 'descricao': 'Intimação de Valeria Rodrigues do Nascimento, recebendo contrafé em formato PDF por aplicativo de mensagem, declarando ciência de seu conteúdo.'}]
+   • Status alinhamento: None
+
+8. {'medidas_protetivas_solicitadas': True, 'medidas_protetivas_deferidas': None, 'encaminhamentos': ['Judiciário'], 'avaliacao_risco': True, 'observacoes': ['Formulário de avaliação de risco preenchido pela vítima', 'Protocolo: 2214303/2025', 'INFOSEG: agressora sem registro de arma de fogo', 'A vítima foi cientificada da impossibilidade de arquivamento neste âmbito policial', 'Arquivos de mídia inseridos'], 'representacao_criminal': True}
+   • Status alinhamento: None
+
+9. {'despachos': [{'descricao': 'Encaminhar-se a SAM para apuração', 'autor': 'ÉRICO VINICIUS MENDES', 'referencia': 'DESPACHO 057.431-7'}, {'descricao': 'Cópia ao Conselho Tutelar', 'autor': 'ÉRICO VINICIUS MENDES', 'referencia': 'DESPACHO 057.431-7'}], 'intimacoes': [{'descricao': 'Vítima intimada a comparecer à Delegacia para dar entrada com o Termo de Requerimento contra o autor e apresentar meios de prova', 'base_legal': 'Art. 5° Inciso II § 5° do CPP', 'prazo': 'até 06 meses corridos a partir da data que tomar conhecimento da autoria'}, {'descricao': 'Vítima intimada a comparecer à Delegacia para dar entrada com o Termo de Representação contra o autor', 'base_legal': None, 'prazo': None}], 'homologacao': {'status': 'HOMOLOGADA', 'data_homologacao': '2025-08-15', 'hora_homologacao': '21:39'}}
+   • Status alinhamento: None
+
+10. {'despachos': 'Encerramento do termo policial', 'decisoes': 'Termo encerrado e assinado por todos', 'encaminhamentos': None}
+   • Status alinhamento: None
+
+11. {'medidas_protetivas_solicitadas': None, 'medidas_protetivas_deferidas': None, 'despachos_e_decisoes': [], 'encaminhamentos': []}
+   • Status alinhamento: None
+
+MEDIDAS_PROTETIVAS
+------------------------------
+
+1. [{'item': 'afastamento do lar, domicílio ou local de convivência com a ofendida', 'lei': 'Lei n° 11.340/2006, art. 22 I'}, {'item': 'proibição da aproximação da ofendida, de seus familiares e das testemunhas, fixando o limite mínimo de distância entre estes e o agressor', 'lei': 'Lei n° 11.340/2006, art. 22 III.a'}, {'item': 'proibição de contato com a ofendida, seus familiares e testemunhas por qualquer meio de comunicação', 'lei': 'Lei n° 11.340/2006, art. 22 III.b'}]
+   • Status alinhamento: None
+
+MENORES_ENVOLVIDOS
+------------------------------
+
+1. [{'nome': 'ANA PAULA RODRIGUES LIMA', 'idade': 14, 'situacao_risco': 'Não informado', 'medidas_protecao_especificas': 'Não informado'}]
+   • Status alinhamento: None
+
+2. None
+   • Status alinhamento: None
+
+3. [{'nomes': [], 'idades': [], 'situacao_risco': None, 'medidas_protecao_especificas': []}]
+   • Status alinhamento: None
+
+4. [{'nome': 'ANA PAULA RODRIGUES LIMA', 'idade': 14, 'situacao_risco': None}, {'nome': 'ANA LAURA RODRIGUES', 'idade': 12, 'situacao_risco': None}, {'nome': 'ADRIAN MATHEUS RODRIGUES CURSINO DE LEMOS COSTA', 'idade': 7, 'situacao_risco': None}, {'nome': 'ALANA VITORIA RODRIGUES CURSINO DE LEMOS COSTA', 'idade': 4, 'situacao_risco': None}]
+   • Status alinhamento: None
+
+5. [{'nome': 'ANA LAURA RODRIGUES', 'idade': 12, 'situacao_risco': 'em risco de violência/exploração'}, {'nome': 'ANA PAULA RODRIGUES LIMA', 'idade': 14, 'situacao_risco': 'em risco de exploração sexual'}]
+   • Status alinhamento: None
+
+NORMA
+------------------------------
+
+1. Lei Henry Borel
+   • numero: Lei nº 14.344/2022
+   • descricao: Aplica-se à violência doméstica e familiar contra crianças e adolescentes; apresenta medidas protetivas semelhantes às previstas na Lei nº 11.340/2006 (Lei Maria da Penha), mas admite a adoção de outras medidas cautelares previstas na legislação vigente conforme as circunstâncias (art. 21, § 2º).
+   • artigo_relevante: art. 21, § 2º
+   • Posição no texto: 44552-44567
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+2. Constituição Federal de 1988
+   • artigo: Art. 227
+   • texto: É dever da família, da sociedade e do Estado assegurar à criança, ao adolescente e ao jovem, com absoluta prioridade, o direito à vida, à saúde, à alimentação, à educação, ao lazer, à profissionalização, à cultura, à dignidade, ao respeito, à liberdade e à convivência familiar e comunitária, além de colocá-los a salvo de toda forma de negligência, discriminação, exploração, violência, crueldade e opressão.
+   • Posição no texto: 45022-45050
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+3. Lei Maria da Penha
+   • numero: Lei nº 11.340/2006
+   • observacao: Mencionada como referência para medidas protetivas, associada à proteção de vítimas de violência doméstica.
+   • Status alinhamento: None
+
+NORMA_APLICAVEL
+------------------------------
+
+1. {'nome': 'Resolução Conjunta CNJ e CNMP n. 05/2020', 'artigo': '3º a 5°'}
+   • Status alinhamento: None
+
+OBSERVACAO
+------------------------------
+
+1. As estratégias devem ser implementadas conforme as respostas positivas e a avaliação individualizada de cada fator de risco identificado.
+   • Status alinhamento: None
+
+OBSERVACOES
+------------------------------
+
+1. Vítima de ameaças, difamação e injúria no âmbito da Lei Maria da Penha.
+   • Posição no texto: 3834-3843
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+2. Medidas solicitadas e deferidas
+   • Status alinhamento: None
+
+3. Declarante relacionada às filhas descritas
+   • Posição no texto: 38244-38254
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+4. MP avalia indícios de violência conforme a Lei 11.340/2006
+   • Status alinhamento: None
+
+OBSERVACOES_ADICIONAIS
+------------------------------
+
+1. None
+   • Status alinhamento: None
+
+OCORRENCIA
+------------------------------
+
+1. 7143/2025-30ª DP
+   • data_comunicacao: 15/08/2025 18:03
+   • protocolo: 2214303/2025
+   • observacao: Ocorrência comunicada pela Polícia Civil do Distrito Federal
+   • natureza: DIFAMACAO, INJURIA, AMEAÇA
+   • local_fato: Bairro Residencial Oeste Q 302 Cj 2 Lt 15, RESIDENCIAL OESTE Q 302 CJ 2 LT 15, SÃO SEBASTIÃO/DF
+   • Posição no texto: 84-100
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+2. {'numero_ocorrencia': '7.143/2025-0', 'protocolo': '2214303/2025', 'local_fato': 'Quadra 02 - Conjunto 02 - Lote 01- Bairro São Bartolomeu - SÃO SEBASTIÃO/DF - CEP:71.697-043', 'delegacia': None, 'tipo_procedimento': None, 'data_ocorrencia': None}
+   • Status alinhamento: None
+
+3. Ocorrência Policial nº 7143/2025-30ª DP
+   • numero: 7143/2025
+   • dp: 30ª DP
+   • Posição no texto: 9274-9313
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+OCORRENCIA_POLICIAL
+------------------------------
+
+1. {'numero': '7143/2025-30ª DP', 'protocolo': '2214303/2025', 'delegacia': '30ª DP'}
+   • Status alinhamento: None
+
+PESSOA
+------------------------------
+
+1. VALÉRIA RODRIGUES DO NASCIMENTO
+   • nome: VALÉRIA RODRIGUES DO NASCIMENTO
+   • papel: COMUNICANTE, VÍTIMA
+   • pai: JOAQUIM PAZ DO NASCIMENTO
+   • mae: MARIA NILZA RODRIGUES FERREIRA
+   • nacionalidade: BRASILEIRA
+   • naturalidade: BRASÍLIA / DF
+   • data_nascimento: 03/06/1994
+   • idade: 31
+   • sexo: Feminino
+   • identidade: 3116484
+   • orgao_expedidor_uf: SSP / DF
+   • grau_instrucao: MÉDIO (2ºG)
+   • estado_civil: SOLTEIRO(A)
+   • cargo_funcao: DO LAR
+   • endereco_residencial: RESIDENCIAL OESTE, Q. 302, CONJUNTO 2, LOTE 15 - SÃO SEBASTIÃO
+   • cidade: SÃO SEBASTIÃO
+   • uf: DF
+   • Posição no texto: 1527-1558
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+2. ÍRIS RODRIGUES DO NASCIMENTO
+   • nome: ÍRIS RODRIGUES DO NASCIMENTO
+   • cpf: 055.140.711-54
+   • rg: 3269862
+   • rg_orgao_expedidor: SSP / DF
+   • data_nascimento: 10/04/1996
+   • endereco: BAIRRO RESIDENCIAL OESTE Q 302 CJ 2 LT 15 - SÃO SEBASTIÃO
+   • papel: autora
+   • nacionalidade: BRASILEIRA
+   • naturalidade: BRASÍLIA / DF
+   • telefone: (61) 99360-6141
+   • sexo: Feminino
+   • grau_instrucao: FUNDAMENTAL INCOMPLETO
+   • estado_civil: SOLTEIRO(A)
+   • profissao: DESEMPREGADA
+   • dados_familiares: {'pai': 'JOAQUIM PAZ DO NASCIMENTO', 'mae': 'MARIA NILZA RODRIGUES FERREIRA'}
+   • caracteristicas_fisicas: {'raca_cor': 'NÃO INFORMADO'}
+   • Posição no texto: 2146-2174
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+3. ANA PAULA RODRIGUES LIMA
+   • nome: ANA PAULA RODRIGUES LIMA
+   • cpf: 087.438.371-40
+   • rg: 08743837140
+   • rg_orgao_expedidor: SSP / DF
+   • data_nascimento: 21/01/2011
+   • endereco: BAIRRO RESIDENCIAL OESTE Q 302 CJ 2 LT 15 - SÃO SEBASTIÃO
+   • papel: vítima
+   • nacionalidade: BRASILEIRA
+   • naturalidade: BRASÍLIA / DF
+   • telefone: None
+   • sexo: Feminino
+   • grau_instrucao: None
+   • estado_civil: None
+   • profissao: None
+   • dados_familiares: {'pai': 'IVANALDO LIMA COELHO', 'mae': 'VALÉRIA RODRIGUES DO NASCIMENTO'}
+   • caracteristicas_fisicas: {'raca_cor': 'NÃO INFORMADO'}
+   • Posição no texto: 3221-3245
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+4. VALÉRIA RODRIGUES DO NASCIMENTO
+   • nome: VALÉRIA RODRIGUES DO NASCIMENTO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • Posição no texto: 3781-3812
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+5. ÍRIS RODRIGUES DO NASCIMENTO
+   • nome: ÍRIS RODRIGUES DO NASCIMENTO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autora
+   • Posição no texto: 3926-3954
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+6. ANA PAULA RODRIGUES LIMA
+   • nome: ANA PAULA RODRIGUES LIMA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: menor vítima
+   • idade: 14
+   • Posição no texto: 4059-4083
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+7. Valéria Rodrigues do Nascimento
+   • nome: Valéria Rodrigues do Nascimento
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: comunicante/vítima
+   • dados_familiares: {'pai': None, 'mãe': None, 'filhos': None}
+   • Posição no texto: 5767-5798
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+8. Íris Rodrigues do Nascimento
+   • nome: Íris Rodrigues do Nascimento
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autora/acusada
+   • dados_familiares: {'pai': None, 'mãe': None, 'filhos': [{'nome': 'ANA LAURA RODRIGUES', 'idade': 12}, {'nome': 'ANA PAULA RODRIGUES LIMA', 'idade': 14}]}
+   • Posição no texto: 5833-5861
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+9. ANA LAURA RODRIGUES
+   • nome: ANA LAURA RODRIGUES
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • idade: 12
+   • papel: menor
+   • Posição no texto: 6191-6210
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+10. ANA PAULA RODRIGUES LIMA
+   • nome: ANA PAULA RODRIGUES LIMA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • idade: 14
+   • papel: menor
+   • Posição no texto: 6225-6249
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+11. ÉRICO VINICIUS MENDES
+   • nome: ÉRICO VINICIUS MENDES
+   • papel: vítima
+   • Posição no texto: 7624-7645
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+12. THIAGO PERALVA BARBIRATO FRANÇA
+   • nome: THIAGO PERALVA BARBIRATO FRANÇA
+   • papel: delegado de plantão
+   • matricula: 241.820-7
+   • Posição no texto: 7679-7710
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+13. VALÉRIA RODRIGUES DO NASCIMENTO
+   • nome: VALÉRIA RODRIGUES DO NASCIMENTO
+   • papel: declarante
+   • Posição no texto: 9358-9389
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+14. VALÉRIA RODRIGUES DO NASCIMENTO
+   • nome: VALÉRIA RODRIGUES DO NASCIMENTO
+   • rg: 3116484
+   • cpf: 055.140.661-50
+   • data_nascimento: 03/06/1994
+   • endereco: RESIDENCIAL OESTE, Q. 302, CONJUNTO 2, LOTE 15 - SÃO SEBASTIÃO, DF
+   • nacionalidade: brasileira
+   • situacao_civil: solteira
+   • papel: declarante
+   • pai: JOAQUIM PAZ DO NASCIMENTO
+   • mae: MARIA NILZA RODRIGUES FERREIRA
+   • filhos: [{'nome': 'ANA LAURA RODRIGUES', 'idade': 12}, {'nome': 'ANA PAULA RODRIGUES LIMA', 'idade': 14}]
+   • Posição no texto: 9735-9766
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+15. ÍRIS RODRIGUES DO NASCIMENTO
+   • nome: ÍRIS RODRIGUES DO NASCIMENTO
+   • papel: autora
+   • Posição no texto: 10261-10289
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+16. ANA LAURA RODRIGUES
+   • nome: ANA LAURA RODRIGUES
+   • idade: 12
+   • papel: menor
+   • Posição no texto: 10619-10638
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+17. ANA PAULA RODRIGUES LIMA
+   • nome: ANA PAULA RODRIGUES LIMA
+   • idade: 14
+   • papel: menor
+   • Posição no texto: 10653-10677
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+18. Valéria Rodrigues do Nascimento
+   • nome: Valéria Rodrigues do Nascimento
+   • papel: vítima
+   • idade: 31
+   • Posição no texto: 11781-11812
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+19. Agressor
+   • nome: None
+   • papel: agressor
+   • Posição no texto: 12725-12733
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+20. Declarante
+   • nome: Valéria R. do Nascimento
+   • papel: declarante
+   • Posição no texto: 11721-11731
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+21. ÍRIS RODRIGUES DO NASCIMENTO
+   • nome: ÍRIS RODRIGUES DO NASCIMENTO
+   • papel: vítima
+   • Posição no texto: 14499-14527
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+22. João Silva
+   • nome: João Silva
+   • cpf: 123.456.789-00
+   • data_nascimento: 01/01/1980
+   • endereco: Rua A, 123
+   • papel: vítima
+   • Status alinhamento: None
+
+23. Maria Santos
+   • nome: Maria Santos
+   • papel: autora
+   • Status alinhamento: None
+
+24. Vítima
+   • papel: vítima
+   • Posição no texto: 18947-18953
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+25. Autor da infração penal noticiada
+   • papel: autor
+   • identidade: informação não fornecida
+   • Posição no texto: 18895-18928
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+26. Filhos da vítima
+   • papel: menor(es)
+   • idade_range: ['0 a 11 anos', '12 a 17 anos']
+   • Posição no texto: 17959-18953
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+27. Valéria R.do Nascimento
+   • nome: Valéria R.do Nascimento
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • Posição no texto: 19260-19283
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+28. None
+   • nome: None
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: None
+   • Status alinhamento: None
+
+29. None
+   • nome: None
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: None
+   • Status alinhamento: None
+
+30. VALÉRIA RODRIGUES DO NASCIMENTO
+   • nome: VALÉRIA RODRIGUES DO NASCIMENTO
+   • data_nascimento: 03/06/1994
+   • endereco: RESIDENCIAL OESTE, Q.
+   • papel: vítima
+   • Posição no texto: 34187-34218
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+31. ÍRIS RODRIGUES DO NASCIMENTO
+   • nome: ÍRIS RODRIGUES DO NASCIMENTO
+   • data_nascimento: 10/04/1996
+   • endereco: Brasília/DF
+   • papel: autor
+   • dados_familiares: {'pai': 'JOAQUIM PAZ DO NASCIMENTO', 'mae': 'MARIA NILZA RODRIGUES FERREIRA'}
+   • Posição no texto: 34676-34704
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+32. VALÉRIA K. DO NASCIMENTO
+   • nome: Valéria K. do Nascimento
+   • papel: requerente/vítima
+   • Posição no texto: 35877-35901
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+33. ANA PAULA RODRIGUES LIMA
+   • nome: ANA PAULA RODRIGUES LIMA
+   • idade: 14
+   • papel: dependente
+   • parentesco: dependente da requerente
+   • Posição no texto: 35513-35537
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+34. ANA LAURA RODRIGUES
+   • nome: ANA LAURA RODRIGUES
+   • idade: 12
+   • papel: dependente
+   • parentesco: dependente da requerente
+   • Posição no texto: 35550-35569
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+35. ADRIAN MATHEUS RODRIGUES CURSINO DE LEMOS COSTA
+   • nome: ADRIAN MATHEUS RODRIGUES CURSINO DE LEMOS COSTA
+   • idade: 7
+   • papel: dependente
+   • parentesco: dependente da requerente
+   • Posição no texto: 35582-35629
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+36. ALANA VITORIA RODRIGUES CURSINO DE LEMOS COSTA
+   • nome: ALANA VITORIA RODRIGUES CURSINO DE LEMOS COSTA
+   • idade: 4
+   • papel: dependente
+   • parentesco: dependente da requerente
+   • Posição no texto: 35641-35687
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+37. VALERIA RODRIGUES DO NASCIMENTO
+   • nome: VALERIA RODRIGUES DO NASCIMENTO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: ofendida
+   • Posição no texto: 36415-36446
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+38. IRIS RODRIGUES DO NASCIMENTO
+   • nome: IRIS RODRIGUES DO NASCIMENTO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autora
+   • Posição no texto: 36456-36484
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+39. ANA LAURA RODRIGUES
+   • nome: ANA LAURA RODRIGUES
+   • data_nascimento: None
+   • idade: 12
+   • endereco: None
+   • papel: menor
+   • Posição no texto: 37884-37903
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+40. ANA PAULA RODRIGUES LIMA
+   • nome: ANA PAULA RODRIGUES LIMA
+   • data_nascimento: None
+   • idade: 14
+   • endereco: None
+   • papel: menor
+   • Posição no texto: 37916-37940
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+41. Valéria
+   • nome: Valéria
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autora
+   • Posição no texto: 39576-39583
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+42. Íris
+   • nome: Íris
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • Posição no texto: 38285-38289
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+43. ANA LAURA RODRIGUES
+   • nome: ANA LAURA RODRIGUES
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • idade: 12
+   • Posição no texto: 38447-38466
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+44. ANA PAULA RODRIGUES LIMA
+   • nome: ANA PAULA RODRIGUES LIMA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • idade: 14
+   • Posição no texto: 38481-38505
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+45. VALÉRIA
+   • nome: VALÉRIA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • Posição no texto: 40671-40678
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+46. ÍRIS
+   • nome: ÍRIS
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: agressor
+   • Posição no texto: 40742-40746
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+47. VALERIA RODRIGUES DO NASCIMENTO
+   • nome: VALERIA RODRIGUES DO NASCIMENTO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • Posição no texto: 42378-42409
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+48. IRIS RODRIGUES DO NASCIMENTO
+   • nome: IRIS RODRIGUES DO NASCIMENTO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autor/ofensor
+   • Posição no texto: 43325-43353
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+49. V. R. D. N.
+   • nome: V. R. D. N.
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: requerente
+   • Posição no texto: 43528-43539
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+50. A. P. R. L.
+   • nome: A. P. R. L.
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: menor
+   • Posição no texto: 43569-43580
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+51. A. L. R.
+   • nome: A. L. R.
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: menor
+   • Posição no texto: 43583-43590
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+52. ÍRIS RODRIGUES DO NASCIMENTO
+   • nome: Íris Rodrigues do Nascimento
+   • data_nascimento: não informado
+   • endereco: None
+   • cpf: None
+   • rg: None
+   • papel: vítima
+   • dados_familiares: None
+   • Posição no texto: 46144-46172
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+53. Representante do Ofendido
+   • nome: Representante do Ofendido (irmã de Iris Rodrigues do Nascimento)
+   • data_nascimento: None
+   • endereco: None
+   • cpf: None
+   • rg: None
+   • papel: representante da vítima
+   • dados_familiares: {'parentesco': 'irmã da vítima'}
+   • Posição no texto: 46091-46119
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+54. Declarante (autor da ameaça)
+   • nome: None
+   • data_nascimento: None
+   • endereco: None
+   • cpf: None
+   • rg: None
+   • papel: autor/agressor
+   • dados_familiares: None
+   • Posição no texto: 46262-46272
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+55. ANA LAURA RODRIGUES
+   • nome: Ana Laura Rodrigues
+   • data_nascimento: não informado
+   • idade: 12
+   • endereco: None
+   • cpf: None
+   • rg: None
+   • papel: menor envolvido
+   • relacao_familiar: filha da declarante
+   • situacao_risco: exposição a exploração sexual
+   • Posição no texto: 46502-46521
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+56. ANA PAULA RODRIGUES LIMA
+   • nome: Ana Paula Rodrigues Lima
+   • data_nascimento: não informado
+   • idade: 14
+   • endereco: None
+   • cpf: None
+   • rg: None
+   • papel: menor envolvido
+   • relacao_familiar: filha da declarante
+   • situacao_risco: exposição a exploração sexual
+   • Posição no texto: 46536-46560
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+57. Iris Rodrigues do Nascimento
+   • nome: Iris Rodrigues do Nascimento
+   • papel: agressor
+   • Posição no texto: 48571-48599
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+58. A. P. R. L.
+   • nome: A. P. R. L.
+   • papel: vítima
+   • Posição no texto: 48537-48548
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+59. A. L. R.
+   • nome: A. L. R.
+   • papel: vítima
+   • Posição no texto: 48551-48559
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+60. Valéria
+   • nome: Valéria
+   • papel: representante_legal_menores
+   • Posição no texto: 49040-49047
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+61. Vivian Lins Cardoso Almeida
+   • nome: VIVIAN LINS CARDOSO ALMEIDA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autoridade
+   • Posição no texto: 50641-50668
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+62. Ministério Público
+   • nome: Ministério Público
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autoridade
+   • Posição no texto: 50135-50153
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+63. Valeria Rodrigues do Nascimento
+   • nome: VALERIA RODRIGUES DO NASCIMENTO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • Posição no texto: 51134-51165
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+64. Iris Rodrigues do Nascimento
+   • nome: IRIS RODRIGUES DO NASCIMENTO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autor
+   • Posição no texto: 51175-51203
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+65. Valeria Rodrigues do Nascimento
+   • nome: Valeria Rodrigues do Nascimento
+   • cpf: 055.140.661-50
+   • rg: None
+   • data_nascimento: None
+   • endereco: QUADRA 302 CONJUNTO 02 LOTE 15 RESIDENCIAL OESTE SÃO SEBASTIÃO-DF
+   • papel: vítima
+   • dados_familiares: {'pai': None, 'mae': None, 'filhos': None}
+   • Posição no texto: 52042-52073
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+66. Iris Rodrigues do Nascimento
+   • nome: Iris Rodrigues do Nascimento
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autor
+   • dados_familiares: {'pai': None, 'mae': None, 'filhos': None}
+   • Posição no texto: 52083-52111
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+67. ELIZABETE APARECIDA SILVA GONÇALVES
+   • nome: ELIZABETE APARECIDA SILVA GONÇALVES
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: Oficial(a) de Justiça
+   • matricula: 307901
+   • Posição no texto: 53790-53825
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+68. IRIS RODRIGUES DO NASCIMENTO
+   • nome: IRIS RODRIGUES DO NASCIMENTO
+   • papel: Destinatário (intimando)
+   • Posição no texto: 54542-54570
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+69. Valéria Rodrigues do Nascimento
+   • nome: Valéria Rodrigues do Nascimento
+   • papel: Ofendida
+   • Posição no texto: 54986-55017
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+70. JOAQUIM PAZ DO NASCIMENTO
+   • nome: JOAQUIM PAZ DO NASCIMENTO
+   • pai: None
+   • mae: None
+   • Posição no texto: 1599-1624
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+71. MARIA NILZA RODRIGUES FERREIRA
+   • nome: MARIA NILZA RODRIGUES FERREIRA
+   • pai: None
+   • mae: None
+   • Posição no texto: 1630-1660
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+72. SAMUEL GONÇALVES DOS SANTOS
+   • nome: SAMUEL GONÇALVES DOS SANTOS
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: agente
+   • dados_familiares: None
+   • observacoes: Agente responsável listado no documento (matrícula 1.722.048-3)
+   • Posição no texto: 7517-7544
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+73. JULIO CEZAR GONCALVES DIAS
+   • nome: JULIO CEZAR GONCALVES DIAS
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: escrivão
+   • dados_familiares: None
+   • observacoes: Escrivão listado (matrícula 1.716.060-X)
+   • Posição no texto: 7569-7595
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+74. Agressor não identificado
+   • nome: None
+   • papel: agressor
+   • idade: 29
+   • Status alinhamento: None
+
+75. Filhos
+   • papel: filhos
+   • faixas_etarias: ['0 a 11 anos', '12 a 17 anos']
+   • deficiencia: False
+   • Posição no texto: 17731-17737
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+76. Julio Cezar Gonçalves Dias
+   • nome: Júlio Cezar Gonçalves Dias
+   • papel: autoridade
+   • funcao: Escrivã(o) de Polícia
+   • Posição no texto: 34106-34117
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+77. ANA LAURA
+   • nome: ANA LAURA
+   • papel: menor vítima
+   • Posição no texto: 40802-40811
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+78. ANA PAULA
+   • nome: ANA PAULA
+   • papel: menor vítima
+   • Posição no texto: 40814-40823
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+79. A. L. R.
+   • nome: A. L. R.
+   • papel: menor
+   • Posição no texto: 42857-42858
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+PESSOAS
+------------------------------
+
+1. [{'papel': 'agressor', 'nome': None, 'cpf': None, 'rg': None, 'data_nascimento': None, 'endereco': None}]
+   • Status alinhamento: None
+
+PESSOAS_ENVOLVIDAS
+------------------------------
+
+1. [{'nome_completo': None, 'cpf': None, 'rg': None, 'data_nascimento': None, 'endereco': None, 'papel_no_processo': None, 'dados_familiares': {'pai': None, 'mae': None, 'filhos': []}}]
+   • Status alinhamento: None
+
+PONTUACAO_CASO
+------------------------------
+
+1. 1
+   • Posição no texto: 24042-24043
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+PONTUACAO_MAXIMA
+------------------------------
+
+1. 24
+   • Posição no texto: 24798-24800
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+PROCEDIMENTO
+------------------------------
+
+1. 246496938
+   • tipo: Procedimento Investigatório
+   • numero: 246496938
+   • data_inclusao: 2025-08-16T01:10:29+00:00
+   • delegacia: 30ª DP
+   • Posição no texto: 112-121
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+2. Boletim de Ocorrência
+   • numero: 7.143/2025-0
+   • protocolo: 2214303/2025
+   • delegacia: Trigésima Delegacia de Polícia
+   • data_abertura: 11/08/2025
+   • fatos: Ocorrência por ameaças, cárcere privado, difamação e injúria envolvendo menor
+   • Posição no texto: 7247-7262
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+3. Termo de Declaração Nº 1841/2025 - 30ª DP
+   • tipo: Procedimento Investigatório
+   • numero: 1841/2025
+   • dp: 30ª DP
+   • codigo: 246496939
+   • data_inclusao: 2025-08-16T01:10:30+00:00
+   • Posição no texto: 9001-9040
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+4. Questionário Nº 588/2025-30ª DP
+   • tipo: Procedimento Investigatório
+   • numero: 588/2025-30ª DP
+   • codigo: 246496940
+   • data_inclusao: 2025-08-16T01:10:30+00:00
+   • delegacia: 30ª DP - PCDF
+   • Posição no texto: 11928-11959
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+5. Inquérito 456/2023
+   • tipo: Inquérito
+   • numero: 456/2023
+   • delegacia: 5ª DP
+   • Status alinhamento: None
+
+6. Representação pela apuração criminal
+   • tipo: Representação
+   • resultado: Sim
+   • observacao: Confirmado pela vítima
+   • Posição no texto: 18690-18739
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+7. Acolhimento na casa de abrigo
+   • descricao: Confirmação de acolhimento na casa de abrigo
+   • solicitado: Não
+   • deferido: Não
+   • Posição no texto: 18591-18620
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+8. Intimação da vítima por meio tecnológico
+   • descricao: Intimação acerca dos atos processuais
+   • aceito: Sim
+   • Posição no texto: 18791-19082
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+9. Ocorrência/Procedimento não informado
+   • tipo: não informado
+   • numero: None
+   • delegacia: None
+   • Status alinhamento: None
+
+10. Inquérito 1347/2025
+   • tipo: Inquérito Policial
+   • numero: 1347/2025
+   • delegacia: 30ª DP
+   • observacoes: OCORRÊNCIA 7143/2025-30ª DP
+   • data_inclusao: 2025-08-16T01:10:29+00:00
+   • Posição no texto: 1197-1206
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+11. Certidão
+   • codigo: 246497792
+   • tipo: Certidão
+   • data_inclusao: 2025-08-16T02:58:44+00:00
+   • referencia_processo: 0705964-51.2025.8.07.0012
+   • texto: parecer. Conforme determinado, encaminhei os autos ao Ministério Público
+   • local: BRASÍLIA, DF
+   • Posição no texto: 37152-37160
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+12. Medidas protetivas
+   • tipo: Medidas protetivas
+   • lei: Lei Maria da Penha
+   • artigo: 22
+   • descricao: medidas protetivas previstas pela LMP são consideradas para proteção da vítima
+   • Posição no texto: 39707-39725
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+13. Decisão Interlocutória
+   • tipo: Decisão Interlocutória
+   • data_inclusao: 2025-08-16T12:31:46+00:00
+   • Posição no texto: 43354-43376
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+PROCESSO
+------------------------------
+
+1. 07059645120258070012
+   • numero: 07059645120258070012
+   • Posição no texto: 11-31
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+2. Não informado
+   • numero: None
+   • delegacia: TRIGÉSIMA DELEGACIA DE POLÍCIA
+   • procedimento: Inquérito policial
+   • Posição no texto: 9974-9980
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+3. Ocorrência 7143/2025-30ª DP - PCDF
+   • numero: 7143/2025-30ª DP - PCDF
+   • ocorrencia: 7143/2025-30ª DP - PCDF
+   • natureza: Ocorrência policial
+   • Posição no texto: 12514-12524
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+4. 2214303/2025
+   • numero: 2214303/2025
+   • tipo: Protocolo de atendimento
+   • local: Distrito Federal
+   • Posição no texto: 14545-14557
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+5. 1234567-89.2023.8.07.0001
+   • numero: 1234567-89.2023.8.07.0001
+   • vara: 1ª Vara Criminal de Brasília
+   • delegacia: 5ª DP
+   • Status alinhamento: None
+
+6. None
+   • numero: None
+   • vara: None
+   • delegacia: None
+   • procedimento: None
+   • data_inicio: None
+   • Status alinhamento: None
+
+7. 0705964-51.2025.8.07.0012
+   • numero: 0705964-51.2025.8.07.0012
+   • classe_judicial: MEDIDAS PROTETIVAS DE URGÊNCIA (LEI MARIA DA PENHA) - CRIMINAL (1268)
+   • vara_juizado_responsavel: Juizado de Violência Doméstica e Familiar Contra a Mulher de São Sebastião
+   • unidade_judicial: TJDFT
+   • local: Brasília, DF
+   • data_abertura: None
+   • procedimento: Medidas protetivas de urgência
+   • Posição no texto: 36959-36984
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+8. 0705964-51.2025.8.07.0012
+   • numero: 0705964-51.2025.8.07.0012
+   • vara: Juizado de Violência Doméstica e Familiar Contra a Mulher de São Sebastião
+   • classe_judicial: MEDIDAS PROTETIVAS DE URGÊNCIA (LEI MARIA DA PENHA) - CRIMINAL (1268)
+   • Posição no texto: 51011-51036
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+9. 0705964-51.2025.8.07.0012
+   • numero: 0705964-51.2025.8.07.0012
+   • classe: Medidas protetivas de urgência (Lei Maria da Penha) - Criminal
+   • vara_ou_juizado: Juizado de Violência Doméstica e Familiar contra Mulher de São Sebastião
+   • circunscricao: São Sebastião/DF
+   • datas_importantes: [{'descricao': 'Data relacionada ao mandado', 'data': '18/08/2025'}]
+   • observacoes: Despacho: Remetam-se os autos ao MP para manifestação prévia sobre a competência; circunscrição de São Sebastião/DF; ato registrado eletronicamente nesta data.
+   • Posição no texto: 51919-51944
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+10. Ocorrência 7.143/2025-0
+   • numero: 7.143/2025-0
+   • delegacia: 30ª Delegacia de Polícia/DF
+   • protocolo: 2214303/2025
+   • descricao: Comunicação de ocorrência policial
+   • data_ocorrencia: None
+   • Posição no texto: 4404-4414
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+11. 7143/2025-30ª DP - PCDF
+   • numero: 7143/2025-30ª DP - PCDF
+   • procedimento: Procedimento Investigatório
+   • data_inclusao: 2025-08-16T01:10:30+00:00
+   • ocorrencia: Nº da Ocorrência: 7143/2025-30ª DP - PCDF
+   • delegacia: 30ª DP - PCDF
+   • Posição no texto: 12526-12549
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+12. 0705964-51.2025.8.07.0012
+   • numero: 0705964-51.2025.8.07.0012
+   • vara: Juizado de Violência Doméstica e Familiar Contra a Mulher de São Sebastião
+   • origem: TJDFT
+   • Posição no texto: 36292-36317
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+13. 0705964-51.2025.8.07.0012
+   • numero: 0705964-51.2025.8.07.0012
+   • vara: Juizado de Violência Doméstica e Familiar contra a Mulher de São Sebastião
+   • classe: Medidas protetivas de urgência (Lei Maria da Penha) - Criminal (1268)
+   • Posição no texto: 43161-43186
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+14. 0705964-51.2025.8.07.0012
+   • numero: 0705964-51.2025.8.07.0012
+   • vara: None
+   • Posição no texto: 54446-54471
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+PROTOCOLO
+------------------------------
+
+1. Prot. 2214303/2025
+   • numero: 2214303/2025
+   • Posição no texto: 9255-9273
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+PROTOCOLO_GESTAO_RISCO_DF
+------------------------------
+
+1. {'observacoes_gerais': None, 'pontuacao_total': None, 'informacao_recolhida': None, 'experiencia_profissional': None, 'risco_avaliado': None, 'classificacao_risco': None, 'descricao_risco': None}
+   • Status alinhamento: None
+
+REFERENCIA_BIBLIOGRAFICA
+------------------------------
+
+1. Nicolls, Tonia L.; Pritchard, Michelle M.; Reeves, Kim A. & Hilterman, Edward (2013). Risk assessment in intimate partner violence: a systematic review of contemporary approaches. Partner Abuse, v. 4 (1).
+   • Posição no texto: 24838-25044
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+RESPOSTAS
+------------------------------
+
+1. [{'pergunta_id': '11', 'pergunta': 'O(A) agressor(a) já tentou suicídio ou falou em suicidar-se?', 'resposta': 'Sim'}, {'pergunta_id': '12', 'pergunta': 'O(A) agressor(a) está com dificuldades financeiras, está desempregado ou tem dificuldade de se manter no emprego?', 'resposta': 'Não sei'}, {'pergunta_id': '13', 'pergunta': 'O(A) agressor(a) já usou, ameaçou usar arma de fogo contra você ou tem fácil acesso a uma arma?', 'resposta': 'Não sei'}, {'pergunta_id': '14', 'pergunta': 'O(A) agressor(a) já ameaçou ou agrediu seus filhos, outros familiares, amigos, colegas de trabalho, pessoas', 'resposta': 'Sim, outras pessoas'}, {'pergunta_id': '15', 'pergunta': 'Você se separou recentemente do(a) agressor(a), tentou ou manifestou intenção de se separar?', 'resposta': 'Não'}, {'pergunta_id': '16.a', 'pergunta': 'Você tem filhos?', 'resposta': 'Sim, de outro', 'detalhes': {'quantos': 4}}, {'pergunta_id': '20', 'pergunta': 'Você está grávida ou teve bebê nos últimos 18 meses?', 'resposta': 'Sim'}, {'pergunta_id': '21', 'pergunta': 'Se você está em um novo relacionamento, as ameaças ou as agressões físicas aumentaram em razão disso?', 'resposta': 'Não'}]
+   • Status alinhamento: None
+
+RESUMO_DOCUMENTO
+------------------------------
+
+1. {'titulo': 'Peça 2: TERMO DE DECLARAÇÃO Nº 1841/2025-30ª DP', 'codigo': '246496939', 'tipo': 'Procedimento Investigatório', 'data_inclusao': '2025-08-16T01:10:30+00:00', 'observacao': 'TERMO DE DECLARAÇÃO que presta VALÉRIA RODRIGUES DO NASCIMENTO', 'delegacia': '30ª DP', 'ocorrencia_policial': '7143/2025-30ª DP', 'protocolo': 'Prot. 2214303/2025'}
+   • Status alinhamento: None
+
+RISCO
+------------------------------
+
+1. {'apresentacao_fisica_emocional': {'descricao': None, 'observacoes': None}, 'risco_suicidio': {'ideacao_presente': None, 'ideacao_passada': None, 'plano_atual': None}, 'residencia_e_acesso_do_autor': {'reside_com_autor': None, 'acesso_residencia': None, 'armas_e_accessos': {'armas_brancas': None, 'armas_de_fogo': None, 'acesso_armas': None}, 'poder_meio_especial_para_controlar_acessar': None}, 'outras_circunstancias_risco': {'descricao': None}}
+   • Status alinhamento: None
+
+RISK_ASSESSMENT_PROTOCOL
+------------------------------
+
+1. {'secao': 'PARTE III - PROTOCOLO DE GESTÃO DE RISCO NO DF', 'descricao': 'Considerando o somatório da pontuação, a informação recolhida e a sua experiência profissional, qual o possível risco de ocorrer novas violências físicas graves ou potencialmente letais?', 'niveis': [{'codificacao': 'RISCO EXTREMO', 'descricao': 'situação iminente de violência física grave ou potencialmente leal, a justificar acompanhamento próximo e imediato pelos órgãos de proteção.'}, {'codificacao': 'RISCO GRAVE', 'descricao': 'situação atual de violências sérias, mas sem indicadores de risco iminente de violência física grave ou potencialmente letais; pode evoluir para risco extremo.'}, {'codificacao': 'RISCO MODERADO', 'descricao': 'situação atual de violências sérias sem indicadores de risco iminente de violências físicas graves ou potencialmente letais; justifica tramitação ordinária com encaminhamentos de proteção e medidas protetivas.'}]}
+   • Posição no texto: 29316-30510
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+RISK_FACTORS
+------------------------------
+
+1. {'fatores': ['ideação suicida', 'uso abusivo de álcool e drogas', 'transtorno de personalidade do autor', 'agressão na gestação', 'orientação sexual ou identidade de gênero da vítima fomentam discriminação', 'agressor pertence a organização criminosa', 'grande diferença etária entre agressor e vítima', 'relacionamento não público'], 'observacoes': 'Fatores listados são componentes típicos de avaliação de risco no âmbito do Protocolo de Gestão de Risco no DF.'}
+   • Status alinhamento: None
+
+TEMA
+------------------------------
+
+1. Avaliação de risco - vítima de violência doméstica
+   • Status alinhamento: None
+
+TIPO
+------------------------------
+
+1. norma
+   • Status alinhamento: None
+
+2. norma
+   • Status alinhamento: None
+
+3. norma
+   • Status alinhamento: None
+
+VÍTIMA_CONCORDOU_ENCAMINHAMENTOS
+------------------------------
+
+1. {'pergunta': '8. A vítima concordou com os encaminhamentos?', 'opcoes': ['Sim', 'Não', 'Por quê?'], 'resposta': None}
+   • Status alinhamento: None
+
+VÍTIMA_INTERESSE_ADERIR_ENCAMINHAMENTOS
+------------------------------
+
+1. {'pergunta': '9. A vítima demonstra interesse em aderir aos encaminhamentos?', 'opcoes': ['Sim', 'Não', 'Por quê?'], 'resposta': None}
+   • Status alinhamento: None

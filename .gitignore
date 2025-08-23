@@ -164,6 +164,11 @@ tmp/
 config/secrets.json
 secrets/
 
+# Langextract sensitive files
+langextract/.env
+langextract/docs/descricao/exemplos_praticos_azure_openai.md
+langextract/.github/
+
 # Node modules (if any)
 node_modules/
 npm-debug.log*

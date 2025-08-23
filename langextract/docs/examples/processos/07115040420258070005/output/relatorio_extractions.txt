@@ -1,0 +1,3865 @@
+RELATÓRIO DE EXTRAÇÃO COM MÉTRICAS - PROCESSO JURÍDICO
+============================================================
+
+Data/Hora: 23/08/2025 09:05:47
+Processo: 07115040420258070005
+Total de extrações: 595
+
+MÉTRICAS DE PERFORMANCE
+------------------------------
+Tempo total: 0:19:19
+Início: 08:46:27
+Fim: 09:05:47
+Tamanho do arquivo: 87,413 caracteres (88.0 KB)
+Chunks processados: 49
+Velocidade: 75.4 chars/segundo
+
+TEMPO POR ETAPA
+------------------------------
+Verificação de configuração: 0.00s (0.0%)
+Carregamento do arquivo: 0.02s (0.0%)
+Extração completa (LangExtract): 1159.50s (100.0%)
+Preparação de exemplos: 0.02s (0.0%)
+Criação de exemplos: 0.02s (0.0%)
+Chamada LangExtract API: 1159.48s (100.0%)
+Geração de visualização HTML: 0.06s (0.0%)
+
+ESTATÍSTICAS POR CATEGORIA
+------------------------------
+acao_criminal: 1 extrações
+anexo: 1 extrações
+assinatura: 1 extrações
+associacao_autos: 1 extrações
+associacao_processos: 1 extrações
+autoridade: 39 extrações
+autoridade_oficial_justica: 1 extrações
+autoridades: 1 extrações
+autoridades_e_funcionarios: 9 extrações
+avaliacao_estrutura_parte_II: 1 extrações
+bloco: 2 extrações
+caracteristica: 11 extrações
+certidao: 2 extrações
+codigo: 1 extrações
+comportamentos_abusivos: 1 extrações
+comunicacao: 1 extrações
+comunicacoes: 13 extrações
+comunicacoes_e_mensagens: 11 extrações
+comunicacoes_mensagens: 1 extrações
+contexto: 1 extrações
+contexto_criminal: 1 extrações
+contexto_legal: 1 extrações
+contexto_proximidade: 1 extrações
+crime: 6 extrações
+crime_e_comportamentos: 1 extrações
+crimes_e_comportamentos: 21 extrações
+dados: 2 extrações
+dados_decisao: 1 extrações
+dados_familiares: 7 extrações
+dados_pessoais_adicionais: 1 extrações
+dados_processo: 3 extrações
+dados_processuais: 8 extrações
+dados_relevantes_presentes: 1 extrações
+data_da_comunicacao: 1 extrações
+data_inclusao: 1 extrações
+datas_importantes: 1 extrações
+descricao: 14 extrações
+descricao_contexto: 1 extrações
+despacho: 3 extrações
+detalhes: 1 extrações
+diligencia: 3 extrações
+documento: 4 extrações
+documento_externo: 1 extrações
+documentos_apresentados: 1 extrações
+encerramento_term: 1 extrações
+endereco: 3 extrações
+endereco_do_fato: 1 extrações
+endereco_fato: 1 extrações
+estado_civil: 1 extrações
+fatores_de_risco_objetivos: 1 extrações
+fatos_processo: 1 extrações
+filhos: 1 extrações
+filhos_assistiram_violencia: 1 extrações
+formulario_avaliacao_risco: 1 extrações
+homologacao: 1 extrações
+horario_da_comunicacao: 1 extrações
+identificacao_civil: 1 extrações
+informacao: 3 extrações
+informacoes_avaliacao: 1 extrações
+informacoes_processuais: 1 extrações
+inquerito_policial: 1 extrações
+intervencao_parte_III: 1 extrações
+itens_selecionados: 1 extrações
+local: 2 extrações
+mandado: 1 extrações
+manifestacao_mp: 2 extrações
+medida_protetiva: 6 extrações
+medidas_deferidas: 1 extrações
+medidas_intervencao: 1 extrações
+medidas_protetivas: 34 extrações
+motivo: 1 extrações
+naturalidade: 1 extrações
+natureza_ocorrencia: 1 extrações
+observacao: 1 extrações
+observacoes: 17 extrações
+observacoes_adicionais: 1 extrações
+observacoes_complementares: 1 extrações
+observacoes_finais: 1 extrações
+observacoes_processuais: 1 extrações
+observacoes_sobre_avaliacao: 1 extrações
+ocorrencia: 29 extrações
+origem_comunicacao: 1 extrações
+pergunta: 6 extrações
+periodo_fato: 2 extrações
+pessoa: 131 extrações
+pessoas_envolvidas: 1 extrações
+procedimento: 5 extrações
+procedimentos_gerados: 1 extrações
+processo: 6 extrações
+profissao: 1 extrações
+profissional_responsavel: 1 extrações
+protocolo: 22 extrações
+questao: 11 extrações
+rede_social_pessoa: 1 extrações
+registro_identificacao_civil: 1 extrações
+relacionamento: 41 extrações
+relacionamento_contexto: 1 extrações
+relacionamentos_contexto: 3 extrações
+relacionamentos_e_contexto: 13 extrações
+relacoes_e_contexto: 1 extrações
+relatorios_de_risco_df: 1 extrações
+resposta: 6 extrações
+risco: 1 extrações
+risco_vitima: 1 extrações
+seção: 2 extrações
+subitems: 1 extrações
+telefone: 3 extrações
+tema: 1 extrações
+termo_de_declaração: 1 extrações
+termo_declaracao: 1 extrações
+tipo: 16 extrações
+tipo_procedimento: 1 extrações
+violencia_historico: 1 extrações
+
+
+ACAO_CRIMINAL
+------------------------------
+
+1. {'tipo': 'representação criminal', 'descricao': 'NAYANE deseja representar criminalmente pela apuração dos fatos e responsabilização do autor'}
+   • Status alinhamento: None
+
+ANEXO
+------------------------------
+
+1. {'codigo': '246688447', 'tipo': 'Anexo', 'data_inclusao': '2025-08-19T01:28:41+00:00'}
+   • Status alinhamento: None
+
+ASSINATURA
+------------------------------
+
+1. {'assinado_por': 'Maria Helena straus novel', 'observacao': 'Assinatura da vítima/terceiro comunicante: diaria Helena (4 cars neves'}
+   • Status alinhamento: None
+
+ASSOCIACAO_AUTOS
+------------------------------
+
+1. 0709894-98.2025.8.07.0005
+   • processo_numero: 0709894-98.2025.8.07.0005
+   • Posição no texto: 82687-82712
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+ASSOCIACAO_PROCESSOS
+------------------------------
+
+1. {'autos_associados': [{'processo': '0709894-98.2025.8.07.0005', 'relacao': 'associação de autos'}]}
+   • Status alinhamento: None
+
+AUTORIDADE
+------------------------------
+
+1. WAINER AUGUSTO MELO FILEMON
+   • nome: WAINER AUGUSTO MELO FILEMON
+   • cargo: Delegado de Polícia
+   • matricula: 
+   • instituicao: Polícia Civil do Distrito Federal - DECIMA SEXTA DELEGACIA DE POLÍCIA
+   • Posição no texto: 640-667
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+2. SARAQUIEL BELEM DA SILVA
+   • nome: SARAQUIEL BELEM DA SILVA
+   • cargo: Escrivão de Polícia
+   • matricula: 
+   • instituicao: Polícia Civil do Distrito Federal - DECIMA SEXTA DE DELEGACIA DE POLÍCIA
+   • Posição no texto: 711-735
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+3. WAINER AUGUSTO MELO FILEMON
+   • nome: WAINER AUGUSTO MELO FILEMON
+   • cargo: Delegado de Polícia
+   • Posição no texto: 6319-6346
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+4. SARAQUIEL BELEM DA SILVA
+   • nome: SARAQUIEL BELEM DA SILVA
+   • cargo: Escrivão de Polícia
+   • Posição no texto: 6423-6447
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+5. WAINER AUGUSTO MELO FILEMON
+   • nome: WAINER AUGUSTO MELO FILEMON
+   • cargo: Delegado de Polícia
+   • matricula: None
+   • Status alinhamento: None
+
+6. {'nome': 'SARAQUIEL BELEM DA SILVA', 'matricula': '0570273', 'cargo': 'Escrivão'}
+   • Status alinhamento: None
+
+7. DÉCIMA SEXTA DELEGACIA DE POLÍCIA
+   • nome: None
+   • cargo: Delegacia de Polícia
+   • unidade: Setor Comercial Central - Planaltina
+   • Posição no texto: 38412-38445
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+8. WAINER AUGUSTO MELO FILEMON
+   • nome: WAINER AUGUSTO MELO FILEMON
+   • cargo: Delegado de Polícia
+   • Status alinhamento: None
+
+9. DELEGACIA 16ª
+   • nome: None
+   • cargo: Delegado de Polícia
+   • unidade: 16ª Delegacia de Polícia
+   • instituicao: Polícia Civil do Distrito Federal
+   • Status alinhamento: None
+
+10. ALLAN LEANDRO BEZERRA DO NASCIMENTO
+   • nome: ALLAN LEANDRO BEZERRA DO NASCIMENTO
+   • cargo: Agente
+   • matricula: 1.724.234-7
+   • observacao: Autenticação
+   • Posição no texto: 47496-47531
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+11. KELLY ALVES DOS SANTOS
+   • nome: KELLY ALVES DOS SANTOS
+   • cargo: Escrivão
+   • matricula: 1.716.058-8
+   • Posição no texto: 48003-48025
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+12. RICHARD VALERIANO MOREIRA
+   • nome: RICHARD VALERIANO MOREIRA
+   • cargo: Escrivão
+   • matricula: 035.940-8
+   • Posição no texto: 48038-48063
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+13. ANDRE FAGUNDES LEMOS
+   • nome: ANDRE FAGUNDES LEMOS
+   • cargo: Delegado de Plantão
+   • matricula: 242.373-1
+   • Posição no texto: 48113-48133
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+14. SARAQUIEL BELEM DA SILVA
+   • nome: SARAQUIEL BELEM DA SILVA
+   • cargo: Escrivão de Polícia
+   • matricula: 0570273
+   • unidade: 16ª DP
+   • funcao_especifica: Escrivão de Polícia
+   • Posição no texto: 49239-49263
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+15. WAINER AUGUSTO MELO FILEMON
+   • nome: WAINER AUGUSTO MELO FILEMON
+   • cargo: Delegado de Polícia
+   • Status alinhamento: None
+
+16. WAINER AUGUSTO MELO FILEMON
+   • nome: WAINER AUGUSTO MELO FILEMON
+   • cargo: Delegado de Polícia
+   • Status alinhamento: None
+
+17. WAINER AUGUSTO MELO FILEMON
+   • nome: WAINER AUGUSTO MELO FILEMON
+   • cargo: Delegado de Polícia
+   • Posição no texto: 60111-60138
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+18. {'instituicao': 'Ministério Público', 'cargo': 'Promotoria em regime de Plantão', 'observacoes': 'Ministérios Públicos da União e do Distrito Federal e Territórios mencionados.'}
+   • Status alinhamento: None
+
+19. WAINER AUGUSTO MELO FILEMON
+   • nome: WAINER AUGUSTO MELO FILEMON
+   • cargo: Delegado de Polícia
+   • Status alinhamento: None
+
+20. WAINER AUGUSTO MELO FILEMON
+   • nome: WAINER AUGUSTO MELO FILEMON
+   • cargo: Delegado de Polícia
+   • Status alinhamento: None
+
+21. WAINER AUGUSTO MELO FILEMON
+   • nome: WAINER AUGUSTO MELO FILEMON
+   • cargo: Delegado de Polícia
+   • Status alinhamento: None
+
+22. WAINER AUGUSTO MELO FILEMON
+   • nome: WAINER AUGUSTO MELO FILEMON
+   • cargo: Delegado de Polícia
+   • Status alinhamento: None
+
+23. Oficial(a) de Justiça
+   • cargo: Oficial(a) de Justiça
+   • Posição no texto: 35570-35591
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+24. SARAQUIEL BELEM DA SILVA
+   • matricula: 00570273
+   • cargo: Operador
+   • observacoes: Assinado Digitalmente
+   • Posição no texto: 36790-36814
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+25. DECIMA SEXTA DELEGACIA DE POLICIA - SETOR COMERCIAL CENTRAL
+   • nome: None
+   • cargo: Delegacia de Polícia
+   • Posição no texto: 38669-38728
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+26. WAINER AUGUSTO MELO FILEMON
+   • nome: WAINER AUGUSTO MELO FILEMON
+   • cargo: Delegado de Polícia
+   • Status alinhamento: None
+
+27. WAINER AUGUSTO MELO FILEMON
+   • nome: WAINER AUGUSTO MELO FILEMON
+   • cargo: Delegado de Polícia
+   • Status alinhamento: None
+
+28. WAINER AUGUSTO MELO FILEMON
+   • nome: WAINER AUGUSTO MELO FILEMON
+   • cargo: Delegado de Polícia
+   • matricula: None
+   • funcao_especifica: Delegado de Polícia
+   • Status alinhamento: None
+
+29. RICHARD VALERIANO MOREIRA
+   • nome: RICHARD VALERIANO MOREIRA
+   • cargo: Delegado Chefe
+   • matricula: 035.940-8
+   • Posição no texto: 60052-60077
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+30. MATHEUS GONÇALVES PEREIRA
+   • nome: MATHEUS GONÇALVES PEREIRA
+   • cargo: Agente
+   • matricula: 1.721.377-0
+   • Posição no texto: 59946-59971
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+31. JOÃO PAULO DA CONCEICAO BISPO
+   • nome: JOÃO PAULO DA CONCEICAO BISPO
+   • cargo: Escrivão
+   • matricula: 234.385-1
+   • Posição no texto: 59994-60023
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+32. WAINER AUGUSTO MELO FILEMON
+   • nome: WAINER AUGUSTO MELO FILEMON
+   • cargo: Delegado de Polícia
+   • Status alinhamento: None
+
+33. MINISTÉRIO PÚBLICO DO DISTRITO FEDERAL E TERRITÓRIOS / PROMOTORIA EM REGIME DE PLANTÃO
+   • orgao: Promotoria em regime de Plantão
+   • nome: None
+   • cargo: Promotor
+   • Posição no texto: 70484-70536
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+34. MINISTÉRIO PÚBLICO DA UNIÃO / MINISTÉRIO PÚBLICO DO DISTRITO FEDERAL E TERRITÓRIOS
+   • nome: MINISTÉRIO PÚBLICO
+   • cargo: Promotoria em regime de Plantão
+   • Posição no texto: 72753-72780
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+35. Juizado de Violência Doméstica e Familiar Contra a Mulher de Planaltina
+   • tipo: Juizado
+   • local: Planaltina
+   • poder: TJDFT
+   • Posição no texto: 75242-75313
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+36. VIVIAN LINS CARDOSO ALMEIDA
+   • nome: VIVIAN LINS CARDOSO ALMEIDA
+   • cargo: Juíza de Direito Plantonista
+   • Posição no texto: 80966-80993
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+37. ROMULO LIMA RAMOS
+   • nome: ROMULO LIMA RAMOS
+   • cargo: Núcleo Permanente de Plantão Judicial - NUPLA
+   • Posição no texto: 81855-81872
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+38. WAINER AUGUSTO MELO FILEMON
+   • nome: WAINER AUGUSTO MELO FILEMON
+   • cargo: Delegado de Polícia
+   • Status alinhamento: None
+
+39. {'nome': 'Elizabete A Silva Gonçalves', 'cargo': 'Oficiala de Justiça Plantonista', 'matricula': '307.901', 'observacoes': None}
+   • Status alinhamento: None
+
+AUTORIDADE_OFICIAL_JUSTICA
+------------------------------
+
+1. {'nome': 'ELIZABETE APARECIDA SILVA GONÇALVES', 'cargo': 'Oficial(a) de Justiça', 'matricula': '307901'}
+   • Status alinhamento: None
+
+AUTORIDADES
+------------------------------
+
+1. [{'autoridade': 'WAINER AUGUSTO MELO FILEMON', 'autoridade_attributes': {'nome': 'WAINER AUGUSTO MELO FILEMON', 'cargo': 'Delegado de Polícia'}}]
+   • Status alinhamento: None
+
+AUTORIDADES_E_FUNCIONARIOS
+------------------------------
+
+1. [{'autoridade': None, 'matricula': None, 'funcao_especifica': None}]
+   • Status alinhamento: None
+
+2. {'delegados': None, 'escrivães': None, 'promotores': None, 'matricula_e_funcao': None}
+   • Status alinhamento: None
+
+3. [{'nome': None, 'cargo': 'Delegado'}, {'nome': None, 'cargo': 'Escrivão'}, {'nome': None, 'cargo': 'Promotor'}]
+   • Status alinhamento: None
+
+4. {'observacao': 'dados de autoridades não fornecidos na narrativa', 'dados': None}
+   • Status alinhamento: None
+
+5. []
+   • Status alinhamento: None
+
+6. [{'entidade': 'Polícia Civil', 'cargo': 'instituição policial', 'observacao': ''}, {'entidade': 'Polícia Militar do Distrito Federal', 'cargo': 'instituição policial', 'observacao': ''}, {'entidade': 'GDF', 'cargo': 'gestor público', 'observacao': ''}]
+   • Status alinhamento: None
+
+7. {'observacoes': 'não identificados no relato'}
+   • Status alinhamento: None
+
+8. [{'nome': 'WAINER AUGUSTO MELO FILEMON', 'cargo': 'Delegado de Polícia'}, {'nome': 'RAFAEL FONSECA MICHELETI', 'cargo': 'Escrivã de Polícia'}, {'nome': 'MARIA ALLA ARAYA NEVES', 'cargo': 'Autoridade de Polícia'}, {'nome': 'SARAQUIEL BELEM DA SILVA', 'cargo': 'Escrivã de Polícia', 'matricula': '00570273'}]
+   • Status alinhamento: None
+
+9. {'nome': 'ELIZABETE APARECIDA SILVA GONÇALVES', 'cargo': 'Oficial de Justiça', 'matricula': '307901'}
+   • Status alinhamento: None
+
+AVALIACAO_ESTRUTURA_PARTE_II
+------------------------------
+
+1. {'descricao': 'Avaliação estruturada para identificar fatores de risco', 'observacoes': ['O avaliador deve utilizar experiência e julgamento para identificar se há fatores de risco que, isoladamente, aumentam o risco.', 'A Parte II complementa as informações quantitativas da Parte I.']}
+   • Status alinhamento: None
+
+BLOCO
+------------------------------
+
+1. BLOCO II - SOBRE O(A) AGRESSOR(A)
+   • 9_uso_alcool: Não sei
+   • 9_uso_drogas: None
+   • 9_uso_medicamentos: None
+   • 10_doenca_mental: Não sei
+   • 11_suicidio: Não
+   • 12_financas: Não
+   • 13_uso_arma: Não sei
+   • 14_ameaou_ou_agrediu_familiares: Não
+   • Posição no texto: 10128-10161
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+2. BLOCO III - SOBRE VOCÊ
+   • 15_separacao: Não
+   • 16_filhos: Sim, de outro relacionamento. Quantos? 2
+   • 17_guard_visitas_pensao: Sim
+   • 18_filhos_presenciaram_violencia: Não
+   • 19_violencia_gravidez: None
+   • Posição no texto: 11176-11198
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+CARACTERISTICA
+------------------------------
+
+1. Raça
+   • valor: Branca
+   • Status alinhamento: None
+
+2. Faixa etária dos filhos
+   • valor: A partir de 18 anos
+   • Posição no texto: 12754-12781
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+3. Situação de moradia
+   • valor: Própria
+   • Posição no texto: 13146-13165
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+4. Moradia em área de risco
+   • valor: Sim
+   • Posição no texto: 13039-13090
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+5. Dependência financeira
+   • valor: Não
+   • Status alinhamento: None
+
+6. Abrigo temporário
+   • valor: Não
+   • Posição no texto: 13333-13355
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+7. Isolamento social
+   • valor: Não
+   • Status alinhamento: None
+
+8. Gravidez nos últimos 18 meses
+   • valor: Não
+   • Posição no texto: 12108-12130
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+9. Ameaças em novo relacionamento
+   • valor: Não
+   • Posição no texto: 12194-12201
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+10. Deficiência ou doença
+   • valor: Não
+   • Posição no texto: 12291-12312
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+11. Filhos com deficiência
+   • valor: Não
+   • Posição no texto: 12775-12781
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+CERTIDAO
+------------------------------
+
+1. Certidão
+   • numero_codigo: 246497794
+   • data_inclusao: 2025-08-16T03:00:06+00:00
+   • conteudo: Conforme determinado, encaminhei os autos ao Ministério Público para parecer.
+   • local: BRASÍLIA, DF
+   • Posição no texto: 67559-67567
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+2. {'texto': 'Certifico e dou fé que, em cumprimento ao r. mandado, distribuído em sede de plantão Judicial, após diligenciar, em 18/08/2025 às 14:08, mediante contato telefônico prévio de identificação (99644-5993), com a adesão expressa e anuência do intimando, por meio eletrônico, PROCEDI À INTIMAÇÃO de STENIO BENTO FERREIRA, 698.595.401-44, residente na VILA N SRA DE FATIMA QUADRA E CONJUNTO E1 CASA 04 PLANALTINA-DF, que, após a leitura da ordem judicial, RECEBEU A CONTRAFÉ, enviada em formato PDF por aplicativo de mensagem, declarando-se CIENTE de seu conteúdo. O referido é verdade.', 'local': 'Distrito Federal', 'data_emissao': '18/08/2025', 'assinatura': {'nome': 'ELIZABETE APARECIDA SILVA GONÇALVES', 'cargo': 'Oficial(a) de Justiça', 'matricula': '307901'}, 'chave_acesso': 'https://ceman.tjdft.jus.br/certidoes/5f125818-c276-453b-95f5-d9b417ccc169'}
+   • Posição no texto: 84971-85865
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+CODIGO
+------------------------------
+
+1. 246500757
+   • valor: 246500757
+   • Posição no texto: 51359-51368
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+COMPORTAMENTOS_ABUSIVOS
+------------------------------
+
+1. {'descricao': 'comportamento abusivo relacionado à guarda e comunicação', 'detalhes': ['monitorar e perseguir a declarante após início de novo relacionamento', 'mensagens insistentes dirigidas à mãe da vítima sobre guarda da criança', 'uso da questão de guarda como pretexto para tentar controlar a vida da declarante através do direito de visitação'], 'observacao': 'mensagens indicam intenção de controle total da rotina via visitação'}
+   • Status alinhamento: None
+
+COMUNICACAO
+------------------------------
+
+1. {'data_hora': '15/08/2025 20:30', 'origem': 'PÚBLICO'}
+   • Status alinhamento: None
+
+COMUNICACOES
+------------------------------
+
+1. {'descricao': 'A VÍTIMA concorda em ser intimada acerca dos atos processuais relativos ao autor por e-mail, WhatsApp, telefone ou outro meio tecnológico célere e idôneo.', 'meios_permitidos': ['e-mail', 'WhatsApp', 'telefone'], 'condicoes': 'intimação'}
+   • Status alinhamento: None
+
+2. WhatsApp
+   • plataforma: WhatsApp
+   • conteudo: monitoramento contínuo da rotina; acusa de estar com um amante quando a movimentação não é captada pelas câmeras; perguntas sobre localização, com quem está e horário de retorno; veículo de STÊNIO observado chegando à residência
+   • padrao_comunicacao: monitoramento e vigilância
+   • Posição no texto: 31953-31961
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+3. mensagens via WhatsApp
+   • plataforma: WhatsApp
+   • conteudo: ['monitoramento contínuo da rotina da vítima', 'questionamentos sobre para onde vai, de onde está vindo, com quem está e o horário de retorno', 'acusação de estar com um amante quando a movimentação não é captada pelas câmeras', 'observação de veículo da ex-companheira ao chegar em casa de forma intimidatória']
+   • padroes_comportamentais: ['perseguição', 'vigilância', 'intimidação', 'controle de visitas']
+   • Posição no texto: 44437-44459
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+4. Mensagens de STENIO para a declarante
+   • meio: WhatsApp
+   • conteudo: perturbação e intimidação; questionamento sobre o paradeiro da filha; envio de mensagens após deferimento da medida protetiva
+   • Posição no texto: 78096-78219
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+5. conteúdo e padrões das comunicações
+   • descricao: mensagens insistentes à mãe da declarante, envolvendo guarda da criança e rotina da declarante; perguntas sobre a rotina da declarante
+   • formas: ['mensagens de texto', 'outros meios']
+   • Status alinhamento: None
+
+6. {'meios': ['WhatsApp', 'outros meios'], 'conteudo': 'mensagens enviadas sistematicamente pela STENIO à declarante, perturbando e intimidando-a; questionamento sobre paradeiro da filha; uso do pretexto da guarda para controlar a rotina', 'padroes_comportamentais': ['perseguição', 'monitoramento de entradas/saídas na residência', 'questionamento de movimentos suspeitos']}
+   • Status alinhamento: None
+
+7. {'tipo': 'intimação', 'pessoa': 'vítima', 'comunicacao_attributes': {'aceite_intimacao': True, 'meios_preferidos': ['e-mail', 'WhatsApp', 'telefone'], 'observacao': 'célere e idôneo'}}
+   • Status alinhamento: None
+
+8. mensagens de WhatsApp apresentadas pela comunicante; conteúdo: monitoramento contínuo, acusa de amante, perguntas sobre localização, origem, com quem está e horário de retorno
+   • meio: WhatsApp
+   • conteudo_principal: monitoramento contínuo; acusa de estar com um amante quando a movimentação não é captada pelas câmeras
+   • padrao_comportamental: monitoramento sistemático
+   • Status alinhamento: None
+
+9. Meios de comunicação abrangidos pela proibição
+   • meios_proibidos: ['ligação telefônica', 'WhatsApp', 'e-mail', 'Facebook', 'Instagram', 'outros']
+   • conteudo: None
+   • observacao: Conteúdo das comunicações não especificado
+   • Posição no texto: 35113-35247
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+10. {'meios': ['mensagens'], 'conteudo': 'Imagens das mensagens enviadas pelo autor anexadas ao PROCED.NET'}
+   • Status alinhamento: None
+
+11. {'conteudo': 'mensagens enviadas pela STENIO à declarante de modo a perturbar e intimidar; perguntas sobre o paradeiro da filha; uso da guarda da criança como pretexto para controle'}
+   • Status alinhamento: None
+
+12. {'tipos_de_comunicacao': ['mensagens'], 'conteudo': 'STENIO enviou mensagens insistentes, inquirindo a rotina da declarante e tratando da guarda da criança, com alegação de controle via direito de visitação'}
+   • Status alinhamento: None
+
+13. [{'remetente': 'Elizabete A Silva Gonçalves', 'horario': '2:07', 'texto': 'Boa tarde! Sou Oficiala de Justiça Plantonista do TJDFT'}, {'remetente': 'Stênio Bento Ferreira', 'horario': '2:07', 'texto': 'Sim sou eu'}, {'remetente': 'Elizabete A Silva Gonçalves', 'horario': '2:08', 'texto': 'Boa tarde, Sr. Bento!'}, {'remetente': 'Stênio Bento Ferreira', 'horario': '2:08', 'texto': 'Tudo bem? Tudo bem. E com você?'}, {'remetente': 'Elizabete A Silva Gonçalves', 'horario': '2:08', 'texto': 'Posso te ligar?'}, {'remetente': 'Stênio Bento Ferreira', 'horario': '2:08', 'texto': 'Pode sim'}, {'remetente': 'Elizabete A Silva Gonçalves', 'horario': '2:21', 'texto': 'Conforme nosso contato telefônico, estarei enviando a decisão proferida em sede de Plantão Judicial que concedeu as Medidas Protetivas'}, {'remetente': 'Sistema', 'horario': '2:21', 'texto': 'MPU Maria Helena de Aarújo Lima.pdf'}, {'remetente': 'Elizabete A Silva Gonçalves', 'horario': '2:22', 'texto': 'Por gentileza, confirmar o recebimento. Grata, Elizabete A Silva Gonçalves Oficiala de Justiça Mat.307.901'}, {'remetente': 'Stênio Bento Ferreira', 'horario': '2:22', 'texto': 'Confirmo'}, {'remetente': 'Elizabete A Silva Gonçalves', 'horario': '2:22', 'texto': 'Obrigado'}, {'remetente': 'Stênio Bento Ferreira', 'horario': '2:22', 'texto': 'Já abri'}, {'remetente': 'Elizabete A Silva Gonçalves', 'horario': '2:22', 'texto': 'Obrigada por confirmar o recebimento.'}, {'remetente': 'Stênio Bento Ferreira', 'horario': '2:26', 'texto': 'Obrigado'}, {'remetente': 'Elizabete A Silva Gonçalves', 'horario': '2:27', 'texto': 'Por nada'}]
+   • Status alinhamento: None
+
+COMUNICACOES_E_MENSAGENS
+------------------------------
+
+1. {'descricao': 'Mensagens para a declarante, com o intuito de perturbá-la e intimidá-la; STENIO questiona sobre o paradeiro da filha; usa a discussão de guarda como pretexto', 'meios': ['WhatsApp', 'outros']}
+   • Status alinhamento: None
+
+2. {'meios': [], 'conteudo_das_comunicacoes': None, 'padroes_de_comportamento_abusivo': ['ciúme excessivo e controle', 'perseguição']}
+   • Status alinhamento: None
+
+3. [{'meio': None, 'conteudo': None, 'padroes_de_comportamento_abusivo': None}]
+   • Status alinhamento: None
+
+4. {'tipos_comunicacoes': ['WhatsApp', 'Proced.NET'], 'conteudo': 'Fotos de intimidações via WhatsApp', 'padroes_comportamentais': 'monitoramento, constrangimento, aparições não autorizadas'}
+   • Status alinhamento: None
+
+5. {'meios': ['WhatsApp', 'outras plataformas'], 'conteudo_das_comunicacoes': None, 'padroes_comportamentais': ['monitoramento', 'intimidação', 'perseguição', 'vigilância']}
+   • Status alinhamento: None
+
+6. {'descricao': 'Imagens das mensagens enviadas pelo autor anexadas ao PROCED.NET'}
+   • Status alinhamento: None
+
+7. {'conteudo': ['mensagens insistentes', 'inquirir sobre a rotina da declarante', 'usar a guarda como pretexto para tentar controlar a vida da declarante'], 'padroes_comportamentais': 'abusivos'}
+   • Status alinhamento: None
+
+8. {'mensagens_whatsapp_ou_outros_meios': None, 'conteudo_das_comunicacoes': None, 'padroes_comportamento_abusivo': None}
+   • Status alinhamento: None
+
+9. {'meios': ['WhatsApp'], 'conteudo': 'Fotos de intimidações via WhatsApp; mensagens; uso de câmeras e aparecimentos para vigiar a vítima'}
+   • Status alinhamento: None
+
+10. {'observacoes': 'não apresentadas'}
+   • Status alinhamento: None
+
+11. [{'descricao': 'Tentativas de contato telefônico com requerente(s) de medidas protetivas de urgência', 'conteudo': 'as tentativas de contato foram sem sucesso'}]
+   • Status alinhamento: None
+
+COMUNICACOES_MENSAGENS
+------------------------------
+
+1. {'tipo': 'intimação', 'conteudo': 'INTIMAÇÃO de STENIO BENTO FERREIRA recebida com CONTRAFÉ enviada em formato PDF por aplicativo de mensagem, declarando ciência de seu conteúdo.', 'meio': 'aplicativo de mensagem', 'data_hora': '2025-08-18T14:08:00'}
+   • Status alinhamento: None
+
+CONTEXTO
+------------------------------
+
+1. Sugestões de Medidas de Intervenção para Risco Extremo
+   • Posição no texto: 24299-24353
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+CONTEXTO_CRIMINAL
+------------------------------
+
+1. {'crimes_e_contexto': [{'crime': 'violência doméstica', 'descricao': 'violência doméstica no âmbito familiar'}]}
+   • Status alinhamento: None
+
+CONTEXTO_LEGAL
+------------------------------
+
+1. {'lei': {'nome': 'Lei n. 11.340/2006', 'apelido': 'Lei Maria da Penha'}, 'artigos': ['art. 1º', 'art. 22']}
+   • Status alinhamento: None
+
+CONTEXTO_PROXIMIDADE
+------------------------------
+
+1. proximidade entre atividade do autor e a residência da declarante
+   • Status alinhamento: None
+
+CRIME
+------------------------------
+
+1. Descumprimento de medidas protetivas
+   • artigo: art. 24-A
+   • lei: Lei n. 11.340/2006
+   • Posição no texto: 35628-35642
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+2. ameaça
+   • artigo: CPB Art. 147 CAPUT
+   • observacoes: Incidência do Autor
+   • Status alinhamento: None
+
+3. Perseguição
+   • descricao: comportamento de perseguição da vítima
+   • Posição no texto: 43940-43951
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+4. Monitoramento
+   • descricao: monitoramento sistemático da rotina da vítima; uso de câmeras do estabelecimento do autor
+   • Posição no texto: 44487-44500
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+5. Perturbação
+   • descricao: perturbação por contato constante e perguntas sobre para onde a vítima vai, com quem está e horários de retorno
+   • Status alinhamento: None
+
+6. Uso abusivo de direito de visitação
+   • descricao: potencial uso do regime informal de visitas como forma de controle
+   • Status alinhamento: None
+
+CRIME_E_COMPORTAMENTOS
+------------------------------
+
+1. descumprimento de medidas protetivas pode configurar crime
+   • artigo: art. 24-A da Lei n. 11.340/2006
+   • pena_potencial: prisão preventiva prevista no art. 312 do CPP
+   • descricao: descumprimento das medidas protetivas
+   • Status alinhamento: None
+
+CRIMES_E_COMPORTAMENTOS
+------------------------------
+
+1. []
+   • Status alinhamento: None
+
+2. [{'descrição': 'perseguição, monitoramento, controle'}, {'descrição': 'violação de medida protetiva'}, {'descrição': 'perturbação, intimidação'}, {'descrição': 'uso abusivo de direito de visitação'}]
+   • Status alinhamento: None
+
+3. [{'codigo': '6b', 'descricao': 'Perturbou, perseguiu'}, {'codigo': '6e', 'descricao': 'Fez telefonemas, enviou mensagens pelo celular ou e-mails de forma insistente'}, {'codigo': '6g', 'descricao': 'Teve outros comportamentos de ciúme excessivo e de controle'}]
+   • Status alinhamento: None
+
+4. [{'crime': None, 'descricao': None}]
+   • Status alinhamento: None
+
+5. perseguição, monitoramento, controle, intimidação, uso abusivo de direito de visitação
+   • itens: ['perseguição', 'monitoramento', 'controle', 'intimidação', 'uso abusivo de direito de visitação']
+   • Status alinhamento: None
+
+6. [{'descricao': 'CPB Art. 147 CAPUT, c/c TODAS AS ANTERIORES', 'referencia': 'Código Penal - Art. 147'}, {'descricao': 'Lei 11.340/2006 Art. 5° III, Art. 7º II', 'referencia': 'Lei Maria da Penha'}]
+   • Status alinhamento: None
+
+7. [{'crime': 'Perseguição, monitoramento, controle', 'crime_attributes': {'descricao': 'Possível conduta de perseguição, monitoramento ou controle.'}}, {'crime': 'Violação de medida protetiva', 'crime_attributes': {'descricao': 'Potencial violação de medidas protetivas, se aplicáveis.'}}, {'crime': 'Perturbação, intimidação', 'crime_attributes': {'descricao': 'Indícios de perturbação ou intimidação.'}}, {'crime': 'Uso abusivo de direito de visitação', 'crime_attributes': {'descricao': 'Possível uso indevido de direito de visitação.'}}]
+   • Status alinhamento: None
+
+8. {'categorias': ['perseguição', 'monitoramento', 'controle', 'perturbação', 'intimidação', 'violação de medida protetiva', 'uso abusivo de direito de visitação'], 'observacoes': 'Ex-companheiro utiliza câmeras, mensagens, aparições inesperadas e vínculo com a filha para vigiar passos e interferir na rotina da vítima'}
+   • Status alinhamento: None
+
+9. {'crimes': ['Perseguição', 'Monitoramento', 'Intimidação', 'Uso abusivo de direito de visitação'], 'observacoes': None}
+   • Status alinhamento: None
+
+10. {'crimes': ['perseguição', 'monitoramento', 'controle', 'violação de medida protetiva', 'perturbação', 'intimidação', 'uso abusivo de direito de visitação']}
+   • Status alinhamento: None
+
+11. {'descricao': 'descumprimento de medida protetiva de urgência'}
+   • Status alinhamento: None
+
+12. ['perseguição, monitoramento, controle', 'violação de medida protetiva', 'perturbação, intimidação', 'uso abusivo de direito de visitação']
+   • Status alinhamento: None
+
+13. {'tipos': ['Perseguição', 'Monitoramento', 'Controle', 'Violação de medida protetiva', 'Perturbação', 'Intimidação', 'Uso abusivo de direito de visitação']}
+   • Status alinhamento: None
+
+14. [{'descricao': 'perseguição e monitoramento', 'categoria': 'perseguição/monitoramento'}, {'descricao': 'uso abusivo do direito de visitação', 'categoria': 'controle/visitação'}]
+   • Status alinhamento: None
+
+15. ['perseguição', 'monitoramento', 'controle', 'violação de medida protetiva', 'perturbação', 'intimidação', 'uso abusivo de direito de visitação']
+   • Status alinhamento: None
+
+16. [{'tipo': 'ameaça', 'frequencia': 'nenhuma', 'detalhes': '1-A: o agressor não ameaçou com arma; 1-B: não houve ameaça'}, {'tipo': 'violência física', 'frequencia': 'nenhuma', 'detalhes': '2-A e 2-B: nenhuma agressão física registrada'}]
+   • Status alinhamento: None
+
+17. [{'tipo': 'perseguição/monitoramento', 'descricao': 'perseguição, monitoramento e uso de mecanismos para vigiar a vítima'}, {'tipo': 'perturbação/intimidação', 'descricao': 'intimidação e constrangimento '}, {'tipo': 'uso_abusivo_de_direito_de_visitaçao', 'descricao': 'tentativa de contatar familiares para fins de acompanhamento da guarda'}]
+   • Status alinhamento: None
+
+18. [{'tipo': 'Perseguição, monitoramento, controle', 'observacoes': 'alega-se perseguição, vigilância constante'}, {'tipo': 'Intimidação', 'observacoes': 'intimidações mais enfáticas desde meados de 2025'}, {'tipo': 'Perturbação', 'observacoes': 'perturbação da rotina e intimidação'}, {'tipo': 'Uso abusivo de direito de visitação', 'observacoes': 'tentativa de controle através de visitas paternas'}]
+   • Status alinhamento: None
+
+19. ['perseguição', 'monitoramento', 'controle', 'perturbação', 'intimidação']
+   • Status alinhamento: None
+
+20. [{'tipo': 'violência doméstica', 'descricao': None}]
+   • Status alinhamento: None
+
+21. [{'descricao': 'Prática de crime em contexto de violência doméstica (Lei 11.340/2006)'}]
+   • Status alinhamento: None
+
+DADOS
+------------------------------
+
+1. {'percepcao_risco': '', 'descricao_percepcao': '', 'fatores_interferentes_na_percepcao': '', 'diferencas_percepcao_avaliador_vitima': ''}
+   • Status alinhamento: None
+
+2. {'risco_novas_agressoes': '', 'fatores_contextuais_relevantes': '', 'decisoes_presentes_da_vitim': '', 'observacoes_adicionais': ''}
+   • Status alinhamento: None
+
+DADOS_DECISAO
+------------------------------
+
+1. {'tipo_decisao': 'Decisão Interlocutória', 'data_decisao': '2025-08-16', 'data_inclusao': '2025-08-16T13:28:43+00:00', 'descricao': 'Decisão envolvendo medidas protetivas de urgência'}
+   • Status alinhamento: None
+
+DADOS_FAMILIARES
+------------------------------
+
+1. {'filhos': [{'descricao': 'filho com STENIO', 'idade_atual_anos': 2}], 'relacionamentos': [{'tipo': 'relação amorosa', 'com_parceiro': 'STENIO', 'periodo': 'aprox. 3 meses', 'periodo_ano': 2022}]}
+   • Status alinhamento: None
+
+2. {'filhos': [{'com': 'Declarante', 'idade_atual_anos': 2}], 'relacionamentos': [{'tipo': 'relação amorosa anterior', 'periodo': '2022', 'observacao': 'término da relação'}]}
+   • Status alinhamento: None
+
+3. {'observacao': 'Declarante é mãe de Nayane Araujo'}
+   • Status alinhamento: None
+
+4. {'pai_da_crianca': 'STENIO', 'mae_da_crianca': 'NAYANE ARAUJO'}
+   • Status alinhamento: None
+
+5. {'observacao': 'casal são pais de uma criança com cerca de 2 anos e meio'}
+   • Status alinhamento: None
+
+6. {'pai': {'nome': 'Francisco Neres', 'cpf': '043.726.801-20'}, 'mae': None, 'filhos': []}
+   • Status alinhamento: None
+
+7. {'pai': 'Bernardino Alves da Silva', 'mae': 'GLAUDES LEITE DE ARAUJO SILVA'}
+   • Status alinhamento: None
+
+DADOS_PESSOAIS_ADICIONAIS
+------------------------------
+
+1. {'nome_pai': 'João Batista Calaça Ferreira', 'nome_mae': 'Vilma Benta Ferreira', 'nacionalidade': 'BRASILEIRA', 'naturalidade': 'Goiânia/GO', 'documentos': [{'tipo_documento': 'Certidão de Nascimento', 'numero_registro': '49825', 'data_expedicao': '29/11/1979', 'observacao': 'Tipo C.Nasc.'}], 'telefone_residencial': '33890516', 'endereco_residencial': {'descricao': 'Rua Benjamim Constant Qd. 141 A Lt 04 S. T. Planaltina-DF', 'tipo': 'RESIDENCIAL'}}
+   • Status alinhamento: None
+
+DADOS_PROCESSO
+------------------------------
+
+1. {'processo_numero': None, 'ocorrencia': None, 'protocolo': None, 'delegacia': None, 'vara_juizado': None, 'tipo_procedimento': 'pedido de medidas protetivas e representação criminal'}
+   • Status alinhamento: None
+
+2. {'numero_processo': '0711504-04.2025.8.07.0005', 'classe_judicial': 'MEDIDAS PROTETIVAS DE URGÊNCIA (LEI MARIA DA PENHA) - CRIMINAL (1268)', 'vara_juizado_responsavel': 'Juizado de Violência Doméstica e Familiar Contra a Mulher de Planaltina', 'unidade_judiciaria': 'TJDFT', 'datas_importantes': [{'tipo': 'Data de inclusão da decisão', 'data': '2025-08-18T17:21:55+00:00'}, {'tipo': 'Data da certidão', 'data': '2025-08-16T13:35:35+00:00'}]}
+   • Status alinhamento: None
+
+3. {'processo_numero': '0711504-04.2025.8.07.0005', 'mandado_numero': '2025.484907', 'id_doc_pje': '246514159', 'data_distribuicao': '18/08/2025', 'destinatario': {'nome': 'STENIO BENTO FERREIRA', 'cpf': '698.595.401-44', 'endereco': 'VILA N SRA DE FATIMA QUADRA E CONJUNTO E1 CASA 04 PLANALTINA-DF'}}
+   • Status alinhamento: None
+
+DADOS_PROCESSUAIS
+------------------------------
+
+1. {'numero_processo': None, 'ocorrencia': None, 'protocolo': None, 'delegacia': None, 'vara_juizado_responsavel': None, 'datas_importantes': [{'descrição': None, 'data': None}], 'tipo_procedimento': None}
+   • Status alinhamento: None
+
+2. {'tipo_procedimento': 'medidas protetivas de urgência', 'lei_aplicavel': 'Lei n. 11.340/2006', 'observacoes': 'Decisão com força de Mandado e Carta Precatória'}
+   • Status alinhamento: None
+
+3. {'ip_numero': '1036', 'inicio_ip': '17/07/2025', 'delegacia': '16ª DP', 'tipo_ip': 'Portaria', 'incidencia_autor': 'CPB Art. 147 CAPUT, C/C TODAS AS ANTERIORES, LEI 11.340/2006 Art. 5° III, Art. 7º II', 'identificado_em': '13/08/2025'}
+   • Status alinhamento: None
+
+4. [{'processo': '1036/2025 - 16ª DP', 'processo_attributes': {'numero': '1036/2025', 'delegacia': '16ª DP'}}]
+   • Status alinhamento: None
+
+5. Boletim de ocorrência na 16ª DP
+   • ocorrencia: BOLETIM DE OCORRÊNCIA na 16ª DP
+   • delegacia: 16ª DP
+   • numero_protocolo: None
+   • numero_processo: None
+   • Posição no texto: 77944-77978
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+6. {'observacao': 'Não há números de processo ou protocolo fornecidos neste trecho'}
+   • Status alinhamento: None
+
+7. {'procedimento': 'pedido de medidas protetivas', 'observacoes': 'número de processo, protocolo não fornecidos no relato'}
+   • Status alinhamento: None
+
+8. {'descricao': 'Medidas protetivas previstas pela Lei Maria da Penha (Lei n. 11.340/2006)', 'numero_processo': None, 'ocorrencia': 'violência doméstica conforme Lei n. 11.340/2006', 'protocolos': None, 'delegacia_responsavel': None, 'vara_juizado_responsavel': None, 'tipos_procedimento': ['medidas protetivas'], 'datas_importantes': []}
+   • Status alinhamento: None
+
+DADOS_RELEVANTES_PRESENTES
+------------------------------
+
+1. False
+   • Status alinhamento: None
+
+DATA_DA_COMUNICACAO
+------------------------------
+
+1. 15/08/2025
+   • Posição no texto: 52143-52153
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+DATA_INCLUSAO
+------------------------------
+
+1. 2025-08-16T02:00:38+00:00
+   • valor_iso: 2025-08-16T02:00:38+00:00
+   • Posição no texto: 51425-51450
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+DATAS_IMPORTANTES
+------------------------------
+
+1. {'dados': [{'descricao': 'início do relacionamento', 'data': '2022'}, {'descricao': 'boletim de ocorrência registrado', 'data': None}, {'descricao': 'medida protetiva deferida', 'data': None}]}
+   • Status alinhamento: None
+
+DESCRICAO
+------------------------------
+
+1. Grupo Reflexivo para Homens e/ou PROVID/PMDF
+   • Posição no texto: 26002-26034
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+2. avaliar requerimento de medidas cautelares
+   • Posição no texto: 26067-26109
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+3. avaliar CAPS-AD
+   • Posição no texto: 26125-26140
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+4. avaliar medida protetiva ref. arma de fogo
+   • Posição no texto: 26156-26198
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+5. avaliar CAPS
+   • Posição no texto: 26220-26232
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+6. Assistência Jurídica à Vítima
+   • Posição no texto: 26248-26277
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+7. Oficina de Parentalidade
+   • Posição no texto: 26293-26317
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+8. avaliar serviço psicossocial à mulher (CMB, CEAM, NERAV, SETPS, DAP)
+   • Posição no texto: 26344-26412
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+9. avaliar comunicação ao Conselho Tutelar
+   • Posição no texto: 26443-26482
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+10. avaliar serviços de emprego e renda ao agressor (CRAS/CREAS, Ag. Trabalhador)
+   • Posição no texto: 26498-26575
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+11. avaliar serviços de emprego e renda à mulher (CMB, CRAS/CREAS, Ag. Trabalhador)
+   • Posição no texto: 26591-26670
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+12. avalia Casa Abrigo
+   • Status alinhamento: None
+
+13. OBS: em todos os casos recomenda-se exame criterioso dos requerimentos de medidas protetivas de urgência e definição de sua vigência por prazo suficiente à proteção da mulher, independentemente do risco avaliado.
+   • Posição no texto: 26718-26930
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+14. Perguntas sobre risco da vítima
+   • Status alinhamento: None
+
+DESCRICAO_CONTEXTO
+------------------------------
+
+1. termino de relação com NAYANE; convivência pacífica até o início de novo relacionamento de STÊNIO, que passou a caracterizar perseguição e vigilância sobre a vítima
+   • Status alinhamento: None
+
+DESPACHO
+------------------------------
+
+1. Junte-se Inquérito Policial
+   • referencia: DESPACHO 035.940-8
+   • Posição no texto: 48185-48212
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+2. Despacho
+   • conteudo: Considerando o relato de possível descumprimento de medidas protetivas, encaminhem-se os autos ao Ministério Público.
+   • data_inclusao: 2025-08-16T02:49:01+00:00
+   • local: Brasília/DF
+   • Posição no texto: 67371-67379
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+3. Considerando o relato de possível descumprimento de medidas protetivas, encaminhem-se os autos ao Ministério Público.
+   • texto: Considerando o relato de possível descumprimento de medidas protetivas, encaminhem-se os autos ao Ministério Público.
+   • data_inclusao: 2025-08-16T02:49:01+00:00
+   • Posição no texto: 67380-67497
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+DETALHES
+------------------------------
+
+1. {'atendimento_medico': False, 'internacao': False}
+   • Status alinhamento: None
+
+DILIGENCIA
+------------------------------
+
+1. {'codigo': '246680241', 'tipo': 'Diligência', 'data_inclusao': '2025-08-18T23:38:34+00:00', 'instituicao': 'TJDFT', 'mandado': {'numero_mandado': '2025.484906', 'processo': '0711504-04.2025.8.07.0005', 'id_doc_pje': '246514159', 'data_distribuicao': '18/08/2025', 'destinatario': {'nome': 'MARIA HELENA DE ARAUJO SILVA', 'cpf': None, 'rg': None}, 'intimacao': {'horario': '2025-08-18T14:58:00', 'meio': 'contato telefônico prévio de identificação', 'telefone_identificacao': '98607-7923'}, 'destinatario_confirmado': True, 'oficial_judicial': {'nome': 'Elizabete Aparecida Silva Gonçalves', 'cargo': 'Oficial(a) de Justiça', 'matricula': '307901'}, 'observacoes': 'Intimação realizada; contrafé entregue em formato PDF'}}
+   • Status alinhamento: None
+
+2. {'codigo': '246688446', 'tipo': 'Diligência', 'data_inclusao': '2025-08-19T01:28:39+00:00', 'mandado': {'numero_mandado': '2025.484907', 'numero_processo': '0711504-04.2025.8.07.0005', 'id_pje': '246514159', 'data_distribuicao': '18/08/2025', 'destinatario': {'nome': 'STENIO BENTO FERREIRA', 'cpf': '698.595.401-44', 'endereco': 'VILA N SRA DE FATIMA QUADRA E CONJUNTO E1 CASA 04 PLANALTINA-DF'}}, 'intimacao': {'tipo': 'intimação', 'destinatario': 'STENIO BENTO FERREIRA', 'cpf_destinatario': '698.595.401-44', 'endereco_destinatario': 'VILA N SRA DE FATIMA QUADRA E CONJUNTO E1 CASA 04 PLANALTINA-DF', 'meio_entrega': 'aplicativo de mensagem', 'conteudo': 'Intimação realizada após leitura da ordem; CONTRAFÉ recebida em formato PDF; ciência do conteúdo'}}
+   • Status alinhamento: None
+
+3. {'tipo': 'Diligência', 'data_inclusao': '2025-08-19T01:28:39+00:00', 'unidade': 'TJDFT', 'mandado_numero': '2025.484907', 'observacoes': 'Certidão de diligência realizada em plantão judicial; intimado recebeu a contrafé.'}
+   • Status alinhamento: None
+
+DOCUMENTO
+------------------------------
+
+1. {'numero_documento': '1850944', 'organismo_emitente': 'POLÍCIA CIVIL DO DISTRITO FEDERAL 16ª DP', 'data_emissao': '15/08/2025', 'descricao': 'Documento de identificação/registro correlato ao processo', 'observacoes': None}
+   • Status alinhamento: None
+
+2. Certidão de Nascimento
+   • cartorio: 2º Of.
+   • numero: 34340
+   • cidade_uf_expedicao: Planaltina / DF
+   • data_expedicao: 10/02/1994
+   • observacao: Certidão de Nascimento
+   • Posição no texto: 62182-62204
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+3. Certidão de Casamento
+   • cartorio: 8º Of.
+   • numero: 156976.01.55.2018.2.00020.2 56.0005956.39
+   • cidade_uf_expedicao: Sobradinho / DF
+   • data_expedicao: 23/08/2018
+   • data_cadastro: 19/11/2018
+   • observacao: Certidão de Casamento
+   • Posição no texto: 62498-62519
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+4. {'nome_arquivo': 'MPU Maria Helena de Aarújo Lima.pdf', 'tipo': 'Documento relacionado ao Ministério Público', 'descricao': 'PDF citado no intercâmbio da conversa'}
+   • Status alinhamento: None
+
+DOCUMENTO_EXTERNO
+------------------------------
+
+1. {'codigo': '3466/2025-16ª DP', 'tipo': 'PROCEDIMENTO INVESTIGATÓRIO', 'data_inclusao': '2025-08-16T02:00:37+00:00', 'processo_associado': '0709894-98.2025.8.07.0005', 'ofendida': 'N. A. N.', 'ofensor': 'STENIO BENTO FERREIRA', 'endereco_telefonico_restrito': True, 'medida_protetiva_incluida': 'proibição de contato com a ofendida, seus familiares e testemunhas por qualquer meio de comunicação', 'unidade_judiciaria': 'Juizado de Violência Doméstica e Familiar Contra a Mulher de Planaltina'}
+   • Status alinhamento: None
+
+DOCUMENTOS_APRESENTADOS
+------------------------------
+
+1. ['termo de declarações da Ofendida', 'questionário de avaliação de risco']
+   • Posição no texto: 29489-29598
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+ENCERRAMENTO_TERM
+------------------------------
+
+1. {'descricao': 'encerramento do presente termo pela Autoridade Policial', 'observacoes': 'termo encerrado após leitura e achado conforme', 'assinaturas': True}
+   • Status alinhamento: None
+
+ENDERECO
+------------------------------
+
+1. SETOR RESID OESTE /VILA N SRA DE FATIMA Q A - VILA N SRA DE FATIMA Q A CJ A3 LT 20 - PLANALTINA, DF
+   • Posição no texto: 4526-4625
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+2. {'tipo': 'Residencial', 'bairro': 'Vila Nossa Senhora de Fátima', 'cidade_uf': 'Planaltina / DF', 'pais': 'Brasil', 'cep': 'Não Informado', 'data_cadastro': '19/11/2018'}
+   • Status alinhamento: None
+
+3. {'tipo': 'Comercial', 'descricao': 'WIZ Soluções, Shopping Liberty Mall', 'cidade_uf': 'Brasília / DF', 'pais': 'Brasil', 'data_cadastro': '19/11/2018'}
+   • Status alinhamento: None
+
+ENDERECO_DO_FATO
+------------------------------
+
+1. {'endereco': 'VILA N SRA DE FATIMA Q A CJ A3 LT 20, SETOR RESID OESTE /VILA N SRA DE FATIMA Q A', 'cidade': 'PLANALTINA', 'uf': 'DISTRITO FEDERAL'}
+   • Status alinhamento: None
+
+ENDERECO_FATO
+------------------------------
+
+1. {'endereco': 'VILA N SRA DE FATIMA Q A CJ A3 LT 20, SETOR RESID OESTE /VILA N SRA DE FATIMA Q A.'}
+   • Posição no texto: 52286-52379
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+ESTADO_CIVIL
+------------------------------
+
+1. casada
+   • Status alinhamento: None
+
+FATORES_DE_RISCO_OBJETIVOS
+------------------------------
+
+1. {'descricao': 'Fatores de risco objetivos mencionados como itens que costumam representar risco independente de outros elementos', 'referencia': 'Nicolls et al., 2013', 'itens': ['1-A', '2-B', '3', '6a', '6b', '6c'], 'observacao': 'A seção aponta que esses itens costumam representar risco independente de outros elementos; a modalidade de agressão física grave (2-B) é citada como exemplo.'}
+   • Status alinhamento: None
+
+FATOS_PROCESSO
+------------------------------
+
+1. Descumprimento de medidas protetivas de urgência outrora deferidas em desfavor de STÊNIO BENTO FERREIRA; requerimento de medidas protetivas em favor de MARIA HELENA DE ARAÚJO SILVA contra STÊNIO
+   • descricao: Notícia de descumprimento de medidas protetivas de urgência deferidas anteriormente; solicitação de novas medidas protetivas para Maria Helena (exigir proteção contra STÊNIO).
+   • partes_envolvidas: ['STÊNIO BENTO FERREIRA', 'MARIA HELENA DE ARAÚJO SILVA']
+   • contexto: Violência doméstica e medidas protetivas
+   • Posição no texto: 68587-68690
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+FILHOS
+------------------------------
+
+1. [{'pai': 'STÊNIO BENTO FERREIRA', 'mae': 'NAYANE ARAÚJO NERES', 'descricao': 'criança com aproximadamente 2 anos e meio de idade', 'numero_filhos': 1}]
+   • Status alinhamento: None
+
+FILHOS_ASSISTIRAM_VIOLENCIA
+------------------------------
+
+1. False
+   • Status alinhamento: None
+
+FORMULARIO_AVALIACAO_RISCO
+------------------------------
+
+1. {'formulario': 'Formulário Nacional de Avaliação de Risco', 'observacao': 'Aplicação preferencial pela Polícia Civil; facultada a utilização por outras instituições'}
+   • Status alinhamento: None
+
+HOMOLOGACAO
+------------------------------
+
+1. {'descricao': 'HOMOLOGADA', 'data': '17/07/2025', 'hora': '22:59'}
+   • Status alinhamento: None
+
+HORARIO_DA_COMUNICACAO
+------------------------------
+
+1. 20:30
+   • Posição no texto: 52157-52162
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+IDENTIFICACAO_CIVIL
+------------------------------
+
+1. {'registro': '1827/2025-16ª DP', 'codigo': '246500756', 'tipo_procedimento': 'PROCEDIMENTO INVESTIGATÓRIO', 'data_inclusao': '2025-08-16T02:00:38+00:00', 'observacoes': ['Nome: NAYANE ARAÚJO NERES DURÃES', 'Mãe: Maria Helena de Araújo Silva', 'Pai: Francisco Neres Ribeiro', 'EstadoCivil: Casado(a)', 'Data Nascimento: 30/01/1994', 'Sexo: Feminino', 'RG: 2958179', 'CPF: 04372680120', 'Naturalidade: Brasília/DF', 'Procedência: Brasília/DF', 'Profissão: Telefonista']}
+   • Status alinhamento: None
+
+INFORMACAO
+------------------------------
+
+1. Formulário Nacional de Avaliação de Risco
+   • composicao: questões objetivas (Parte I) e subjetivas (Parte II)
+   • aplicacao: profissional capacitado; admitindo-se, na sua ausência, o preenchimento pela própria vítima, tão somente, quanto às questões objetivas (Parte I)
+   • destino: anexado aos inquéritos e aos procedimentos relacionados à prática de atos de violência doméstica e familiar contra a mulher
+   • finalidade: subsidir a apreciação judicial de pedidos de medida protetiva de urgência e/ou cautelar, bem como a atuação do Ministério Público e dos demais integrantes da rede de proteção
+   • referencias_legais: Resolução Conjunta CNJ e CNMP n. 05/2020, art. 3° a 5°
+   • Posição no texto: 15153-15194
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+2. Avaliação e Gestão do Risco no DF
+   • observacoes_atuais: ['ATENÇÃO!: Independentemente do preenchimento deste formulário ou de suas respostas, as medidas protetivas de urgência requeridas pela vítima devem ser apreciadas e a persecução criminal deve ter continuidade.', 'Poucas respostas positivas não significam desnecessidade de intervenções de proteção pelo Sistema de Justiça.', 'É necessário atenção especial para não subestimar a violência psicológica, que muitas vezes não possui tipos penais adequados para retratar sua gravidade, porém possui grave impacto no adoecimento orgânico e mental de mulheres e na fragilização dos vínculos familiares e comunitários.']
+   • objetivo_da_avaliacao: investigar fatores de risco com objetivo de orientar decisões de modo a reduzir ou eliminar o risco de ocorrer novas violências
+   • natureza_da_avaliacao: a avaliação dos dados da Parte I é qualitativa e requer o julgamento do avaliador
+   • indicador_de_risco: quanto maior o número de respostas positivas nos Blocos I, II e III, maior o risco de violência grave potencialmente letal
+   • Posição no texto: 15881-15914
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+3. {'descricao': 'Homologada', 'data': '15/08/2025', 'hora': '22:56'}
+   • Status alinhamento: None
+
+INFORMACOES_AVALIACAO
+------------------------------
+
+1. {'profissional_responsavel': {'nome': '', 'cargo': 'profissional de avaliação'}, 'percepcao_risco': {'percepcao': '', 'descricao': '', 'elementos_interferentes': [], 'observacoes': ''}, 'outras_informacoes_relevantes': {'contexto_risco': [], 'explicacao': '', 'observacoes_adicionais': ''}, 'comunicacoes': {'conteudo': '', 'padroes_comportamentais': ''}}
+   • Status alinhamento: None
+
+INFORMACOES_PROCESSUAIS
+------------------------------
+
+1. {'processo': '100021091192', 'protocolo': '100021091192', 'observacao': 'Emissão de identidade'}
+   • Status alinhamento: None
+
+INQUERITO_POLICIAL
+------------------------------
+
+1. 1193/2025-16ª DP
+   • numero: 1193/2025-16ª DP
+   • Posição no texto: 55842-55858
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+INTERVENCAO_PARTE_III
+------------------------------
+
+1. {'descricao': 'Tipo de intervenção adequada para gestão individualizada dos riscos', 'diretrizes': 'Conforme diretrizes da Parte III', 'consideracoes_profissionais': 'A critério do profissional, deve-se avaliar o encaminhamento aos destinatários de proteção, preservando o sigilo perante terceiros'}
+   • Status alinhamento: None
+
+ITENS_SELECIONADOS
+------------------------------
+
+1. {'disse_frase_proibitiva': False, 'perturbou_perseguiu': True, 'proibiu_visitar_familia_amigos_trabalhar_estudar': False, 'fez_telefonemas_mensagens_insistentes': True, 'impediu_acesso_dinheiro_bens': False, 'outros_comportamentos_ciume_excessivo_e_controle': True, 'proibiu_ir_ao_medico_ou_pedir_ajuda_profissional': False, 'nenhum_dos_acima': False}
+   • Status alinhamento: None
+
+LOCAL
+------------------------------
+
+1. 7b
+   • Posição no texto: 9889-9892
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+2. {'cidade': 'PLANALTINA', 'uf': 'DISTRITO FEDERAL', 'tipo_local': 'PANIFICADORA', 'descricao_local': 'ESTABELECIMENTO COMERCIAL', 'objeto_meio_empregado': 'OUTROS'}
+   • Status alinhamento: None
+
+MANDADO
+------------------------------
+
+1. Diligência
+   • codigo: 246680241
+   • tipo: Diligência
+   • data_inclusao: 2025-08-18T23:38:34+00:00
+   • numero_mandado: 2025.484906
+   • numero_processo: 0711504-04.2025.8.07.0005
+   • id_doc_pje: 246514159
+   • destinatario: {'nome': 'MARIA HELENA DE ARAUJO SILVA', 'cpf': '553.133.291-20', 'papel': 'destinatário do mandado'}
+   • oficial: {'nome': 'ELIZABETE APARECIDA SILVA GONÇALVES', 'cargo': 'Oficial(a) de Justiça', 'matricula': '307901'}
+   • distribuicao: 18/08/2025
+   • intimacao: {'descricao': 'intimação realizada, contrafé recebida', 'observacoes': 'recebeu contrafé'}
+   • Posição no texto: 83296-83306
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+MANIFESTACAO_MP
+------------------------------
+
+1. Manifestação do MPDFT
+   • Posição no texto: 68282-68303
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+2. MANIFESTAÇÃO MPDFT
+   • Posição no texto: 68238-68250
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+MEDIDA_PROTETIVA
+------------------------------
+
+1. 1046/2025-16ª DP
+   • numero: 1046/2025-16ª DP
+   • codigo: 246500748
+   • tipo: TERMO DE REQUERIMENTO DE MEDIDAS PROTETIVAS
+   • procedimento: PROCEDIMENTO INVESTIGATÓRIO
+   • data_inclusao: 2025-08-16T02:00:40+00:00
+   • ref_ocorrencia: Ocorrência 8460/2025 - 16ª DP
+   • ref_protocolo: PROTOCOLO Nº 2215813/2025 - 16ª DP
+   • data_solicitacao: 15/08/2025
+   • Posição no texto: 64308-64324
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+2. Proibição de aproximação e de contato com a vítima
+   • descrição: ['Proibição de aproximação da vítima', 'distância mínima de 300 metros', 'Proibição de contato com a vítima por qualquer meio de comunicação (ligação telefônica, WhatsApp, e-mail, Facebook, Instagram e outros)']
+   • observacao: A medida de proibição de contato não abrange os filhos da requerente com o requerido
+   • Posição no texto: 34954-35098
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+3. {'solicitada': True, 'descrição': 'proibir STÊNIO de manter contato com NAYANE'}
+   • Status alinhamento: None
+
+4. {'numero': '1046/2025-16ª DP', 'codigo': '246500748', 'tipo': 'Medida protetiva', 'procedimento': 'Procedimento Investigatório', 'data_inclusao': '2025-08-16T02:00:40+00:00', 'local_de_policia': {'orgao': 'Polícia Civil do Distrito Federal', 'setor': 'Decima Sexta Delegacia de Polícia - 16ª DP', 'email': 'dp16-saa@pcdf.df.gov.br'}, 'documentos_relacionados': {'termo_requerimento': 'TERMO DE REQUERIMENTO DE MEDIDAS PROTETIVAS', 'local': 'Brasília', 'data_pedido': '15 de agosto de 2025', 'referencia_ocorrencia': 'Ocorrência 8460/2025 - 16ª DP', 'protocolo_relacionado': '2215813/2025'}}
+   • Status alinhamento: None
+
+5. Proibição de aproximação
+   • descricao: limite mínimo de 300 metros de distância entre o agressor e a vítima
+   • limite_metros: 300
+   • destino: vítima
+   • Posição no texto: 82766-82790
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+6. Proibição de contato
+   • descricao: com a vítima por qualquer meio de comunicação
+   • meios: ['telefone', 'WhatsApp', 'e-mail', 'Facebook', 'Instagram']
+   • Posição no texto: 82877-82897
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+MEDIDAS_DEFERIDAS
+------------------------------
+
+1. None
+   • Status alinhamento: None
+
+MEDIDAS_INTERVENCAO
+------------------------------
+
+1. {'tipo': 'riscos_extremos', 'itens': [{'descricao': 'busca ativa da vítima para encaminhamento personalizado aos serviços da rede e informação sobre procedimentos em caso de eventual descumprimento da medida protetiva de urgência'}, {'descricao': 'avaliação com a vítima da necessidade de seu encaminhamento à Casa Abrigo'}, {'descricao': 'encaminhamento do caso ao PROVID/PMDF, para construção do plano de segurança e acompanhamento periódico'}, {'descricao': 'encaminhamento do caso ao Programa de Celular de Socorro da SSP/DF (Viva-Flor)'}, {'descricao': 'encaminhamento do caso ao serviço psicossocial de atenção às mulheres (CMB, CEAM, NAVAFD, CREAS, PAV, outros), com cópia deste formulário e ocorrência policial, para busca ativa telefônica e/ou residencial e/ou para estudo psicossocial'}, {'descricao': 'atribuição de prioridade nos diversos serviços, inclusive intimações judiciais'}, {'descricao': 'avaliação da necessidade de encaminhamento do suposto agressor a programa de reflexão psicossocial (NAFAVD, NJM/TJDFT, Programa RenovaAÇÃO/DPDF, Faculdades)'}, {'descricao': 'encaminhamento do caso à comissão circunscricional de enfrentamento à violência doméstica e familiar contra a mulher, para estudo do caso'}, {'descricao': 'avaliação da decretação da prisão preventiva e/ou produção antecipada de provas'}, {'descricao': 'avaliação de eventual aplicação de monitoramento eletrônico ao agressor (tornozeleira)'}, {'descricao': 'avaliação de eventual desconsideração de retratação da vítima em caso de ameaças'}, {'descricao': 'monitoramento telefônico periódico quanto ao cumprimento das medidas protetivas de urgência'}]}
+   • Posição no texto: 24299-25987
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+MEDIDAS_PROTETIVAS
+------------------------------
+
+1. {'solicitadas': [], 'deferidas': [], 'distancia_minima_estabelecida': None}
+   • Status alinhamento: None
+
+2. {'medidas_solicitadas': ['medida protetiva de urgência'], 'medidas_deferidas': ['medida protetiva deferida impedindo o contato de STENIO com a filha por qualquer meio de comunicação'], 'distancia_minima_estabelecida': None, 'proibicoes_de_contato_e_aproximacao': ['contato com a filha por qualquer meio de comunicação', 'aproximação da filha']}
+   • Status alinhamento: None
+
+3. {'solicitadas': False, 'deferidas': False, 'distancia_minima_estabelecida': None, 'proibiacoes_de_contato_e_aproximacao': False}
+   • Status alinhamento: None
+
+4. {'medidas_solicitadas': ['acolhimento na casa abrigo'], 'medidas_deferidas': None, 'distancia_minima': None, 'proibições_de_contato': None}
+   • Status alinhamento: None
+
+5. [{'medidas_solicitadas': None, 'medidas_deferidas': None, 'distancia_minima_estabelecida': None, 'proibicoes_de_contato_aproximacao': None}]
+   • Status alinhamento: None
+
+6. {'descricao': 'proibição de contato com a ofendida, seus familiares e testemunhas por qualquer meio de comunicação', 'distancia_minima': None, 'proibições_adicionais': None}
+   • Status alinhamento: None
+
+7. não especificadas na narrativa
+   • solicitadas: None
+   • deferidas: None
+   • distancia_minima: None
+   • proibicoes_contato_aproximacao: None
+   • Status alinhamento: None
+
+8. deferidas
+   • medidas_solicitadas: ['Proibição de aproximação da vítima', 'Proibição de contato com a vítima por qualquer meio de comunicação']
+   • distancia_minima_metros: 300
+   • observacao: A medida não abrange os filhos da requerente com o requerido
+   • Posição no texto: 34589-34598
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+9. {'medidas_solicitadas': None, 'medidas_deferidas': None, 'distancia_minima_estabelecida': None, 'proibicoes_contato_aproximacao': None}
+   • Status alinhamento: None
+
+10. {'medidas_solicitadas': ['impedir o autor de manter contato com a vítima'], 'medidas_deferidas': ['impedir o autor de manter contato com a vítima'], 'distancia_minima_estabelecida': None, 'proibicoes_contato_aproximacao': True}
+   • Status alinhamento: None
+
+11. {'medidas_solicitadas': ['proibição de STÊNIO de manter contato com NAYANE'], 'distancia_minima': None, 'proibições_de_contato_aproximacao': True}
+   • Status alinhamento: None
+
+12. {'solicitadas': ['Medida protetiva de urgência'], 'deferidas': True, 'descricao': 'Medidas protetivas de urgência previstas na Lei Maria da Penha (Lei 11.340/2006)'}
+   • Status alinhamento: None
+
+13. {'tipo': 'medida protetiva de urgência', 'decisao': 'deferida', 'observacoes': ['Termo de requerimento de medida protetiva assinado e anexado ao PROCED.NET', 'Decisão de deferimento das MPU juntadas aos autos', 'Relacao com a ocorrência 7368/2025 - 16ª DP']}
+   • Status alinhamento: None
+
+14. {'medidas_solicitadas': ['distância mínima de 300 metros', 'proibições de contato e aproximação'], 'decisao': 'deferidas', 'observacoes': 'A relação descreve que, após término, STENIO monitorava e perseguia a declarante; STENIO também buscou manter controle sobre a vida da declarante via direito de visitação.', 'datas_importantes': []}
+   • Status alinhamento: None
+
+15. {'medidas_solicitadas': ['proibição de contato', 'aproximação'], 'medidas_deferidas': ['proibição de contato', 'aproximação'], 'distancia_minima': None, 'observacoes': 'Medidas previstas no art. 22 da Lei n. 11.340/2006 (Lei Maria da Penha).'}
+   • Status alinhamento: None
+
+16. Solicitadas e deferidas
+   • solicitadas: proteção para a vítima; proibição de contato de STENIO com a filha por qualquer meio de comunicação
+   • deferidas: True
+   • distancia_minima: None
+   • proibicoes_de_contato: ['contato proibido por qualquer meio', 'aproximação proibida']
+   • Status alinhamento: None
+
+17. {'fundamento_legal': 'Lei n. 11.340/2006', 'decisão': 'Acolho o pedido e defiro as medidas protetivas de urgência', 'itens': [{'medida': 'Proibição de aproximação', 'descricao': 'distância mínima de 300 metros entre agressor e vítima'}, {'medida': 'Proibição de contato com a vítima', 'descricao': 'por qualquer meio de comunicação (ligação telefônica, WhatsApp, e-mail, Facebook, Instagram e outros)'}], 'efeitos_da_decisão': ['Intimação da requerente e do agressor acerca da presente decisão', 'Descumprimento das medidas protetivas constitui crime previsto no art. 24-A da Lei n. 11.340/2006', 'Pode sujeitá-lo a prisão preventiva, nos termos do art. 312 do CPP', 'As partes devem ser cientificadas de que somente uma nova decisão poderá revogar as medidas protetivas ora aplicadas', 'Qualquer modificação da situação que interfira no cumprimento das medidas deve ser comunicado ao Juizado de Violência Doméstica competente', 'Dou à presente decisão força de Mandado e Carta Precatória']}
+   • Status alinhamento: None
+
+18. {'processo': '0709894-98.2025.8.07.0005', 'data_decisao': '17/07/2025', 'medidas': [{'tipo': 'Proibição de aproximação', 'distancia_minima_metros': 300}, {'tipo': 'Proibição de contato', 'meios': ['qualquer meio de comunicação', 'alternativos como telefone, WhatsApp, e-mail, Facebook, Instagram e outros']}], 'intimado': True}
+   • Status alinhamento: None
+
+19. solicitadas e deferidas
+   • distancia_minima_metros: 300
+   • estado: deferidas
+   • descricao: proibição de contato e aproximação
+   • Status alinhamento: None
+
+20. {'solicitadas': ['medida protetiva de urgência'], 'deferidas': ['medida protetiva deferida', 'impõe impedimento de contato de STENIO com a filha por qualquer meio de comunicação'], 'distancia_minima': None, 'proibições': ['proibição de contato', 'proibição de aproximação']}
+   • Status alinhamento: None
+
+21. {'medidas_solicitadas': None, 'medidas_deferidas': None, 'distancia_minima_estabelecida': None, 'proibicoes_de_contato_e_proximacao': None}
+   • Status alinhamento: None
+
+22. {'medidas_solicitadas': 'Acolhimento na Casa de Abrigo', 'medidas_deferidas': 'Acolhimento na Casa de Abrigo', 'local': 'Casa de Abrigo', 'observacao': 'Formulário Nacional de Avaliação de Risco será aplicado pela Polícia Civil no registro da ocorrência'}
+   • Status alinhamento: None
+
+23. não especificadas no relato
+   • Status alinhamento: None
+
+24. {'solicitadas': ['proibição de contato entre o autor e a vítima'], 'definidas': ['proibição de contato entre o autor e a vítima'], 'distancia_minima': None, 'proibições_de_contato_e_aproximacao': True}
+   • Status alinhamento: None
+
+25. {'medidas_solicitadas': ['medida protetiva de urgência'], 'medidas_deferidas': ['Decisão de deferimento das MPU juntadas aos autos'], 'termo_requerimento': 'assinado e anexado ao PROCED.NET', 'observacao': 'Vitima declinou casa abrigo e viva-flor'}
+   • Status alinhamento: None
+
+26. {'descricao': 'medidas protetivas deferidas', 'distancia_minima_metros': 300, 'restricoes': ['proibição de contato', 'proibição de aproximação'], 'observacao': 'medidas deferidas após boletim de ocorrência'}
+   • Status alinhamento: None
+
+27. {'medidas_solicitadas': ['Medida protetiva para impedir contato entre STENIO e Nayane', 'Proibição de contato por qualquer meio de comunicação'], 'medidas_deferidas': ['Medida protetiva deferida', 'Proibição de contato de STENIO com a filha por qualquer meio de comunicação'], 'distancia_minima': None}
+   • Status alinhamento: None
+
+28. [{'descricao': 'proibição da aproximação da ofendida, de seus familiares e das testemunhas, fixando o limite mínimo de distância entre estes e o agressor', 'artigo': 'Lei 11.340 CAPITULO II DAS MEDIDAS PROTETIVAS Art.22 III.a'}, {'descricao': 'proibição de contato com a ofendida, seus familiares e testemunhas por qualquer meio de comunicação', 'artigo': 'Lei 11.340 CAPITULO II DAS MEDIDAS PROTETIVAS Art.22 III.b'}]
+   • Status alinhamento: None
+
+29. {'solicitadas': True, 'deferidas': True, 'distancia_minima_metros': 300, 'proibicoes': ['contato com a vítima', 'aproximação da residência da vítima']}
+   • Status alinhamento: None
+
+30. {'medidas_solicitadas': ['proibição de contato', 'proibição de aproximação'], 'medidas_deferidas': ['proibição de contato', 'proibição de aproximação'], 'artigo': 'art. 22 da Lei n. 11.340/2006', 'distancia_minima': None}
+   • Status alinhamento: None
+
+31. {'tipo': 'Medidas protetivas de urgência', 'lei': 'Lei n. 11.340/06 (Lei Maria da Penha)'}
+   • Status alinhamento: None
+
+32. [{'medidas_solicitadas': ['proibição de aproximação da ofendida, de seus familiares e das testemunhas', 'proibição de contato com a ofendida, seus familiares e testemunhas por qualquer meio de comunicação'], 'distancia_minima': None, 'proibições': ['aproximação', 'contato']}]
+   • Status alinhamento: None
+
+33. [{'medida': 'Medidas protetivas de urgência deferidas', 'medida_attributes': {'fato_subjacente': 'suposta prática de crime em contexto de incidência da Lei nº 11.340/06'}}, {'medida': 'Cumprimento em horário especial', 'medida_attributes': {'descricao': 'cumprimento em horário especial'}}, {'medida': 'Requisição de reforço policial', 'medida_attributes': {'descricao': 'caso necessário'}}, {'medida': 'Intimação de decisão', 'medida_attributes': {'observacao': 'intimação da decisão proferida em sede de plantão judicial'}}, {'medida': 'Recibos pelo CEMAN', 'medida_attributes': {'recebidos': ['2025484906', '2025484907']}}]
+   • Status alinhamento: None
+
+34. {'medidas_solicitadas': None, 'medidas_deferidas': True, 'distancia_minima': None, 'proibições_de_contato': None}
+   • Status alinhamento: None
+
+MOTIVO
+------------------------------
+
+1. POR CONDIÇÃO DO SEXO FEMININO
+   • Posição no texto: 52481-52510
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+NATURALIDADE
+------------------------------
+
+1. CAMPO MAIOR - PI
+   • Posição no texto: 4252-4268
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+NATUREZA_OCORRENCIA
+------------------------------
+
+1. EM APURACAO, DESCUMPRIR DECISÃO JUDICIAL QUE DEFERE MEDIDAS PROTETIVAS DE URGÊNCIA PREVISTAS NA LEI 11.340/2006, LEI MARIA DA PENHA (Lei 11.340/06)
+   • Posição no texto: 51973-52119
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+OBSERVACAO
+------------------------------
+
+1. Nome não informado no documento
+   • Status alinhamento: None
+
+OBSERVACOES
+------------------------------
+
+1. {'descricao': 'Vítima identificada no contexto da violência doméstica.'}
+   • Status alinhamento: None
+
+2. Sabendo ler e escrever
+   • Posição no texto: 4628-4650
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+3. ['Assinatura da vítima/terceiro comunicante: Maria Helena Straus Novel']
+   • Status alinhamento: None
+
+4. Não foram fornecidas informações suficientes para estimar o risco de novas violências. Dados necessários incluem histórico de violência, padrões de comportamento abusivo, presença de mensagens, contatos, distâncias de proteção, guarda de filho, e status de medidas protetivas.
+   • Status alinhamento: None
+
+5. None
+   • Status alinhamento: None
+
+6. None
+   • Status alinhamento: None
+
+7. None
+   • Status alinhamento: None
+
+8. None
+   • Status alinhamento: None
+
+9. None
+   • Status alinhamento: None
+
+10. None
+   • Status alinhamento: None
+
+11. None
+   • Status alinhamento: None
+
+12. None
+   • Status alinhamento: None
+
+13. None
+   • Status alinhamento: None
+
+14. None
+   • Status alinhamento: None
+
+15. None
+   • Status alinhamento: None
+
+16. None
+   • Status alinhamento: None
+
+17. None
+   • Status alinhamento: None
+
+OBSERVACOES_ADICIONAIS
+------------------------------
+
+1. {'endereco_principal_usuario': {'bairro': 'Vila Nossa Senhora de Fátima', 'cidade': 'Planaltina', 'estado': 'DF', 'pais': 'BRASIL'}, 'endereco_adicional': {'descricao': 'Quadra A, Conjunto A3, Casa 20', 'cidade': 'Planaltina', 'estado': 'DF', 'pais': 'BRASIL'}}
+   • Status alinhamento: None
+
+OBSERVACOES_COMPLEMENTARES
+------------------------------
+
+1. {'descricao': 'STENIO é proprietário de uma padaria localizada na esquina da rua da vítima, cerca de 150 metros de sua residência, de onde consegue visualizar amplamente a casa da declarante, inclusive por meio de sistema de videomonitoramento.'}
+   • Posição no texto: 57334-57586
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+OBSERVACOES_FINAIS
+------------------------------
+
+1. {'casa_abrigo': 'declarante disse não ter interesse', 'observacao_geral': 'Nada mais foi perguntado; término encerrado'}
+   • Status alinhamento: None
+
+OBSERVACOES_PROCESSUAIS
+------------------------------
+
+1. {'descricao': 'Vítima expressou o desejo de REPRESENTAR contra o autor; requer medida protetiva de contato; deseja que o autor contate familiares para fins de guarda da filha; não consta registro de arma de fogo em nome do autor; encaminhamento ao CEAM'}
+   • Status alinhamento: None
+
+OBSERVACOES_SOBRE_AVALIACAO
+------------------------------
+
+1. {'descricao': 'A avaliação realizada por meio deste formulário constitui um recorte do fenômeno', 'observacao_adicional': 'Essa avaliação inicial não é definitiva; o risco pode aumentar ou reduzir ao longo do tempo e requer novas avaliações em serviços da rede de enfrentamento.'}
+   • Status alinhamento: None
+
+OCORRENCIA
+------------------------------
+
+1. Ocorrência Policial nº 8460/2025-16ª DP
+   • numero: 8460/2025-16ª DP
+   • delegacia: 16ª DP
+   • local: PLANALTINA, DF
+   • data_ocorrencia: 2025-08-15
+   • Posição no texto: 339-378
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+2. Boletim de Ocorrência registrado na 16ª DP
+   • local: 16ª DP
+   • tipo: BO
+   • Posição no texto: 5166-5187
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+3. 8460/2025-16ª DP
+   • numero: 8460/2025
+   • delegacia: 16ª DP
+   • orgao: PCDF
+   • Posição no texto: 7396-7412
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+4. 8460/2025-16ª DP
+   • numero: 8460/2025
+   • delegacia: 16ª DP
+   • Status alinhamento: None
+
+5. 7368/2025
+   • numero: 7368/2025
+   • delegacia: 16ª DP
+   • descricao: ocorrência policial
+   • Posição no texto: 29546-29555
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+6. IP 1036
+   • numero: 1036
+   • delegacia: 16ª DP
+   • inicio_investigacao: 17/07/2025
+   • Posição no texto: 37423-37425
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+7. 7.368/2025-0
+   • numero: 7.368/2025-0
+   • delegacia: DÉCIMA SEXTA DELEGACIA DE POLÍCIA
+   • cidade: PLANALTINA
+   • uf: DISTRITO FEDERAL
+   • natureza: ['PERSEGUIÇÃO', 'LEI MARIA DA PENHA']
+   • data_da_comunicacao: 17/07/2025 21:28
+   • origem_da_comunicacao: PÚBLICO
+   • data_do_fato_inicio: 15/06/2025 09:00
+   • data_do_fato_fim: 17/07/2025 14:12
+   • endereco_fato: VILA N SRA DE FATIMA Q A CJ A3 LT 20, SETOR RESID OESTE /VILA N SRA DE FATIMA Q A
+   • praticado_por_menor: Não
+   • local_periciado: Não
+   • motivo: POR CONDIÇÃO DO SEXO FEMININO
+   • tipo_local: PANIFICADORA
+   • descricao_local: ESTABELECIMENTO COMERCIAL
+   • objeto_meio: OUTROS
+   • Posição no texto: 38591-38603
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+8. 7.368/2025-0
+   • numero: 7.368/2025-0
+   • delegacia: 16ª DP
+   • Posição no texto: 40707-40719
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+9. Ocorrência Nº 7.368/2025-0
+   • numero: 7.368/2025-0
+   • delegacia: 16ª DP
+   • descricao: Comunicante/vítima Nayane ARAÚJO NERES DURÃES relatando monitoramento e constrangimento pelo ex-companheiro
+   • Posição no texto: 43173-43200
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+10. 7.368/2025-0
+   • numero: 7.368/2025-0
+   • delegacia: DÉCIMA SEXTA DELEGACIA DE POLÍCIA
+   • Posição no texto: 47939-47951
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+11. 8460/2025-16ª DP
+   • numero: 8460/2025
+   • delegacia: 16ª DP
+   • Posição no texto: 51331-51347
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+12. 8460/2025-16ª DP
+   • numero: 8460/2025
+   • delegacia: 16ª DP
+   • Posição no texto: 52562-52580
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+13. 8.460/2025-0
+   • numero: 8460/2025
+   • delegacia: 16ª DP
+   • Posição no texto: 53775-53787
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+14. 8460/2025-16ª DP
+   • numero: 8460/2025
+   • delegacia: 16ª DP
+   • Posição no texto: 55882-55898
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+15. 8460/2025-16ª DP
+   • numero: 8460/2025
+   • delegacia: 16ª DP
+   • Posição no texto: 60231-60249
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+16. 8460/2025-16ª DP
+   • numero: 8460/2025
+   • delegacia: 16ª DP
+   • Posição no texto: 64824-64842
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+17. 8460/2025-16ª DP
+   • numero: 8460/2025
+   • delegacia: 16ª DP
+   • Status alinhamento: None
+
+18. 8460/2025-16ª DP
+   • numero: 8460/2025
+   • delegacia: 16ª DP
+   • Status alinhamento: None
+
+19. 8460/2025-16ª DP
+   • numero: 8460/2025
+   • delegacia: 16ª DP
+   • Status alinhamento: None
+
+20. 8460/2025-16ª DP
+   • numero: 8460/2025
+   • delegacia: 16ª DP
+   • Status alinhamento: None
+
+21. 8460/2025-16ª DP
+   • numero: 8460/2025
+   • delegacia: 16ª DP
+   • Posição no texto: 28441-28457
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+22. 1624/2025-16ª DP
+   • numero: 1624/2025-16ª DP
+   • tipo_procedimento: PROCEDIMENTO INVESTIGATÓRIO
+   • codigo: 246500754
+   • data_inclusao: 2025-08-16T02:00:37+00:00
+   • instauracao_dp: 17/07/2025
+   • delegacia: 16ª DP
+   • ip: 1036
+   • incidencia_autor: CPB Art. 147 CAPUT
+   • Posição no texto: 36877-36893
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+23. REGISTRO DE IDENTIFICAÇÃO CIVIL Nº 1826/2025-16ª DP
+   • numero: 1826/2025-16ª DP
+   • delegacia: 16ª DP
+   • tipo: REGISTRO DE IDENTIFICAÇÃO CIVIL
+   • codigo: 246500755
+   • data_inclusao: 2025-08-16T02:00:37+00:00
+   • documento_referencia: 2000618
+   • Posição no texto: 48457-48508
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+24. 8.460/2025-0
+   • numero: 8.460/2025-0
+   • delegacia: 16ª DP
+   • Posição no texto: 55770-55782
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+25. 8.460/2025-0
+   • numero: 8.460/2025-0
+   • delegacia: 16ª DP
+   • Posição no texto: 59341-59353
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+26. 1850944
+   • numero: 1850944
+   • delegacia: 16ª DP
+   • observacao: Documento policial
+   • Posição no texto: 61934-61941
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+27. 8460/2025-16ª DP
+   • numero: 8460/2025
+   • delegacia: 16ª DP
+   • Posição no texto: 65656-65672
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+28. 8.460/2025-0
+   • numero: 8.460/2025-0
+   • delegacia: 16ª DP
+   • Posição no texto: 76240-76252
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+29. 8460/2025-16ª DP
+   • numero: 8460/2025
+   • delegacia: 16ª DP
+   • Status alinhamento: None
+
+ORIGEM_COMUNICACAO
+------------------------------
+
+1. PÚBLICO
+   • Posição no texto: 52186-52193
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+PERGUNTA
+------------------------------
+
+1. Necessitou atendimento médico e/ou internação após agressões
+   • Posição no texto: 8212-8222
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+2. Agressor obrigou você a ter relações sexuais ou atos sexuais contra a sua vontade
+   • Posição no texto: 8354-8362
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+3. Agressor persegue você, demonstra ciúme excessivo, tenta controlar sua vida
+   • Posição no texto: 8487-8495
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+4. Comportamentos do agressor (itens listados na pergunta 6)
+   • Status alinhamento: None
+
+5. Registro de ocorrência policial ou pedido de medida protetiva envolvendo esse(a) agressor(a)
+   • Posição no texto: 9705-9884
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+6. O(A) agressor(a) já descumpriu medida protetiva anteriormente?
+   • Posição no texto: 9893-9955
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+PERIODO_FATO
+------------------------------
+
+1. {'inicio': '20/07/2025 às 12:00', 'fim': '15/08/2025 às 12:00'}
+   • Status alinhamento: None
+
+2. {'inicio': '20/07/2025 12:00', 'fim': '15/08/2025 12:00', 'descricao': 'Entre 20/07/2025 às 12:00 (Domingo) e 15/08/2025 às 12:00 (Sexta-Feira)'}
+   • Status alinhamento: None
+
+PESSOA
+------------------------------
+
+1. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • cpf: 043.726.801-20
+   • rg: 2958179
+   • data_nascimento: 30/01/1994
+   • endereco: SETOR RESID OESTE / VILA N SRA DE FATIMA Q A - VILA N SRA DE FATIMA Q A CJ A3 LT 20 SETOR COMERCIAL S
+   • papel: vítima
+   • profissao: corretor de seguros
+   • estado_civil: divorciado
+   • naturalidade: Brasília - DF
+   • nacionalidade: Brasileira
+   • dados_familiares: {'pai': 'Francisco NERES RIBEIRO', 'mae': 'Maria Helena de ARAÚJO SILVA'}
+   • Posição no texto: 423-449
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+2. DECLARANTE
+   • nome: Declarante
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • Posição no texto: 1737-1747
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+3. STENIO
+   • nome: STENIO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autor
+   • Posição no texto: 1376-1382
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+4. MAE_DA_DECLARANTE
+   • nome: Mãe da Declarante
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: testemunha / observadora da guarda
+   • Status alinhamento: None
+
+5. MARIA HELENA DE ARAÚJO NERES
+   • nome: MARIA HELENA DE ARAÚJO NERES
+   • cpf: 553.133.291-20
+   • rg: 922456
+   • data_nascimento: 22/03/1968
+   • endereco: SETOR RESID OESTE /VILA N SRA DE FATIMA Q A - VILA N SRA DE FATIMA Q A CJ A3 LT 20 - PLANALTINA, DF
+   • papel: declarante/vítima
+   • dados_familiares: {'pai': 'BERNARDINO ALVES DA SILVA', 'mae': 'GLAUDES LEITE DE ARAUJO SILVA', 'filhos': []}
+   • profissao: do lar
+   • estado_civil: casado(a)
+   • naturalidade: CAMPO MAIOR - PI
+   • nacionalidade: brasileira
+   • Posição no texto: 3812-3840
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+6. WAINER AUGUSTO MELO FILEMON
+   • nome: WAINER AUGUSTO MELO FILEMON
+   • papel: delegado de polícia
+   • cargo: Delegado de Polícia
+   • Posição no texto: 4031-4058
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+7. SARAQUIEL BELEM DA SILVA
+   • nome: SARAQUIEL BELEM DA SILVA
+   • papel: escrivão
+   • cargo: Escrivão de Polícia
+   • matricula: 00570273
+   • Posição no texto: 4102-4126
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+8. MARIA HELENA DE ARAUJO NERES
+   • nome: MARIA HELENA DE ARAUJO NERES
+   • papel: declarante
+   • Posição no texto: 6372-6400
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+9. NAYANE ARAUJO
+   • nome: NAYANE ARAUJO
+   • papel: vítima
+   • Posição no texto: 4730-4743
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+10. STENIO
+   • nome: STENIO
+   • papel: autor
+   • Posição no texto: 4782-4788
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+11. MARIA HELENA DE ARAÚJO NERES
+   • nome: MARIA HELENA DE ARAÚJO NERES
+   • idade: 57
+   • papel: vítima
+   • Posição no texto: 7466-7494
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+12. STÊNIO BENTO FERREIRA
+   • nome: STÊNIO BENTO FERREIRA
+   • idade: 45
+   • papel: autor
+   • Posição no texto: 7565-7586
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+13. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • cpf: 043.726.801-20
+   • rg: 2958179
+   • data_nascimento: 30/01/1994
+   • papel: vítima
+   • Status alinhamento: None
+
+14. STENIO
+   • nome: STENIO
+   • papel: autor
+   • Status alinhamento: None
+
+15. Vítima
+   • nome: Não informado
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: vítima
+   • Status alinhamento: None
+
+16. Agressor
+   • nome: Não informado
+   • papel: autor
+   • Posição no texto: 10016-10024
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+17. Respondente
+   • nome: None
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: vítima
+   • Status alinhamento: None
+
+18. MARIA HELENA STRAUS NOVEL
+   • nome: Maria Helena straus novel
+   • papel: vítima
+   • Posição no texto: 14296-14321
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+19. autor_da_infração_penal_noticiada
+   • papel: autor
+   • Status alinhamento: None
+
+20. N. A. N.
+   • nome: N. A. N.
+   • papel: vítima
+   • endereco: ENDEREÇO RESTRITOS
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • Posição no texto: 28031-28032
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+21. STENIO BENTO FERREIRA
+   • nome: STENIO BENTO FERREIRA
+   • papel: autor
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • Posição no texto: 28896-28917
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+22. NAYANE ARAÚJO NERES
+   • nome: NAYANE ARAÚJO NERES
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 30815-30834
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+23. STÊNIO BENTO FERREIRA
+   • nome: STÊNIO BENTO FERREIRA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autor
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 30923-30944
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+24. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: vítima
+   • dados_familiares: {'pai': None, 'mãe': None, 'filhos': None, 'relacionamentos': None}
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • endereco: None
+   • Status alinhamento: None
+
+25. STÊNIO
+   • nome: STÊNIO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: autor
+   • dados_familiares: {'pai': None, 'mãe': None, 'filhos': None, 'relacionamentos': None}
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • endereco: None
+   • Posição no texto: 31397-31403
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+26. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • cpf: 043.726.801-20
+   • rg: 2958179
+   • data_nascimento: 30/01/1994
+   • endereco: None
+   • papel: vítima
+   • dados_familiares: {'pai': None, 'mae': None, 'filhos': [], 'relacionamentos_anteriores': [{'pessoa': 'STENIO', 'tipo': 'relacionamento amoroso', 'periodo': '2022', 'duracao': None}]}
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Status alinhamento: None
+
+27. STENIO
+   • nome: STENIO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autor
+   • dados_familiares: {'pai': None, 'mae': None, 'filhos': None}
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 33816-33822
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+28. N. A. N.
+   • nome: N. A. N.
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • Posição no texto: 34864-34872
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+29. STENIO BENTO FERREIRA
+   • nome: STENIO BENTO FERREIRA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autor
+   • Posição no texto: 34884-34905
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+30. STÊNIO BENTO FERREIRA
+   • nome: STÊNIO BENTO FERREIRA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: autor
+   • dados_familiares: {'pai': 'JOÃO BATISTA CALAÇA FERREIRA', 'mae': 'VILMA BENTA FERREIRA'}
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 37211-37232
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+31. JOÃO BATISTA CALAÇA FERREIRA
+   • nome: JOÃO BATISTA CALAÇA FERREIRA
+   • papel: pai
+   • dados_familiares: {'filhos': ['STÊNIO BENTO FERREIRA']}
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 37325-37353
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+32. VILMA BENTA FERREIRA
+   • nome: VILMA BENTA FERREIRA
+   • papel: mãe
+   • dados_familiares: {'filhos': ['STÊNIO BENTO FERREIRA']}
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 37239-37259
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+33. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • cpf: None
+   • rg: 2958179
+   • data_nascimento: 30/01/1994
+   • endereco: PLANALTINA, DISTRITO FEDERAL
+   • papel: vítima
+   • dados_familiares: {'pai': 'FRANCISCO NERES RIBEIRO', 'mae': 'MARIA HELENA DE ARAÚJO SILVA'}
+   • profissao: None
+   • estado_civil: DIVORCIADO
+   • naturalidade: BRASÍLIA / DF
+   • nacionalidade: BRASILEIRA
+   • identidade: 2958179
+   • orgao_expedidor: SSP/DF
+   • alcunha: NAY
+   • Posição no texto: 39464-39490
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+34. FRANCISCO NERES RIBEIRO
+   • nome: FRANCISCO NERES RIBEIRO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: pai da vítima
+   • dados_familiares: {'filhos': ['NAYANE ARAÚJO NERES DURÃES']}
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • nacionalidade: None
+   • Posição no texto: 39544-39567
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+35. MARIA HELENA DE ARAÚJO SILVA
+   • nome: MARIA HELENA DE ARAÚJO SILVA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: mãe da vítima
+   • dados_familiares: {'filhos': ['NAYANE ARAÚJO NERES DURÃES']}
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • nacionalidade: None
+   • Posição no texto: 39573-39601
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+36. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • cpf: 043.726.801-20
+   • rg: 2958179
+   • data_nascimento: 30/01/1994
+   • papel: vítima
+   • profissao: Corretor de seguros
+   • orgao_empresa: UNIVERSAL TRUST
+   • endereco: None
+   • telefone: None
+   • email: nayane_araujo@hotmail.com
+   • estado_civil: None
+   • naturalidade: None
+   • Status alinhamento: None
+
+37. STÊNIO BENTO FERREIRA
+   • nome: STÊNIO BENTO FERREIRA
+   • cpf: 698.595.401-44
+   • rg: 3010816
+   • data_nascimento: 19/11/1979
+   • papel: autor
+   • endereco_residencial: VILA NOSSA SENHORA DE FATIMA QUADRA D CONJUNTO D1 LOTE 01 CEP: 73340741 - PLANALTINA
+   • profissao: Padeiro
+   • orgao_empresa: PADARIA COLONIA LTDA
+   • cargo_funcao: DONO DA PADARIA
+   • naturalidade: GOIANIA / GO
+   • pai: JOÃO BATISTA CALAÇA FERREIRA
+   • mae: VILMA BENTA FERREIRA
+   • estado: DISTRITO FEDERAL
+   • Posição no texto: 40971-40992
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+38. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: vítima/comunicante
+   • endereco: None
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 41830-41849
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+39. STÊNIO BENTO FERREIRA
+   • nome: STÊNIO BENTO FERREIRA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: autor
+   • endereco: None
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 41976-41997
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+40. NAYANE ARAÚJO NERES
+   • nome: NAYANE ARAÚJO NERES
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: vítima
+   • endereco: None
+   • Posição no texto: 43313-43332
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+41. STÊNIO BENTO FERREIRA
+   • nome: STÊNIO BENTO FERREIRA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: autor
+   • endereco: None
+   • Status alinhamento: None
+
+42. NAYANE
+   • nome: NAYANE
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: vítima
+   • Posição no texto: 45038-45044
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+43. STÊNIO
+   • nome: STÊNIO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: autor
+   • Posição no texto: 45323-45329
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+44. CRIANÇA (filha)
+   • nome: None
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: criança
+   • Posição no texto: 45217-45224
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+45. STÊNIO BENTO FERREIRA
+   • nome: STÊNIO BENTO FERREIRA
+   • cpf: 69859540144
+   • rg: 3010816
+   • data_nascimento: 19/11/1979
+   • papel: indiciado/investigado
+   • profissao: Supervisor
+   • estado_civil: Solteiro(a)
+   • sexo: Masculino
+   • nacionalidade: BRASILEIRA
+   • naturalidade: Goiânia/GO
+   • altura_cm: 174
+   • Posição no texto: 48814-48835
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+46. Vilma Benta Ferreira
+   • nome: Vilma Benta Ferreira
+   • papel: mãe
+   • Posição no texto: 48841-48861
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+47. João Batista Calaça Ferreira
+   • nome: João Batista Calaça Ferreira
+   • papel: pai
+   • Posição no texto: 48867-48895
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+48. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • cpf: 043.726.801-20
+   • rg: 2958179
+   • data_nascimento: 30/01/1994
+   • papel: ['vítima', 'testemunha']
+   • dados_familiares: {'pai': 'FRANCISCO NERES RIBEIRO', 'mae': 'MARIA HELENA DE ARAÚJO SILVA'}
+   • nacionalidade: BRASILEIRA
+   • naturalidade: BRASÍLIA / DF
+   • idade: 31
+   • sexo: Feminino
+   • identidade: 2958179
+   • orgao_expedidor_uf: SSP / DF
+   • grau_instrucao: SUPERIOR
+   • estado_civil: DIVORCIADO(A)
+   • profissao: Corretor de seguros
+   • endereco_residencial: SETOR RESID OESTE /VILA N SRA DE FATIMA Q A - VILA N SRA DE FATIMA Q A CJ A3 LT 20 - PLANALTINA
+   • estado: DISTRITO FEDERAL
+   • telefone_celular: (61) 99188-0780
+   • email: nayane_araujo@hotmail.com
+   • endereco_comercial: 
+   • outros_contatos: CPF UNIVERSAL TRUST 61986077923 PAI - FRANCISCO 043.726.801-20
+   • Posição no texto: 52733-52759
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+49. STENIO
+   • nome: STENIO
+   • papel: autor
+   • Status alinhamento: None
+
+50. MARIA HELENA DE ARAÚJO NERES
+   • nome: MARIA HELENA DE ARAÚJO NERES
+   • cpf: 553.133.291-20
+   • rg: 922456
+   • data_nascimento: 22/03/1968
+   • endereco: SETOR RESID OESTE /VILA N SRA DE FATIMA Q A - VILA N SRA DE FATIMA Q A CJ A3 LT 20 - PLANALTINA
+   • papel: vítima e testemunha
+   • pai: BERNARDINO ALVES DA SILVA
+   • mae: GLAUDES LEITE DE ARAÚJO SILVA
+   • nacionalidade: BRASILEIRA
+   • naturalidade: CAMPO MAIOR / PI
+   • estado_civil: CASADO(A)
+   • profissao: Do lar
+   • Posição no texto: 54003-54031
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+51. STÊNIO BENTO FERREIRA
+   • nome: STÊNIO BENTO FERREIRA
+   • cpf: None
+   • rg: 3010816
+   • data_nascimento: 19/11/1979
+   • papel: autor
+   • profissao: Padeiro
+   • cargo: DONO DA PADARIA COLONIA LTDA
+   • endereco_comercial: VILA NOSSA SENHORA DE FATIMA QUADRA D CJ D1 LOTE 01 CEP 73340741 - PADARIA COLONIA LTDA
+   • pai: JOÃO BATISTA CALAÇA FERREIRA
+   • mae: VILMA BENTA FERREIRA
+   • nacionalidade: BRASILEIRA
+   • naturalidade: GOIANIA / GO
+   • telefone: (61) 99644-5993
+   • Posição no texto: 54641-54662
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+52. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: vítima e testemunha
+   • Posição no texto: 55938-55964
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+53. MARIA HELENA DE ARAÚJO NERES
+   • nome: MARIA HELENA DE ARAÚJO NERES
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: vítima e testemunha
+   • Posição no texto: 55967-55995
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+54. MARIA HELENA DE ARAÚJO NERES
+   • nome: MARIA HELENA DE ARAÚJO NERES
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: ['vítima', 'testemunha']
+   • dados_familiares: {'pai': None, 'mae': None, 'filhos': [{'descricao': 'filho da relação com STENIO', 'idade_atual': 2}]}
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 58257-58285
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+55. STENIO
+   • nome: STENIO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autor
+   • dados_familiares: {'pai': None, 'mae': None}
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 56754-56760
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+56. [redacted] Nayane ARAUJO NERES DURÃES
+   • nome: [redacted]
+   • cpf: [redacted]
+   • rg: [redacted]
+   • data_nascimento: [redacted]
+   • endereco: [redacted]
+   • papel: vítima
+   • dados_familiares: {'pai': '[redacted]', 'mae': '[redacted]', 'filhos': [{'nome': '[redacted]', 'idade': '[redacted]'}]}
+   • profissao: [redacted]
+   • estado_civil: [redacted]
+   • naturalidade: [redacted]
+   • Status alinhamento: None
+
+57. [redacted] STENIO
+   • nome: [redacted]
+   • papel: autor
+   • dados_familiares: {'pai': '[redacted]', 'mae': '[redacted]'}
+   • profissao: [redacted]
+   • estado_civil: [redacted]
+   • naturalidade: [redacted]
+   • Status alinhamento: None
+
+58. [redacted] Declarante (mãe de Nayane)
+   • nome: [redacted]
+   • papel: declarante
+   • Status alinhamento: None
+
+59. [redacted] Criança (filho de Nayane e STENIO, 2 anos)
+   • nome: [redacted]
+   • papel: criança
+   • idade_aproximada: 2
+   • relacionamento_familiar: filho de Nayane e STENIO
+   • Status alinhamento: None
+
+60. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • cpf: 043.726.801-20
+   • rg: 2958179
+   • data_nascimento: 30/01/1994
+   • papel: vítima
+   • endereco: None
+   • Posição no texto: 61089-61115
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+61. Maria Helena de Araújo Silva
+   • nome: Maria Helena de Araújo Silva
+   • papel: mãe
+   • relacionamento_familiar: mãe da vítima
+   • Posição no texto: 61121-61149
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+62. Francisco Neres Ribeiro
+   • nome: Francisco Neres Ribeiro
+   • papel: pai
+   • relacionamento_familiar: pai da vítima
+   • Posição no texto: 61155-61178
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+63. Nayane Araújo Neres
+   • nome: Nayane Araújo Neres
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: vítima
+   • dados_familiares: {'conjuge': 'Tiago Damacena Sales Durães'}
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • enderecos: [{'tipo': 'RESIDENCIAL', 'descricao': None, 'bairro': 'Vila Nossa Senhora de Fátima', 'cidade': 'Planaltina', 'estado': 'DF', 'pais': 'BRASIL', 'cep': None}, {'tipo': 'COMERCIAL', 'descricao': 'WIZ Soluções, Shopping Liberty Mall', 'bairro': None, 'cidade': 'Brasília', 'estado': 'DF', 'pais': 'BRASIL', 'cep': None}]
+   • telefones: [{'tipo': 'RESIDENCIAL', 'numero': '(61)3388-1369'}, {'tipo': 'MOVEL', 'numero': '(61)99141-6571'}, {'tipo': 'FAX', 'numero': '(61)99121-0509'}]
+   • Posição no texto: 63151-63170
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+64. Tiago Damacena Sales Durães
+   • nome: Tiago Damacena Sales Durães
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: autor
+   • dados_familiares: {'conjuge': 'Nayane Araújo Neres'}
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 63177-63204
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+65. SARAQUIEL BELEM DA SILVA
+   • nome: SARAQUIEL BELEM DA SILVA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: autoridade
+   • cargo: ESCRIVÃO DE POLÍCIA
+   • matricula: 0570273
+   • dados_familiares: None
+   • Posição no texto: 63215-63239
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+66. SARAQUIEL BELEM DA SILVA
+   • nome: SARAQUIEL BELEM DA SILVA
+   • papel: Escrivão de Polícia
+   • matricula: 0570273
+   • Posição no texto: 64095-64119
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+67. MARIA HELENA DE ARAÚJO NERES
+   • nome: MARIA HELENA DE ARAÚJO NERES
+   • cpf: None
+   • rg: None
+   • data_nascimento: 22/03/1968
+   • papel: vítima
+   • endereco: SETOR RESID OESTE /VILA N SRA DE FATIMA Q A - VILA N SRA DE FATIMA Q A CJ A3 LT 20
+   • estado_civil: None
+   • naturalidade: None
+   • profissao: None
+   • Posição no texto: 65165-65193
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+68. STÊNIO BENTO FERREIRA
+   • nome: STÊNIO BENTO FERREIRA
+   • cpf: None
+   • rg: None
+   • data_nascimento: 19/11/1979
+   • papel: autor
+   • endereco: SETOR RESID OESTE /VILA N SRA DE FATIMA Q E CJ E1 CASA 4
+   • profissao: trabalhando na PADARIA COLONIA LTDA, PLANALTINA
+   • naturalidade: GOIANIA/GO
+   • estado_civil: None
+   • Posição no texto: 65689-65710
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+69. MARIA HELENA DE ARAUJO SILVA
+   • nome: Maria Helena de Araujo Silva
+   • cpf: [redacted]
+   • rg: [redacted]
+   • data_nascimento: None
+   • papel: vítima/ofendida
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 67311-67339
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+70. STENIO BENTO FERREIRA
+   • nome: Stenio Bento Ferreira
+   • cpf: [redacted]
+   • rg: [redacted]
+   • data_nascimento: None
+   • papel: autor/ofensor
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 67349-67370
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+71. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • pai: None
+   • mae: MARIA HELENA DE ARAÚJO SILVA
+   • filhos: []
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 68710-68736
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+72. STÊNIO BENTO FERREIRA
+   • nome: STÊNIO BENTO FERREIRA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autor
+   • pai: None
+   • mae: None
+   • filhos: []
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 68669-68690
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+73. MARIA HELENA DE ARAÚJO SILVA
+   • nome: MARIA HELENA DE ARAÚJO SILVA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima_protegida
+   • pai: None
+   • mae: None
+   • filhos: [{'nome': 'NAYANE ARAÚJO NERES DURÃES', 'parentesco': 'filha'}]
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 68787-68815
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+74. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • Status alinhamento: None
+
+75. STENIO
+   • nome: STENIO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autor
+   • Posição no texto: 69203-69209
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+76. MARIA HELENA
+   • nome: MARIA HELENA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: testemunha
+   • Posição no texto: 70859-70871
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+77. NAYANE ARAUJO NERES DURÃES
+   • nome: NAYANE ARAUJO NERES DURÃES
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • dados_familiares: {'pai': None, 'mãe': None, 'filhos': [{'nome': 'FILHO DE NAYANE E STENIO', 'data_nascimento': None}], 'relacionamentos': [{'tipo': 'relacionamento amoroso', 'periodo': '2022', 'duracao': None}]}
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 70904-70917
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+78. STENIO
+   • nome: STENIO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autor
+   • dados_familiares: {'pai': None, 'mãe': None, 'filhos': None}
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 70956-70962
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+79. DECLARANTE
+   • nome: None
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: testemunha
+   • dados_familiares: {'parentesco_com_pessoa': 'mãe de Nayane'}
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 71605-71615
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+80. MARIA HELENA
+   • nome: MARIA HELENA
+   • papel: vítima
+   • Posição no texto: 74055-74067
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+81. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • cpf: 043.726.801-20
+   • rg: 2958179
+   • data_nascimento: 30/01/1994
+   • papel: vítima
+   • Status alinhamento: None
+
+82. STENIO
+   • nome: STENIO
+   • papel: autor
+   • Posição no texto: 74763-74769
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+83. STENIO BENTO FERREIRA
+   • nome: STENIO BENTO FERREIRA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: SETOR RESID OESTE /VILA N SRA DE FATIMA Q E CJ E1 CASA 4 - PLANALTINA, DISTRITO FEDERAL
+   • papel: agressor
+   • Posição no texto: 75723-75744
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+84. Ofendida
+   • nome: None
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • Posição no texto: 75969-75977
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+85. NAYANE ARAUJO
+   • nome: NAYANE ARAUJO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: vítima
+   • Posição no texto: 77508-77521
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+86. STENIO
+   • nome: STENIO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: autor
+   • Posição no texto: 77560-77566
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+87. MARIA HELENA DE ARAÚJO SILVA
+   • nome: MARIA HELENA DE ARAÚJO SILVA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: mãe da vítima
+   • Posição no texto: 78752-78780
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+88. DECLARANTE
+   • nome: None
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: declarante/ofendida
+   • Posição no texto: 78209-78219
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+89. M. H. D. A. S.
+   • nome: M. H. D. A. S.
+   • papel: vítima
+   • Posição no texto: 79642-79656
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+90. STENIO BENTO FERREIRA
+   • nome: STENIO BENTO FERREIRA
+   • papel: autor
+   • Posição no texto: 79668-79689
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+91. MARIA HELENA DE ARAUJO SILVA
+   • nome: MARIA HELENA DE ARAUJO SILVA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 81446-81474
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+92. STENIO BENTO FERREIRA
+   • nome: STENIO BENTO FERREIRA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autor
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 81484-81505
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+93. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • cpf: 043.726.801-20
+   • rg: 2958179
+   • data_nascimento: 30/01/1994
+   • papel: vítima
+   • Status alinhamento: None
+
+94. STENIO
+   • nome: STENIO
+   • papel: autor
+   • Posição no texto: 85051-85057
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+95. Elizabete A Silva Gonçalves
+   • nome: Elizabete A Silva Gonçalves
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: Oficiala de Justiça Plantonista
+   • profissao: Oficial de Justiça
+   • endereco: None
+   • matricula: 307.901
+   • orgao: TJDFT
+   • Posição no texto: 86352-86361
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+96. Stênio Bento Ferreira
+   • nome: Stênio Bento Ferreira
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: autor
+   • profissao: None
+   • endereco: None
+   • Posição no texto: 86524-86545
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+97. Maria Helena de Aarújo Lima
+   • nome: Maria Helena de Aarújo Lima
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: autoridade
+   • cargo: Promotora de Justiça
+   • profissao: Ministério Público
+   • orgao: Ministério Público
+   • endereco: None
+   • Posição no texto: 87031-87058
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+98. STENIO
+   • nome_completo: STENIO
+   • papel: autor
+   • Status alinhamento: None
+
+99. CRIANÇA
+   • nome: None
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: filho
+   • Posição no texto: 1585-1592
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+100. WAINER AUGUSTO MELO FILEMON
+   • nome: WAINER AUGUSTO MELO FILEMON
+   • papel: delegado de polícia
+   • cargo: Delegado de Polícia
+   • Posição no texto: 3097-3124
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+101. SARAQUIEL BELEM DA SILVA
+   • nome: SARAQUIEL BELEM DA SILVA
+   • matricula: 00570273
+   • cargo: Escrivão de Polícia
+   • Posição no texto: 3210-3234
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+102. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: vítima
+   • dados_familiares: {'pai': None, 'mãe': None, 'filhos': [{'descricao': 'filho com STENIO', 'idade': 2}], 'relacionamentos': [{'pessoa': 'STENIO', 'periodo': '2022', 'descricao': 'relacionamento amoroso'}]}
+   • Status alinhamento: None
+
+103. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • cpf: 043.726.801-20
+   • rg: 2958179
+   • data_nascimento: 30/01/1994
+   • papel: vítima
+   • Status alinhamento: None
+
+104. STENIO
+   • nome: STENIO
+   • papel: autor
+   • Status alinhamento: None
+
+105. VÍTIMA
+   • nome: None
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • papel: vítima
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • raca: Branca
+   • Status alinhamento: None
+
+106. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • cpf: 043.726.801-20
+   • rg: 2958179
+   • data_nascimento: 30/01/1994
+   • papel: vítima
+   • Status alinhamento: None
+
+107. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • papel: vítima
+   • Status alinhamento: None
+
+108. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • papel: vítima
+   • Status alinhamento: None
+
+109. NAYANE ARAÚJO NERES
+   • nome: NAYANE ARAÚJO NERES
+   • cpf: 043.726.801-20
+   • rg: None
+   • data_nascimento: None
+   • papel: vítima
+   • endereco_residencial: SETOR RESID OESTE /VILA N SRA DE FATIMA Q A - VILA N SRA DE FATIMA Q A CJ A3 LT 20 CEP: 73340713 - PLANALTINA
+   • profissao: Corretor de seguros
+   • estado_civil: None
+   • naturalidade: None
+   • telefone_celular: (61) 99188-0780
+   • email: nayane_araujo@hotmail.com
+   • gravidade_lesoes: Ileso
+   • contatos_adicionais: [{'relacionamento': 'pai', 'nome': 'FRANCISCO NERES', 'cpf': '043.726.801-20'}]
+   • Posição no texto: 40119-40125
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+110. FRANCISCO NERES
+   • nome: FRANCISCO NERES
+   • papel: pai (de Nayane)
+   • cpf: 043.726.801-20
+   • Posição no texto: 40216-40231
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+111. STENIO BENTO FERREIRA
+   • nome: STENIO BENTO FERREIRA
+   • papel: autor
+   • Posição no texto: 43421-43442
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+112. STENIO
+   • nome: STENIO
+   • papel: autor
+   • Status alinhamento: None
+
+113. NAYANE ARAJO
+   • nome: NAYANE ARAJO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • Posição no texto: 58328-58334
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+114. DECLARANTE
+   • nome: None
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: testemunha/declarante
+   • Posição no texto: 59476-59486
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+115. CRIANÇA EM COMUM
+   • nome: None
+   • papel: criança (filho de Nayane e STENIO)
+   • idade: 2 anos
+   • Posição no texto: 58509-58516
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+116. SARAQUIEL BELEM DA SILVA
+   • nome: SARAQUIEL BELEM DA SILVA
+   • cargo: Escrivão de Polícia
+   • matricula: 0570273
+   • papel: autoridade
+   • Posição no texto: 61579-61603
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+117. STENIO
+   • nome: STENIO
+   • papel: autor
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • Status alinhamento: None
+
+118. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • cpf: 043.726.801-20
+   • rg: 2958179
+   • data_nascimento: 30/01/1994
+   • endereco: None
+   • papel: vítima
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Status alinhamento: None
+
+119. STENIO
+   • nome: STENIO
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autor
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Status alinhamento: None
+
+120. RAFAEL FONSECA MICHELETI
+   • nome: RAFAEL FONSECA MICHELETI
+   • papel: escrivã de polícia
+   • cargo: Escrivã de Polícia
+   • Posição no texto: 65086-65110
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+121. WAINER AUGUSTO MELO FILEMON
+   • nome: WAINER AUGUSTO MELO FILEMON
+   • papel: delegado de polícia
+   • cargo: Delegado de Polícia
+   • Posição no texto: 65025-65052
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+122. MARIA ALLA ARAYA NEVES
+   • nome: MARIA ALLA ARAYA NEVES
+   • papel: autoridade
+   • cargo: Autoridade de Polícia
+   • Posição no texto: 66663-66685
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+123. SARAQUIEL BELEM DA SILVA
+   • nome: SARAQUIEL BELEM DA SILVA
+   • papel: escrivã
+   • cargo: Escrivã de Polícia
+   • matricula: 00570273
+   • Posição no texto: 66732-66756
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+124. NAYANE ARAÚJO NERES DURÃES
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • Status alinhamento: None
+
+125. DECLARANTE (mãe de Nayane Araujo)
+   • nome: None
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima / declarante
+   • dados_familiares: {'relacionamento': 'mãe de Nayane ARAUJO'}
+   • Status alinhamento: None
+
+126. MARIA HELENA
+   • nome: MARIA HELENA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • Posição no texto: 72540-72545
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+127. AGRESSOR
+   • nome: None
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autor
+   • Status alinhamento: None
+
+128. M. H. D. A. S.
+   • nome: M. H. D. A. S.
+   • papel: vítima
+   • endereco: restrito
+   • Posição no texto: 75457-75471
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+129. STENIO BENTO FERREIRA
+   • nome: STENIO BENTO FERREIRA
+   • papel: autor
+   • Posição no texto: 75481-75502
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+130. ELIZABETE APARECIDA SILVA GONÇALVES
+   • nome: ELIZABETE APARECIDA SILVA GONÇALVES
+   • papel: autoridade
+   • cargo: Oficial de Justiça
+   • matricula: 307901
+   • Posição no texto: 84514-84549
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+131. Elizabete A Silva Gonçalves
+   • nome_completo: Elizabete A Silva Gonçalves
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: Oficiala de Justiça Plantonista
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • Posição no texto: 87152-87179
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+PESSOAS_ENVOLVIDAS
+------------------------------
+
+1. [{'nome_completo': None, 'cpf': None, 'rg': None, 'data_nascimento': None, 'endereco': None, 'papel': None, 'dados_familiares': {'pai': None, 'Mae': None, 'filhos': None, 'relacionamentos': None}, 'profissao': None, 'estado_civil': None, 'naturalidade': None}]
+   • Status alinhamento: None
+
+PROCEDIMENTO
+------------------------------
+
+1. {'id': '1826/2025-16ª DP', 'numero_procedimento': '1826/2025-16ª DP', 'tipo_procedimento': 'PROCEDIMENTO INVESTIGATÓRIO', 'data_inclusao': '2025-08-16T02:00:37+00:00', 'delegacia': '16ª DP', 'descricao': 'REGISTRO DE IDENTIFICAÇÃO CIVIL'}
+   • Status alinhamento: None
+
+2. PROCEDIMENTO INVESTIGATÓRIO
+   • tipo: PROCEDIMENTO INVESTIGATÓRIO
+   • data_inclusao: 2025-08-16T02:00:36+00:00
+   • origem: Questionário 910/2025-16ª DP
+   • Posição no texto: 6783-6810
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+3. PROCEDIMENTO INVESTIGATÓRIO
+   • tipo: Procedimento Investigatório
+   • data_inclusao: 2025-08-16T02:00:37+00:00
+   • Posição no texto: 48538-48565
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+4. INQUÉRITO POLICIAL
+   • numero: 1193/2025
+   • delegacia: 16ª DP
+   • Posição no texto: 52543-52561
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+5. pedido de concessão de medidas protetivas de urgência
+   • tipo: Medidas protetivas de urgência
+   • Posição no texto: 75658-75711
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+PROCEDIMENTOS_GERADOS
+------------------------------
+
+1. {'inquerito_policial': '1193/2025 - 16ª DP', 'condicoes_locais': 'CRIMINAL', 'tipo_local': 'PANIFICADORA', 'descricao_local': 'ESTABELECIMENTO COMERCIAL', 'objeto_meio_empregado': 'OUTROS'}
+   • Status alinhamento: None
+
+PROCESSO
+------------------------------
+
+1. Processo 07115040420258070005
+   • numero: 07115040420258070005
+   • origem_instancia: 1
+   • Posição no texto: 2-31
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+2. 0709894-98.2025.8.07.0005
+   • numero: 0709894-98.2025.8.07.0005
+   • classe_judicial: MEDIDAS PROTETIVAS DE URGÊNCIA (LEI MARIA DA PENHA) - CRIMINAL (1268)
+   • vara_ou_juizado_responsavel: Juizado de Violência Doméstica e Familiar Contra a Mulher de Planaltina
+   • Posição no texto: 28755-28780
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+3. 0711504-04.2025.8.07.0005
+   • numero: 0711504-04.2025.8.07.0005
+   • classe_judicial: MEDIDAS PROTETIVAS DE URGÊNCIA (LEI MARIA DA PENHA) - CRIMINAL (1268)
+   • Posição no texto: 67188-67213
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+4. 0711504-04.2025.8.07.0005
+   • numero: 0711504-04.2025.8.07.0005
+   • classe_judicial: MEDIDAS PROTETIVAS DE URGÊNCIA (LEI MARIA DA PENHA) - CRIMINAL (1268)
+   • vara_ou_juizado_responsavel: Juizado de Violência Doméstica e Familiar Contra a Mulher de Planaltina
+   • poder: Poder Judiciário - TJDFT
+   • Posição no texto: 75334-75359
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+5. 340/2006
+   • numero: 340/2006
+   • Posição no texto: 75648-75656
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+6. {'numero_processo': None, 'ocorrencia': None, 'protocolo': None, 'delegacia': None, 'vara_juizado_responsavel': None, 'tipo_procedimento': 'Medidas Protetivas - Plantão Judicial'}
+   • Status alinhamento: None
+
+PROFISSAO
+------------------------------
+
+1. do lar
+   • Posição no texto: 4422-4428
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+PROFISSIONAL_RESPONSAVEL
+------------------------------
+
+1. {'nome': 'Saraquiel Belem da Silva', 'matricula': '00570273', 'cargo': None, 'orgao': 'PCDF', 'assinatura_digital': True, 'observacao': 'Assinado Digitalmente'}
+   • Status alinhamento: None
+
+PROTOCOLO
+------------------------------
+
+1. 2215813/2025
+   • numero: 2215813/2025
+   • Posição no texto: 326-338
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+2. 2215813/2025
+   • numero: 2215813/2025
+   • Posição no texto: 7437-7449
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+3. 2215813/2025
+   • numero: 2215813/2025
+   • Status alinhamento: None
+
+4. 1920986/2025
+   • numero: 1920986/2025
+   • Posição no texto: 38618-38630
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+5. 1920986/2025
+   • numero: 1920986/2025
+   • Posição no texto: 40734-40746
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+6. 1920986/2025
+   • numero: 1920986/2025
+   • Posição no texto: 43215-43227
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+7. 1920986/2025
+   • numero: 1920986/2025
+   • Posição no texto: 47966-47978
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+8. 2215813/2025
+   • numero: 2215813/2025
+   • Posição no texto: 51663-51675
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+9. 2215813/2025
+   • numero: 2215813/2025
+   • Status alinhamento: None
+
+10. 2215813/2025
+   • numero: 2215813/2025
+   • Posição no texto: 53908-53920
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+11. 2215813/2025
+   • numero: 2215813/2025
+   • Posição no texto: 55797-55809
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+12. 2215813/2025
+   • numero: 2215813/2025
+   • Status alinhamento: None
+
+13. 2215813/2025
+   • numero: 2215813/2025
+   • Posição no texto: 64784-64796
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+14. 2215813/2025
+   • numero: 2215813/2025
+   • Status alinhamento: None
+
+15. 2215813/2025
+   • numero: 2215813/2025
+   • Status alinhamento: None
+
+16. 2215813/2025
+   • numero: 2215813/2025
+   • Status alinhamento: None
+
+17. 2215813/2025
+   • numero: 2215813/2025
+   • Status alinhamento: None
+
+18. 2215813/2025
+   • numero: 2215813/2025
+   • Status alinhamento: None
+
+19. 2215813/2025
+   • numero: 2215813/2025
+   • Posição no texto: 59368-59380
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+20. 2215813/2025
+   • numero: 2215813/2025
+   • Status alinhamento: None
+
+21. 2215813/2025
+   • numero: 2215813/2025
+   • Status alinhamento: None
+
+22. 2215813/2025
+   • numero: 2215813/2025
+   • Status alinhamento: None
+
+QUESTAO
+------------------------------
+
+1. Questão 14 ou 21
+   • Posição no texto: 26416-26438
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+2. Questão 7-B
+   • Posição no texto: 26054-26065
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+3. Questões 9
+   • Posição no texto: 26113-26123
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+4. Questão 13
+   • Posição no texto: 26144-26154
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+5. Questão 10 e 11
+   • Posição no texto: 26203-26218
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+6. Questão 17
+   • Posição no texto: 26236-26246
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+7. Questão 17 (Oficina de Parentalidade)
+   • Posição no texto: 26281-26291
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+8. Questões do bloco III
+   • Posição no texto: 26321-26342
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+9. Questão 12
+   • Posição no texto: 26486-26496
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+10. Questão 26
+   • Posição no texto: 26579-26589
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+11. Questão 27
+   • Posição no texto: 26674-26684
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+REDE_SOCIAL_PESSOA
+------------------------------
+
+1. NAYANE ARAÚJO NERES DURÃES
+   • Posição no texto: 43238-43264
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+REGISTRO_IDENTIFICACAO_CIVIL
+------------------------------
+
+1. REGISTRO DE IDENTIFICAÇÃO CIVIL Nº 1827/2025-16ª DP
+   • codigo: 246500756
+   • tipo: PROCEDIMENTO INVESTIGATÓRIO
+   • data_inclusao: 2025-08-16T02:00:38+00:00
+   • nome: NAYANE ARAÚJO NERES DURÃES
+   • mae: Maria Helena de Araújo Silva
+   • pai: Francisco Neres Ribeiro
+   • estado_civil: Casado(a)
+   • data_nascimento: 30/01/1994
+   • sexo: Feminino
+   • cpf: 04372680120
+   • naturalidade: Brasília/DF
+   • procedência: Brasília/DF
+   • profissao: Telefonista
+   • rg: 2958179
+   • Posição no texto: 60782-60833
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+RELACIONAMENTO
+------------------------------
+
+1. NAYANE ARAUJO e STENIO
+   • tipo: relação amorosa
+   • periodo: 2022
+   • duracao: não especificada
+   • filho_em_comum: True
+   • idade_do_filho: 2 anos
+   • Posição no texto: 4730-4788
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+2. relacionamento em 2022
+   • tipo: relacionamento amoroso
+   • periodo: 2022
+   • duracao: três meses
+   • Status alinhamento: None
+
+3. Conjugal
+   • tipo: conjugal
+   • status: em andamento
+   • periodo: None
+   • filhos: {'quantidade': 2, 'relacionamento': 'outro relacionamento'}
+   • Status alinhamento: None
+
+4. relacionamento amoroso
+   • participantes: ['NAYANE ARAÚJO NERES', 'STÊNIO BENTO FERREIRA']
+   • periodo: 2022
+   • duracao: aproximadamente três meses
+   • Posição no texto: 30896-30918
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+5. relacionamento amoroso entre NAYANE e STÊNIO
+   • tipo: relacionamento amoroso
+   • periodo: anterior ao término da relação
+   • duracao: None
+   • Status alinhamento: None
+
+6. novo relacionamento de STÊNIO
+   • tipo: relacionamento amoroso
+   • periodo: após término do relacionamento com NAYANE
+   • duracao: None
+   • Posição no texto: 31368-32220
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+7. filha
+   • tipo: filha do casal
+   • guarda: informal; visitas sem horários fixos
+   • observacoes: regime de visita informal
+   • Posição no texto: 32344-32349
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+8. relacionamento em 2022
+   • tipo: relacionamento amoroso
+   • periodo: 2022
+   • duracao: None
+   • Posição no texto: 32809-32823
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+9. NAYANE ARAÚJO NERES DURÃES com STÊNIO BENTO FERREIRA
+   • tipo: relação amorosa
+   • periodo: 2022
+   • duracao: três meses
+   • Status alinhamento: None
+
+10. novo relacionamento iniciando; ex-companheiro
+   • tipo: relacionamento anterior/atual
+   • pessoas_envolvidas: ['NAYANE ARAÚJO NERES DURÃES', 'STÊNIO BENTO FERREIRA']
+   • periodo: None
+   • detalhes: vínculo com filha para vigiar passos e interferir na rotina
+   • Status alinhamento: None
+
+11. relacionamento amoroso em 2022
+   • tipo: relacionamento amoroso
+   • periodo: 2022
+   • duracao: aproximadamente três meses
+   • observacoes: casal atualmente pai e mãe de uma criança
+   • Posição no texto: 43394-43416
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+12. NAYANE e STÊNIO
+   • tipo: relação conjugal/anterior
+   • periodo: None
+   • observacoes: pai e mãe da criança mencionada
+   • Posição no texto: 45038-45329
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+13. {'tipo': 'conjuge', 'nome': 'Stênio Bento Ferreira', 'observacao': 'Nome do cônjuge registrado'}
+   • Status alinhamento: None
+
+14. Nayane e STENIO relacionamento amoroso
+   • pessoa_relacionada: STENIO
+   • tipo: relacionamento amoroso
+   • periodo: 2022
+   • duracao: três meses
+   • Status alinhamento: None
+
+15. relação amorosa
+   • tipo: relacionamento amoroso
+   • participantes: ['MARIA HELENA DE ARAÚJO NERES', 'STENIO']
+   • periodo: 2022
+   • duracao: aprox. três meses
+   • filhos: {'quantidade': 1, 'descricao': 'filho da relação', 'idade_atual': 2}
+   • Posição no texto: 56829-56836
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+16. relacionamento em 2022
+   • tipo: relacionamento amoroso
+   • periodo: 2022
+   • duracao: não especificada
+   • resultado: gerou filho
+   • Posição no texto: 58361-58394
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+17. relacionamento em 2022
+   • tipo: relação amorosa
+   • periodo: 2022
+   • duracao: três meses
+   • Status alinhamento: None
+
+18. relacionamento em 2022
+   • tipo: relacionamento amoroso
+   • periodo: 2022
+   • duracao: três meses
+   • Status alinhamento: None
+
+19. NAYANE ARAJO e STENIO
+   • tipo: romântico
+   • periodo: 2022
+   • observacoes: gerou um filho; término; STENIO perseguiu para controlar a rotina
+   • Posição no texto: 77508-77566
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+20. relacionamento em 2022
+   • tipo: relacionamento amoroso
+   • periodo: 2022
+   • Status alinhamento: None
+
+21. {'descricao': 'filho do relacionamento entre DECLARANTE e STENIO', 'detalhes': {'idade': 2}}
+   • Status alinhamento: None
+
+22. relação amorosa entre DECLARANTE e STENIO
+   • tipo: relação amorosa
+   • periodo: 2022
+   • duracao: aproximadamente três meses
+   • Status alinhamento: None
+
+23. relacionamento entre Nayane e STENIO
+   • tipo: relacionamento amoroso
+   • periodo: 2022
+   • descricao: gerou um filho
+   • Status alinhamento: None
+
+24. relacionamento em 2022
+   • tipo: relacionamento amoroso
+   • periodo: 2022
+   • duracao: três meses
+   • Status alinhamento: None
+
+25. Filhos da vítima (faixa etária)
+   • tipo: filhos
+   • faixa_etaria: A partir de 18 anos
+   • filhos_com_deficiencia: Não
+   • Status alinhamento: None
+
+26. relacionamento em 2022
+   • tipo: relacionamento amoroso
+   • periodo: 2022
+   • Posição no texto: 28016-28030
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+27. relação anterior entre Nayane e STÊNIO; novo relacionamento de STÊNIO
+   • tipo: relacionamento amoroso
+   • periodo: termino da relação anterior; início de novo relacionamento de STÊNIO
+   • observacao: convivência com a filha permanece informal
+   • Posição no texto: 31136-31143
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+28. NAYANE ARAÚJO NERES DURÃES e STENIO - relacionamento amoroso
+   • tipo: relacionamento amoroso
+   • periodo: 2022
+   • duracao: três meses
+   • Status alinhamento: None
+
+29. relação entre requerente e agressor
+   • tipo_relacionamento: relação entre vítima e agressor
+   • observacao: requerente é a vítima; agressor é STENIO BENTO FERREIRA
+   • Status alinhamento: None
+
+30. ex-relacionamento entre Nayane e STÊNIO
+   • tipo: relacionamento anterior
+   • observacoes: há relação com filha em comum
+   • Status alinhamento: None
+
+31. relação amorosa entre Nayane e Stênio no ano de 2022
+   • tipo: relacionamento amoroso
+   • periodo: 2022
+   • duracao: aprox. 3 meses
+   • Status alinhamento: None
+
+32. Novo relacionamento de STÊNIO iniciado antes de 2025
+   • tipo: relacionamento amoroso
+   • participantes: ['NAYANE ARAÚJO NERES DURÃES', 'STÊNIO']
+   • observacoes: STÊNIO ingressou com pedido de guarda para facilitar acesso à criança; monitoramento de NAYANE
+   • Status alinhamento: None
+
+33. Cônjuge/relacionamento: Obs. Y Stenio Bento Ferreira
+   • tipo: conjugal
+   • observacao: Observação de cônjuge
+   • Posição no texto: 49150-49152
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+34. manteve relacionamento em 2022
+   • tipo: relacionamento amoroso
+   • periodo: 2022
+   • duracao: três meses
+   • pessoas_envolvidas: ['NAYANE ARAÚJO NERES DURÃES', 'STENIO']
+   • Status alinhamento: None
+
+35. {'tipo': 'Conjugal', 'participantes': ['NAYANE ARAÚJO NERES DURÃES', 'Tiago Damacena Sales Durães']}
+   • Status alinhamento: None
+
+36. relacionamento com STENIO em 2022
+   • tipo: relacionamento amoroso
+   • periodo: 2022
+   • duracao: None
+   • Status alinhamento: None
+
+37. ex-companheiro
+   • tipo: ex-relacionamento
+   • pessoas_envolvidas: ['NAYANE ARAÚJO NERES DURÃES', 'STÊNIO BENTO FERREIRA']
+   • observacao: fim do relacionamento não especificado
+   • Posição no texto: 68966-68980
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+38. ex-sogra de STÊNIO
+   • tipo: genitora de Nayane
+   • pessoas_envolvidas: ['MARIA HELENA DE ARAÚJO SILVA', 'STÊNIO BENTO FERREIRA']
+   • observacao: None
+   • Posição no texto: 69049-69067
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+39. relacionamento amoroso entre Nayane e STENIO
+   • tipo: relacionamento amoroso
+   • periodo: 2022
+   • duracao: aprox 3 meses
+   • resultado: gerou filho
+   • Posição no texto: 69176-69198
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+40. guarda da criança
+   • tipo: guarda da criança
+   • periodo: após término
+   • descricao: guarda consensual entre genitores
+   • Posição no texto: 69402-69419
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+41. relação amorosa entre Declarante e STENIO (2022); gerou Nayane
+   • tipo: relação amorosa
+   • periodo: 2022
+   • filhos: [{'nome': 'NAYANE ARAUJO', 'idade_atual': 2}]
+   • Posição no texto: 71055-71062
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+RELACIONAMENTO_CONTEXTO
+------------------------------
+
+1. Guarda de criança
+   • Posição no texto: 45368-45481
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+RELACIONAMENTOS_CONTEXTO
+------------------------------
+
+1. [{'relacionamento': 'NAYANE ARAJO e STENIO', 'tipo': 'relacionamento amoroso', 'periodo': '2022', 'observacoes': 'enfrentaram disputa de guarda da criança; STENIO usou a guarda como pretexto para controle'}]
+   • Status alinhamento: None
+
+2. {'descricao': 'relacionamento anterior entre Nayane e STENIO com filho em comum', 'aspectos': ['guarda de criança', 'questões familiares']}
+   • Status alinhamento: None
+
+3. {'relacionamento_anterior_atual': None, 'guarda_crianca': None, 'questoes_familiares_envolvidas': None}
+   • Status alinhamento: None
+
+RELACIONAMENTOS_E_CONTEXTO
+------------------------------
+
+1. {'relacionamento_anterior': 'relacionamento anterior com STENIO', 'guarda_crianca': None, 'questoes_familiares_envolvidas': None}
+   • Status alinhamento: None
+
+2. {'conflito_guardas_visitas_pensão': True, 'observacoes': 'Conflito atual sobre guarda, visitas e pensão'}
+   • Status alinhamento: None
+
+3. [{'relacionamento': None, 'descricao': None, 'guarda_de_crianca': None, 'questoes_familiares_envolvidas': None}]
+   • Status alinhamento: None
+
+4. [{'tipo': 'família', 'participante1': 'STÊNIO BENTO FERREIRA', 'participante2': 'JOÃO BATISTA CALAÇA FERREIRA', 'descricao': 'Pai e filho'}]
+   • Status alinhamento: None
+
+5. {'relacionamento_anterior': 'envolvimento da vítima com ex-companheiro; novo relacionamento da vítima', 'relacionamento_atual': None, 'guarda_crianca': 'filha do casal', 'questoes_familiares': 'foco na guarda da filha'}
+   • Status alinhamento: None
+
+6. {'observacoes': [{'tipo': 'relacionamento amoroso anterior', 'periodo': '2022', 'duracao': 'aproximadamente três meses'}, {'tipo': 'guarda de criança', 'descricao': 'criança de aproximadamente 2,5 anos', 'pai_mae': ['vítima', 'autor']}]}
+   • Status alinhamento: None
+
+7. {'relacionamento_anterior_e_atual': {'descricao': 'novo relacionamento de STÊNIO iniciado antes de junho de 2025', 'periodo': 'iniciado antes de jun/2025', 'observacoes': 'intenção de acesso à filha'}, 'guarda_da_crianca': {'criança': 'filha', 'pais_envolvidos': ['NAYANE', 'STÊNIO']}, 'questoes_familiares': ['guarda da criança', 'participação em atendimentos médicos e reuniões escolares']}
+   • Status alinhamento: None
+
+8. {'descricao': 'Relação com a ocorrência anterior 7368/2025 - 16ª DP'}
+   • Status alinhamento: None
+
+9. {'relacionamento_anterior_e_contexto': 'relação amorosa anterior com STENIO; guarda da criança realizada de maneira consensual entre genitores', 'guarda_crianca': 'consensual entre genitores', 'questoes_familiares_envolvidas': ['guarda da criança', 'controle da vida da declarante via visitação']}
+   • Status alinhamento: None
+
+10. {'observacoes': 'relacionamento anterior/atual, questões familiares envolvidas'}
+   • Status alinhamento: None
+
+11. [{'relacionamento': 'Indicado como autor do ilícito penal relacionado à Ocorrência Policial nº 8460/2025-16ª DP', 'relacionamento_attributes': {'tipo': 'autor', 'periodo': None, 'duracao': None}}]
+   • Status alinhamento: None
+
+12. {'relacionamento_anterior_e_atual': None, 'guarda_de_crianca': None, 'questoes_familiares_envolvidas': None}
+   • Status alinhamento: None
+
+13. [{'observacao': 'Documento refere-se a violência doméstica entre as partes; não há detalhes específicos de relacionamento no trecho fornecido.'}]
+   • Status alinhamento: None
+
+RELACOES_E_CONTEXTO
+------------------------------
+
+1. {'descricao': 'Relacionamento anterior entre Nayane Araujo e STENIO; disputa de guarda relacionada'}
+   • Status alinhamento: None
+
+RELATORIOS_DE_RISCO_DF
+------------------------------
+
+1. {'risco_atual': None, 'descritivo_do_risco': None, 'pontuacao_total_estimativa': None, 'itens_marcados': [], 'observacoes': None}
+   • Status alinhamento: None
+
+RESPOSTA
+------------------------------
+
+1. Não
+   • Posição no texto: 8342-8345
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+2. Não
+   • Posição no texto: 8463-8466
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+3. Sim
+   • Posição no texto: 8295-8298
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+4. Itens selecionados
+   • Status alinhamento: None
+
+5. Não
+   • Posição no texto: 8786-8789
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+6. Não
+   • Posição no texto: 9967-9970
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+RISCO
+------------------------------
+
+1. RISCO MODERADO
+   • nivel: moderado
+   • descricao: situação atual de violências sérias sem indicadores de risco iminente de violências físicas graves ou potencialmente letais, ou de possível progressão para risco iminente
+   • critério_observado: poucos itens marcados
+   • intervencoes_protetivas_e_monitoramento: ['tramitação ordinária do processo', 'encaminhamentos de proteção', 'deferimento de medidas protivas de urgência', 'responsabilização criminal']
+   • texto_referencia: Considera-se quando há poucos itens marcados.
+   • Posição no texto: 23910-23924
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+RISCO_VITIMA
+------------------------------
+
+1. {'descricao': 'Vítima em situação de risco', 'periculum_in_mora': True}
+   • Status alinhamento: None
+
+SEÇÃO
+------------------------------
+
+1. Avaliação de risco - Percepção da vítima
+   • Posição no texto: 20257-20263
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+2. Avaliação de risco - Contexto e possibilidade de novas agressões
+   • Posição no texto: 20595-21832
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+SUBITEMS
+------------------------------
+
+1. [{'pergunta': '4. Existe o risco da vítima tentar suicídio ou existem informações de que tenha tentado se matar?', 'acao': 'Investigar ideação e planos suicidas atuais e passados.'}, {'pergunta': '5. A vítima ainda reside com o(a) agressor(a) ou ele tem acesso fácil à sua residência?', 'acao': 'Investigar rotina da vítima, comportamentos persecutórios e acesso do autor a armas; avaliar poder ou meio para controlar ou acessar a vítima.'}, {'pergunta': '6. Descreva, de forma sucinta, outras circunstâncias que poderão representar risco de novas agressões', 'acao': 'Observações para o fluxo de atendimento e reavaliação de risco.'}]
+   • Posição no texto: 26931-27658
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+TELEFONE
+------------------------------
+
+1. {'tipo': 'Residencial', 'numero': '(61)3388-1369', 'data_cadastro': '19/11/2018'}
+   • Status alinhamento: None
+
+2. {'tipo': 'Movel', 'numero': '(61)99141-6571', 'data_cadastro': '19/11/2018'}
+   • Status alinhamento: None
+
+3. {'tipo': 'Fax', 'numero': '(61)99121-0509', 'data_cadastro': '19/11/2018'}
+   • Status alinhamento: None
+
+TEMA
+------------------------------
+
+1. Avaliação de risco conforme PARTE III - Protocolo de Gestão de Risco no DF
+   • Posição no texto: 22901-23061
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+TERMO_DE_DECLARAÇÃO
+------------------------------
+
+1. {'numero': '2162/2025-16ª DP', 'codigo': '246500749', 'tipo_procedimento': 'PROCEDIMENTO INVESTIGATÓRIO', 'data_inclusao': '2025-08-16T02:00:35+00:00', 'local': 'PLANALTINA, DF', 'descricao': 'TERMO DE DECLARAÇÃO Nº 2162/2025 que presta NAYANE ARAÚJO NERES DURÃES'}
+   • Status alinhamento: None
+
+TERMO_DECLARACAO
+------------------------------
+
+1. 2162/2025-16ª DP
+   • Posição no texto: 93-109
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+TIPO
+------------------------------
+
+1. pessoa
+   • Status alinhamento: None
+
+2. pessoa
+   • Status alinhamento: None
+
+3. questao_avaliacao
+   • Status alinhamento: None
+
+4. questao_avaliacao
+   • Status alinhamento: None
+
+5. questao_avaliacao
+   • Status alinhamento: None
+
+6. questao_avaliacao
+   • Status alinhamento: None
+
+7. questao_avaliacao
+   • Status alinhamento: None
+
+8. questao_avaliacao
+   • Status alinhamento: None
+
+9. questao_avaliacao
+   • Status alinhamento: None
+
+10. questao_avaliacao
+   • Status alinhamento: None
+
+11. questao_avaliacao
+   • Status alinhamento: None
+
+12. questao_avaliacao
+   • Status alinhamento: None
+
+13. questao_avaliacao
+   • Status alinhamento: None
+
+14. questao_avaliacao
+   • Status alinhamento: None
+
+15. observacao
+   • Status alinhamento: None
+
+16. perguntas_risco
+   • Status alinhamento: None
+
+TIPO_PROCEDIMENTO
+------------------------------
+
+1. PROCEDIMENTO INVESTIGATÓRIO
+   • descricao: Procedimento Investigatório
+   • Posição no texto: 51377-51404
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+VIOLENCIA_HISTORICO
+------------------------------
+
+1. {'bloco': 'BLOCO I - SOBRE O HISTÓRICO DE VIOLÊNCIA', 'ameaças': 'Não', 'agressao_fisica': 'Nenhuma agressão física', 'outras_agressoes': 'Nenhuma agressão física'}
+   • Status alinhamento: None

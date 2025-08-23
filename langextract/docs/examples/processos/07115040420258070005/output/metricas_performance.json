@@ -1,0 +1,57 @@
+{
+  "tempo_total_segundos": 1159.6267883777618,
+  "tempo_total_formatado": "0:19:19",
+  "inicio_processamento": "08:46:27",
+  "fim_processamento": "09:05:47",
+  "metricas_detalhadas": [
+    {
+      "etapa": "Verificação de configuração",
+      "duracao_segundos": 6.079673767089844e-05,
+      "duracao_formatada": "0.00s",
+      "percentual_tempo_total": 5.242784858044621e-06
+    },
+    {
+      "etapa": "Carregamento do arquivo",
+      "duracao_segundos": 0.015728235244750977,
+      "duracao_formatada": "0.02s",
+      "percentual_tempo_total": 0.0013563187227464534
+    },
+    {
+      "etapa": "Extração completa (LangExtract)",
+      "duracao_segundos": 1159.5005786418915,
+      "duracao_formatada": "1159.50s",
+      "percentual_tempo_total": 99.98911634871364
+    },
+    {
+      "etapa": "Preparação de exemplos",
+      "duracao_segundos": 0.0178372859954834,
+      "duracao_formatada": "0.02s",
+      "percentual_tempo_total": 0.0015381919574690521
+    },
+    {
+      "etapa": "Criação de exemplos",
+      "duracao_segundos": 0.017659902572631836,
+      "duracao_formatada": "0.02s",
+      "percentual_tempo_total": 0.0015228953616479338
+    },
+    {
+      "etapa": "Chamada LangExtract API",
+      "duracao_segundos": 1159.4825730323792,
+      "duracao_formatada": "1159.48s",
+      "percentual_tempo_total": 99.98756364143809
+    },
+    {
+      "etapa": "Geração de visualização HTML",
+      "duracao_segundos": 0.06088542938232422,
+      "duracao_formatada": "0.06s",
+      "percentual_tempo_total": 0.005250433155955181
+    }
+  ],
+  "arquivo": "docs/examples/processos/07115040420258070005/processo_07115040420258070005.md",
+  "tamanho_caracteres": 87413,
+  "tamanho_linhas": 1355,
+  "tamanho_kb": 88.0068359375,
+  "total_extractions": 595,
+  "chunks_processados": 49,
+  "velocidade_chars_por_segundo": 75.38966262458776
+}

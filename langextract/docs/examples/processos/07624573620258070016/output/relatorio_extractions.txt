@@ -1,0 +1,3319 @@
+RELATÓRIO DE EXTRAÇÃO COM MÉTRICAS COMPLETAS - PROCESSO JURÍDICO
+======================================================================
+
+Data/Hora: 23/08/2025 10:07:16
+Processo: 07624573620258070016
+Total de extrações: 500
+
+MÉTRICAS DE PERFORMANCE COMPLETAS
+----------------------------------------
+Tempo total processamento: 0:13:34
+Tempo total da tarefa: 0:13:34
+Início tarefa: 09:53:42
+Início processamento: 09:53:42
+Fim: 10:07:16
+Tamanho do arquivo: 60,393 caracteres (60.5 KB)
+Chunks processados: 38
+Velocidade: 74.2 chars/segundo
+
+TEMPO POR ETAPA
+------------------------------
+Verificação de configuração: 0.00s (0.0%)
+Carregamento do arquivo: 0.02s (0.0%)
+Extração completa (LangExtract): 814.12s (100.0%)
+Preparação de exemplos: 0.02s (0.0%)
+Criação de exemplos: 0.02s (0.0%)
+Chamada LangExtract API: 814.10s (100.0%)
+Geração de visualização HTML: 0.06s (0.0%)
+
+ESTATÍSTICAS POR CATEGORIA
+------------------------------
+anexo: 1 extrações
+autoridade: 55 extrações
+autoridades: 1 extrações
+autoridades_e_funcionarios: 2 extrações
+certidao: 7 extrações
+certidoes: 1 extrações
+certidoes_e_documentos: 1 extrações
+classe_processo: 1 extrações
+comunicacao: 10 extrações
+comunicacoes: 7 extrações
+comunicacoes_e_mensagens: 7 extrações
+comunicacoes_mensagens: 1 extrações
+conselho_tutelar: 13 extrações
+contexto_familiar: 31 extrações
+crime: 58 extrações
+crime_contexto: 1 extrações
+crimes_e_comportamentos: 1 extrações
+dado_processo: 2 extrações
+dados_processo: 3 extrações
+dados_processuais: 7 extrações
+data_da_comunicacao: 1 extrações
+data_eventos: 1 extrações
+datas_importantes: 4 extrações
+decisao: 2 extrações
+decisao_liminar: 1 extrações
+decisão: 1 extrações
+diligencia: 2 extrações
+document_date: 1 extrações
+documento: 9 extrações
+documento_contexto: 1 extrações
+documento_pje: 1 extrações
+encaminhamentos: 1 extrações
+endereco: 1 extrações
+informacoes_adicionais: 1 extrações
+intimacao: 2 extrações
+intimacoes: 1 extrações
+local: 3 extrações
+local_do_fato: 1 extrações
+local_e_data_decisao: 1 extrações
+mandado: 2 extrações
+mandado_intimacao: 5 extrações
+manifestacao: 1 extrações
+medida_protetiva: 1 extrações
+medidas_protetivas: 25 extrações
+medidas_protetivas_deferidas: 1 extrações
+medidas_protetivas_solicitadas: 1 extrações
+observacoes: 7 extrações
+observacoes_decisao: 1 extrações
+observacoes_narrativas: 1 extrações
+ocorrencia: 18 extrações
+ocorrencia_policial: 2 extrações
+origem: 1 extrações
+origem_da_comunicacao: 1 extrações
+partes_certidao: 1 extrações
+pessoa: 152 extrações
+procedimento: 1 extrações
+procedural: 1 extrações
+processo: 10 extrações
+processo_certidao: 1 extrações
+protocolo: 12 extrações
+recibos_intimacoes: 1 extrações
+remessa_e_studio: 1 extrações
+sigilo_excecoes: 1 extrações
+sigilo_justica: 1 extrações
+suspensao_incidente: 1 extrações
+termo_de_declaração: 1 extrações
+termo_decl: 1 extrações
+termo_protetivas: 1 extrações
+termo_requerimento_medida_protetiva: 1 extrações
+tipo_procedimento: 1 extrações
+
+TOTAL DE CATEGORIAS: 70
+
+
+ANEXO
+----------------------------------------
+
+1. {'codigo': '244676226', 'tipo': 'Anexo', 'data_inclusao': '2025-07-31T14:15:35+00:00'}
+   • Status alinhamento: None
+
+AUTORIDADE
+----------------------------------------
+
+1. {'nome': 'RAFAEL LAURE MIRANDA', 'cargo': 'Delegado de Polícia'}
+   • Status alinhamento: None
+
+2. {'nome': 'ALEX YUZO MOROGUMA', 'cargo': 'Escrivão de Polícia', 'matricula': None}
+   • Status alinhamento: None
+
+3. NICE
+   • nome: NICE
+   • cargo: Conselheira Tutelar
+   • Posição no texto: 1625-1629
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+4. ALEX YUZO MOROGUMA
+   • nome: ALEX YUZO MOROGUMA
+   • cargo: Escrivão de Polícia
+   • matricula: 0230676X
+   • Posição no texto: 3970-3988
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+5. RAFAEL LAURE MIRANDA
+   • nome: RAFAEL LAURE MIRANDA
+   • cargo: Delegado de Polícia
+   • Posição no texto: 5025-5045
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+6. ALEX YUZO MOROGUMA
+   • nome: ALEX YUZO MOROGUMA
+   • cargo: Escrivão de Polícia
+   • matricula: 0230676X
+   • Posição no texto: 5079-5097
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+7. RAFAEL LAURE MIRANDA
+   • nome: RAFAEL LAURE MIRANDA
+   • cargo: Delegado de Polícia
+   • Status alinhamento: None
+
+8. ALEX YUZO MOROGUMA
+   • nome: ALEX YUZO MOROGUMA
+   • cargo: Escrivão de Polícia
+   • matricula: 0230676X
+   • Posição no texto: 6762-6780
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+9. FRANCISCA ALVES FILHA PEREIRA
+   • nome: FRANCISCA ALVES FILHA PEREIRA
+   • cargo: Conselheira Tutelar
+   • endereco: CONSELHO TUTELAR DE SOBRADINHO II
+   • Posição no texto: 8146-8175
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+10. NICE
+   • nome: NICE
+   • cargo: Conselheira Tutelar
+   • Posição no texto: 12397-12401
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+11. DP35-SAA / Polícia Civil do Distrito Federal
+   • nome: DP35-SAA
+   • cargo: Unidade de Atendimento
+   • instituicao: Polícia Civil do Distrito Federal
+   • Status alinhamento: None
+
+12. Conselho Tutelar
+   • cargo: Conselho Tutelar
+   • plantao: True
+   • Posição no texto: 16286-16302
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+13. RAFAEL LAURE MIRANDA
+   • nome: RAFAEL LAURE MIRANDA
+   • cargo: Delegado de Polícia
+   • funcao: Delegado de Plantão
+   • Posição no texto: 18338-18358
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+14. ALEX YUZO MOROGUMA
+   • nome: ALEX YUZO MOROGUMA
+   • cargo: Escrivão de Polícia
+   • matricula: 230.676-X
+   • Posição no texto: 18235-18253
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+15. RICARDO NOGUEIRA VIANA
+   • nome: RICARDO NOGUEIRA VIANA
+   • cargo: Delegado Chefe
+   • matricula: 063.439-5
+   • Posição no texto: 18282-18304
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+16. ALEXSANDRO CORREIA NEVES
+   • nome: ALEXSANDRO CORREIA NEVES
+   • cargo: Agente
+   • matricula: 057.607-7
+   • Posição no texto: 18188-18212
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+17. RICARDO NOGUEIRA VIANA
+   • nome: RICARDO NOGUEIRA VIANA
+   • cargo: None
+   • Posição no texto: 18380-18402
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+18. RAFAEL LAURE MIRANDA
+   • nome: RAFAEL LAURE MIRANDA
+   • cargo: Delegado de Polícia
+   • Posição no texto: 19552-19572
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+19. ALEX YUZO MOROGUMA
+   • nome: ALEX YUZO MOROGUMA
+   • cargo: Escrivão de Polícia
+   • Posição no texto: 19616-19634
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+20. Conselho Tutelar
+   • cargo: plantonista
+   • observacao: plantão recebeu denúncia;KIARA compareceu ao Conselho Tutelar em 30/06/2025
+   • Posição no texto: 22047-22063
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+21. NICE
+   • nome: NICE
+   • cargo: Conselheira Tutelar
+   • Posição no texto: 25856-25860
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+22. Conselho Tutelar
+   • cargo: Conselheiro Tutelar
+   • participacao: adolescente procurou o Conselho Tutelar
+   • encaminhamentos: None
+   • Posição no texto: 27979-27995
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+23. Daniel Dias Zanatta
+   • nome: Daniel Dias Zanatta
+   • cargo: Promotor de Justiça
+   • orgao: MPDFT
+   • Posição no texto: 29049-29068
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+24. Conselho Tutelar
+   • cargo: Conselheiro Tutelar
+   • acao: Acompanhar o caso
+   • Posição no texto: 28974-28990
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+25. RAFAEL LAURE MIRANDA
+   • nome: RAFAEL LAURE MIRANDA
+   • cargo: Delegado de Polícia
+   • Status alinhamento: None
+
+26. ALEX YUZO MOROGUMA
+   • nome: ALEX YUZO MOROGUMA
+   • cargo: Escrivão de Polícia
+   • matricula: 0230676X
+   • Status alinhamento: None
+
+27. FABIANO CHAGAS DA COSTA
+   • nome: FABIANO CHAGAS DA COSTA
+   • organizacao: Núcleo Permanente de Plantão Judicial - NUPLA
+   • Posição no texto: 41585-41608
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+28. RAFAEL LAURE MIRANDA
+   • nome: RAFAEL LAURE MIRANDA
+   • cargo: Delegado de Polícia
+   • Status alinhamento: None
+
+29. ALEX YUZO MOROGUMA
+   • nome: ALEX YUZO MOROGUMA
+   • cargo: Escrivão de Polícia
+   • matricula: 0230676X
+   • Status alinhamento: None
+
+30. RAMSES JOSE GONÇALVES PEREIRA
+   • nome: RAMSES JOSE GONÇALVES PEREIRA
+   • cargo: Oficial(a) de Justiça
+   • matricula: 315328
+   • Posição no texto: 47922-47951
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+31. SUELLEN MENDES CUNHA
+   • nome: SUELLEN MENDES CUNHA
+   • cargo: Promotora de Justiça Adjunta
+   • orgao: Ministério Público do Distrito Federal e Territórios (MPDFT)
+   • Posição no texto: 48607-48627
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+32. EUGENIA CHRISTINA BERGAMO ALBERNAZ
+   • nome: EUGENIA CHRISTINA BERGAMO ALBERNAZ
+   • cargo: Juíza de Direito
+   • Posição no texto: 49515-49549
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+33. MAISLA AMANDA SANTIAGO RODRIGUES
+   • nome: MAISLA AMANDA SANTIAGO RODRIGUES
+   • cargo: Servidor Geral
+   • Posição no texto: 50557-50589
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+34. Oficial de Justiça
+   • cargo: Oficial de Justiça
+   • descricao: Cumpra a decisão e intime destinatário
+   • Posição no texto: 49612-49619
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+35. Juíza de Direito
+   • nome: EUGENIA CHRISTINA BERGAMO ALBERNAZ
+   • cargo: Juíza de Direito
+   • Posição no texto: 51885-51901
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+36. REJANE KELLY LOPES DOS SANTOS
+   • nome: REJANE KELLY LOPES DOS SANTOS
+   • cargo: Oficial de Justiça
+   • matricula: 318226
+   • Posição no texto: 56651-56680
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+37. EUGENIA CHRISTINA BERGAMO ALBERNAZ
+   • nome: EUGENIA CHRISTINA BERGAMO ALBERNAZ
+   • cargo: Juíza de Direito
+   • Posição no texto: 57817-57851
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+38. A OFICIAL DE JUSTIÇA
+   • cargo: Oficial de Justiça
+   • observacao: Destinada a cumprir intimação (mandado) na decisão
+   • Posição no texto: 57910-57935
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+39. REJANE KELLY LOPES DOS SANTOS
+   • nome: REJANE KELLY LOPES DOS SANTOS
+   • cargo: Oficial de Justiça
+   • matricula: 318226
+   • assinatura: eletrônica
+   • Posição no texto: 60120-60149
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+40. RAFAEL LAURE MIRANDA
+   • nome: RAFAEL LAURE MIRANDA
+   • cargo: Delegado de Polícia
+   • Posição no texto: 627-647
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+41. ALEX YUZO MOROGUMA
+   • nome: ALEX YUZO MOROGUMA
+   • cargo: Escrivão de Polícia
+   • matricula: None
+   • Posição no texto: 691-709
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+42. RAFAEL LAURE MIRANDA
+   • nome: RAFAEL LAURE MIRANDA
+   • cargo: Delegado de Polícia
+   • Posição no texto: 3912-3932
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+43. {'instituicao': 'GOVERNO DO DISTRITO FEDERAL', 'orgao': 'POLÍCIA CIVIL DO DISTRITO FEDERAL', 'secao': 'TRIGÉSIMA QUINTA DELEGACIA DE POLÍCIA'}
+   • Status alinhamento: None
+
+44. Conselho Tutelar
+   • papel: intervenção/assistência
+   • observacao: Conselho Tutelar acionado duas vezes para tratar das violências
+   • Posição no texto: 22812-22828
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+45. MINISTÉRIO PÚBLICO DO DISTRITO FEDERAL E TERRITÓRIOS
+   • nome: MINISTÉRIO PÚBLICO DO DISTRITO FEDERAL E TERRITÓRIOS
+   • cargo: Promotor de Justiça
+   • papel: autoridade
+   • instituicao: Ministério Público
+   • Posição no texto: 27013-27065
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+46. TJDFT - VVDFCA
+   • instituicao: Tribunal de Justiça do Distrito Federal e dos Territórios
+   • vara: Vara de Violência Doméstica e Familiar contra a Criança e o Adolescente
+   • Status alinhamento: None
+
+47. RAFAEL LAURE MIRANDA
+   • nome: RAFAEL LAURE MIRANDA
+   • cargo: Delegado de Polícia
+   • Status alinhamento: None
+
+48. ALEX YUZO MOROGUMA
+   • nome: ALEX YUZO MOROGUMA
+   • cargo: Escrivão de Polícia
+   • matricula: 0230676X
+   • Status alinhamento: None
+
+49. {'nome': 'RAFAEL LAURE MIRANDA', 'cargo': 'Delegado de Polícia'}
+   • Status alinhamento: None
+
+50. {'nome': 'ALEX YUZO MOROGUMA', 'cargo': 'Escrivão de Polícia', 'matricula': '0230676X'}
+   • Status alinhamento: None
+
+51. RAFAEL LAURE MIRANDA
+   • nome: RAFAEL LAURE MIRANDA
+   • cargo: Delegado de Polícia
+   • Status alinhamento: None
+
+52. ALEX YUZO MOROGUMA
+   • nome: ALEX YUZO MOROGUMA
+   • cargo: Escrivão de Polícia
+   • matricula: 0230676X
+   • Status alinhamento: None
+
+53. EUGENIA CHRISTINA BERGAMO ALBERNAZ
+   • cargo: Juíza de Direito
+   • Posição no texto: 51849-51883
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+54. Oficial(a) de Justiça
+   • cargo: Oficial(a) de Justiça
+   • descricao: cumprimento de decisão
+   • Posição no texto: 50656-50677
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+55. MAISLA AMANDA SANTIAGO RODRIGUES
+   • nome: MAISLA AMANDA SANTIAGO RODRIGUES
+   • cargo: Servidor Geral
+   • Posição no texto: 53299-53331
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+AUTORIDADES
+----------------------------------------
+
+1. [{'cargo': 'Delegado de Polícia', 'nome': None, 'matricula': None}, {'cargo': 'Escrivão de Polícia', 'nome': None, 'matricula': None}]
+   • Status alinhamento: None
+
+AUTORIDADES_E_FUNCIONARIOS
+----------------------------------------
+
+1. [{'autoridade': 'MINISTÉRIO PÚBLICO', 'autoridade_attributes': {'nome': 'MINISTÉRIO PÚBLICO', 'cargo': 'Promotor de Justiça', 'papel': 'autoridade'}}, {'autoridade': 'CEMAN', 'autoridade_attributes': {'nome': 'CEMAN', 'cargo': 'Centro de Mandados/Intimações', 'papel': 'oficial de cumprimento/recebimento de intimações', 'observacoes': 'Recibos vinculados: 2025378378, 2025378379'}}]
+   • Status alinhamento: None
+
+2. [{'autoridade': 'Ministério Público', 'autoridade_attributes': {'cargo': 'Ministério Público', 'papel': 'intimação/vista aos autos'}}]
+   • Status alinhamento: None
+
+CERTIDAO
+----------------------------------------
+
+1. 241163790
+   • codigo: 241163790
+   • tipo: Certidão
+   • data_inclusao: 2025-06-30T22:45:48+00:00
+   • unidade_judiciaria: TJDFT
+   • observacoes: De ordem do(a) MM. Juiz(a) de Direito plantonista, encaminho os autos ao Ministério Público para parecer.
+   • autoridade_emitente: ALLAN CRISTIANO GOMES MARTINS
+   • Posição no texto: 24441-24450
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+2. {'codigo': '241185248', 'tipo': 'Certidão', 'data_inclusao': '2025-07-01T04:11:51+00:00'}
+   • Status alinhamento: None
+
+3. 241583545
+   • codigo: 241583545
+   • tipo: Certidão
+   • data_inclusao: 2025-07-03T18:12:55+00:00
+   • observacao: Certifico que alterei a classe processual dos presentes autos, conforme determinado.
+   • processo_numero: 0762457-36.2025.8.07.0016
+   • Posição no texto: 44994-45003
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+4. 242814450
+   • codigo: 242814450
+   • tipo: Manifestação do MPDFT
+   • data_inclusao: 2025-07-15T16:12:14+00:00
+   • Posição no texto: 48229-48238
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+5. 244582643
+   • codigo: 244582643
+   • tipo: Medida Protetiva
+   • data_inclusao: 2025-07-30T19:13:55+00:00
+   • Posição no texto: 48698-48707
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+6. Peça 16: Checklist.Cadastro.Distribuição.MPCALHB
+   • codigo: 244584728
+   • tipo: Certidão
+   • data_inclusao: 2025-07-30T19:17:46+00:00
+   • Posição no texto: 54371-54419
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+7. {'codigo': '244584728', 'tipo': 'Certidão', 'data_inclusao': '2025-07-30T19:17:46+00:00'}
+   • Status alinhamento: None
+
+CERTIDOES
+----------------------------------------
+
+1. [{'codigo': '241185248', 'tipo': 'Certidão', 'data_inclusao': '2025-07-01T04:11:51+00:00'}]
+   • Status alinhamento: None
+
+CERTIDOES_E_DOCUMENTOS
+----------------------------------------
+
+1. {'certificado_acesso': 'https://ceman.tjdft.jus.br/certidoes/4b60d139-f8ee-43a8-8657-6ab1a3c2a8a7', 'observacoes': 'Chave de acesso'}
+   • Status alinhamento: None
+
+CLASSE_PROCESSO
+----------------------------------------
+
+1. MPCALHB
+   • observacao: Correção de classe processual proposta
+   • Posição no texto: 43889-43896
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+COMUNICACAO
+----------------------------------------
+
+1. 27/06/2025
+   • conteudo: Kiara informou ter recebido o benefício governamental 'pé de meia' e a mãe exigiu a entrega
+   • Posição no texto: 16990-17000
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+2. 28/06/2025
+   • conteudo: mensagem para a mãe avisando que iria buscar a sobrinha na escola; ameaça de morte
+   • Posição no texto: 17151-17161
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+3. 30/06/2025
+   • conteudo: registro/impressão da ocorrência
+   • Status alinhamento: None
+
+4. ligação telefônica
+   • tipo: ligação telefônica
+   • remetente: Conselheira Tutelar NICE
+   • destinatario: RAISSA DOS SANTOS
+   • data_hora: 28/06/2025 16:26
+   • conteudo: informando que a adolescente KYARA DOS SANTOS compareceu voluntariamente ao Conselho Tutelar relatando que não suportava mais conviver com a genitora
+   • Posição no texto: 33225-33243
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+5. mensagem de texto
+   • tipo: texto
+   • remetente: KYARA DOS SANTOS
+   • destinatario: RAISSA DOS SANTOS
+   • data_hora: 28/06/2025 13:41
+   • conteudo: relato de que havia sido agredida com tapas nas costas, bem como xingada com palavras ofensivas (p. ex., 'vagabunda', 'gaga', 'piranha')
+   • Posição no texto: 33564-33581
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+6. encaminhamento do Conselho Tutelar
+   • tipo: ação/protocolo
+   • origem: Conselho Tutelar de Sobradinho II
+   • destino: Equipe policial
+   • endereco_fatos: QMS 23, Lote 04, Casa 02, Sobradinho II/DF
+   • Posição no texto: 33807-33864
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+7. mensagem
+   • remetente: KIARA DOS SANTOS
+   • destinatario: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • meio: texto/WhatsApp
+   • conteudo: informou que iria buscar a sobrinha na escola; relata recebimento de benefício social em 27/06/2025; descreve ameaça da mãe em 28/06/2025
+   • Posição no texto: 37601-37609
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+8. INTIMAÇÃO
+   • destinatario: MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS
+   • conteudo: intimação de todo o mandado
+   • data: 31/07/2025
+   • origem: Oficial de Justiça
+   • details: {'local_entrega': 'QMS 23, LOTE 04, SETOR DE MANSÕES DE SOBRADINHO-DF', 'concluido_em': '31/07/2025'}
+   • Posição no texto: 56374-56383
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+9. mensagem
+   • descricao: mensagem enviada pela menor para a mãe avisando que iria buscar a sobrinha na escola
+   • conteudo: informação de deslocamento/retorno
+   • data: 28/06/2025
+   • Posição no texto: 17174-17182
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+10. Mandado encaminhado via WhatsApp
+   • meio: WhatsApp
+   • destinatario: requerida
+   • conteudo: cópia do mandado
+   • Status alinhamento: None
+
+COMUNICACOES
+----------------------------------------
+
+1. {'tipos': ['mensagem de texto/WhatsApp'], 'conteudo': "Mensagem relatando agressões (agressões físicas: tapas nas costas) e insultos como 'vagabunda', 'gaga' e 'piranha'.", 'data': '28/06/2025 13:41'}
+   • Status alinhamento: None
+
+2. {'conteudo': ['onde o satanás não vai, manda o secretário', "demônios/insultos como 'demônio'"], 'tipos': ['relatos verbais', 'mensagens']}
+   • Status alinhamento: None
+
+3. {'tipos': ['mensagem de texto enviada por KYARA'], 'conteudo': ['KYARA relatou ter sido agredida com tapas nas costas e xingada com palavras ofensivas (vagabunda, gaga, piranha, etc.)'], 'contatos': ['mensagem de KYARA em 28/06/2025, por volta de 13h41', 'Conselheira Tutelar NICE informando sobre KYARA ter comparecido ao Conselho Tutelar']}
+   • Status alinhamento: None
+
+4. {'tipo': 'mensagens de texto', 'conteudo': ["mensagem de texto enviada por KYARA relatando que havia sido agredida com tapas nas costas e xingada com palavras ofensivas como 'vagabunda', 'gaga' e 'piranha', entre outros impropérios"], 'relatos_de_violencia': True}
+   • Status alinhamento: None
+
+5. {'conteudo_comunicacoes': "relatos de violência; xingamentos como 'demônio'; agressividade da mãe; relatos de agressão física e tentativa de enforcamento", 'mensagens_texto_whatsapp': None, 'contatos_telefonicos': None}
+   • Status alinhamento: None
+
+6. {'tipo': 'mensagem', 'remetente': 'KIARA', 'destinatario': 'MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS', 'conteudo': 'informou que iria buscar a sobrinha na escola'}
+   • Status alinhamento: None
+
+7. {'mensagens': [{'conteudo': '30/7- 19h50 zap.'}], 'observacao': 'Conteúdo das comunicações não detalhado'}
+   • Status alinhamento: None
+
+COMUNICACOES_E_MENSAGENS
+----------------------------------------
+
+1. []
+   • Status alinhamento: None
+
+2. {'ligacoes': [{'tipo': 'ligação', 'descricao': 'ligação telefônica da Conselheira Tutelar Sra. NICE informando sobre o caso'}], 'mensagens': [{'tipo': 'texto', 'contido': "mensagem de KYARA relatando que havia sido agredida com tapas nas costas e xingada com palavras ofensivas como 'vagabunda', 'gaga' e 'piranha'"}]}
+   • Status alinhamento: None
+
+3. {'tipos_comunicacoes': ['ligação telefônica'], 'conteudo_das_comunicacoes': ['Ligação recebida da Conselheira Tutelar'], 'relatos_de_violencia': True, 'contatos_telefonicos': ['(89) 9434-5929']}
+   • Status alinhamento: None
+
+4. {'mensagens_texto_ou_whatsapp': None, 'conteudo_das_comunicacoes': None, 'relatos_de_violencia': None, 'contatos_telefonicos': None}
+   • Status alinhamento: None
+
+5. {'tipos': ['mensagens de texto/WhatsApp', 'comunicações orais'], 'conteudo': ['xingamentos', 'ameaças de morte', 'relatos de violência física e psicológica', 'informação sobre alimentação/benefícios'], 'participantes': [{'de': 'KIARA', 'para': 'MARIA DO PERPÉTUO'}]}
+   • Status alinhamento: None
+
+6. {'meios_intimacao': ['telefone', 'WhatsApp', 'Oficial de Justiça'], 'observacao': 'Intimação das partes por meio dos meios acima'}
+   • Status alinhamento: None
+
+7. {'intimacoes': [{'destinatario': 'KYARA DOS SANTOS OLIVEIRA', 'cpf_destinatario': '100.411.671-39', 'representante_legal': 'Raissa dos Santos', 'meios': ['telefone 99631-9252', 'WhatsApp'], 'conteudo': 'intimação do inteiro teor da decisão (medidas protetivas deferidas)', 'data': '01/07/2025'}]}
+   • Status alinhamento: None
+
+COMUNICACOES_MENSAGENS
+----------------------------------------
+
+1. [{'tipo': 'ligação', 'conteudo': 'Conselheira Tutelar informou que a adolescente compareceu voluntariamente ao Conselho Tutelar de Sobradinho II, relatando que não suportava mais conviver com sua genitora, em razão de constantes agressões e maus-tratos.'}, {'tipo': 'mensagem de texto', 'conteudo': "K.S.O relatou ter sido agredida com tapas nas costas e xingada com palavras ofensivas ('vagabunda', 'gaga', 'piranha', etc.)."}]
+   • Status alinhamento: None
+
+CONSELHO_TUTELAR
+----------------------------------------
+
+1. {'intervencao': True, 'conselheiros_envolvidos': ['NICE'], 'encaminhamentos': ['Encaminhamento de equipe ao endereço indicado (QMS 23, Lote 04, Casa 02, Sobradinho II/DF)']}
+   • Status alinhamento: None
+
+2. {'intervencao': True, 'conselheiros_envolvidos': [{'nome': 'Conselheira Tutelar', 'cargo': 'Conselheira Tutelar'}], 'encaminhamentos_realizados': None}
+   • Status alinhamento: None
+
+3. {'intervencao': 'Intervenção do Conselho Tutelar', 'conselheiros_envolvidos': ['NICE'], 'encaminhamentos': ['Encaminhamento à delegacia', 'Abertura de registro de ocorrência', 'Solicitação de medidas protetivas']}
+   • Status alinhamento: None
+
+4. {'intervencao': 'Intervenção do Conselho Tutelar', 'observacoes': 'plantão recebeu denúncia em 28/06/2025; Kiara compareceu em 30/06/2025 relatando medo de retornar para casa; há dois meses estavam morando no Piauí; Maria agredia Kiara'}
+   • Status alinhamento: None
+
+5. {'intervencao': True, 'conselheiros_envolvidos': ['NICE'], 'encaminhamentos': ['Encaminhamento de equipe até o endereço dos fatos (QMS 23, Lote 04, Casa 02, Sobradinho II/DF)']}
+   • Status alinhamento: None
+
+6. Intervenção do Conselho Tutelar
+   • participacao: plantão acionado e denúncias recebidas
+   • histórico: ['28/06/2025: plantão recebeu nova denúncia', '30/06/2025: Kyara compareceu ao Conselho Tutelar relatando medo de retornar para casa']
+   • conselheiros_envolvidos: None
+   • encaminhamentos_realizados: ['atuar na proteção da menor', 'registro de relatos de violência']
+   • Status alinhamento: None
+
+7. {'intervencao': None, 'conselheiros_envolvidos': [], 'encaminhamentos_realizados': []}
+   • Status alinhamento: None
+
+8. {'participantes': ['Conselheira Tutelar NICE'], 'encaminhamentos': ['encaminhamento de equipe ao endereço indicado dos fatos', 'registro da ocorrência na delegacia']}
+   • Status alinhamento: None
+
+9. {'participacao': 'Intervenção do Conselho Tutelar', 'conselheiros_envolvidos': ['Conselho Tutelar de Sobradinho II'], 'encaminhamentos_realizados': None}
+   • Status alinhamento: None
+
+10. {'intervencao': 'Intervenção do Conselho Tutelar', 'conselheiros_envolvidos': ['NICE'], 'encaminhamentos_realizados': ['Encaminhamento de equipe de proteção ao endereço: QMS 23, Lote 04, Casa 02, Sobradinho II/DF']}
+   • Status alinhamento: None
+
+11. {'intervencao': True, 'conselheiros_envolvidos': None, 'encaminhamentos_realizados': 'Encaminhamentos e atendimentos realizados; visita agendada para 03/07/2025; plantões em 28/06/2025 e 30/06/2025'}
+   • Status alinhamento: None
+
+12. {'envolvidos': ['Conselho Tutelar'], 'encaminhamentos': 'acompanhar o caso'}
+   • Status alinhamento: None
+
+13. {'envolvidos': [{'nome': 'NICE', 'papel': 'Conselheira Tutelar'}], 'encaminhamentos': ['registro da ocorrência', 'solicitação de medidas protetivas de urgência', 'acompanhamento da situação das menores']}
+   • Status alinhamento: None
+
+CONTEXTO_FAMILIAR
+----------------------------------------
+
+1. {'estrutura_familiar': 'Mãe: MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS; Irmãs: RAISSA DOS SANTOS e KYARA DOS SANTOS', 'relacionamentos': {'RAISSA-KYARA': 'irmãs', 'KYARA-MAE': 'filha', 'RAISSA-MAE': 'filha'}, 'historico_violencia': 'violência doméstica relatada pela mãe contra KYARA', 'ambiente_domestico': 'domicílio'}
+   • Status alinhamento: None
+
+2. {'estrutura': 'família com mãe MARIA DO PERPÉTUO SOCORRO, filha KYARA, irmã da comunicante (declarante) e irmão da comunicante: Gabriel', 'historico_violencia': 'reitiradas práticas de violência física e verbal, gerando ambiente familiar hostil'}
+   • Status alinhamento: None
+
+3. {'estrutura': 'domicílio familiar', 'membros': [{'nome': 'MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS', 'relacao': 'genitora'}, {'nome': 'KYARA DOS SANTOS', 'relacao': 'filha'}]}
+   • Status alinhamento: None
+
+4. {'estrutura': 'desconhecida', 'relacionamentos': [{'membro': 'KYARA DOS SANTOS', 'relacao': 'vítima menor'}, {'membro': 'MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS', 'relacao': 'genitora'}], 'historico_violencia': None, 'ambiente_domestico': None}
+   • Status alinhamento: None
+
+5. {'estrutura_familiar': 'Maria é genitora de Kyara e Raissa; Kyara e Raissa são filhas de Maria', 'relacionamentos': None, 'historico_violencia': 'Relatos de maus-tratos no âmbito familiar', 'ambiente_domestico': 'doméstico'}
+   • Status alinhamento: None
+
+6. {'estrutura_familiar': 'genitora com histórico de agressões e maus-tratos', 'relacionamentos': [{'membro': 'MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS', 'relacao': 'genitora'}, {'membro': 'KYARA DOS SANTOS', 'relacao': 'filha'}], 'historico_violencia': True, 'ambiente_domestico': 'hostil'}
+   • Status alinhamento: None
+
+7. {'estrutura_familiar': None, 'relacionamentos': [{'membro': 'MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS', 'relacao': 'mãe de Kiara e Gabriel'}], 'historico_violencia': 'denúncia de maus-tratos envolvendo dois adolescentes'}
+   • Status alinhamento: None
+
+8. {'estrutura_familiar': 'Maria é mãe; Pai é ex-companheiro; Kiara tem irmãos; dois meses morando no Piauí'}
+   • Status alinhamento: None
+
+9. {'estrutura_familiar': 'Maria (mãe) – Kiara (filha); RAÍSSA (irmã mais velha) responsável pela menor', 'observacoes': 'Kiara afirmou que RAÍSSA confirmou a versão apresentada'}
+   • Status alinhamento: None
+
+10. {'estrutura_familiar': 'Mãe de KIARA SANTOS OLIVEIRA e GABRIEL SANTOS OLIVEIRA: MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS', 'relacionamentos': [{'pai': None, 'mae': 'MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS', 'filhos': ['KIARA SANTOS OLIVEIRA', 'GABRIEL SANTOS OLIVEIRA']}], 'historico_violência': 'denúncia de maus-tratos envolvendo duas adolescentes; agressões verbais, violência física e psicológica, e negligência alimentar relatadas pela denunciante', 'ambiente_domestico': 'domicílio dos envolvidos'}
+   • Status alinhamento: None
+
+11. {'estrutura_familiar': [{'nome': 'MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS', 'relacao': 'genitora'}, {'nome': 'RAÍSSA DOS SANTOS', 'relacao': 'irmã (representante)'}, {'nome': 'GABRIEL', 'relacao': 'irmão da comunicante'}, {'nome': 'K.S.O', 'relacao': 'menor/vítima'}], 'historico_violencia': 'Constantes agressões e maus-tratos; ambiente doméstico hostil', 'ambiente_domestico': 'Sobradinho II/DF (local dos fatos: QMS 23, Lote 04, Casa 02)'}
+   • Status alinhamento: None
+
+12. {'relacao_com_responsavel': 'filha', 'relacao_com_autores': None}
+   • Status alinhamento: None
+
+13. {'relacao_com_menor': 'genitora', 'hierarquia_familiar': None}
+   • Status alinhamento: None
+
+14. situação familiar com referência ao pai dos adolescentes; mudança recente para o Estado do Piauí há cerca de dois meses; ambiente doméstico com violência
+   • pai: None
+   • mae: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • filhos: KYARA DOS SANTOS (menor)
+   • Status alinhamento: None
+
+15. {'estrutura_familiar': 'núcleo familiar com mãe e filha, irmã mais velha atuando como responsável pela adolescente'}
+   • Status alinhamento: None
+
+16. {'estrutura_familiar': None, 'relacionamentos': None, 'historico_de_violencia': None, 'ambiente_domestico': None}
+   • Status alinhamento: None
+
+17. {'estrutura_familiar': 'informação não fornecida', 'relacionamentos': ['mãe: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS (autora/genitora)'], 'ambiente_domestico': 'não informado'}
+   • Status alinhamento: None
+
+18. {'estrutura_familiar': 'Maria é mãe de Kyara e Raissa; Kyara e Raissa são irmãs.', 'relacionamentos': 'Kyara e Raissa são filhas de Maria; Raissa é irmã de Kyara.', 'historico_violencia': 'violência doméstica relatada no termo de declaração: prática pela genitora contra Kyara.', 'ambiente_domestico': 'domicílio familiar, ambiente doméstico.'}
+   • Status alinhamento: None
+
+19. {'estrutura': 'núcleo familiar com mãe, filha e irmãos; ambiente doméstico potencialmente violento', 'relacionamentos': ['KYARA é filha de MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS', 'DECLARANTE é irmã de KYARA', 'GABRIEL é irmão da comunicante'], 'histórico': 'constantes agressões e maus-tratos, violência física e verbal, ambiente familiar hostil'}
+   • Status alinhamento: None
+
+20. {'estrutura_familiar': None, 'relacionamentos': [{'membro': 'KYARA DOS SANTOS', 'relacao': 'menor', 'parentesco': 'filha de MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS'}, {'membro': 'MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS', 'relacao': 'genitora'}], 'historico_violencia': 'reiteradas práticas de violência física e verbal pela genitora, gerando ambiente familiar hostil'}
+   • Status alinhamento: None
+
+21. {'estrutura_familiar': 'núcleo familiar com genitora', 'relacionamentos': [{'membro': 'KIARA SANTOS OLIVEIRA', 'relacao': 'filha'}, {'membro': 'GABRIEL SANTOS OLIVEIRA', 'relacao': 'filho'}, {'membro': 'MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS', 'relacao': 'genitora'}]}
+   • Status alinhamento: None
+
+22. {'estrutura_familiar': 'Maria (mãe) e Kyara; adolescentes mencionados; ex-companheiro da mãe citado como pai dos adolescentes'}
+   • Status alinhamento: None
+
+23. {'estrutura_familiar': 'mãe MARIA e filhos, com menções a adolescentes; ex-companheiro da mãe é pai dos adolescentes; mudança para o Piauí há aproximadamente dois meses', 'relacionamentos': 'conflito parental; violência doméstica', 'historico_violencia': 'tentativa de enforcamento relatada; denúncias anteriores ao Conselho Tutelar', 'ambiente_domestico': 'violento'}
+   • Status alinhamento: None
+
+24. {'estrutura': 'núcleo familiar envolvendo mãe, menor e irmã responsável', 'relacoes': [{'membro': 'MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS', 'relacao': 'genitora'}, {'membro': 'RAÍSSA DOS SANTOS', 'relacao': 'irmã mais velha e responsável pela adolescente'}, {'membro': 'KYARA DOS SANTOS', 'relacao': 'menor vítima'}], 'observacoes': 'ambiente doméstico descrito como hostil; episódios de agressões e restrições alimentares'}
+   • Status alinhamento: None
+
+25. {'estrutura_familiar': 'Mãe MARIA; filhos KIARA e GABRIEL', 'relacoes': {'MARIA': 'genitora', 'KIARA': 'filha', 'GABRIEL': 'filho'}, 'observacoes': 'denúncia de maus-tratos envolvendo dois adolescentes'}
+   • Status alinhamento: None
+
+26. {'local': 'Estado do Piauí', 'observacoes': ['Conselho Tutelar acionado para tratar das violências', 'KIARA vivia com MARIA DO PERPÉTUO', 'Irmã RAÍSSA ficou responsável pela adolescente']}
+   • Status alinhamento: None
+
+27. Ambiente doméstico hostil
+   • estrutura_familiar: genitora com duas filhas Kyara e Raissa
+   • relacionamentos: conflitos entre mãe e filhas
+   • historico_violencia: constantes agressões e maus-tratos
+   • ambiente_domestico: hostil
+   • Status alinhamento: None
+
+28. {'estrutura_familiar': 'MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS é genitora de KYARA, KIARA e GABRIEL', 'relacionamentos': 'conflitos de violência familiar, relatos de maus-tratos, ambiente doméstico'}
+   • Status alinhamento: None
+
+29. {'estrutura_familiar': 'mãe (MARIA DO PERPÉTUO), filha KIARA (minora), irmã RAÍSSA', 'ambiente_domestico': 'hostil', 'historico_violencia': 'relatos de violência no seio familiar'}
+   • Status alinhamento: None
+
+30. {'relacao_com_responsavel': 'genitor/pai/mãe não especificado neste trecho'}
+   • Status alinhamento: None
+
+31. {'estrutura_familiar': 'Não informado', 'relacionamentos': 'Não informado', 'historico_violencia': 'Não informado', 'ambiente_domestico': 'Não informado'}
+   • Status alinhamento: None
+
+CRIME
+----------------------------------------
+
+1. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Posição no texto: 1339-1358
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+2. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Status alinhamento: None
+
+3. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Status alinhamento: None
+
+4. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Status alinhamento: None
+
+5. VIOLÊNCIA FÍSICA, AMEAÇA, AGRESSÃO MORAL
+   • tipos: ['violência física', 'ameaça', 'agressão moral']
+   • contexto: ambiente doméstico
+   • descricao: Objeto/Meio Empregado: VIOLÊNCIA FÍSICA,AMEAÇA,AGRESSÃO MORAL.
+   • Posição no texto: 8081-8119
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+6. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Status alinhamento: None
+
+7. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Posição no texto: 12111-12130
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+8. violência doméstica
+   • tipo: violência física e psicológica
+   • contexto: contra menor de idade
+   • observacoes: ambiente familiar hostil; maus-tratos
+   • Status alinhamento: None
+
+9. maus-tratos a menor
+   • tipos: ['violência física', 'violência psicológica', 'negligência alimentar']
+   • ambiente: doméstico/familiar
+   • contexto: envolvendo dois adolescentes
+   • Status alinhamento: None
+
+10. violência física contra menor
+   • tipo: violência física
+   • alvo: Kiara
+   • contexto: violência doméstica
+   • Status alinhamento: None
+
+11. maus-tratos e agressões
+   • tipo: maus-tratos
+   • alvo: Kiara
+   • Status alinhamento: None
+
+12. violência verbal e psicológica
+   • tipo: violência verbal/psicológica
+   • alvo: Kiara
+   • Status alinhamento: None
+
+13. violência física contra menor
+   • tipo: violência física
+   • alvo: Kiara
+   • contexto: violência doméstica
+   • Posição no texto: 16900-16905
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+14. violência verbal e psicológica
+   • tipo: violência verbal/psicológica
+   • contexto: violência doméstica
+   • Posição no texto: 16900-16933
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+15. maus-tratos e agressões
+   • tipo: maus-tratos/ agressões
+   • contexto: violência doméstica
+   • Status alinhamento: None
+
+16. falta de alimentação
+   • tipo: negação de alimentação
+   • contexto: violência doméstica
+   • Posição no texto: 16938-16958
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+17. ameaça de morte
+   • tipo: ameaça
+   • conteudo: ameaça de morte contida em mensagem de 28/06/2025 para a mãe
+   • Posição no texto: 17270-17416
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+18. violência doméstica
+   • tipo: violência doméstica
+   • Status alinhamento: None
+
+19. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade (KIARA SANTOS OLIVEIRA e GABRIEL SANTOS OLIVEIRA)
+   • Status alinhamento: None
+
+20. violência doméstica contra menor
+   • tipo: violência doméstica
+   • contexto: envolvendo menor de idade
+   • descricao: relatos de agressões e violência dentro do ambiente familiar
+   • Posição no texto: 22382-22391
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+21. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Posição no texto: 24620-24639
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+22. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Status alinhamento: None
+
+23. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • violencia_fisica: True
+   • violencia_verbal: True
+   • ambiente_familiar_hostil: True
+   • Status alinhamento: None
+
+24. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Posição no texto: 29306-29325
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+25. violência doméstica
+   • tipo: violência física, maus-tratos e violência verbal
+   • contexto: contra menor de idade (KYARA DOS SANTOS)
+   • Posição no texto: 32986-33005
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+26. violência doméstica
+   • tipos: ['violência física contra menor', 'maus-tratos e agressões', 'violência verbal e psicológica']
+   • contexto: ambiente familiar envolvendo menor de idade
+   • evidencias: ['agressões relatadas contra a menor', 'xingamentos e comportamento agressivo', 'ambiente doméstico hostil']
+   • Status alinhamento: None
+
+27. violência física contra menor
+   • tipo: violência física
+   • alvo: menor de idade
+   • fatos: tapas pela genitora descritos; episódio de agressão física ocorrido no contexto doméstico (28/06/2025)
+   • Posição no texto: 37327-37332
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+28. maus-tratos
+   • tipo: maus-tratos
+   • fatos: maus-tratos e agressões reiteradas; negação de alimentação
+   • Status alinhamento: None
+
+29. violência verbal/psicológica
+   • tipo: violência verbal/psicológica
+   • fatos: ameaças, controle de comportamento e intimidação
+   • Posição no texto: 37327-37360
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+30. ambiente familiar hostil
+   • tipo: ambiente familiar hostil
+   • fatos: ambiente doméstico conflituoso entre genitora e menor
+   • Status alinhamento: None
+
+31. padrões de comportamento abusivo
+   • tipo: padrões de comportamento abusivo
+   • observacoes: relato de comportamento abusivo contínuo
+   • Status alinhamento: None
+
+32. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Posição no texto: 40321-40340
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+33. violência doméstica contra menor de idade
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • envolvidos: ['K. D. S. O.']
+   • Status alinhamento: None
+
+34. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Posição no texto: 53849-53868
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+35. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Posição no texto: 57123-57142
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+36. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Status alinhamento: None
+
+37. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Status alinhamento: None
+
+38. violência doméstica
+   • tipo: ['violência física contra menor', 'maus-tratos e agressões', 'violência verbal e psicológica']
+   • contexto: ambiente familiar hostil e contra menor de idade
+   • Status alinhamento: None
+
+39. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Status alinhamento: None
+
+40. MAUS TRATOS
+   • tipo: maus-tratos
+   • lei: Lei Henry Borel (14.344/22)
+   • Posição no texto: 7551-7562
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+41. violência doméstica
+   • tipos: ['violência física', 'ameaça', 'agressão moral']
+   • contexto: contra menor de idade
+   • local: RESIDÊNCIA
+   • descricao_local: CASA
+   • periodo: 23/06/2025 16:05 a 30/06/2025 16:25
+   • motivacao: MOTIVO FÚTIL OU TORPE
+   • gravidade_das_lesoes: Ignorada
+   • Status alinhamento: None
+
+42. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Status alinhamento: None
+
+43. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Status alinhamento: None
+
+44. maus-tratos contra menor de idade
+   • tipos: ['violência física', 'violência psicológica', 'maus-tratos', 'negligência alimentar']
+   • contexto: contra menores de idade em ambiente familiar
+   • Status alinhamento: None
+
+45. violência física contra menor
+   • tipo: violência física
+   • contexto: contra Kyara, menor de idade
+   • Status alinhamento: None
+
+46. maus-tratos e agressões
+   • tipo: maus-tratos e agressões
+   • contexto: violência doméstica no ambiente familiar
+   • Status alinhamento: None
+
+47. violência verbal e psicológica
+   • tipo: violência verbal e psicológica
+   • contexto: tratamento hostil e agressivo na convivência
+   • Status alinhamento: None
+
+48. ambiente familiar hostil
+   • tipo: ambiente doméstico hostil
+   • contexto: conflitos e abuso dentro do núcleo familiar
+   • Status alinhamento: None
+
+49. padrões de comportamento abusivo
+   • tipo: padrões de abuso
+   • contexto: recorrência de condutas abusivas
+   • Status alinhamento: None
+
+50. violência doméstica contra menor de idade
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • descricao: xingamentos, violência física e psicológica, negligência de alimentação
+   • Status alinhamento: None
+
+51. violência doméstica
+   • tipo: violência física e psicológica contra menor
+   • contexto: ambiente familiar
+   • descricao: ['tentativa de enforcamento', 'xingamentos', 'violência física', 'violência psicológica', 'falta de alimentação', 'ameaças de morte']
+   • participantes: [{'pessoa': 'KIARA', 'papel': 'vítima'}, {'pessoa': 'MARIA DO PERPÉTUO', 'papel': 'autora'}]
+   • momentos: [{'data': '27/06/2025', 'evento': 'KIARA recebeu auxílio governamental; suposta pressão para entregar benefício'}, {'data': '28/06/2025', 'evento': 'KIARA enviou mensagem para a mãe informando que iria buscar a sobrinha na escola; mãe a ameaçou de morte'}]
+   • Status alinhamento: None
+
+52. maus-tratos e agressões
+   • tipo: maus-tratos e agressões
+   • contexto: ambiente familiar
+   • observacao: referência aos relatos de violência contra adolescentes
+   • Status alinhamento: None
+
+53. padrões de comportamento abusivo
+   • descricao: padrões de comportamento abusivo
+   • contexto: histórico familiar
+   • Status alinhamento: None
+
+54. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • subtipos_de_violencia: ['violência física contra menor', 'maus-tratos e agressões', 'violência verbal e psicológica', 'ambiente familiar hostil', 'padrões de comportamento abusivo']
+   • envolvidos: ['Kyara Dos Santos']
+   • Posição no texto: 37048-37057
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+55. maus-tratos contra menor de idade
+   • tipos: ['violência física', 'violência psicológica', 'violência verbal']
+   • contexto: praticados pela genitora
+   • evidencia: ['tapas', 'ameaças', 'falta de alimentação']
+   • Status alinhamento: None
+
+56. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Posição no texto: 45173-45192
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+57. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Posição no texto: 48878-48897
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+58. violência doméstica
+   • tipo: violência doméstica
+   • contexto: contra menor de idade
+   • Status alinhamento: None
+
+CRIME_CONTEXTO
+----------------------------------------
+
+1. violência doméstica contra menor de idade
+   • Status alinhamento: None
+
+CRIMES_E_COMPORTAMENTOS
+----------------------------------------
+
+1. {'items': [{'tipo': 'maus-tratos', 'lei': 'Lei Henry Borel (14.344/22)'}]}
+   • Status alinhamento: None
+
+DADO_PROCESSO
+----------------------------------------
+
+1. 0762457-36.2025.8.07.0016
+   • numero_processo: 0762457-36.2025.8.07.0016
+   • vara: VVDFCA Vara de Violência Doméstica e Familiar contra a Criança e o Adolescente
+   • orgao_jurisdicional: TJDFT
+   • classificacao: MEDIDAS PROTETIVAS DE URGÊNCIA-CRIANÇAS E ADOLESCENTES (LEI HENRY BOREL - LEI 14.344/2022) CRIMINAIS (15170)
+   • Posição no texto: 54694-54719
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+2. 0762457-36.2025.8.07.0016
+   • numero_processo: 0762457-36.2025.8.07.0016
+   • destinatario_pedido_origem: KYARA DOS SANTOS OLIVEIRA
+   • distribuicao: 30/07/2025
+   • Posição no texto: 59477-59502
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+DADOS_PROCESSO
+----------------------------------------
+
+1. {'ocorrencia': None, 'protocolo': None, 'datas_importantes': [{'data': '28/06/2025', 'evento': 'plantão do Conselho Tutelar recebeu nova denúncia'}, {'data': '30/06/2025', 'evento': 'Kiara foi ao Conselho Tutelar relatando medo'}], 'unidades': [{'nome': 'Conselho Tutelar', 'local': 'Piauí'}]}
+   • Status alinhamento: None
+
+2. informações limitadas no relato
+   • ocorrencia: None
+   • protocolo: None
+   • datas_importantes: [{'data': '28/06/2025', 'descricao': 'plantão do Conselho Tutelar recebeu denúncia'}, {'data': '30/06/2025', 'descricao': 'Kyara foi ao Conselho Tutelar apresentando medo de voltar para casa'}]
+   • mandados_intimacoes: None
+   • tipo_procedimento: proteção à criança/adolescente (medidas protetivas não especificadas no relato)
+   • Status alinhamento: None
+
+3. {'processo_numero': '0762457-36.2025.8.07.0016', 'descricao_processo': 'Medidas protetivas de urgência - Crianças e Adolescentes (Lei Henry Borel - Lei 14.344/2022)', 'ramo_juridico': 'Criminais (15170)', 'vara': 'Vara de Violência Doméstica e Familiar contra a Criança e o Adolescente', 'orgao_julgador': 'TJDFT', 'unidade_judicial': 'SMAS Trecho, 3 Lotes 04/06, Fórum José Júlio Leal Fagundes (TJDFT)', 'representante_legal': 'RAISSA DOS SANTOS', 'ofensor': 'MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS', 'data_inclusao': '2025-07-30T19:16:37+00:00', 'codigo_medida': '244584726', 'classificacao': 'Medidas protetivas de urgência'}
+   • Status alinhamento: None
+
+DADOS_PROCESSUAIS
+----------------------------------------
+
+1. {'numero_processo': '07624573620258070016', 'origem_instancia': '1', 'observacoes': None}
+   • Status alinhamento: None
+
+2. [{'ocorrencia': '673/2025-0', 'ocorrencia_attributes': {'numero': '673/2025', 'delegacia': None}}, {'protocolo': '1744347/2025', 'protocolo_attributes': {'numero': '1744347/2025'}}, {'informacoes_adicionais': {'endereco_processo': 'RODOVIA DF 420, ÁREA ESPECIAL, SOBRADINHO II/DF - SOBRADINHO II/DF - CEP:73.093-010', 'telefones': ['(61) 99631-9252', '(89) 9447-7119'], 'gravidade_das_lesoes': 'Ignorada', 'observacao': 'Impresso Segunda-Feira, 30/6/2025 às 19:17'}}]
+   • Status alinhamento: None
+
+3. {'ocorrencia': {'numero': '3.673/2025-0', 'delegacia': '35ª DP'}, 'protocolo': {'numero': '1744347/2025'}, 'autoridades': [{'nome': 'RAFAEL LAURE MIRANDA', 'cargo': 'Delegado de Polícia'}, {'nome': 'ALEX YUZO MOROGUMA', 'cargo': 'Escrivão de Polícia', 'matricula': '0230676X'}], 'outras_informacoes': {'profissao': 'Do lar', 'endereco_residencial': 'SH MANSOES SOBRADINHO /COND MINI CHAC QMS 23 - COND MINI CHAC QMS 23 LT 4 - SOBRADINHO II', 'estado': 'DISTRITO FEDERAL', 'complemento': 'CASA 02', 'telefone_celular': '(89) 9434-5929', 'gravidade_das_lesoes': 'Ignorada'}}
+   • Status alinhamento: None
+
+4. {'numero_processo': '0762457-36.2025.8.07.0016', 'classe_judicial': 'MEDIDAS DE PROTEÇÃO - CRIANÇA E ADOLESCENTE (LEI 13.431) CRIMINAIS (14734)', 'partes': {'requerente': 'K. D. S. O.', 'requerido': 'MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS'}, 'ocorrencias_relacionadas': [{'ocorrencia': '3673/2025-35ª DP', 'delegacia': '35ª DP'}], 'protocolo': '1744347/2025', 'vara_responsavel': 'Vara de Violência Doméstica e Familiar contra a Criança e o Adolescente (VVDFCA)', 'datas_importantes': [{'descricao': 'data da certidão/imissão', 'data': '01/07/2025 01:11:27'}], 'mandados_e_intimacoes': ['Intimação do Ministério Público', 'Possível mandado/cartas precatórias', 'Intimação da decisão proferida em plantão judicial']}
+   • Status alinhamento: None
+
+5. {'ocorrencia': 'denúncia relacionada a violência familiar contra menor', 'protocolo': None, 'delegacia': None, 'vara_juizado': None, 'datas_importantes': ['28/06/2025', '30/06/2025', '03/07/2025'], 'tipo_procedimento': 'medidas protetivas e atuação do Conselho Tutelar', 'mandados_intimacoes': None}
+   • Status alinhamento: None
+
+6. {'protocolo': '1744347/2025', 'ocorrencia_policial': '3673/2025-35ª DP', 'delegacia': '35ª Delegacia de Polícia'}
+   • Status alinhamento: None
+
+7. {'numero_processo': '0762457-36.2025.8.07.0016', 'dados_adicionais': {'mandado_numero': '2025.378379', 'data_distribuicao': '01/07/2025', 'id_doc_pje': '241185247', 'destinatario_mandado': 'MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS'}}
+   • Status alinhamento: None
+
+DATA_DA_COMUNICACAO
+----------------------------------------
+
+1. 2025-06-30T18:02:00+00:00
+   • data: 30/06/2025
+   • hora: 18:02
+   • Posição no texto: 7022-7033
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+DATA_EVENTOS
+----------------------------------------
+
+1. [{'data': '23/06/2025', 'descricao': 'denúncia recebida de maus-tratos envolvendo duas adolescentes (Kiara e Gabriel) pela mãe'}, {'data': '26/06/2025', 'descricao': 'visita domiciliar aos envolvidos'}, {'data': '30/06/2025', 'descricao': 'impressão/relatório da ocorrência'}]
+   • Status alinhamento: None
+
+DATAS_IMPORTANTES
+----------------------------------------
+
+1. [{'descricao': 'recebimento da denúncia de maus-tratos', 'data': '23/06/2025'}, {'descricao': 'visita domiciliar aos envolvidos', 'data': '26/06/2025'}]
+   • Status alinhamento: None
+
+2. [{'data': '30/07/2025', 'descricao': 'Distribuição do processo'}, {'data': '30/07/2025 20:10', 'descricao': 'Intimação da menor'}]
+   • Status alinhamento: None
+
+3. [{'data': '23/06/2025', 'descricao': 'denúncia de maus-tratos envolvendo menores'}, {'data': '26/06/2025', 'descricao': 'visita domiciliar aos envolvidos'}]
+   • Status alinhamento: None
+
+4. {'denuncia_recebida': '23/06/2025', 'visita_domicilio': '26/06/2025', 'depoimento': '30/06/2025'}
+   • Status alinhamento: None
+
+DECISAO
+----------------------------------------
+
+1. Decisão Interlocutória
+   • texto: Medidas protetivas de urgência requeridas por K. D. S. O., neste ato representada por sua irmã RAÍSSA DOS SANTOS, em desfavor de MARIA DO PERPETO SOCORRO VERISSIMO DOS SANTOS, genitora da infante, as quais foram deferidas parcialmente em sede de plantão judicial, conforme decisão de ID 241178783. Embora seja possível ao Magistrado, nos termos do § 3º do artigo 16 da Lei nº 14.344/2022, rever as medidas protetivas concedidas, não vislumbro nos autos situação a ensejar a revisão/alteração da decisão anteriormente prolatada, sendo que as medidas outrora concedidas se mostram suficientes, por ora, a resguardar a incolumidade física e psíquica do(a) requerente. Deste modo, ratifico a decisão indicada, ressaltando que as medidas protetivas vigorarão até ordem judicial em contrário.
+   • Posição no texto: 41667-41674
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+2. Decisão Interlocutória
+   • tipo: Decisão Interlocutória
+   • referencia_decisao_id: ID 241178783
+   • resumo: Medidas protetivas de urgência requeridas por K. D. S. O., neste ato representada por sua irmã RAÍSSA DOS SANTOS, em desfavor de MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS, genitora da infante, as quais foram deferidas parcialmente em sede de plantão judicial. As medidas outrora concedidas se mostram suficientes, por ora, a resguardar a incolumidade física e psíquica do requerente. Vigorarão até ordem judicial em contrário.
+   • Posição no texto: 42152-42174
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+DECISAO_LIMINAR
+----------------------------------------
+
+1. {'descricao': 'Decisão em caráter liminar com orientações de atuação processual', 'observacoes': ['Intimação do Ministério Público conforme art. 24, §6°, da Lei n.º 14.344/2022', 'Força de mandado e/ou carta precatória', 'Possibilidade de modificação mediante nova decisão judicial', 'Cumprimento em horário especial deferido quando cabível', 'Requisição de reforço policial se necessário', 'Encaminhamento dos autos ao juizado competente']}
+   • Status alinhamento: None
+
+DECISÃO
+----------------------------------------
+
+1. {'codigo': '241178783', 'tipo': 'Decisão', 'data_inclusao': '2025-07-01T03:08:36+00:00'}
+   • Status alinhamento: None
+
+DILIGENCIA
+----------------------------------------
+
+1. 241845229
+   • codigo: 241845229
+   • tipo: Diligência
+   • data_inclusao: 2025-07-06T22:24:15+00:00
+   • mandado_numero: 2025.378378
+   • processo_numero: 0762457-36.2025.8.07.0016
+   • id_doc_pje: 241185247
+   • Posição no texto: 45688-45697
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+2. {'codigo': '244677621', 'tipo': 'Diligência', 'data_inclusao': '2025-07-31T14:15:39+00:00', 'numero_processo': '0762457-36.2025.8.07.0016', 'processo': '0762457-36.2025.8.07.0016', 'assunto': 'Intimação da menor', 'destinatario': 'KYARA DOS SANTOS OLIVEIRA'}
+   • Status alinhamento: None
+
+DOCUMENT_DATE
+----------------------------------------
+
+1. 30/07/2025 16:12:44
+   • Posição no texto: 50542-50555
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+DOCUMENTO
+----------------------------------------
+
+1. Termo de requerimento de medidas protetivas de urgência
+   • codigo: 241161500
+   • tipo_documento: Petição Inicial
+   • data_inclusao: 2025-06-30T22:20:02+00:00
+   • numero_termo: 66/2025-35ª DP
+   • descricao: Termo de Requerimento de Medidas Protetivas de Urgência
+   • Posição no texto: 4250-4305
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+2. TERMO DE DECLARAÇÃO Nº 1501/2025
+   • numero: 1501/2025
+   • codigo: 241161502
+   • tipo_documento: Petição Inicial
+   • data_inclusao: 2025-06-30T22:20:03+00:00
+   • dp: 35ª DP
+   • Posição no texto: 18992-19024
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+3. termo de declarações
+   • relacao: irmã da vítima
+   • referencia: ocorrência policial 3673/2025
+   • Posição no texto: 30492-30512
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+4. Mandado de medidas protetivas deferidas
+   • Posição no texto: 47830-48686
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+5. Manifestação do MPDFT
+   • Posição no texto: 48247-48268
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+6. certificado de recebimento de mandado
+   • destinatario: RAÍSSA DOS SANTOS
+   • metodo_recebimento: WhatsApp
+   • endereco_residencial: QR 5, CONJUNTO A, LOTE 07, BURITIZINHO, SOBRADINHO II- DF
+   • data_recebimento: 31/07/2025
+   • hora_recebimento: 10:35:25
+   • certificado_acesso: https://ceman.tjdft.jus.br/certidoes/bf051aa0-7b4b-4d2e-8832-4b3c08699462
+   • Status alinhamento: None
+
+7. Certidão
+   • codigo: 241583545
+   • tipo: Certidão
+   • data_inclusao: 2025-07-03T18:12:55+00:00
+   • processo_numero: 0762457-36.2025.8.07.0016
+   • classe_judicial: MEDIDAS PROTETIVAS DE URGÊNCIA-CRIANÇAS E ADOLESCENTES (LEI HENRY BOREL - LEI 14.344/2022) CRIMINAIS (15170)
+   • observacoes: ['Certifico que alterei a classe processual dos presentes autos, conforme determinado.', 'BRASÍLIA, DF, 3 de julho de 2025 15:12:18.']
+   • assinado_por: CRISTINA MENDONCA DE ALENCAR MATTOS
+   • assinado_por_cargo: Servidor Geral
+   • Posição no texto: 45465-45473
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+8. Diligência
+   • codigo: 241845229
+   • tipo: Diligência
+   • data_inclusao: 2025-07-06T22:24:15+00:00
+   • mandado_numero: 2025.378378
+   • processo_numero: 0762457-36.2025.8.07.0016
+   • ID_doc_PJE: 241185247
+   • Posição no texto: 45666-45676
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+9. Medida Protetiva
+   • codigo: 244582643
+   • tipo: Medida Protetiva
+   • data_inclusao: 2025-07-30T19:13:55+00:00
+   • status: deferidas
+   • Posição no texto: 47694-47712
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+DOCUMENTO_CONTEXTO
+----------------------------------------
+
+1. {'titulo': 'TERMO DE DECLARAÇÃO Nº 1501/2025-35ª DP', 'codigo': '241161502', 'tipo': 'Petição Inicial', 'data_inclusao': '2025-06-30T22:20:03+00:00'}
+   • Status alinhamento: None
+
+DOCUMENTO_PJE
+----------------------------------------
+
+1. {'id_doc_pje': '244584726'}
+   • Status alinhamento: None
+
+ENCAMINHAMENTOS
+----------------------------------------
+
+1. [{'destino': 'Ministério Público', 'observacao': 'Dê-se vista ao Ministério Público'}, {'destino': 'NERCRIA', 'observacao': 'Remetam-se os autos ao NERCRIA para estudo de caso'}]
+   • Status alinhamento: None
+
+ENDERECO
+----------------------------------------
+
+1. QMS 23, Lote 04, Casa 02, Sobradinho II/DF
+   • Posição no texto: 33958-34000
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+INFORMACOES_ADICIONAIS
+----------------------------------------
+
+1. {'data_fato': None, 'endereco_fato': None}
+   • Status alinhamento: None
+
+INTIMACAO
+----------------------------------------
+
+1. Intimação da menor
+   • data_hora: 30/07/2025 20:10
+   • meio: telefone
+   • destinatario: KYARA DOS SANTOS OLIVEIRA
+   • contato: (61)99631-9252
+   • Posição no texto: 59748-59766
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+2. {'via': 'telefone', 'telefone': '(61)99631-9252', 'data_hora': '2025-07-30 20:10', 'observacao': 'Intimação da menor KYARA DOS SANTOS OLIVEIRA, por meio de sua irmã'}
+   • Status alinhamento: None
+
+INTIMACOES
+----------------------------------------
+
+1. [{'destino': 'requerente', 'meio': ['telefone', 'WhatsApp', 'Oficial de Justiça']}, {'destino': 'requerido', 'meio': ['telefone', 'WhatsApp', 'Oficial de Justiça']}]
+   • Status alinhamento: None
+
+LOCAL
+----------------------------------------
+
+1. ENDEREÇO DOS FATOS
+   • endereco: QMS 23, Lote 04, Casa 02, Sobradinho II/DF
+   • Posição no texto: 33927-33945
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+2. {'cidade': 'BRASÍLIA', 'estado': 'DF'}
+   • Status alinhamento: None
+
+3. SOBRADINHO II / DISTRITO FEDERAL
+   • cidade: Sobradinho II
+   • uf: DF
+   • descricao_local: Casa 02, SH Mansões
+   • Posição no texto: 7873-7905
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+LOCAL_DO_FATO
+----------------------------------------
+
+1. {'endereco': 'QMS 23, Lote 04, Casa 02, Sobradinho II/DF', 'descricao': 'endereço onde ocorreram os fatos e onde a equipe foi encaminhada'}
+   • Status alinhamento: None
+
+LOCAL_E_DATA_DECISAO
+----------------------------------------
+
+1. {'cidade': 'Brasília', 'estado': 'DF', 'data_assinatura': '2025-07-01', 'observacoes': 'Decisão tomada em plantão e assinada eletronicamente'}
+   • Status alinhamento: None
+
+MANDADO
+----------------------------------------
+
+1. 2025.446607
+   • numero: 2025.446607
+   • processo: 0762457-36.2025.8.07.0016
+   • id_pje: 244582643
+   • data_distribuicao: 30/07/2025
+   • destinatario: MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS
+   • Posição no texto: 56028-56039
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+2. 2025.446627
+   • numero: 2025.446627
+   • sigiloso: True
+   • processo_associado: 0762457-36.2025.8.07.0016
+   • Posição no texto: 59445-59456
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+MANDADO_INTIMACAO
+----------------------------------------
+
+1. {'destinatario': 'MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS', 'status': 'solto', 'decisao': 'Decisão de intimação proferida nos autos', 'observacoes': ['Reforço policial autorizado para cumprimento']}
+   • Status alinhamento: None
+
+2. {'destinatarios': 'Representante(s) legal(is) - ofendida(s) menor(es)', 'observacao': 'Determinado cumprimento de decisão anexa e intimação dos destinatários conforme decisão proferida nos autos'}
+   • Status alinhamento: None
+
+3. {'destinatario': 'MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS', 'destinatario_endereco': 'QMS 23, Lote 04, Setor de Mansões de Sobradinho, Brasília - DF, CEP: 73082-260', 'decisao': 'Intimação conforme decisão anexa para cumprimento'}
+   • Status alinhamento: None
+
+4. {'destinatario': 'MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS', 'descricao': 'MANDADO DE INTIMAÇÃO - OFENSOR(A) SOLTO(A) - DECISÃO', 'local': 'BRASÍLIA-DF', 'data_hora_decisao': '30/07/2025 16:12:44', 'endereco_ofensor': 'QMS 23, Lote 04, Setor de Mansões de Sobradinho, BRASÍLIA - DF - CEP: 73082-260', 'telefones': ['(61)99292-3580', '(61)99290-6076', '(61)99916-2128', '(89)99434-5929'], 'telefones_fixos': ['(61)3485-9623'], 'emails': ['socorroverissimo38@gmail.com']}
+   • Status alinhamento: None
+
+5. {'destinatarios': ['ofensor(es)'], 'tipo': 'intimação', 'observacoes': 'Advertência: reforço policial para cumprimento do presente mandado, nos termos do art. 76 do Provimento Geral da Corregedoria aplicado aos Juízes e Ofícios Judiciais e conforme determinação do Ofício-Circular GC nº 146/2016.'}
+   • Posição no texto: 52816-53145
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+MANIFESTACAO
+----------------------------------------
+
+1. 241178426
+   • codigo: 241178426
+   • tipo: Manifestação do MPDFT
+   • data_inclusao: 2025-07-01T01:30:09+00:00
+   • pje: 0762457-36.2025.8.07.0016
+   • instituicao: MINISTÉRIO PÚBLICO DA UNIÃO MINISTÉRIO PÚBLICO DO DISTRITO FEDERAL E TERRITÓRIOS
+   • Posição no texto: 25169-25178
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+MEDIDA_PROTETIVA
+----------------------------------------
+
+1. {'descricoes': ['Vedação de contato com a vítima, com seus familiares, com testemunhas e com noticiantes ou denunciantes, por qualquer meio de comunicação', 'Proibição de frequentação de determinados lugares a fim de preservar a integridade física e psicológica da criança ou do adolescente, respeitadas as disposições da Lei nº 8.069, de 13 de julho de 1990']}
+   • Posição no texto: 6108-6460
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+MEDIDAS_PROTETIVAS
+----------------------------------------
+
+1. []
+   • Status alinhamento: None
+
+2. {'solicitadas': ['afastamento da genitora do convívio com KYARA', 'proteção de KYARA (menor de idade)'], 'deferidas': []}
+   • Status alinhamento: None
+
+3. [{'descricao': 'afastamento do lar, do domicílio ou do local de convivência com a vítima'}, {'descricao': 'proibição de aproximação da vítima, de seus familiares, das testemunhas e de noticiantes ou denunciantes, com a fixação do limite mínimo de distância entre estes e o agressor'}]
+   • Posição no texto: 5833-6106
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+4. {'medidas_solicitadas': ['medida protetiva de urgência'], 'medidas_deferidas': None, 'afastamento_do_agressor': None, 'protecao_do_menor': None, 'acolhimento_familiar': None}
+   • Status alinhamento: None
+
+5. {'solicitadas': ['afastamento da genitora do convívio com KYARA', 'proteção da menor de idade'], 'deferidas': []}
+   • Status alinhamento: None
+
+6. {'solicitadas': None, 'deferidas': None, 'afastamento_agressor': None, 'protecao_menor': None, 'acolhimento_familiar': None}
+   • Status alinhamento: None
+
+7. {'tipo_procedimento': 'medidas protetivas de urgência', 'lei': 'Lei 14.344/22 (Lei Henry Borel)', 'medidas_solicitadas': ['afastamento da genitora MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS', 'proteção de menor de idade', 'acolhimento familiar'], 'medidas_deferidas': []}
+   • Status alinhamento: None
+
+8. {'descricao': 'proibição de contato ou aproximação da agressora pela vítima', 'limite_distancia': 'fixação de limite de distância entre agressora e vítima', 'afastamento_do_agressor': None, 'proteção_da_menor': True, 'acolhimento_familiar': True}
+   • Status alinhamento: None
+
+9. {'medidas_solicitadas': 'art. 20, inc III e IV, da Lei nº 14.344/2022 (Lei Henry Borel)', 'medidas_deferidas': None}
+   • Status alinhamento: None
+
+10. {'solicitadas': True, 'deferidas': True, 'observacao': 'medidas reversíveis conforme apuração'}
+   • Status alinhamento: None
+
+11. {'solicitadas': True, 'deferidas_parcialmente': True, 'observacoes': 'trecho não detalha as medidas específicas'}
+   • Status alinhamento: None
+
+12. [{'medida': 'afastamento do lar', 'status': 'indeferido'}, {'medida': 'proibição de aproximação da vítima', 'status': 'vigente', 'observacoes': ['a determinação de proibição de aproximação da vítima já garante a proteção física da ofendida']}, {'medida': 'proibição de frequentar determinados lugares', 'status': 'indeferido', 'observacoes': ['requerente não indicou local certo e determinado; imposição genérica afronta o direito de locomoção']}]
+   • Status alinhamento: None
+
+13. {'tipo': 'Medidas protetivas de urgência', 'lei': 'Henry Borel - Lei 14.344/2022', 'descrição': 'Medidas protetivas de urgência determinadas', 'destinatario': 'MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS', 'status': 'deferidas'}
+   • Status alinhamento: None
+
+14. {'solicitadas': ['medidas protetivas de urgência'], 'deferidas': [], 'afastamento': 'afastamento da genitora do convívio com a adolescente KYARA', 'proteção_do_menor': 'proteção de KYARA'}
+   • Status alinhamento: None
+
+15. {'tipo': 'medidas protetivas de urgência', 'solicitadas': ['afastamento da genitora do convívio com a menor', 'proteção da menor'], 'status': None}
+   • Status alinhamento: None
+
+16. {'medidas_solicitadas': None, 'medidas_deferidas': None, 'afastamento_do_agressor': None, 'protecao_do_menor': None, 'acolhimento_familiar': None}
+   • Status alinhamento: None
+
+17. {'solicitadas': True, 'deferidas': True, 'observacoes': 'Encaminhe-se as medidas protetivas de urgência dentro do prazo legal; HOMOLOGADA em 30/06/2025 às 19:17h'}
+   • Status alinhamento: None
+
+18. {'solicitadas': ['Medidas previstas no art. 20, inc. III e IV, da Lei nº 14.344/2022 (Lei Henry Borel)'], 'situacao': 'a apreciar pelo juízo natural'}
+   • Status alinhamento: None
+
+19. {'solicitadas': ['afastamento do agressor do convívio com a menor', 'proteção da menor de idade', 'acolhimento familiar'], 'observacao': 'pendente de deferimento judicial'}
+   • Status alinhamento: None
+
+20. {'solicitadas': None, 'deferidas': None, 'observacao': 'medidas descritas como reversíveis; não especificadas no relato'}
+   • Status alinhamento: None
+
+21. {'medidas_solicitadas': ['cumprimento em horário especial', 'requisicao de reforço policial'], 'medidas_deferidas': ['cumprimento em horário especial', 'requisicao de reforço policial'], 'observacoes': 'Decisão liminar; possibilidade de mandado/carta precatória; encaminhamento dos autos ao juizado competente'}
+   • Status alinhamento: None
+
+22. {'solicitadas': True, 'deferidas_parcialmente': True, 'vigencia': 'até ordem judicial em contrário', 'observacao': 'definidas em plantão judicial, conforme ID 241178783'}
+   • Status alinhamento: None
+
+23. {'solicitadas': ['afastamento do lar', 'proibição de aproximação', 'proibição de frequentar determinados lugares'], 'decisao': [{'medida': 'afastamento do lar', 'status': 'indeferido'}, {'medida': 'proibição de aproximação', 'status': 'deferida', 'observacao': 'a proibição de aproximação da vítima já garante a proteção física da ofendida'}, {'medida': 'proibição de frequentar determinados lugares', 'status': 'sem_decisão', 'observacao': 'não houve respaldo jurídico claro, pois a requerente não indicou local certo e determinado'}], 'observacoes_decisao': ['a determinação de proibição de aproximação já garante a proteção física da ofendida', 'a imposição genérica de afastamento de determinados lugares afronta o direito de locomoção']}
+   • Status alinhamento: None
+
+24. {'solicitadas': True, 'deferidas': True}
+   • Status alinhamento: None
+
+25. {'descricao': 'Medidas protetivas de urgência', 'codigo': '244584726', 'tipo': 'Medida Protetiva', 'data_inclusao': '2025-07-30T19:16:37+00:00'}
+   • Status alinhamento: None
+
+MEDIDAS_PROTETIVAS_DEFERIDAS
+----------------------------------------
+
+1. []
+   • Status alinhamento: None
+
+MEDIDAS_PROTETIVAS_SOLICITADAS
+----------------------------------------
+
+1. ['afastamento do lar, recinto ou local de convivência com a vítima', 'proibição de aproximação da ofendida, de seus familiares e das testemunhas', 'vedação de contato com a ofendida, seus familiares e testemunhas por qualquer meio de comunicação', 'proibição de frequentação de determinados lugares a fim de preservar a integridade física e psicológica da criança ou do adolescente']
+   • Posição no texto: 30031-30425
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+OBSERVACOES
+----------------------------------------
+
+1. {'contexto': 'Violência doméstica contra menor de idade', 'naturalidade': None, 'rg': None, 'cpf': None, 'endereco': None}
+   • Status alinhamento: None
+
+2. {'data_inclusao_decisao': '2025-07-02T23:09:49+00:00'}
+   • Status alinhamento: None
+
+3. ['Data de assinatura: 06/07/2025', 'Hora: 18:50:40', 'Local: Distrito Federal', 'Chave de acesso: https://ceman.tjdft.jus.br/certidoes/bae64cdb-73bb-411b-a091-9a3d4b95cae8', 'Tipo: Mandado de medidas protetivas deferidas']
+   • Status alinhamento: None
+
+4. ['Data de inclusão: 2025-07-15T16:12:14+00:00', 'Brasília, 15 de julho de 2025']
+   • Posição no texto: 48271-48605
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+5. ['Observações', '1) Fica desde já deferido ao(à) Sr(a).']
+   • Posição no texto: 50571-50653
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+6. Documentos mencionam autoridades da Polícia Civil; nomes específicos não fornecidos
+   • Status alinhamento: None
+
+7. Processo relacionado à concessão de medidas protetivas de urgência contra o agressor
+   • Status alinhamento: None
+
+OBSERVACOES_DECISAO
+----------------------------------------
+
+1. ['Corrija-se a classe processual para MPCALHB', 'Por envolver criança/adolescente, o feito seguirá em segredo de Justiça']
+   • Posição no texto: 43844-43969
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+OBSERVACOES_NARRATIVAS
+----------------------------------------
+
+1. {'resumo': 'Relato de violência física e psicológica praticada por MARIA DO PERPÉTUO contra KIARA, com tentativas de controle/ameaças, denúncia ao Conselho Tutelar, e situações de alimentação/benefícios envolvendo a menor.'}
+   • Status alinhamento: None
+
+OCORRENCIA
+----------------------------------------
+
+1. 3673/2025-35ª DP
+   • numero: 3673/2025
+   • delegacia: 35ª DP
+   • Posição no texto: 3830-3846
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+2. 3673/2025-35ª DP
+   • numero: 3673/2025
+   • delegacia: 35ª DP
+   • Posição no texto: 4817-4835
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+3. 3673/2025-35ª DP
+   • numero: 3673/2025
+   • delegacia: 35ª DP
+   • Posição no texto: 6940-6956
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+4. 3
+   • numero: 3
+   • descricao: Ocorrência Nº: 3
+   • Posição no texto: 9270-9271
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+5. 3.673/2025-0
+   • numero: 3.673/2025-0
+   • delegacia: 35ª Delegacia de Polícia
+   • Posição no texto: 14426-14438
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+6. 3.673/2025-0
+   • numero: 3.673/2025
+   • delegacia: 35ª DP
+   • Posição no texto: 18024-18036
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+7. 3673/2025-35ª DP
+   • numero: 3673/2025
+   • delegacia: 35ª DP
+   • Posição no texto: 19266-19282
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+8. 30/06/2025
+   • data: 30/06/2025
+   • local: SOBRADINHO II, Distrito Federal
+   • delegacia: TRIGÉSIMA QUINTA DELEGACIA DE POLÍCIA
+   • Status alinhamento: None
+
+9. 3.673/2025
+   • numero: 3.673/2025
+   • Posição no texto: 25724-25734
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+10. 3673/2025-35ª DP
+   • numero: 3673/2025
+   • delegacia: 35ª DP
+   • Status alinhamento: None
+
+11. 3673/2025-35ª DP
+   • numero: 3673/2025
+   • delegacia: 35ª DP
+   • Status alinhamento: None
+
+12. TRIGÉSIMA QUINTA DELEGACIA DE POLÍCIA (35ª DP) - SOBRADINHO II, DF
+   • local: Sobradinho II, DF
+   • delegacia: 35ª Delegacia de Polícia
+   • Posição no texto: 19489-19526
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+13. denúncia de maus-tratos recebida pela Conselheira Tutelar
+   • descricao: denúncia de maus-tratos envolvendo dois adolescentes
+   • data: 23/06/2025
+   • observacao: recebida pela Conselheira Tutelar durante atendimento
+   • Status alinhamento: None
+
+14. visita domiciliar
+   • descricao: visita realizada pela Conselheira Tutelar
+   • data: 26/06/2025
+   • observacao: confronto de informações com as partes envolvidas
+   • Status alinhamento: None
+
+15. 3673/2025-35ª DP
+   • numero: 3673/2025
+   • delegacia: 35ª DP
+   • Status alinhamento: None
+
+16. {'descricao': 'Ocorrência', 'ocorrencia': '3673/2025-35ª DP', 'ocorrencia_attributes': {'numero': '3673/2025', 'delegacia': '35ª DP'}}
+   • Status alinhamento: None
+
+17. {'descricao': 'Protocolo', 'protocolo': '1744347/2025', 'protocolo_attributes': {'numero': '1744347/2025'}}
+   • Status alinhamento: None
+
+18. 3673/2025-35ª DP
+   • numero: 3673/2025
+   • delegacia: 35ª DP
+   • Status alinhamento: None
+
+OCORRENCIA_POLICIAL
+----------------------------------------
+
+1. {'ocorrencia': '3673/2025-35ª DP', 'ocorrencia_atributos': {'numero': '3673/2025', 'delegacia': '35ª DP'}}
+   • Status alinhamento: None
+
+2. 3673/2025
+   • numero: 3673/2025
+   • delegacia: 35ª DPDF
+   • Posição no texto: 30629-30638
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+ORIGEM
+----------------------------------------
+
+1. CEMAN
+   • Posição no texto: 41508-41513
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+ORIGEM_DA_COMUNICACAO
+----------------------------------------
+
+1. PÚBLICO
+   • Posição no texto: 7657-7664
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+PARTES_CERTIDAO
+----------------------------------------
+
+1. {'requerente': 'K. D. S. O.', 'requerido': 'MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS'}
+   • Status alinhamento: None
+
+PESSOA
+----------------------------------------
+
+1. RAISSA DOS SANTOS
+   • nome: RAISSA DOS SANTOS
+   • naturalidade: PLANALTINA - GO
+   • data_nascimento: 17/12/1997
+   • idade: 27 anos
+   • rg: 3662605
+   • orgao_expedidor: SSP/DF
+   • cpf: 070.416.951-74
+   • endereco: QR 05, CJ A, LOTE 07, BURITIZINHO - SOBRADINHO II, DF
+   • papel: comunicante
+   • pai: None
+   • mae: MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS
+   • irmaos: ['KYARA DOS SANTOS']
+   • profissao: None
+   • estado_civil: None
+   • Posição no texto: 413-430
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+2. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • relacao_familiar: {'irmas': ['RAISSA DOS SANTOS'], 'mae': 'MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS'}
+   • Posição no texto: 1399-1415
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+3. MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS
+   • nome: MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Posição no texto: 890-936
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+4. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • relacao: filha
+   • Posição no texto: 1660-1676
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+5. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: mãe
+   • Status alinhamento: None
+
+6. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • relacao_familiar: filha de MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • Posição no texto: 3160-3176
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+7. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Status alinhamento: None
+
+8. KYARA DOS SANTOS OLIVEIRA
+   • nome: KYARA DOS SANTOS OLIVEIRA
+   • data_nascimento: 24/10/2009
+   • idade: 15 anos
+   • naturalidade: BRASÍLIA/DF
+   • papel: vítima
+   • relacao: filha de MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS e ELIÉZIO OLIVEIRA FONSECA
+   • Posição no texto: 5328-5378
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+9. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • data_nascimento: 06/03/1969
+   • papel: autora
+   • relacao: genitora de KYARA DOS SANTOS OLIVEIRA
+   • Status alinhamento: None
+
+10. ELIÉZIO OLIVEIRA FONSECA
+   • nome: ELIÉZIO OLIVEIRA FONSECA
+   • papel: pai
+   • relacao: pai de KYARA
+   • Posição no texto: 5504-5528
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+11. RAISSA DOS SANTOS
+   • nome: RAISSA DOS SANTOS
+   • naturalidade: PLANALTINA - GO
+   • data_nascimento: 17/12/1997
+   • idade: 27 anos
+   • rg: 3662605
+   • orgao_expedidor: SSP/DF
+   • cpf: 070.416.951-74
+   • endereco: QR 05, CJ A, LOTE 07, BURITIZINHO - SOBRADINHO II, DF
+   • papel: comunicante
+   • Status alinhamento: None
+
+12. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • Status alinhamento: None
+
+13. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Status alinhamento: None
+
+14. FRANCISCA ALVES FILHA PEREIRA
+   • nome: FRANCISCA ALVES FILHA PEREIRA
+   • papel: COMUNICANTE
+   • nacionalidade: BRASILEIRA
+   • naturalidade: JOSE DA PENHA / RN
+   • idade: 64 anos
+   • sexo: Feminino
+   • identidade: 574318
+   • orgao_expedidor: SSP / DF
+   • grau_instrucao: SUPERIOR
+   • estado_civil: CASADO(A)
+   • profissao: Conselheiro
+   • cargo: CONSELHEIRA TUTELAR
+   • endereco: CONSELHO TUTELAR DE SOBRADINHO II
+   • observacoes: ['Gravidade das Lesões: Ignorada', 'Caracteristicas Físicas: Raça/Cor PARDA']
+   • Posição no texto: 8146-8175
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+15. BONIFÁCIO JUSTINO DE OLIVEIRA
+   • nome: BONIFÁCIO JUSTINO DE OLIVEIRA
+   • papel: PAI
+   • Posição no texto: 8208-8237
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+16. FRANCISCA ALVES DE OLIVEIRA
+   • nome: FRANCISCA ALVES DE OLIVEIRA
+   • papel: MÃE
+   • Posição no texto: 8243-8270
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+17. RAÍSSA DOS SANTOS
+   • nome: RAÍSSA DOS SANTOS
+   • papel: RESPONSÁVEL - Curador(ra)
+   • idade: 27 anos
+   • data_nascimento: 17/12/1997
+   • naturalidade: PLANALTINA / GO
+   • nacionalidade: BRASILEIRA
+   • identidade: 3662605
+   • orgao_expedidor: SSP / DF
+   • Posição no texto: 8681-8698
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+18. MARIA DO PERPETUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPETUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: MÃE
+   • nacionalidade: BRASILEIRA
+   • naturalidade: PLANALTINA / GO
+   • Posição no texto: 8745-8791
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+19. KYARA DOS SANTOS OLIVEIRA
+   • nome: KYARA DOS SANTOS OLIVEIRA
+   • papel: vítima
+   • data_nascimento: 24/10/2009
+   • idade: 15 anos
+   • naturalidade: BRASÍLIA / DF
+   • rg: None
+   • orgao_expedidor: SSP/DF
+   • cpf: 070.416.951-74
+   • endereco: QR 05, CJ A, LOTE 07, BURITIZHO - SOBRADINHO II
+   • sexo: Feminino
+   • nacionalidade: BRASILEIRA
+   • estado_civil: SOLTEIRO(A)
+   • grau_instrucao: MÉDIO INCOMPLETO
+   • profissao: Estudante
+   • cargo_funcao: ESTUDANTE
+   • pai: ELIÉZIO OLIVEIRA FONSECA
+   • mae: MARIA DO PERPETUO SOCORRO VERÍSSIMO DOS SANTOS
+   • envolvimento: VITIMA
+   • identidade: 4489415
+   • orgao_expedidor_identidade: SSP/DF
+   • telefone_celular: (89) 9447-7119
+   • gravidade_das_lesoes: Ignorada
+   • Posição no texto: 9734-9759
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+20. MARIA DO PERPETUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPETUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • envolvimento: AUTORIA CONHECIDA
+   • data_nascimento: 06/03/1969
+   • idade: 56 anos
+   • naturalidade: SANTA LUZ / PI
+   • nacionalidade: BRASILEIRA
+   • rg: 1423986
+   • orgao_expedidor: SSP/DF
+   • grau_instrucao: BÁSICO (1ºG)
+   • estado_civil: SOLTEIRO(A)
+   • Posição no texto: 9817-9863
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+21. RAÍSSA DOS SANTOS
+   • nome: RAÍSSA DOS SANTOS
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: SH MANSOES SOBRADINHO /COND MINI CHAC QMS 23 - COND MINI CHAC QMS 23 LT 4 - SOBRADINHO II
+   • papel: comunicante
+   • dados_familiares: {'pai': None, 'mae': None, 'irmaos': []}
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • idade: None
+   • situacao_menor: None
+   • relacao_com_minor: {'relacao': 'irmã', 'nome_do_menor': 'KYARA DOS SANTOS'}
+   • Posição no texto: 11653-11670
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+22. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: vítima
+   • dados_familiares: {'pai': None, 'mae': 'MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS', 'irmaos': ['RAÍSSA DOS SANTOS']}
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • idade: menor de idade
+   • situacao_menor: menor de idade
+   • Posição no texto: 12171-12187
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+23. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: autora
+   • dados_familiares: {'filhos': ['KYARA DOS SANTOS', 'RAÍSSA DOS SANTOS']}
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • idade: None
+   • relacao_familia: {'relacao': 'genitora', 'filhos': ['KYARA DOS SANTOS', 'RAÍSSA DOS SANTOS']}
+   • Posição no texto: 12223-12269
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+24. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • Posição no texto: 12432-12448
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+25. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Status alinhamento: None
+
+26. KIARA SANTOS OLIVEIRA
+   • nome: KIARA SANTOS OLIVEIRA
+   • idade: menor
+   • papel: vítima
+   • relacao: filha da MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS
+   • rg: None
+   • cpf: None
+   • endereco: None
+   • naturalidade: None
+   • profissao: None
+   • estado_civil: None
+   • Posição no texto: 14655-14676
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+27. GABRIEL SANTOS OLIVEIRA
+   • nome: GABRIEL SANTOS OLIVEIRA
+   • idade: adolescente
+   • papel: vítima
+   • relacao: filho da MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS
+   • rg: None
+   • cpf: None
+   • endereco: None
+   • naturalidade: None
+   • profissao: None
+   • estado_civil: None
+   • Posição no texto: 14679-14702
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+28. MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS
+   • papel: autora
+   • relacao: mãe de Kiara e Gabriel
+   • rg: None
+   • cpf: None
+   • endereco: None
+   • naturalidade: None
+   • profissao: None
+   • estado_civil: None
+   • Status alinhamento: None
+
+29. FRANCISCA ALVES FILHA PEREIRA
+   • nome: FRANCISCA ALVES FILHA PEREIRA
+   • papel: comunicante
+   • relacao: None
+   • rg: None
+   • cpf: None
+   • endereco: None
+   • naturalidade: None
+   • profissao: None
+   • estado_civil: None
+   • Posição no texto: 14070-14099
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+30. KIARA
+   • nome: KIARA
+   • idade: menor de idade
+   • papel: vítima
+   • Posição no texto: 15953-15958
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+31. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora de Kiara
+   • Status alinhamento: None
+
+32. GABRIEL
+   • nome: GABRIEL
+   • papel: testemunha
+   • relacao: irmão de Kiara
+   • Posição no texto: 16066-16073
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+33. KIARA
+   • nome: KIARA
+   • idade: menor de idade
+   • papel: vítima
+   • Posição no texto: 16964-16969
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+34. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Status alinhamento: None
+
+35. RAÍSSA
+   • nome: RAÍSSA
+   • papel: responsável pela menor
+   • relacao: irmã mais velha de Kiara
+   • Posição no texto: 17620-17626
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+36. FRANCISCA ALVES FILHA PEREIRA
+   • nome: FRANCISCA ALVES FILHA PEREIRA
+   • papel: declarante
+   • Posição no texto: 19327-19356
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+37. FRANCISCA ALVES FILHA PEREIRA
+   • nome: FRANCISCA ALVES FILHA PEREIRA
+   • data_nascimento: 20/03/1961
+   • idade: 64 anos
+   • rg: 574318
+   • orgao_expedidor: SSP/DF
+   • cpf: 222.875.741-15
+   • naturalidade: JOSE DA PENHA - RN
+   • nacionalidade: brasileira
+   • endereco: CONSELHO TUTELAR DE SOBRADINHO II - SOBRADINHO II, DF
+   • profissao: assistente social
+   • estado_civil: casado
+   • papel: declarante
+   • Posição no texto: 19689-19718
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+38. KIARA SANTOS OLIVEIRA
+   • nome: KIARA SANTOS OLIVEIRA
+   • papel: vítima
+   • idade: menor de idade
+   • Posição no texto: 20415-20436
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+39. GABRIEL SANTOS OLIVEIRA
+   • nome: GABRIEL SANTOS OLIVEIRA
+   • papel: vítima
+   • idade: menor de idade
+   • Posição no texto: 20439-20462
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+40. MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS
+   • nome: MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • nacionalidade: brasileira
+   • Posição no texto: 20479-20525
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+41. KIARA
+   • nome: KIARA
+   • idade: menor de idade
+   • papel: vítima
+   • relacao: filha de MARIA DO PERPÉTUO
+   • Posição no texto: 21714-21719
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+42. MARIA DO PERPÉTUO
+   • nome: MARIA DO PERPÉTUO
+   • papel: autora
+   • relacao: genitora de KIARA
+   • comportamento: ['agressiva', "proferiu xingamentos como 'demonio'", 'violência verbal e psicológica', 'condução conflitante com o ex-companheiro, pai dos adolescentes']
+   • Posição no texto: 20981-20989
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+43. PAI DOS ADOLESCENTES
+   • papel: ex-companheiro
+   • relacao: pai dos adolescentes
+   • Posição no texto: 21598-21618
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+44. DECLARANTE
+   • papel: declarante
+   • observacao: identificação da denunciada pela declarante, descrição de visitas, receio de retorno para casa
+   • Posição no texto: 21021-21031
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+45. KIARA DOS SANTOS
+   • nome: KIARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • relacao_familiar: {'genitora': 'MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS', 'irmas': ['RAÍSSA DOS SANTOS']}
+   • Status alinhamento: None
+
+46. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Posição no texto: 22900-22908
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+47. RAÍSSA DOS SANTOS
+   • nome: RAÍSSA DOS SANTOS
+   • papel: irmã
+   • relacao_familiar: {'relacao': 'irmã mais velha de KIARA'}
+   • Posição no texto: 23739-23745
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+48. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • Status alinhamento: None
+
+49. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Status alinhamento: None
+
+50. K.S.O
+   • nome: K.S.O
+   • idade: 15 anos
+   • papel: vítima
+   • relacao: menor de idade
+   • Posição no texto: 25552-25557
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+51. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Posição no texto: 25630-25676
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+52. RAÍSSA DOS SANTOS
+   • nome: RAÍSSA DOS SANTOS
+   • papel: comunicante
+   • relacao: irmã
+   • observacao: representante legal da menor
+   • Posição no texto: 25596-25613
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+53. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • relacao: filha da agressora MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • rg: None
+   • cpf: None
+   • data_nascimento: None
+   • endereco: None
+   • naturalidade: None
+   • profissao: None
+   • estado_civil: None
+   • Status alinhamento: None
+
+54. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • rg: None
+   • cpf: None
+   • data_nascimento: None
+   • endereco: None
+   • naturalidade: None
+   • profissao: None
+   • estado_civil: None
+   • Posição no texto: 28227-28273
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+55. RAÍSSA
+   • nome: RAÍSSA
+   • papel: cuidadora/irmã
+   • relacao: irmã da vítima
+   • rg: None
+   • cpf: None
+   • data_nascimento: None
+   • endereco: None
+   • naturalidade: None
+   • profissao: None
+   • estado_civil: None
+   • Posição no texto: 28170-28176
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+56. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • Status alinhamento: None
+
+57. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Status alinhamento: None
+
+58. MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS
+   • nome: MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS
+   • papel: autor
+   • relacao: agressor
+   • endereco: SH MANSOES SOBRADINHO /COND MINI CHAC QMS 23 - COND MINI CHAC QMS 23, LT 4, CASA 2, SOBRADINHO II, DF
+   • telefone: (89) 9434-5929
+   • Posição no texto: 29788-29834
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+59. Menor ofendido
+   • nome: None
+   • papel: vítima
+   • idade: menor de idade
+   • Status alinhamento: None
+
+60. Irmã da vítima
+   • nome: None
+   • papel: testemunha
+   • relacao: irmã da vítima
+   • Posição no texto: 30519-31145
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+61. FRANCISCA ALVES FILHA PEREIRA
+   • nome: FRANCISCA ALVES FILHA PEREIRA
+   • papel: conselheira tutelar
+   • cargo: Conselheira Tutelar
+   • Posição no texto: 30575-30604
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+62. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • relacao: filha de MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • Posição no texto: 33046-33062
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+63. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora de KYARA e RAISSA
+   • Posição no texto: 33098-33144
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+64. RAISSA DOS SANTOS
+   • nome: RAISSA DOS SANTOS
+   • papel: comunicante
+   • relacao: irmã de KYARA
+   • Posição no texto: 32937-32954
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+65. NICE
+   • nome: NICE
+   • cargo: Conselheira Tutelar
+   • papel: autoridade comunicante/notificadora
+   • Posição no texto: 33272-33276
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+66. GABRIEL
+   • nome: GABRIEL
+   • papel: irmão da comunicante
+   • relacao: irmão de RAISSA
+   • Posição no texto: 34035-34042
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+67. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • Posição no texto: 34350-34366
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+68. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Posição no texto: 34405-34430
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+69. IRMÃ DE KYARA
+   • nome: Irmã de Kyara (comunicante)
+   • papel: comunicante
+   • Posição no texto: 34341-34355
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+70. NICE
+   • nome: NICE
+   • papel: Conselheira Tutelar
+   • cargo: Conselheira Tutelar
+   • Posição no texto: 34227-34231
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+71. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • mae: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • Status alinhamento: None
+
+72. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • relacao_familiar: {'filha': 'KYARA DOS SANTOS'}
+   • Status alinhamento: None
+
+73. KIARA DOS SANTOS
+   • nome: KIARA DOS SANTOS
+   • papel: vítima
+   • papel_contexto: menor de idade
+   • relacao: filha de MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • Status alinhamento: None
+
+74. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • observacoes: envolvida em violência física contra menor, maus-tratos, ameaças e ambiente familiar hostil
+   • Status alinhamento: None
+
+75. RAÍSSA DOS SANTOS
+   • nome: RAÍSSA DOS SANTOS
+   • papel: testemunha
+   • relacao: irmã mais velha da vítima
+   • observacoes: confirmou versão apresentada pela menor; ficou responsável pela adolescente
+   • Posição no texto: 38047-38157
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+76. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • Status alinhamento: None
+
+77. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Posição no texto: 39068-39076
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+78. RAISSA DOS SANTOS
+   • nome: RAISSA DOS SANTOS
+   • papel: cuidadora
+   • relacao: irmã mais velha da vítima
+   • Posição no texto: 39478-39495
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+79. RAISSA DOS SANTOS
+   • nome: RAISSA DOS SANTOS
+   • naturalidade: PLANALTINA - GO
+   • data_nascimento: 17/12/1997
+   • idade: 27 anos
+   • rg: 3662605
+   • orgao_expedidor: SSP/DF
+   • cpf: 070.416.951-74
+   • endereco: QR 05, CJ A, LOTE 07, BURITIZINHO - SOBRADINHO II, DF
+   • papel: comunicante
+   • Status alinhamento: None
+
+80. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • Status alinhamento: None
+
+81. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Status alinhamento: None
+
+82. K. D. S. O.
+   • nome: K. D. S. O.
+   • papel: requerente
+   • descricao: infante/menor
+   • Posição no texto: 42082-42093
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+83. RAÍSSA DOS SANTOS
+   • nome: RAÍSSA DOS SANTOS
+   • papel: representante legal
+   • relacao: irmã da requerente
+   • Posição no texto: 42282-42299
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+84. MARIA DO PERPETO SOCORRO VERISSIMO DOS SANTOS
+   • nome: MARIA DO PERPETO SOCORRO VERISSIMO DOS SANTOS
+   • papel: requerido
+   • relacao: genitora da infante
+   • Posição no texto: 42105-42151
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+85. RAISSA DOS SANTOS
+   • nome: RAISSA DOS SANTOS
+   • naturalidade: PLANALTINA - GO
+   • data_nascimento: 17/12/1997
+   • idade: 27 anos
+   • rg: 3662605
+   • orgao_expedidor: SSP/DF
+   • cpf: 070.416.951-74
+   • endereco: QR 05, CJ A, LOTE 07, BURITIZINHO - SOBRADINHO II, DF
+   • papel: comunicante
+   • Posição no texto: 46374-46391
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+86. K. D. S. O.
+   • nome: K. D. S. O.
+   • papel: vítima
+   • idade: não informada
+   • endereco: None
+   • rg: None
+   • cpf: None
+   • data_nascimento: None
+   • relacao_familiar: None
+   • Posição no texto: 49343-49354
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+87. RAISSA DOS SANTOS
+   • nome: RAISSA DOS SANTOS
+   • papel: representante legal
+   • relacao: representante legal da vítima
+   • endereco: None
+   • rg: None
+   • cpf: None
+   • data_nascimento: None
+   • Posição no texto: 49376-49393
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+88. MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS
+   • nome: MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • endereco: QMS 23, Lote 04, Setor de Mansões de Sobradinho, BRASÍLIA - DF - CEP: 73082-260
+   • rg: None
+   • cpf: None
+   • data_nascimento: None
+   • Posição no texto: 49403-49449
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+89. K. D. S. O.
+   • nome: K. D. S. O.
+   • idade: menor de idade
+   • papel: vítima
+   • relacao_familiar: None
+   • rg: None
+   • cpf: None
+   • endereco: None
+   • data_nascimento: None
+   • naturalidade: None
+   • Posição no texto: 51637-51648
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+90. RAISSA DOS SANTOS
+   • nome: RAISSA DOS SANTOS
+   • papel: representante legal
+   • relacao_familiar: genitora da menor
+   • rg: None
+   • cpf: None
+   • endereco: None
+   • data_nascimento: None
+   • naturalidade: None
+   • Posição no texto: 51670-51687
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+91. MARIA DO PERPÉTO SOCORRO VERISSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS
+   • papel: autora
+   • relacao_familiar: genitora
+   • rg: None
+   • cpf: None
+   • endereco: None
+   • data_nascimento: None
+   • naturalidade: None
+   • Status alinhamento: None
+
+92. KYARA DOS SANTOS OLIVEIRA
+   • nome: KYARA DOS SANTOS OLIVEIRA
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: Quadra 5 Conjunto A, Lote 07, Setor Oeste (Buritizinho) Sobradinho II, BRASÍLIA - DF - CEP: 73061-345
+   • papel: vítima
+   • relacao_familiar: None
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • idade: menor de idade
+   • situacao_menor: menor de idade
+   • Posição no texto: 52200-52225
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+93. RAISSA DOS SANTOS
+   • nome: RAISSA DOS SANTOS
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • endereco: None
+   • papel: representante legal
+   • relacao_familiar: genitora da vítima
+   • profissao: None
+   • estado_civil: None
+   • naturalidade: None
+   • idade: None
+   • Posição no texto: 52511-52528
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+94. K. D. S. O.
+   • nome: K. D. S. O.
+   • idade: menor de idade
+   • papel: vítima
+   • endereco: None
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • naturalidade: None
+   • profissao: None
+   • estado_civil: None
+   • situacao_menor: menor de idade
+   • Posição no texto: 54856-54867
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+95. RAISSA DOS SANTOS
+   • nome: RAISSA DOS SANTOS
+   • papel: representante legal
+   • relacao: genitora
+   • endereco: None
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • Posição no texto: 54889-54906
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+96. MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • endereco: None
+   • cpf: None
+   • rg: None
+   • data_nascimento: None
+   • Status alinhamento: None
+
+97. MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS
+   • nome: MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • cpf: 842.111.801-34
+   • telefone: 89.99434-5929
+   • endereco: None
+   • Posição no texto: 56156-56202
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+98. K. D. S. O.
+   • nome: K. D. S. O.
+   • papel: vítima
+   • idade: menor de idade
+   • Posição no texto: 57601-57612
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+99. RAISSA DOS SANTOS
+   • nome: RAISSA DOS SANTOS
+   • papel: representante_legal
+   • Posição no texto: 57634-57651
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+100. MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • endereco: QMS 23, Lote 04, Setor de Mansões de Sobradinho, Brasília - DF, CEP: 73082-260
+   • Posição no texto: 57726-58205
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+101. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • Posição no texto: 59573-59589
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+102. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Status alinhamento: None
+
+103. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • Status alinhamento: None
+
+104. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Status alinhamento: None
+
+105. RAÍSSA DOS SANTOS
+   • nome: RAÍSSA DOS SANTOS
+   • naturalidade: PLANALTINA - GO
+   • data_nascimento: 17/12/1997
+   • idade: 27 anos
+   • rg: 3662605
+   • orgao_expedidor: SSP/DF
+   • cpf: 070.416.951-74
+   • endereco: QR 05, CJ A, LOTE 07, BURITIZINHO - SOBRADINHO II, DF
+   • papel: não informado
+   • Posição no texto: 59821-59838
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+106. DECLARANTE
+   • nome: DECLARANTE
+   • papel: comunicante
+   • relacao: irmã de KYARA
+   • endereco: None
+   • Posição no texto: 2166-2176
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+107. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • endereco: None
+   • Status alinhamento: None
+
+108. GABRIEL
+   • nome: GABRIEL
+   • papel: testemunha
+   • relacao: irmão da comunicante
+   • Posição no texto: 2388-2395
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+109. RAISSA DOS SANTOS
+   • nome: RAISSA DOS SANTOS
+   • naturalidade: PLANALTINA - GO
+   • data_nascimento: 17/12/1997
+   • idade: 27 anos
+   • rg: 3662605
+   • orgao_expedidor: SSP/DF
+   • cpf: 070.416.951-74
+   • endereco: QR 05, CJ A, LOTE 07, BURITIZINHO - SOBRADINHO II, DF
+   • papel: comunicante
+   • Posição no texto: 3952-3969
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+110. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Status alinhamento: None
+
+111. RAISSA DOS SANTOS
+   • nome: RAISSA DOS SANTOS
+   • naturalidade: PLANALTINA - GO
+   • data_nascimento: 17/12/1997
+   • idade: 27 anos
+   • rg: 3662605
+   • orgao_expedidor: SSP/DF
+   • cpf: 070.416.951-74
+   • endereco: QR 05, CJ A, LOTE 07, BURITIZINHO - SOBRADINHO II, DF
+   • papel: comunicante
+   • Status alinhamento: None
+
+112. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • naturalidade: None
+   • data_nascimento: None
+   • rg: None
+   • orgao_expedidor: None
+   • cpf: None
+   • endereco: None
+   • Status alinhamento: None
+
+113. GABRIEL
+   • nome: GABRIEL
+   • papel: testemunha
+   • relacao: irmão da comunicante
+   • naturalidade: None
+   • data_nascimento: None
+   • rg: None
+   • orgao_expedidor: None
+   • cpf: None
+   • endereco: None
+   • Posição no texto: 13160-13167
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+114. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Status alinhamento: None
+
+115. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • relacao: filha de MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • Status alinhamento: None
+
+116. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora de Kyara
+   • observacoes: agressões e violência relatadas contra a filha
+   • Status alinhamento: None
+
+117. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • Status alinhamento: None
+
+118. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • observacoes: agressora/violência física e psicológica contra menor; restrição alimentar
+   • Status alinhamento: None
+
+119. RAÍSSA DOS SANTOS
+   • nome: RAÍSSA DOS SANTOS
+   • papel: responsável/tutora
+   • relacao: irmã mais velha de KYARA
+   • observacoes: confirmou a versão apresentada pela menor
+   • Status alinhamento: None
+
+120. MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Status alinhamento: None
+
+121. GABRIEL
+   • nome: GABRIEL
+   • papel: testemunha
+   • relacao: filho de MARIA DO PERPÉTUO
+   • idade: menor de idade
+   • Posição no texto: 21827-21834
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+122. KIARA
+   • nome: KIARA
+   • papel: vítima
+   • idade: menor de idade
+   • relacao: filha da autora MARIA DO PERPÉTUO
+   • endereco: None
+   • naturalidade: None
+   • rg: None
+   • cpf: None
+   • data_nascimento: None
+   • Posição no texto: 22978-22983
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+123. MARIA DO PERPÉTUO
+   • nome: MARIA DO PERPÉTUO
+   • papel: autora
+   • relacao: genitora de KIARA
+   • endereco: None
+   • naturalidade: None
+   • rg: None
+   • cpf: None
+   • data_nascimento: None
+   • Status alinhamento: None
+
+124. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • Status alinhamento: None
+
+125. MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS
+   • nome: MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Posição no texto: 24857-24903
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+126. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • observacao: menor de idade vítima de violência doméstica
+   • Status alinhamento: None
+
+127. K. D. S. O.
+   • nome: K. D. S. O.
+   • papel: requerente (menor protegido)
+   • idade: menor de idade
+   • Posição no texto: 29520-29531
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+128. RAISSA DOS SANTOS
+   • nome: RAISSA DOS SANTOS
+   • papel: representante legal
+   • relacao: irmã da requerente
+   • Posição no texto: 29660-29677
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+129. MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS
+   • papel: requerido (agressora)
+   • relacao: genitora da menor
+   • Status alinhamento: None
+
+130. MENOR NÃO INFORMADO
+   • nome: None
+   • papel: vítima
+   • idade: menor de idade
+   • Status alinhamento: None
+
+131. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Posição no texto: 34492-34823
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+132. KIARA SANTOS OLIVEIRA
+   • nome: KIARA SANTOS OLIVEIRA
+   • idade: menor de idade
+   • papel: vítima
+   • relacao: filha de MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • Posição no texto: 35082-35103
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+133. GABRIEL SANTOS OLIVEIRA
+   • nome: GABRIEL SANTOS OLIVEIRA
+   • idade: menor de idade
+   • papel: vítima
+   • relacao: filho de MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • Posição no texto: 35106-35129
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+134. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • relacao_familiar: filha de MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • naturalidade: None
+   • endereco: None
+   • cpf: None
+   • rg: None
+   • Status alinhamento: None
+
+135. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora de Kyara
+   • naturalidade: None
+   • endereco: None
+   • rg: None
+   • cpf: None
+   • Posição no texto: 35940-35948
+   • Status alinhamento: AlignmentStatus.MATCH_LESSER
+
+136. GABRIEL
+   • nome: GABRIEL
+   • papel: testemunha/filho
+   • relacao: filho de MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • naturalidade: None
+   • endereco: None
+   • rg: None
+   • cpf: None
+   • Posição no texto: 36493-36500
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+137. KIARA
+   • nome: KIARA
+   • idade: menor de idade
+   • papel: vítima
+   • relacao_familiar: filha da MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • Posição no texto: 37391-37396
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+138. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao_familiar: genitora de KIARA
+   • Status alinhamento: None
+
+139. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • Status alinhamento: None
+
+140. K. D. S. O.
+   • nome: K. D. S. O.
+   • papel: autor
+   • relacao: None
+   • Posição no texto: 41296-41307
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+141. MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Status alinhamento: None
+
+142. CRIANÇA/ADOLESCENTE
+   • nome: None
+   • papel: vítima
+   • descricao: Criança e adolescente sob proteção legal (Lei 13.431)
+   • Status alinhamento: None
+
+143. RAISSA DOS SANTOS
+   • nome: RAISSA DOS SANTOS
+   • naturalidade: PLANALTINA - GO
+   • data_nascimento: 17/12/1997
+   • idade: 27 anos
+   • rg: 3662605
+   • orgao_expedidor: SSP/ DF
+   • cpf: 070.416.951-74
+   • endereco: QR 05, CJ A, LOTE 07, BURITIZINHO - SOBRADINHO II, DF
+   • papel: comunicante
+   • Status alinhamento: None
+
+144. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • Status alinhamento: None
+
+145. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Status alinhamento: None
+
+146. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • dados_familiares: {'mae': 'MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS'}
+   • Posição no texto: 46128-46144
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+147. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Status alinhamento: None
+
+148. KYARA DOS SANTOS
+   • nome: KYARA DOS SANTOS
+   • idade: menor de idade
+   • papel: vítima
+   • relacao: filha
+   • endereco: None
+   • rg: None
+   • cpf: None
+   • data_nascimento: None
+   • naturalidade: None
+   • profissao: None
+   • estado_civil: None
+   • naturalidade_estado: None
+   • Status alinhamento: None
+
+149. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • endereco: None
+   • rg: None
+   • cpf: None
+   • data_nascimento: None
+   • naturalidade: None
+   • profissao: None
+   • estado_civil: None
+   • Status alinhamento: None
+
+150. MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS
+   • nome: MARIA DO PERPETUO SOCORRO VERISSIMO DOS SANTOS
+   • papel: ofensor
+   • relacao: None
+   • endereco: None
+   • rg: None
+   • cpf: None
+   • Posição no texto: 51697-51743
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+151. MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS
+   • papel: autora
+   • papel_relacao: autora/autor do crime
+   • Status alinhamento: None
+
+152. MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • nome: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • papel: autora
+   • relacao: genitora
+   • Status alinhamento: None
+
+PROCEDIMENTO
+----------------------------------------
+
+1. {'numero_processo': '344/2022', 'tipo_procedimento': 'pedido de concessão de medidas protetivas de urgência'}
+   • Status alinhamento: None
+
+PROCEDURAL
+----------------------------------------
+
+1. {'classe_processual_corrigida': 'MPCALHB', 'segredo_justica': True, 'observacao_seguro': 'Por envolver criança/adolescente, o feito seguirá em segredo de Justiça', 'sigilo_pecas_excecao': 'Formulário Nacional de Avaliação de Risco deverá permanecer ou ser colocado em sigilo por força do art. 2°, § 1º, da Lei n. 14.149/2021', 'suspensao_incidente': {'dias': 360, 'condicao': 'ou até a prolação da sentença em eventuais autos de ação penal'}}
+   • Status alinhamento: None
+
+PROCESSO
+----------------------------------------
+
+1. 0762457-36.2025.8.07.0016
+   • numero: 0762457-36.2025.8.07.0016
+   • vara: VVDFCA Vara de Violência Doméstica e Familiar contra a Criança e o Adolescente
+   • classe_judicial: MEDIDAS DE PROTEÇÃO - CRIANÇA E ADOLESCENTE (LEI 13.431) CRIMINAIS (14734)
+   • requerente: K. D. S. O.
+   • requerido: MARIA DO PERPÉTUO SOCORRO VERÍSSIMO DOS SANTOS
+   • Posição no texto: 24704-24729
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+2. 0762457-36.2025.8.07.0016
+   • numero: 0762457-36.2025.8.07.0016
+   • vara: VVDFCA Vara de Violência Doméstica e Familiar contra a Criança e o Adolescente
+   • classe_judicial: MEDIDAS DE PROTEÇÃO - CRIANÇA E ADOLESCENTE (LEI 13.431) CRIMINAIS (14734)
+   • juizo: TJDFT
+   • requerente: K. D. S. O.
+   • requerido: MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS
+   • decisao: Decisão
+   • data_inclusao: 2025-07-01T03:08:36+00:00
+   • Posição no texto: 29390-29415
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+3. 0762457-36.2025.8.07.0016
+   • numero: 0762457-36.2025.8.07.0016
+   • vara: Vara de Violência Doméstica e Familiar contra a Criança e o Adolescente
+   • classe_judicial: MEDIDAS DE PROTEÇÃO - CRIANÇA E ADOLESCENTE (LEI 13.431) CRIMINAIS (14734)
+   • Posição no texto: 41952-41977
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+4. 0762457-36.2025.8.07
+   • numero: 0762457-36.2025.8.07
+   • vara: Vara de Violência Doméstica e Familiar contra a Criança e o Adolescente
+   • descricao: Medida Protetiva
+   • Posição no texto: 49196-49216
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+5. 0762457-36.2025.8.07.0016
+   • numero: 0762457-36.2025.8.07.0016
+   • tipo_procedimento: Medidas protetivas de urgência - Crianças e Adolescentes (Lei Henry Borel - Lei 14.344/2022)
+   • Posição no texto: 57453-57478
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+6. 07624573620258070016
+   • numero: 07624573620258070016
+   • Posição no texto: 11-31
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+7. {'numero': '0762457-36.2025.8.07.0016', 'vara': 'VVDFCA - Vara de Violência Doméstica e Familiar contra a Criança e o Adolescente', 'classe_judicial': ['MEDIDAS DE PROTEÇÃO - CRIANÇA E ADOLESCENTE (LEI 13.431)', 'CRIMINAIS (14734)'], 'requerente': 'K. D. S. O.', 'requerido': 'MARIA DO PERPÉTUO SOCORRO VERISSIMO DOS SANTOS'}
+   • Status alinhamento: None
+
+8. 344/2022
+   • numero: 344/2022
+   • tipo_procedimento: pedido de concessão de medidas protetivas de urgência
+   • Posição no texto: 29712-29720
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+9. 0016
+   • numero: 0016
+   • tipo_processo: Medidas protetivas de urgência
+   • lei: Henry Borel - Lei 14.344/2022
+   • eixo: CRIANÇAS E ADOLESCENTES
+   • Posição no texto: 49217-49221
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+10. 0762457-36.2025.8.07.0016
+   • descricao: Medidas protetivas de urgência - Crianças e Adolescentes
+   • lei: Henry Borel - Lei 14.344/2022
+   • grupo_legislacao: CRIMINAIS (15170)
+   • vara: Vara de Violência Doméstica e Familiar contra a Criança e o Adolescente
+   • foro: TJDFT
+   • data_inclusao: 2025-07-30T19:16:37+00:00
+   • Posição no texto: 51490-51515
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+PROCESSO_CERTIDAO
+----------------------------------------
+
+1. {'numero': '0762457-36.2025.8.07.0016', 'classe_judicial': 'MEDIDAS DE PROTEÇÃO - CRIANÇA E ADOLESCENTE (LEI 13.431) CRIMINAIS (14734)'}
+   • Posição no texto: 41130-41282
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+PROTOCOLO
+----------------------------------------
+
+1. {'numero': '1744347/2025', 'observacoes': None}
+   • Status alinhamento: None
+
+2. 1744347/2025
+   • numero: 1744347/2025
+   • Posição no texto: 3794-3806
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+3. 1744347/2025
+   • numero: 1744347/2025
+   • Posição no texto: 4777-4789
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+4. 1744347/2025
+   • numero: 1744347/2025
+   • Posição no texto: 7358-7370
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+5. 1744347/2025
+   • numero: 1744347/2025
+   • Posição no texto: 14453-14465
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+6. 1744347/2025
+   • numero: 1744347/2025
+   • Posição no texto: 18142-18154
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+7. 1744347/2025
+   • numero: 1744347/2025
+   • Posição no texto: 19230-19242
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+8. Não informado
+   • numero: None
+   • Posição no texto: 25972-25979
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+9. 1744347/2025
+   • numero: 1744347/2025
+   • Status alinhamento: None
+
+10. 1744347/2025
+   • numero: 1744347/2025
+   • Status alinhamento: None
+
+11. 1744347/2025
+   • numero: 1744347/2025
+   • Status alinhamento: None
+
+12. 1744347/2025
+   • numero: 1744347/2025
+   • Status alinhamento: None
+
+RECIBOS_INTIMACOES
+----------------------------------------
+
+1. ['2025378378', '2025378379']
+   • Status alinhamento: None
+
+REMESSA_E_STUDIO
+----------------------------------------
+
+1. {'destino': 'NERCRIA', 'observacao': 'Remetam-se os autos ao NERCRIA para estudo de caso'}
+   • Status alinhamento: None
+
+SIGILO_EXCECOES
+----------------------------------------
+
+1. ['Formulário Nacional de Avaliação de Risco']
+   • Posição no texto: 44069-44122
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+SIGILO_JUSTICA
+----------------------------------------
+
+1. True
+   • Status alinhamento: None
+
+SUSPENSAO_INCIDENTE
+----------------------------------------
+
+1. {'duracao_dias': 360, 'observacao': 'ou até a prolação da sentença em eventuais autos de Ação Penal'}
+   • Status alinhamento: None
+
+TERMO_DE_DECLARAÇÃO
+----------------------------------------
+
+1. 1500/2025-35ª DP
+   • Posição no texto: 93-109
+   • Status alinhamento: AlignmentStatus.MATCH_FUZZY
+
+TERMO_DECL
+----------------------------------------
+
+1. {'numero': '1500/2025', 'instituicao': '35ª DP', 'tipo': 'Termo de Declaração', 'data_inclusao': '2025-06-30T22:20:02+00:00', 'descricao': 'TERMO DE DECLARAÇÃO Nº 1500/2025 que presta RAISSA DOS SANTOS', 'codigo': '241161501', 'classificacao': 'Petição Inicial'}
+   • Status alinhamento: None
+
+TERMO_PROTETIVAS
+----------------------------------------
+
+1. 66/2025-35ª DP
+   • numero: 66/2025
+   • delegacia: 35ª DP
+   • tipo: Medidas protetivas de urgência
+   • codigo: 241161500
+   • data_inclusao: 2025-06-30T22:20:02+00:00
+   • Posição no texto: 4309-4323
+   • Status alinhamento: AlignmentStatus.MATCH_EXACT
+
+TERMO_REQUERIMENTO_MEDIDA_PROTETIVA
+----------------------------------------
+
+1. {'tipo': 'Termo de requerimento de medida protetiva de urgência', 'numero': '66/2025', 'dp': '35ª DP', 'data': '30/06/2025'}
+   • Status alinhamento: None
+
+TIPO_PROCEDIMENTO
+----------------------------------------
+
+1. {'descricao': 'declaração/depoimento', 'observacao': 'Inquirido pela Autoridade Policial durante o termo de declaração'}
+   • Status alinhamento: None

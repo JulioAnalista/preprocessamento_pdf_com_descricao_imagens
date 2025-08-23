@@ -1,0 +1,61 @@
+{
+  "processo_numero": "07624573620258070016",
+  "tempo_total_segundos": 814.2371349334717,
+  "tempo_total_formatado": "0:13:34",
+  "tempo_tarefa_completa_segundos": 814.2371344566345,
+  "tempo_tarefa_completa_formatado": "0:13:34",
+  "inicio_processamento": "09:53:42",
+  "fim_processamento": "10:07:16",
+  "inicio_tarefa": "09:53:42",
+  "metricas_detalhadas": [
+    {
+      "etapa": "Verificação de configuração",
+      "duracao_segundos": 7.677078247070312e-05,
+      "duracao_formatada": "0.00s",
+      "percentual_tempo_total": 9.428553326418327e-06
+    },
+    {
+      "etapa": "Carregamento do arquivo",
+      "duracao_segundos": 0.01841425895690918,
+      "duracao_formatada": "0.02s",
+      "percentual_tempo_total": 0.0022615351433724206
+    },
+    {
+      "etapa": "Extração completa (LangExtract)",
+      "duracao_segundos": 814.1204361915588,
+      "duracao_formatada": "814.12s",
+      "percentual_tempo_total": 99.9856677205072
+    },
+    {
+      "etapa": "Preparação de exemplos",
+      "duracao_segundos": 0.018105745315551758,
+      "duracao_formatada": "0.02s",
+      "percentual_tempo_total": 0.002223645242737684
+    },
+    {
+      "etapa": "Criação de exemplos",
+      "duracao_segundos": 0.01801133155822754,
+      "duracao_formatada": "0.02s",
+      "percentual_tempo_total": 0.00221204987901948
+    },
+    {
+      "etapa": "Chamada LangExtract API",
+      "duracao_segundos": 814.1021168231964,
+      "duracao_formatada": "814.10s",
+      "percentual_tempo_total": 99.98341783928998
+    },
+    {
+      "etapa": "Geração de visualização HTML",
+      "duracao_segundos": 0.06484270095825195,
+      "duracao_formatada": "0.06s",
+      "percentual_tempo_total": 0.007963613814242213
+    }
+  ],
+  "arquivo": "docs/examples/processos/07624573620258070016/processo_07624573620258070016.md",
+  "tamanho_caracteres": 60393,
+  "tamanho_linhas": 712,
+  "tamanho_kb": 60.49609375,
+  "total_extractions": 500,
+  "chunks_processados": 38,
+  "velocidade_chars_por_segundo": 74.18356831654809
+}
